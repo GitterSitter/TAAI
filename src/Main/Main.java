@@ -1,14 +1,12 @@
-import java.io.IOException;
-
-import weka.classifiers.bayes.NaiveBayesUpdateable;
-import weka.classifiers.meta.FilteredClassifier;
-import weka.classifiers.trees.J48;
-import weka.clusterers.SimpleKMeans;
+package Main;
+import supervised.DecisionTree;
+import supervised.NaiveBayes;
+import supervised.SimpleKmeans;
+import supervised.Unlabeled;
+import unsupervised.EmCluster;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
-import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Remove;
-import weka.filters.unsupervised.attribute.StringToNominal;
 
 public class Main {
 
@@ -38,12 +36,16 @@ public class Main {
 		//	nb.Bayes(cancer);
 			
 			DecisionTree dt = new DecisionTree();
-			//dt.j48(trainingData, testData);
+		//dt.j48(trainingData, testData);
 			
+			//lager labels
 			Unlabeled lb = new Unlabeled();
-			lb.unlabeled(trainingData);
+			//lb.unlabeled();
+			
+			EmCluster cl = new EmCluster();
+			cl.emCluster(trainingData);
 				 
-				 
+			
 		
 	}
 

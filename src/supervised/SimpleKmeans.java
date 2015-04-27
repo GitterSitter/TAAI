@@ -1,3 +1,4 @@
+package supervised;
 import weka.clusterers.SimpleKMeans;
 import weka.core.Instances;
 import weka.filters.Filter;

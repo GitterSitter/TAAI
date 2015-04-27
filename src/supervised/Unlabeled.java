@@ -1,21 +1,20 @@
+package supervised;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-import weka.classifiers.meta.FilteredClassifier;
 import weka.classifiers.trees.J48;
 import weka.core.Instances;
 import weka.filters.unsupervised.attribute.Remove;
 
 public class Unlabeled {
 
-	public void unlabeled(Instances trainingData) throws Exception {
+	//må ta inn trent decision tree klassifier(return fra DT metode)
+	public void unlabeled() throws Exception {
 
 		Remove rm = new Remove();
 		rm.setAttributeIndices("1"); // remove 1st attribute
-		
-		
 		
 		// load unlabeled data
 		Instances unlabeled = new Instances(new BufferedReader(new FileReader(
@@ -26,8 +25,7 @@ public class Unlabeled {
 
 		// create copy
 		Instances labeled = new Instances(unlabeled);
-		J48 j48 = new J48();
-
+		J48 j48 = new J48();//må erstattes
 		// label instances
 		for (int i = 0; i < unlabeled.numInstances(); i++) {
 			double clsLabel = j48.classifyInstance(unlabeled.instance(i));
@@ -41,6 +39,11 @@ public class Unlabeled {
 		writer.flush();
 		writer.close();
 
+		
+		
+// Skriver ut array med sannsynlighet for instans hører til klasse		System.out.println(clsLabel + " -> " + unlabeled.classAttribute().value((int) clsLabel));
+		 
+		
 	}
 
 }

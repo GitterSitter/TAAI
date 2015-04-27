@@ -1,3 +1,4 @@
+package supervised;
 import weka.classifiers.bayes.NaiveBayesUpdateable;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
