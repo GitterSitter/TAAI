@@ -18,18 +18,23 @@ public class Main {
 		String test =  "data/ReutersCorn-test.arff";
 		String cancer = "data/breast-cancer.arff";
 		String unlabeled = "data/unlabeled.arff";
-		
+		String output = "data/output.arff";
 
-		DataSource trainingSource = new DataSource(cancer);
+		DataSource trainingSource = new DataSource(output);
 		DataSource testSource = new DataSource(test);
 		Instances testData = testSource.getDataSet();
 		Instances trainingData = trainingSource.getDataSet();
+		
+		
+		
+		System.out.println(trainingData.instance(0));
+	//	System.out.println(trainingData.instance(1));
 		
 		//Må komme før evt seleksjon/fjerning av attributt
 			SimpleKmeans kmeans = new SimpleKmeans();
 		//	kmeans.kMeans(trainingData);
 			EmCluster cl = new EmCluster();
-			cl.emCluster(trainingData);
+		//	cl.emCluster(trainingData);
 				 
 			
 			//algo. distributionForInstance(Instance).

@@ -1,8 +1,17 @@
 package Util;
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
-import weka.core.*;
+import weka.core.Attribute;
+import weka.core.FastVector;
+import weka.core.Instance;
+import weka.core.Instances;
+import weka.core.converters.TextDirectoryLoader;
  
 /** 	
  * Builds an arff dataset from the documents in a given directory.
@@ -50,25 +59,26 @@ public class TextDirectoryToArff {
   }
  
  public static void main(String[] args) throws Exception {
-   
+   /*
     TextDirectoryToArff tdta = new TextDirectoryToArff();
     Instances dataset = tdta.createDataset("docs");
     
-   
-    try {
-        File output = new File("output");
-        Scanner sc = new Scanner(dataset.toString());
-        PrintWriter printer = new PrintWriter(output);
-        while(sc.hasNextLine()) {
-            String s = sc.nextLine();
-            printer.write(s);
-        }
-    }
-    catch(FileNotFoundException e) {
-        System.err.println("File not found. Please scan in new file.");
-    }
-    	
-    	
-      
+   */
+		TextDirectoryLoader loader = new TextDirectoryLoader();
+		loader.setDirectory(new File("docs"));
+		Instances dataset = loader.getDataSet();
+		String content = dataset.toString();
+		FileWriter wr = new FileWriter(new File("output.arff"));
+		wr.write(content);
+		wr.close();
+		
+		 
+		// Dir direkte til arf
+		// TextDirectoryToArff tdta = new TextDirectoryToArff();
+		// Instances dataset = tdta.createDataset("docs");
+		// StringToWordVector filter = new StringToWordVector();
+		// filter.setInputFormat(dataset);
+		// Instances dataFiltered = Filter.useFilter(dataset, filter);
+	
   }
 }
