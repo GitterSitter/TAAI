@@ -1,5 +1,6 @@
 package Util;
 import java.io.*;
+import java.util.Scanner;
 
 import weka.core.*;
  
@@ -31,8 +32,7 @@ public class TextDirectoryToArff {
       double[] newInst = new double[2];
       newInst[0] = (double)data.attribute(0).addStringValue(files[i]);
       File txt = new File(directoryPath + File.separator + files[i]);
-      InputStreamReader is;
-      is = new InputStreamReader(new FileInputStream(txt));
+      InputStreamReader is = new InputStreamReader(new FileInputStream(txt));
       StringBuffer txtStr = new StringBuffer();
       int c;
       while ((c = is.read()) != -1) {
@@ -40,6 +40,7 @@ public class TextDirectoryToArff {
       }
       newInst[1] = (double)data.attribute(1).addStringValue(txtStr.toString());
       data.add(new Instance(1.0, newInst));
+      is.close();
     } catch (Exception e) {
       //System.err.println("failed to convert file: " + directoryPath + File.separator + files[i]);
     }
@@ -49,11 +50,25 @@ public class TextDirectoryToArff {
   }
  
  public static void main(String[] args) throws Exception {
- 
    
     TextDirectoryToArff tdta = new TextDirectoryToArff();
-    Instances dataset = tdta.createDataset("docs/asd.txt");
-    System.out.println(dataset);
+    Instances dataset = tdta.createDataset("docs");
+    
+   
+    try {
+        File output = new File("output");
+        Scanner sc = new Scanner(dataset.toString());
+        PrintWriter printer = new PrintWriter(output);
+        while(sc.hasNextLine()) {
+            String s = sc.nextLine();
+            printer.write(s);
+        }
+    }
+    catch(FileNotFoundException e) {
+        System.err.println("File not found. Please scan in new file.");
+    }
+    	
+    	
       
   }
 }
