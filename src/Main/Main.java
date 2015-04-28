@@ -12,6 +12,8 @@ public class Main {
 
 	public static void main(String[] args) throws Exception  {
 		
+		
+		//generelt sett bruke supervised algo for mest mulig presis klassifisering
 		String train = "data/ReutersCorn-train.arff";
 		String test =  "data/ReutersCorn-test.arff";
 		String cancer = "data/breast-cancer.arff";
@@ -38,7 +40,7 @@ public class Main {
 			rm.setAttributeIndices("1"); // remove 1st attribute
 		
 			NaiveBayes nb = new NaiveBayes();
-		//	nb.Bayes(cancer);
+			nb.Bayes(cancer);
 			
 			DecisionTree dt = new DecisionTree();
 		//dt.j48(trainingData, testData);
