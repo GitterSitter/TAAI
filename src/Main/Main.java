@@ -18,7 +18,7 @@ public class Main {
 		String unlabeled = "data/unlabeled.arff";
 		
 
-		DataSource trainingSource = new DataSource(train);
+		DataSource trainingSource = new DataSource(cancer);
 		DataSource testSource = new DataSource(test);
 		Instances testData = testSource.getDataSet();
 		Instances trainingData = trainingSource.getDataSet();
@@ -26,6 +26,11 @@ public class Main {
 		//Må komme før evt seleksjon/fjerning av attributt
 			SimpleKmeans kmeans = new SimpleKmeans();
 		//	kmeans.kMeans(trainingData);
+			EmCluster cl = new EmCluster();
+			cl.emCluster(trainingData);
+				 
+			
+			//algo. distributionForInstance(Instance).
 
 			trainingData.setClassIndex(trainingData.numAttributes() - 1);
 			testData.setClassIndex(testData.numAttributes() - 1);
@@ -42,9 +47,7 @@ public class Main {
 			Unlabeled lb = new Unlabeled();
 			//lb.unlabeled();
 			
-			EmCluster cl = new EmCluster();
-			cl.emCluster(trainingData);
-				 
+		
 			
 		
 	}
