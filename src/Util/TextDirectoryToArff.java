@@ -1,5 +1,6 @@
 package Util;
 import java.io.*;
+
 import weka.core.*;
  
 /** 	
@@ -14,7 +15,6 @@ import weka.core.*;
  * @version 1.0
  */
 public class TextDirectoryToArff {
- 
   public Instances createDataset(String directoryPath) throws Exception {
  
     FastVector atts = new FastVector(2);
@@ -26,7 +26,8 @@ public class TextDirectoryToArff {
     String[] files = dir.list();
     for (int i = 0; i < files.length; i++) {
       if (files[i].endsWith(".txt")) {
-    try {
+   
+    	  try {
       double[] newInst = new double[2];
       newInst[0] = (double)data.attribute(0).addStringValue(files[i]);
       File txt = new File(directoryPath + File.separator + files[i]);
@@ -47,19 +48,12 @@ public class TextDirectoryToArff {
     return data;
   }
  
-  public static void main(String[] args) {
+ public static void main(String[] args) throws Exception {
  
-    if (args.length == 1) {
-      TextDirectoryToArff tdta = new TextDirectoryToArff();
-      try {
-    Instances dataset = tdta.createDataset("data/ReutersCorn-train.arff");
+   
+    TextDirectoryToArff tdta = new TextDirectoryToArff();
+    Instances dataset = tdta.createDataset("docs/asd.txt");
     System.out.println(dataset);
-      } catch (Exception e) {
-    System.err.println(e.getMessage());
-    e.printStackTrace();
-      }
-    } else {
-      System.out.println("Usage: java TextDirectoryToArff <directory name>");
-    }
+      
   }
 }
