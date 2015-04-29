@@ -12,6 +12,8 @@ import weka.core.FastVector;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.TextDirectoryLoader;
+import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.StringToWordVector;
  
 /** 	
  * Builds an arff dataset from the documents in a given directory.
@@ -67,7 +69,14 @@ public class TextDirectoryToArff {
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("docs"));
 		Instances dataset = loader.getDataSet();
-		String content = dataset.toString();
+		
+		
+		//Lager vektor modell
+		 StringToWordVector filter = new StringToWordVector();
+	     filter.setInputFormat(dataset);
+		 Instances dataFiltered = Filter.useFilter(dataset, filter);
+		
+		String content = dataFiltered.toString();//dataset.toString();
 		FileWriter wr = new FileWriter(new File("output.arff"));
 		wr.write(content);
 		wr.close();
@@ -76,9 +85,8 @@ public class TextDirectoryToArff {
 		// Dir direkte til arf
 		// TextDirectoryToArff tdta = new TextDirectoryToArff();
 		// Instances dataset = tdta.createDataset("docs");
-		// StringToWordVector filter = new StringToWordVector();
-		// filter.setInputFormat(dataset);
-		// Instances dataFiltered = Filter.useFilter(dataset, filter);
+	
+		
 	
   }
 }
