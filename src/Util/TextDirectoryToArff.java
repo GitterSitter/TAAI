@@ -61,14 +61,14 @@ public class TextDirectoryToArff {
   }
  
  public static void main(String[] args) throws Exception {
-   /*
     TextDirectoryToArff tdta = new TextDirectoryToArff();
-    Instances dataset = tdta.createDataset("docs");
-    
-   */
-		TextDirectoryLoader loader = new TextDirectoryLoader();
-		loader.setDirectory(new File("txt_sentoken"));
-		Instances dataset = loader.getDataSet();
+    Instances dataset = tdta.createDataset("docs/2");
+
+   
+  
+	//	TextDirectoryLoader loader = new TextDirectoryLoader();
+		//loader.setDirectory(new File(""));
+		//Instances dataset = loader.getDataSet();
 		
 		
 		//Lager vektor modell

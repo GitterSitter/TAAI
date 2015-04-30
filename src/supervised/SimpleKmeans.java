@@ -15,8 +15,12 @@ public class SimpleKmeans {
 		filter.setAttributeRange("first");
 		filter.setInputFormat(trainingData);
 		Instances filtered = Filter.useFilter(trainingData, filter); // new
-																		// FilteredClusterer();
+		
+	
+		
+		// FilteredClusterer();
 		SimpleKMeans kmeans = new SimpleKMeans();
+		kmeans.setNumClusters(3);
 		kmeans.buildClusterer(filtered);
 		System.out.println(kmeans);
 
