@@ -1,0 +1,288 @@
+
+Ventricular assist device
+From Wikipedia, the free encyclopedia
+Ventricular assist device
+Intervention
+Ventricular assist device.png
+A left ventricular assist device (LVAD) pumping blood from the left ventricle to the aorta, connected to an externally worn control unit and battery pack.
+MedlinePlus	007268
+A ventricular assist device (VAD) is an electromechanical circulatory device that is used to partially or completely replace the function of a failing heart. The function of VADs differs from that of artificial cardiac pacemakers. Some VADs are intended for short term use, typically for patients recovering from heart attacks or heart surgery, while others are intended for long-term use (months to years and in some cases for life), typically for patients suffering from advanced congestive heart failure.
+
+VADs are distinct from artificial hearts, which are designed to completely take over cardiac function and generally require the removal of the patient's heart. VADs are designed to assist either the right (RVAD) or left (LVAD) ventricle, or both at once (BiVAD). The type that is used depends primarily on the underlying heart disease and the pulmonary arterial resistance that determines the load on the right ventricle.
+
+LVADs are most commonly used, but when pulmonary arterial resistance is high, right ventricular assistance may become necessary. Long term VADs are normally used to keep patients alive with a good quality of life while they wait for a heart transplantation (known as a "bridge to transplantation"). However, LVADs are sometimes used as destination therapy, meaning they will never undergo heart transplant, and sometimes as a bridge to recovery.[1][2]
+
+In the last few years, VADs have improved significantly in terms of providing survival and quality of life among recipients.[3]
+
+Contents  [hide] 
+1 Design
+1.1 Pumps
+2 History
+3 Studies and outcomes
+3.1 Recent developments
+3.2 HeartMate II LVAD pivotal study
+3.3 HARPS
+3.4 REMATCH
+4 Complications and side effects
+5 List of implantable VAD devices
+6 See also
+7 References
+8 External links
+Design[edit]
+
+Close-up illustration of typical left ventricular assist device (LVAD)
+Pumps[edit]
+The pumps used in VADs can be divided into two main categories – pulsatile pumps, that mimic the natural pulsing action of the heart, and continuous flow pumps.[4] Pulsatile VADs use positive displacement pumps. In some of these pumps, the volume occupied by blood varies during the pumping cycle, and if the pump is contained inside the body then a vent tube to the outside air is required.
+
+Continuous flow VADs are smaller and have proven to be more durable than pulsatile VADs.[5] They normally use either a centrifugal pump or an axial flow pump. Both types have a central rotor containing permanent magnets. Controlled electric currents running through coils contained in the pump housing apply forces to the magnets, which in turn cause the rotors to spin. In the centrifugal pumps, the rotors are shaped to accelerate the blood circumferentially and thereby cause it to move toward the outer rim of the pump, whereas in the axial flow pumps the rotors are more or less cylindrical with blades that are helical, causing the blood to be accelerated in the direction of the rotor's axis.[6]
+
+An important issue with continuous flow pumps is the method used to suspend the rotor. Early versions used solid bearings; however, newer pumps, some of which are approved for use in the EU, use either electromagnetic suspension ("maglev")[7][8][9][10] or hydrodynamic suspension. These pumps contain only one moving part.[citation needed]
+
+History[edit]
+
+1966 DeBakey ventricular assist device.[11]
+The first successful implantation of a left ventricular assist device was completed in 1966 by Dr. Michael E. DeBakey to a 37-year old woman. A paracorporeal (external) circuit was able to provide mechanical support for 10 days after the surgery.[12] The first successful long-term implantation of an artificial LVAD was conducted in 1988 by Dr. William F. Bernhard of Boston Children's Hospital Medical Center and Thermedics, Inc of Woburn, MA under a National Institutes of Health (NIH) research contract which developed Heart-mate, an electronically controlled assist device. This was funded by a three year $6.2 million contract to Thermedics and Children's Hospital, Boston MA from the National Heart and Lung and Blood Institute, a program of NIH.[13] The early VADs emulated the heart by using a "pulsatile" action where blood is alternately sucked into the pump from the left ventricle then forced out into the aorta. Devices of this kind include the HeartMate IP LVAS, which was approved for use in the US by the Food and Drug Administration (FDA) in October 1994. These devices are commonly referred to as first generation VADs.[citation needed]
+
+More recent work has concentrated on continuous flow pumps, which can be roughly categorized as either centrifugal pumps or axial flow impeller driven pumps. These pumps have the advantage of greater simplicity resulting in smaller size and greater reliability. These devices are referred to as second generation VADs. A side effect is that the user will not have a pulse, or that the pulse intensity will be seriously reduced[citation needed].
+
+Third generation VADs suspend the impeller in the pump using either hydrodynamic or electromagnetic suspension, thus removing the need for bearings and reducing the number of moving parts to one.[citation needed]
+
+Another technology undergoing clinical trials is the use of trans cutaneous induction to power and control the device rather than using percutaneous cables. Apart from the obvious cosmetic advantage this reduces the risk of infection and the consequent need to take preventative action. A pulsatile pump using this technology has CE Mark approval and is in clinical trials for US FDA approval.[citation needed]
+
+A very different approach in the early stages of development is the use of an inflatable cuff around the aorta. Inflating the cuff contracts the aorta and deflating the cuff allows the aorta to expand – in effect the aorta becomes a second left ventricle. A proposed refinement is to use the patient's skeletal muscle, driven by a pacemaker, to power this device which would make it truly self-contained. However a similar operation (cardiomyoplasty) was tried in the 1990s with disappointing results. In any case, it has substantial potential advantages in avoiding the need to operate on the heart itself and in avoiding any contact between blood and the device. This approach involves a return to a pulsatile flow.[citation needed]
+
+Peter Houghton was the longest surviving recipient of a VAD for permanent use. He received an experimental Jarvik 2000 LVAD in June 2000. Since then, he completed a 91-mile charity walk, published two books, lectured widely, hiked in the Swiss Alps and the American West, flew in an ultra-light aircraft, and traveled extensively around the world. He died of acute renal failure in 2007 at the age of 69.[14][15]
+
+Studies and outcomes[edit]
+Recent developments[edit]
+In July 2009 in England, surgeons removed a donor heart that had been implanted in a toddler next to her native heart, after her native heart had recovered. This technique suggests mechanical assist device, such as an LVAD, can take some or all the work away from the native heart and allow it time to heal.[16]
+In July 2009, 18-month follow-up results from the HeartMate II Clinical Trial concluded that continuous-flow LVAD provides effective hemodynamic support for at least 18 months in patients awaiting transplantation, with improved functional status and quality of life. (see below).[17]
+Heidelberg University Hospital reported in July 2009 that the first HeartAssist5, known as the modern version of the DeBakey VAD, was implanted there. The HeartAssist5 weighs 92 grams, is made of titanium and plastic, and serves to pump blood from the left ventricle into the aorta.[18]
+A phase 1 clinical trial is underway (as of August 2009), consisting of patients with coronary artery bypass grafting and patients in end-stage heart failure who have a left ventricular assist device. The trial involves testing a patch, called Anginera(TM) that contains cells that secrete hormone-like growth factors that stimulate other cells to grow. The patches are seeded with heart muscle cells and then implanted onto the heart with the goal of getting the muscle cells to start communicating with native tissues in a way that allows for regular contractions.[19][20]
+In September 2009, a New Zealand news outlet, Stuff, reported that in another 18 months to two years, a new wireless device will be ready for clinical trial that will power VADs without direct contact. If successful, this may reduce the chance of infection as a result of the power cable through the skin.[21]
+The National Institutes of Health (NIH) awarded a $2.8 million grant to develop a "pulse-less" total artificial heart using two VADS by Micromed, initially created by Michael DeBakey and George Noon. The grant was renewed for a second year of research in August 2009. The Total Artificial Heart was created using two HeartAssist5 VADs, whereby one VAD pumps blood throughout the body and the other circulates blood to and from the lungs.[22]
+HeartWare International announced in August 2009 that it had surpassed 50 implants of their HeartWare Ventricular Assist System in their ADVANCE Clinical Trial, an FDA-approved IDE study. The study is to assess the system as bridge-to-transplantation system for patients with end-stage heart failure. The study, Evaluation of the HeartWare LVAD System for the Treatment of Advance Heart Failure, is a multi-center study that started in May 2009.[23][24]
+On June 27, 2014 Hannover Medical School in Hannover, Germany performed the first human implant of HeartMate III under the direction of Professor Axel Haverich M.D., chief of the Cardiothoracic, Transplantation and Vascular Surgery Department and surgeon Jan Schmitto, M.D., Ph.D.[25]
+On January 21, 2015 a study was published in Journal of American College of Cardiology suggesting that long-term use of LVAD may induce heart regeneration.[26] This may explain the bridge to recovery phenomenon first described by the Yacoub group in NEJM in 2009 (above).
+The majority of VADs on the market today are somewhat bulky. The smallest device approved by the FDA, the HeartMate II, weighs about 1 pound (0.45 kg) and measures 3 inches (7.6 cm). This has proven particularly important for women and children, for whom alternatives would have been too large.[27]
+
+One device gained CE Mark approval for use in the EU and began clinical trials in the US (VentrAssist). As of June 2007 these pumps had been implanted in over 100 patients. In 2009, Ventracor was placed into the hands of Administrators due to financial problems and was later that year liquidated. No other companies purchased the technology, so as a result the VentrAssist device was essentially defunct. Around 30–50 patients worldwide remain supported on VentrAssist devices as of January 2010.[citation needed]
+
+The Heartware HVAD works similarly to the VentrAssist – albeit much smaller and not requiring an abdominal pocket to be implanted into. The device has obtained CE Mark in Europe, and FDA approval in the U.S. Recently, it was shown that the Heartware HVAD can be implanted through limited access without sternotomy.[28]
+
+In a small number of cases left ventricular assist devices, combined with drug therapy, have enabled the heart to recover sufficiently for the device to be able to be removed (explanted).[1][2]
+
+HeartMate II LVAD pivotal study[edit]
+A series of studies involving the use of the of HeartMate II LVAD have proven useful in establishing the viability and risks of using LVADs for bridge-to-transplantation and destination therapy.
+
+The pilot trial for the HeartMate II LVAS began in November 2003 and consisted of 46 study patients at 15 centers. Results included 11 patients supported for more than one year and three patients supported for more than two years.
+The HeartMate II pivotal trial began in 2005 and included the evaluation of HeartMate II for two indications: Bridge to transplantation (BTT) and destination therapy (DT), or long-term, permanent support. Thoratec Corp. announced that this was the first time the FDA had approved a clinical trial to include both indications in one protocol.[29][30][31]
+A multicenter study in the United States from 2005 to 2007 with 113 patients (of which 100 reported principal outcomes) showed that significant improvements in function were prevalent after three months, and a survival rate of 68% after twelve months.[32]
+Based on one-year follow up data from the first 194 patients enrolled in the trial, the FDA approved HeartMate II for bridge-to-transplantation. The trial provided clinical evidence of improved survival rates and quality of life for a broad range of patients.[33][34]
+Eighteen-month follow up data on 281 patients who had either reached the study end-point or completed 18 months of post-operative follow-up showed improved survival, less frequent adverse events and greater reliability with continuous flow LVADS compared to pulsatile flow devices. Of the 281 patients, 157 patients had undergone transplant, 58 patients were continuing with LVADs in their body and seven patients had the LVAD removed because their heart recovered; the remaining 56 had died. The results showed that the NYHA Class of heart failure the patients had been designated had significantly improved after six months of LVAD support compared to the pre-LVAD baseline. Although this trial involved bridge-to-transplant indication, the results provide early evidence that continuous flow LVADs have advantages in terms of durability and reliability for patients receiving mechanical support for destination therapy.[35]
+Following the FDA approval of HeartMate II LVAD for bridge-to-transplantation purposes, a post-approval ("registry") study was undertaken to assess the efficacy of the device in a commercial setting. The study found that the device improved outcomes, both compared to other LVAD treatments and baseline patients. Specifically, HeartMate II patients showed lower creatinine levels, 30-day survival rates were considerably higher at 96%, and 93% reached successful outcomes (transplant, cardiac recovery, or long-term LVAD).[36]
+HARPS[edit]
+The Harefield Recovery Protocol Study (HARPS) is a clinical trial to evaluate whether advanced heart failure patients requiring VAD support can recover sufficient myocardial function to allow device removal (known as explantation). HARPS combines an LVAD (the HeartMate XVE) with conventional oral heart failure medications, followed by the novel β2 agonist clenbuterol. This opens the possibility that some advanced heart failure patients may forgo heart transplantation.[37]
+
+To date, 73% (11 of 15) of patients who underwent the combination therapy regimen demonstrated sufficient recovery to allow explantation and avoid heart transplantation; freedom from recurrent heart failure in surviving patients was 100% and 89% at one and four years after explantation, respectively; average ejection fraction was 64% at 59 months after explantation – all patients were NYHA Class I; and no significant adverse effects were reported with clenbuterol therapy.
+
+REMATCH[edit]
+The REMATCH (Randomized Evaluation of Mechanical Assistance for the Treatment of Congestive Heart Failure) clinical trial began in May 1998 and ran through July 2001 in 20 cardiac transplant centers around the USA. The trial was designed to compare long-term implantation of left ventricular assist devices with optimal medical management for patients with end-stage heart failure who require, but do not qualify to receive cardiac transplantation. As a result of the clinical outcomes, the device received FDA approval for both indications, in 2001 and 2003, respectively.[38]
+
+The trial demonstrated an 81% improvement in two-year survival among patients receiving HeartMate XVE compared to optimal medical management. In addition, a destination therapy study following the REMATCH trial demonstrated an additional 17% improvement (61% vs. 52%) in one-year survival of patients that were implanted with a VAD (HeartMate XVE), with an implication for the appropriate selection of candidates and timing of VAD implantation.
+
+A test carried out in 2001 by Dr. Eric A. Rose and REMATCH study group with patients with congestive heart failure that were ineligible for a transplant showed a survival at two years of 23% for those implanted with an LVAD compared with 8% for those who were treated with drugs. The two major complications of VAD implantation were infection and mechanical failure (see below).
+
+According to a retrospective cohort study comparing patients treated with a left ventricular assist device versus inotrope therapy while awaiting heart transplantation, the group treated with LVAD had improved clinical and metabolic function at the time of transplant with better blood pressure, sodium, blood urea nitrogen, and creatinine. After transplant, 57.7% of the inotrope group had renal failure versus 16.6% in the LVAD group; 31.6% of the inotrope group had right heart failure versus 5.6% in the LVAD group; and event-free survival was 15.8% in the inotrope group versus 55.6% in the LVAD group.[39]
+
+Complications and side effects[edit]
+Early postoperative bleeding complications are a major cause of morbidity and reoperation in LVAD patients.[40] Bleeding is the most common postoperative early complication after implantation or explantation of LVADs, necessitating reoperation in up to 60% of recipients.[41] The implications of massive blood transfusions are great and include infection, pulmonary insufficiency, increased costs, right heart failure, allosensitization, and viral transmission, some of which can prove fatal or preclude transplantation.[41] When bleeding occurs, it impacts the one year Kaplan-Meier mortality.[40] In addition to complexity of the patient population and the complexity of these procedures contributing to bleeding, the devices themselves may contribute to the severe coagulopathy that can ensue when these devices are implanted.[42] Critical in the management of bleeding in the early hours after implantation or explantation is to adequately evacuate the post-surgical blood from around the heart and lungs to prevent retained blood from contributing to the need for reoperation to wash out clot that can compress the device features and contribute to post operative shock. Preventing chest tube clogging during this period is critical to recovery.[41]
+
+Because the devices generally result in blood flowing over a non-biologic surface, predisposing the blood to clotting, there is need for anticoagulation measures. One device, the HeartMate XVE, is designed with a biologic surface derived from fibrin and does not require long term anticoagulation (except aspirin); unfortunately, this biologic surface may also predispose the patient to infection through selective reduction of certain types of leukocytes.[43]
+
+New VAD designs which are now approved for use in the European Community and are undergoing trials for FDA approval have all but eliminated mechanical failure.[citation needed]
+
+VAD-related infection can be caused by a large number of different organisms:[44]
+
+Gram positive bacteria (Staphylococci, especially Staph. aureus, Enterococci)
+Gram negative bacteria (Pseudomonas aeruginosa, Enterobacter species, Klebsiella species)
+Fungi. especially Candida species
+Treatment of VAD-related infection is exceedingly difficult and many patients die of infection despite optimal treatment. Initial treatment should be with broad spectrum antibiotics, but every effort must be made to obtain appropriate samples for culture. A final decision regarding antibiotic therapy must be based on the results of microbiogical cultures.[citation needed]
+
+Other problems include immunosuppression, clotting with resultant stroke, and bleeding secondary to anticoagulation. Some of the polyurethane components used in the devices cause the deletion of a subset of immune cells when blood comes in contact with them. This predisposes the patient to fungal and some viral infections necessitating appropriate prophylactic therapy.[45]
+
+Considering the multitude of risks and lifestyle modifications associated with ventricular assist device implant,[46] it is important for prospective patients to be informed prior to decision making.[47] In addition to physician consult, various Internet-based patient directed resources are available to assist in patient education.[48][49]
+
+List of implantable VAD devices[edit]
+Ambox current red.svg
+This section is outdated. Please update this article to reflect recent events or newly available information. (April 2015)
+This is a partial list and may never be complete
+Referenced additions are welcome
+
+Device	Manufacturer	Type	Approval Status as of July 2010
+HeartAssist5	ReliantHeart	Continuous flow driven by an axial flow rotor.	Approved for use in the European Union. The child version is approved by the FDA for use in children in USA. Undergoing clinical trials in USA for FDA approval.
+Novacor	World Heart	Pulsatile.	Was approved for use in North America, European Union and Japan. Now defunct and no longer supported by the manufacturer. (Heartware completed acquisition August 2012)
+HeartMate XVE	Thoratec	Pulsatile	FDA approval for BTT in 2001 and DT in 2003. CE Mark Authorized. Rarely used anymore due to reliability concerns.
+HeartMate II	Thoratec	Rotor driven continuous axial flow, ball and cup bearings.	Approved for use in North America and EU. CE Mark Authorized. FDA approval for BTT in April 2008. Recently approved by FDA in the US for Destination Therapy (as at January 2010).
+HeartMate III	Thoratec	Continuous flow driven by a magnetically suspended axial flow rotor.	Pivotal trials for HeartMate III started in 2014.
+Incor	Berlin Heart	Continuous flow driven by a magnetically suspended axial flow rotor.	Approved for use in European Union. Used on humanitarian approvals on case by case basis in the US. Entered clinical trials in the US in 2009.
+Excor Pediatric	Berlin Heart	External membrane pump device designed for children.	Approved for use in European Union. FDA granted Humanitarian Device Exemption for US in December 2011.
+Jarvik 2000	Jarvik Heart	Continuous flow, axial rotor supported by ceramic bearings.	Currently used in the United States as a bridge to heart transplant under an FDA-approved clinical investigation. In Europe, the Jarvik 2000 has earned CE Mark certification for both bridge-to-transplant and lifetime use. Child version currently being developed.
+MicroMed DeBakey VAD	MicroMed	Continuous flow driven by axial rotor supported by ceramic bearings.	Approved for use in the European Union. The child version is approved by the FDA for use in children in USA. Undergoing clinical trials in USA for FDA approval.
+VentrAssist	Ventracor[50]	Continuous flow driven by a hydrodynamically suspended centrifugal rotor.	Approved for use in European Union and Australia. Company declared bankrupt while clinical trials for FDA approval were underway in 2009. Company now dissolved and intellectual property sold to Thoratec.
+MTIHeartLVAD	MiTiHeart Corporation	Continuous flow driven by a magnetically suspended centrifugal rotor.	Yet to start clinical trials.
+C-Pulse	Sunshine Heart	Pulsatile, driven by an inflatable cuff around the aorta.	Currently in clinical trials in the US and Australia.
+HVAD	HeartWare	Miniature "third generation" device with centrifugal blood path and hydromagnetically suspended rotor that may be placed in the pericardial space.	Obtained CE Mark for distribution in Europe, January 2009. Obtained FDA approval in the U.S., November 2012. Initiated US BTT trial in October 2008 (completed February 2010) and US DT trial in August 2010 (enrollment completed May 2012).
+MVAD	HeartWare	HeartWare's MVAD Pump is a development-stage miniature ventricular assist device, approximately one-third the size of HeartWare's HVAD pump.	HeartWare Completed GLP Studies (September 2011).
+DuraHeart	Terumo	Magnetically levitated centrifugal pump.	CE approved, US FDA trials underway as at January 2010.
+Thoratec PVAD (Paracorporeal Ventricular Assist Device)	Thoratec	Pulsatile system includes three major components: Blood pump, cannulae and pneumatic driver (dual drive console or portable VAD driver).	CE Mark Authorized. Received FDA approval for BTT in 1995 and for post-cardiotomy recovery (open heart surgery) in 1998.
+IVAD – Implantable Ventricular Assist Device	Thoratec	Pulsatile system includes three major components: Blood pump, cannulae and pneumatic driver (dual drive console or portable VAD driver).	CE Mark Authorized. Received FDA approval for BTT in 2004. Authorized only for internal implant, not for paracorporeal implant due to reliability issues.
+See also[edit]
+Intra-aortic balloon pump
+Gus Rosenberg
+References[edit]
+^ Jump up to: a b Birks, E. J.; Tansley, P. D.; Hardy, J.; George, R. S.; Bowles, C. T.; Burke, M.; Banner, N. R.; Khaghani, A.; Yacoub, M. H. (2006). "Left Ventricular Assist Device and Drug Therapy for the Reversal of Heart Failure". New England Journal of Medicine 355 (18): 1873–1884. doi:10.1056/NEJMoa053063. PMID 17079761. edit
+^ Jump up to: a b First VentrAssist Heart Recovery Featured on National TV. ventracor.com, 19 October 2006.
+Jump up ^ Osaki, Saturo; Edwards, Velez, Johnson, et al (August 2008). "Improved survival in patients with ventricular assist device therapy: the University of Wisconsin experience". European Journal of Cardio-Thoracic Surgery 34 (2): 281–288. doi:10.1016/j.ejcts.2008.04.023. PMID 18513988.
+Jump up ^ Schulman, A. R.; Martens, T. P.; Christos, P. J.; Russo, M. J.; Comas, G. M.; Cheema, F. H.; Naseem, T. M.; Wang, R.; Idrissi, K. A.; Bailey, S. H.; Naka, Y. (2007). "Comparisons of infection complications between continuous flow and pulsatile flow left ventricular assist devices". The Journal of Thoracic and Cardiovascular Surgery 133 (3): 841–842. doi:10.1016/j.jtcvs.2006.09.083. PMID 17320612. edit
+Jump up ^ Slaughter, M. S.; Pagani, F. D.; Rogers, J. G.; Miller, L. W.; Sun, B.; Russell, S. D.; Starling, R. C.; Chen, L.; Boyle, A. J.; Chillcott, S.; Adamson, R. M.; Blood, M. S.; Camacho, M. T.; Idrissi, K. A.; Petty, M.; Sobieski, M.; Wright, S.; Myers, T. J.; Farrar, D. J.; HeartMate II Clinical Investigators (2010). "Clinical management of continuous-flow left ventricular assist devices in advanced heart failure". The Journal of Heart and Lung Transplantation 29 (4): S1–39. doi:10.1016/j.healun.2010.01.011. PMID 20181499. edit
+Jump up ^ Fukamachi, Kiyo; Smedira, Nicholas (August 2005). "Smaller, Safer, Totally Implantable LVADs: Fact or Fantasy?". American College of Cardiology Current Journal Review 14 (8): 40–42. doi:10.1016/j.accreview.2005.06.001.
+Jump up ^ Frank Smart."Magnetic levitation heart pump implanted in first U.S. patient"."Cardiology Today". October 2008.
+Jump up ^ Pai, C. N.; Shinshi, T.; Asama, J.; Takatani, S.; Shimokohbe, A. (2008). "Development of a Compact Maglev Centrifugal Blood Pump Enclosed in a Titanium Housing". Journal of Advanced Mechanical Design, Systems, and Manufacturing 2 (3): 343. doi:10.1299/jamdsm.2.343. edit
+Jump up ^ Long, Geoff "High Efficiency, High Power Density Electric Motors", cafefoundation.org, shows photos of "implantable maglev blood pumps".
+Jump up ^ Hoshi, H.; Shinshi, T.; Takatani, S. (2006). "Third-generation Blood Pumps with Mechanical Noncontact Magnetic Bearings". Artificial Organs 30 (5): 324–338. doi:10.1111/j.1525-1594.2006.00222.x. PMID 16683949. edit
+Jump up ^ "Dr. Denton Cooley and Dr. Michael E. DeBakey: Rock stars of Houston medicine". Houston Chronicle. 3 April 2014. Retrieved 7 March 2015.
+Jump up ^ Kirklin, JK; Naftel, DC (September 2008). "Mechanical circulatory support: registering a therapy in evolution.". Circulation. Heart failure 1 (3): 200–5. doi:10.1161/circheartfailure.108.782599. PMID 19808290.
+Jump up ^ Today, Children's (19 March 1988). "Heart Pump Progress Announced - A promising step in artificial heart technology". Children's Today (March): 1,5.
+Jump up ^ "The First Lifetime-Use Patient". Jarvik Heart. Retrieved 4 August 2009.
+Jump up ^ Patient Sets World Record for Living with Heart Assist Device. texasheart.org, 6 July 2007.
+Jump up ^ Maugh, Thomas (14 July 2009). "Transplant shows heart's reparative capabilities". Los Angeles Times. Retrieved 15 September 2009.
+Jump up ^ Pagani, F. D.; Miller, L. W.; Russell, S. D.; Aaronson, K. D.; John, R.; Boyle, A. J.; Conte, J. V.; Bogaev, R. C.; MacGillivray, T. E.; Naka, Y.; Mancini, D.; Massey, H. T.; Chen, L.; Klodell, C. T.; Aranda, J. M.; Moazami, N.; Ewald, G. A.; Farrar, D. J.; Frazier, O. H.; Heartmate Ii, I. (2009). "Extended Mechanical Circulatory Support with a Continuous-Flow Rotary Left Ventricular Assist Device". Journal of the American College of Cardiology 54 (4): 312–321. doi:10.1016/j.jacc.2009.03.055. PMID 19608028. edit
+Jump up ^ "Heidelberg Cardiac Surgeons implant world’s first new DeBakey Heart Assist Device". Insciences. 17 August 2009. Retrieved 15 September 2009.
+Jump up ^ Quinn, Dale (4 August 2009). "VA study: heart-healing patch". Arizona Daily star. Retrieved 15 September 2009.
+Jump up ^ "A Study of Anginera In Patients Undergoing Coronary Artery Bypass Graft (CABG) Surgery". Clinicaltrials.gov (U.S. National Institutes of Health). 27 March 2009. Retrieved 15 September 2009.
+Jump up ^ Hunter, Tim (13 September 2009). "Meet the Kiwi bionic man". Manawatu Standard. Retrieved 15 September 2009.
+Jump up ^ "$2.8 Million Grant Renewed for Development of "Pulse-Less" Total Artificial Heart". Houston: BusinessWire. 6 August 2009. Retrieved 15 September 2009.
+Jump up ^ "Evaluation of the HeartWare LVAD System for the Treatment of Advanced Heart Failure". Baltimore: Johns Hopkins Medical. May 2009. Retrieved 15 September 2009.
+Jump up ^ "HeartWare International Surpasses 50 Implants in the US". Bio-medicine. 20 August 2009. Retrieved 15 September 2009.
+Jump up ^ "Thoratec Announces First HeartMate III™ Human Implant And Start Of CE Mark Trial". 20 August 2009. Retrieved 15 September 2009.
+Jump up ^ "Human Ventricular Unloading Induces Cardiomyocyte Proliferation". J Am Coll Cardiol 65 (9): 892–900. 2015. doi:10.1016/j.jacc.2014.12.027.
+Jump up ^ Bogaev, Roberta; Chen, Russell, Rogers, et al (2007). "An Emerging Option for Women with Advanced Heart Failure: Results of the HeartMate II Continuous Flow Left Ventricular Assist Device Bridge to Transplant Trial". Medical Aspects of End-Stage Heart Failure: Transplantation and Device Therapies I. II (American Heart Association) 116: 372.
+Jump up ^ Popov, A. F.; Hosseini, M. T.; Zych, B.; Simon, A. R.; Bahrami, T. (2012). "HeartWare Left Ventricular Assist Device Implantation Through Bilateral Anterior Thoracotomy". The Annals of Thoracic Surgery 93 (2): 674–676. doi:10.1016/j.athoracsur.2011.09.055. PMID 22269746. edit
+Jump up ^ Benton, Susan (19 August 2008). "HeartMate II Pivotal Clinical Trial Fact Sheet" (PDF). Thoratec Corporation. Retrieved 10 September 2009.
+Jump up ^ Dewey, Todd (19 August 2008). "The HeartMate II LVAS Pivotal Trial". Dallas: Cardiopulmonary Research Science and Technology Institute. Archived from the original on 13 July 2007. Retrieved 10 September 2009.
+Jump up ^ Mager, Belinda (25 April 2008). "FDA Approves HeartMate II Mechanical Heart Pump for Heart-Failure Patients Waiting for Organ Transplantation". New York Presbyterian University Hospital. Retrieved 13 September 2009.
+Jump up ^ Miller, L. W.; Pagani, F. D.; Russell, S. D.; John, R.; Boyle, A. J.; Aaronson, K. D.; Conte, J. V.; Naka, Y.; Mancini, D.; Delgado, R. M.; MacGillivray, T. E.; Farrar, D. J.; Frazier, O. H.; HeartMate II Clinical Investigators (2007). "Use of a Continuous-Flow Device in Patients Awaiting Heart Transplantation". New England Journal of Medicine 357 (9): 885–896. doi:10.1056/NEJMoa067758. PMID 17761592. edit
+Jump up ^ Gavin, Kara (23 April 2008). "Exciting times for heart-assisting devices at U-M". Ann Arbor: University of Michigan. Retrieved 28 August 2009.
+Jump up ^ "Thoratec HeartMate II LVAS – P060040". Ann Arbor. Food and Drug Administration. 23 April 2008. Retrieved 28 August 2009.
+Jump up ^ Eisen, H. J.; Hankins, S. R. (2009). "Continuous Flow Rotary Left Ventricular Assist Device". Journal of the American College of Cardiology 54 (4): 322–324. doi:10.1016/j.jacc.2009.04.028. PMID 19608029. edit
+Jump up ^ Starling, Randall; Naka, Boyle, Gonzalez-Stawinski, et al (Aug 2009). "Initial FDA Post-Approval Study INTERMACS Registry Results with a Continuous Flow Left Ventricular Assist Device as a Bridge to Heart Transplantation". Journal of Cardiac Failure 15 (6): S46. doi:10.1016/j.cardfail.2009.06.252.
+Jump up ^ Miller, Leslie; Aaronson and Pagani (2008). "Harefield Recovery Protocol Study for Patients With Refractory Chronic Heart Failure (HARPS)". Clinicaltrials.gov. Retrieved 2009-08-03.
+Jump up ^ Rose, E. A.; Moskowitz, A. J.; Packer, M.; Sollano, J. A.; Williams, D. L.; Tierney, A. R.; Heitjan, D. F.; Meier, P.; Ascheim, D. D.; Levitan, R. G.; Weinberg, A. D.; Stevenson, L. W.; Shapiro, P. A.; Lazar, R. M.; Watson, J. T.; Goldstein, D. J.; Gelijns, A. C. (1999). "The REMATCH trial: Rationale, design, and end points. Randomized Evaluation of Mechanical Assistance for the Treatment of Congestive Heart Failure". The Annals of thoracic surgery 67 (3): 723–730. doi:10.1016/S0003-4975(99)00042-9. PMID 10215217. edit
+Jump up ^ Rogers, J. G.; Butler, J.; Lansman, S. L.; Gass, A.; Portner, P. M.; Pasque, M. K.; Pierson, R. N.; Intrepid, I. (2007). "Chronic Mechanical Circulatory Support for Inotrope-Dependent Heart Failure Patients Who Are Not Transplant Candidates". Journal of the American College of Cardiology 50 (8): 741–747. doi:10.1016/j.jacc.2007.03.063. PMID 17707178. edit
+^ Jump up to: a b Schaffer, Justin M.; Arnaoutakis, George J.; Allen, Jeremiah G.; Weiss, Eric S.; Patel, Nishant D.; Russell, Stuart D.; Shah, Ashish S.; Conte, John V. "Bleeding Complications and Blood Product Utilization With Left Ventricular Assist Device Implantation". The Annals of Thoracic Surgery 91 (3): 740–749. doi:10.1016/j.athoracsur.2010.11.007.
+^ Jump up to: a b c Goldstein, Daniel J.; Robert B. Beauford (2003). "Left ventricular assist devices and bleeding: adding insult to injury". Ann Torac Surg 75: S42–7. doi:10.1016/s0003-4975(03)00478-8. PMID 12820734.
+Jump up ^ Spanier, Talia; Mehmet Oz; Howard Levin; Alan Weinberg; Kathy Stamatis; David Stern; Eric Rose; Anne Marie Schmidt (1996). "Activation of coagulation and fibrinolytic pathways with left ventricular assist devices". J Thorac Cardiovasc Surg 112: 1090–1097. doi:10.1016/s0022-5223(96)70111-3. PMID 8873737.
+Jump up ^ Samuels, L. E.; Kohout, J.; Casanova-Ghosh, E.; Hagan, K.; Garwood, P.; Ferdinand, F.; Goldman, S. M. (2008). "Argatroban as a Primary or Secondary Postoperative Anticoagulant in Patients Implanted with Ventricular Assist Devices". The Annals of Thoracic Surgery 85 (5): 1651–1655. doi:10.1016/j.athoracsur.2008.01.100. PMID 18442558. edit
+Jump up ^ Gordon RJ, Quagliarello B, Lowy FD (2006). "Ventricular assist device-related infections". Lancet Infect Dis 6 (7): 426–37. doi:10.1016/S1473-3099(06)70522-9. PMID 16790383.
+Jump up ^ Holman, W. L.; Rayburn, B. K.; McGiffin, D. C.; Foley, B. A.; Benza, R. L.; Bourge, R. C.; Pinderski, L. J.; Kirklin, J. K. (2003). "Infection in ventricular assist devices: Prevention and treatment". The Annals of thoracic surgery 75 (6 Suppl): S48–S57. doi:10.1016/S0003-4975(03)00479-X. PMID 12820735. edit
+Jump up ^ Marcuccilli, L; Casida, J; Peters, RM (2013). "Modification of self-concept in patients with a left-ventricular assist device: an initial exploration.". J Clin Nurs 22 (2456-64): 2456–64. doi:10.1111/j.1365-2702.2012.04332.x. PMID 23506318.
+Jump up ^ Mcillvennan, CK; Allen, LA; Nowels, C; Brieke, A; Cleveland, JC; Matlock, DD (2014). "Decision making for destination therapy left ventricular assist devices: "there was no choice" versus "I thought about it an awful lot".". Circ Cardiovasc Qual Outcomes 7: 374–80. doi:10.1161/CIRCOUTCOMES.113.000729. PMID 24823949.
+Jump up ^ Iacovetto, MC; Matlock, DD; Mcillvennan, CK; Thompson, JS; Bradley, W; Larue, SJ; Allen, LA (2014). "Educational resources for patients considering a left ventricular assist device: a cross-sectional review of internet, print, and multimedia materials.". Circ Cardiovasc Qual Outcomes 7: 905–11. doi:10.1161/CIRCOUTCOMES.114.000892. PMID 25316772.
+Jump up ^ Matlock, DD; Allen, LA; Thompson, JS; Mcilvennan, CK. "A decision aid for Left Ventricular Assist Device (LVAD) for Destination Therapy A device for patients with advanced heart failure" (PDF).
+Jump up ^ Ventracor was put into liquidation on 3 July 2009, whereby the company's assets including its intellectual property, data from clinical trials, plant and equipment and residual assets will be put up for saleBoyd, Tony (13 July 2009). "No Heart". Business Spectator. Retrieved 15 September 2009.
+External links[edit]
+LifeFlow LVAD at the University of Virginia
+Nader Moazami, Patrick M. McCarthy Temporary Circulatory Support
+Eugene L. Kukuy, Mehmet C. Oz, Yoshifumi Naka Long-Term Mechanical Circulatory Support – a review of the subject as at 2003.
+Mechanical Circulatory Support Resource Center
+Health Center Online VAD
+Mayo Clinic VAD
+Life without a pulse — news story about Canadian man with VAD
+Heart Pump Design Could Give Patients New Hope — A new counter-flow heart pump developed by Queensland University of Technology
+Heart pump improves quality of life in congestive heart failure patients A rapid review of the medical literature and specialist opinion as at December 2005
+NATIONAL INSTITUTE FOR HEALTH AND CLINICAL EXCELLENCE (UK) Interventional procedures overview – short-term circulatory support with left ventricular assist devices as a bridge to cardiac transplantation or recovery A rapid review of the medical literature and specialist opinion as at December 2005
+Courtney J. Gemmato,Matthew D. Forrester,Timothy J. Myers,O.H. Frazier,Denton A. Cooley Thirty-Five Years of Mechanical Circulatory Support at the Texas Heart Institute Tex Heart Inst J 2005;32:168-77
+MyLVAD.com Non branded site with video, news, and community discussions on VAD's.
+Ventricular Assist Device (VAD) Center for Heart Failure – Northwestern Memorial Hospital
+[1] Website Hannover Medical School. LVAD FAQ.
+[hide] v t e
+Surgery and other procedures involving the heart (ICD-9-CM V3 35–37+89.4+99.6, ICD-10-PCS 02)
+Surgery and IC	
+Heart valves
+and septa
+Valve repair Valvulotomy Mitral valve repair Valvuloplasty aortic mitral Valve replacement Aortic valve replacement Ross procedure Percutaneous aortic valve replacement Mitral valve replacement
+production of septal defect in heart enlargement of existing septal defect Atrial septostomy Balloon septostomy creation of septal defect in heart Blalock–Hanlon procedure
+shunt from heart chamber to blood vessel atrium to pulmonary artery Fontan procedure left ventricle to aorta Rastelli procedure right ventricle to pulmonary artery Sano shunt
+compound procedures for transposition of great vessels Jatene procedure Mustard procedure for univentricular defect Norwood procedure Kawashima procedure
+shunt from blood vessel to blood vessel systemic circulation to pulmonary artery shunt Blalock–Taussig shunt SVC to the right PA Glenn procedure
+Cardiac vessels
+CHD Angioplasty Bypass/Coronary artery bypass MIDCAB Off-pump CAB TECAB
+Coronary stent Bare-metal stent Drug-eluting stent
+Bentall procedure Valve-sparing aortic root replacement
+Other
+Pericardium Pericardiocentesis Pericardial window Pericardiectomy
+Myocardium Cardiomyoplasty Dor procedure Septal myectomy Ventricular reduction Alcohol septal ablation
+Conduction system Maze procedure Cox maze and minimaze Catheter ablation Cryoablation Radiofrequency ablation Pacemaker insertion
+Left atrial appendage occlusion Cardiotomy Heart transplantation
+Diagnostic
+tests and
+procedures	
+Electrophysiology Electrocardiography Vectorcardiography Holter monitor Implantable loop recorder Cardiac stress test Bruce protocol Electrophysiology study
+Cardiac imaging Angiocardiography Echocardiography TTE TEE Myocardial perfusion imaging Cardiovascular MRI Ventriculography Radionuclide ventriculography Cardiac catheterization/Coronary catheterization Cardiac CT Cardiac PET
+sound Phonocardiogram
+Function tests	
+Impedance cardiography Ballistocardiography Cardiotocography
+Pacing	
+Cardioversion Transcutaneous pacing
+v t e
+Index of the heart
+Description	
+Anatomy Physiology Development
+Disease	
+Injury Congenital Neoplasms and cancer Other Symptoms and signs eponymous Blood tests
+Treatment	
+Procedures Drugs glycosides other stimulants antiarrhythmics vasodilators
+Categories: Implants (medicine)CardiologyProstheticsInterventional cardiologyMedical devices
+Navigation menu
+Create accountLog inArticleTalkReadEditView history
+
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Wikipedia store
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Tools
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Page information
+Wikidata item
+Cite this page
+Print/export
+Create a book
+Download as PDF
+Printable version
+Languages
+العربية
+Deutsch
+Español
+한국어
+Bahasa Melayu
+日本語
+Polski
+Українська
+Edit links
+This page was last modified on 21 April 2015, at 09:46.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaDevelopersMobile viewWikimedia Foundation Powered by MediaWiki

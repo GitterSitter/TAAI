@@ -1,17 +1,13 @@
 package Util;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.util.Scanner;
 
 import weka.core.Attribute;
 import weka.core.FastVector;
 import weka.core.Instance;
 import weka.core.Instances;
-import weka.core.converters.TextDirectoryLoader;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
  
@@ -81,6 +77,7 @@ public class TextDirectoryToArff {
 		wr.write(content);
 		wr.close();
 		System.out.println("done");
+		System.out.println("asdasd");
 		 
 		// Dir direkte til arf
 		// TextDirectoryToArff tdta = new TextDirectoryToArff();

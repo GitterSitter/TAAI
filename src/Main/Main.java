@@ -22,38 +22,28 @@ public class Main {
 
 		DataSource trainingSource = new DataSource(output);
 		DataSource testSource = new DataSource(test);
-		Instances testData = testSource.getDataSet();
-		Instances trainingData = trainingSource.getDataSet();
+	//	Instances testData = testSource.getDataSet();
+	//	Instances trainingData = trainingSource.getDataSet();
 		
 		
 		
-		System.out.println(trainingData.instance(0));
+		//System.out.println(trainingData.instance(0));
 	//	System.out.println(trainingData.instance(1));
 		
 		//Må komme før evt seleksjon/fjerning av attributt
 			SimpleKmeans kmeans = new SimpleKmeans();
-		//	kmeans.kMeans(trainingData);
+			kmeans.kMeans();
 			EmCluster cl = new EmCluster();
 		//	cl.emCluster(trainingData);
 				 
 			
 			//algo. distributionForInstance(Instance).
 
-			trainingData.setClassIndex(trainingData.numAttributes() - 1);
-			testData.setClassIndex(testData.numAttributes() - 1);
-			Remove rm = new Remove();
-			rm.setAttributeIndices("1"); // remove 1st attribute
+		//	trainingData.setClassIndex(trainingData.numAttributes() - 1);
+		//	testData.setClassIndex(testData.numAttributes() - 1);
+		//	Remove rm = new Remove();
+		//	rm.setAttributeIndices("1"); // remove 1st attribute
 		
-			NaiveBayes nb = new NaiveBayes();
-			nb.Bayes(cancer);
-			
-			DecisionTree dt = new DecisionTree();
-		//dt.j48(trainingData, testData);
-			
-			//lager labels
-			Unlabeled lb = new Unlabeled();
-			//lb.unlabeled();
-			
 		
 			
 		
