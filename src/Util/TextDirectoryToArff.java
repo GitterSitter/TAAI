@@ -67,7 +67,7 @@ public class TextDirectoryToArff {
     
    */
 		TextDirectoryLoader loader = new TextDirectoryLoader();
-		loader.setDirectory(new File("docs"));
+		loader.setDirectory(new File("txt_sentoken"));
 		Instances dataset = loader.getDataSet();
 		
 		
@@ -76,11 +76,11 @@ public class TextDirectoryToArff {
 	     filter.setInputFormat(dataset);
 		 Instances dataFiltered = Filter.useFilter(dataset, filter);
 		
-		String content = dataFiltered.toString();//dataset.toString();
+		String content = dataset.toString();//dataset.toString();
 		FileWriter wr = new FileWriter(new File("output.arff"));
 		wr.write(content);
 		wr.close();
-		
+		System.out.println("done");
 		 
 		// Dir direkte til arf
 		// TextDirectoryToArff tdta = new TextDirectoryToArff();
