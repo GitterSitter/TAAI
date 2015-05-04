@@ -38,7 +38,7 @@ public class SimpleKmeans {
 		Instances dataFiltered = Filter.useFilter(data, filter);
 		
 		
-		data.setClassIndex(dataFiltered.numAttributes() -1); 
+		//data.setClassIndex(dataFiltered.numAttributes() -1); 
 		
 		
 		SimpleKMeans kmeans = new SimpleKMeans();
@@ -60,7 +60,7 @@ public class SimpleKmeans {
 		
 			if(cluster == 0){
 			//	System.out.println("CLUSTER:  " + cluster+"  " + data.instance(i));
-				PrintWriter pr = new PrintWriter(new File("class/fail/test"+i+".txt"));
+				PrintWriter pr = new PrintWriter(new File("class/fail/"+work+".txt"));
 				pr.write(work);
 				pr.close();
 				
@@ -68,13 +68,13 @@ public class SimpleKmeans {
 			}else if(cluster == 1){
 			//	System.out.println("CLUSTER1:  " + cluster+"  " + data.instance(i));
 				//data.instance(0).attribute(0);
-				PrintWriter	pr = new PrintWriter(new File("class/assist/test"+i+".txt"));
+				PrintWriter	pr = new PrintWriter(new File("class/assist/"+work+".txt"));
 				pr.write(work);
 				pr.close();
 			}
 			else if(cluster == 2){
 				//System.out.println("CLUSTER2:  " + cluster+"  " + data.instance(i));
-				PrintWriter	pr = new PrintWriter(new File("class/beer/test"+i+".txt"));
+				PrintWriter	pr = new PrintWriter(new File("class/beer/"+work+".txt"));
 				pr.write(work);
 				pr.close();
 			}
@@ -89,9 +89,9 @@ public class SimpleKmeans {
 		//System.out.println(kmeans);
 		
 		 
-		 NaiveBayesMultinomial nav = new NaiveBayesMultinomial();
-		 nav.buildClassifier(dataFiltered);
-		 System.out.println(nav);
+//		 NaiveBayesMultinomial nav = new NaiveBayesMultinomial();
+//		 nav.buildClassifier(dataFiltered);
+//		 System.out.println(nav);
 		
 
 	}
