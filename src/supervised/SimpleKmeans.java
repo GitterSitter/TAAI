@@ -9,7 +9,9 @@ import weka.clusterers.FilteredClusterer;
 import weka.clusterers.SimpleKMeans;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
+import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Remove;
+import weka.filters.unsupervised.attribute.StringToWordVector;
 import Util.TextDirectoryToArff;
 
 public class SimpleKmeans {
@@ -27,76 +29,67 @@ public class SimpleKmeans {
 		wr.write(content);
 		wr.close();
 	
-		DataSource source = new DataSource("new.arff");
+		DataSource source = new DataSource("output.arff");
 		Instances data = source.getDataSet();
 		
-
+		 
+			StringToWordVector filter = new StringToWordVector();
+			filter.setIDFTransform(true);
+			filter.setTFTransform(true);
+			filter.setAttributeIndices("2-last");
+		//	filter.setNormalizeDocLength(newType);¨
+			filter.setUseStoplist(true);
+			filter.setWordsToKeep(5);
+			filter.setInputFormat(data);
+			Instances dataFiltered = Filter.useFilter(data, filter);
 		
-//		StringToWordVector filter = new StringToWordVector();
-//		NumericToNominal filter1 = new NumericToNominal();
-//		filter.setInputFormat(data);
-//		Instances dataFiltered = Filter.useFilter(data, filter);
-//		filter1.setInputFormat(dataFiltered);
-//		Instances dataFiltered1 = Filter.useFilter(dataFiltered, filter1);
-		
-		
+	//	NumericToNominal nm = new NumericToNominal();
 		
 		//data.setClassIndex(dataFiltered.numAttributes() -1); 
-		
-		
+		//FilteredClusterer fc = new FilteredClusterer();
+	 //    data.setClassIndex(data.numAttributes() -1); 
+	     
 		SimpleKMeans kmeans = new SimpleKMeans();
-		
-		FilteredClusterer fc = new FilteredClusterer(); //filtered clusterer to ignore attributes
-//		SimpleKMeans clusterAlg = new SimpleKMeans(); //original clusterer
-//		Instances data = getInstancesDataFromSomePlace(); // instances
-		String[] options = new String[2];
-		options[0] = "-R"; // "range"
-		options[1] = "1"; // we want to ignore the attribute that is in the position '1'
-		Remove remove = new Remove(); // new instance of filter
-		remove.setOptions(options); // set options
-		remove.setInputFormat(data); // inform filter about dataset
-		fc.setFilter(remove); //add filter to remove attributes
-		kmeans.setNumClusters(3);
-		fc.setClusterer(kmeans); //bind FilteredClusterer to original clusterer
-		
-		fc.buildClusterer(data);
-		
-//		kmeans.buildClusterer(data);
+		FilteredClusterer fc = new FilteredClusterer();
 	
+	String[] options = new String[2];
+	options[0] = "-R";
+	options[1] = "1";
+	Remove remove = new Remove();
+	remove.setOptions(options);
+	remove.setInputFormat(dataFiltered);
+	fc.setFilter(remove);
+	
+		kmeans.setNumClusters(3);
+		fc.setClusterer(kmeans);
+		//kmeans.buildClusterer(data);//Filtered);
+	fc.buildClusterer(dataFiltered);
 		
-		
-		
-		//System.out.println(kmeans.clusterInstance(dataFiltered.instance(0)));
-		//System.out.println(data.instance(3));
-		
-		
-		for(int i=0;i<data.numInstances();i++){
-			int cluster = fc.clusterInstance(data.instance(i));
+		for(int i=0;i<dataFiltered.numInstances();i++){
+			int cluster = fc.clusterInstance(dataFiltered.instance(i));
 		//	System.out.println(cluster + " ***** " +dataFiltered.instance(i));
 		//	System.out.println(cluster + " ***** " +data.instance(i));
-			System.out.println(data.instance(i));
+		//	System.out.println(data.instance(i));
 			String test = data.instance(i).toString();
-			
 			String work = test.substring(0, test.indexOf(","));
-			
 			
 		
 			if(cluster == 0){
-				System.out.println("CLUSTER:  " + cluster+"  " + data.instance(i));
+			System.out.println("CLUSTER:  " + cluster+"  " + dataFiltered.instance(i));
 				PrintWriter pr = new PrintWriter(new File("class/fail/"+work));
 				pr.write(work);
 				pr.close();
 				
 				
 			}else if(cluster == 1){
-				System.out.println("CLUSTER1:  " + cluster+"  " + data.instance(i));
-//				data.instance(0).attribute(0);
+				System.out.println("CLUSTER1:  " + cluster+"  " + dataFiltered.instance(i));
+				//data.instance(0).attribute(0);
 				PrintWriter	pr = new PrintWriter(new File("class/assist/"+work));
 				pr.write(work);
 				pr.close();
 			}
 			else if(cluster == 2){
-				System.out.println("CLUSTER2:  " + cluster+"  " + data.instance(i));
+				System.out.println("CLUSTER2:  " + cluster+"  " + dataFiltered.instance(i) );
 				PrintWriter	pr = new PrintWriter(new File("class/beer/"+work));
 				pr.write(work);
 				pr.close();
@@ -105,9 +98,9 @@ public class SimpleKmeans {
 		
 		}
 		
-		 ClusterEvaluation eval = new ClusterEvaluation();
-		 eval.setClusterer(kmeans);
-		 eval.evaluateClusterer(data);
+	//	 ClusterEvaluation eval = new ClusterEvaluation();
+	//	 eval.setClusterer(kmeans);
+	//	 eval.evaluateClusterer(data);
 		// System.out.println(eval.clusterResultsToString());
 		//System.out.println(kmeans);
 		
