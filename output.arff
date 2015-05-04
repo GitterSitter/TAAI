@@ -1,4 +1,4 @@
-@relation text_files_in_docs/2
+@relation text_files_in_docs
 
 @attribute filename string
 @attribute contents string

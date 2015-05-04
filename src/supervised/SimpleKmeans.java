@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
-import weka.clusterers.ClusterEvaluation;
 import weka.clusterers.FilteredClusterer;
 import weka.clusterers.SimpleKMeans;
 import weka.core.Instances;
@@ -19,7 +18,7 @@ public class SimpleKmeans {
 	public void kMeans() throws Exception {
 
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
-		Instances dataset = tdta.createDataset("docs/2");
+		Instances dataset = tdta.createDataset("docs");
 		// TextDirectoryLoader loader = new TextDirectoryLoader();
 		// loader.setDirectory(new File(""));
 		// Instances dataset = loader.getDataSet();
