@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
+import weka.classifiers.bayes.NaiveBayesMultinomial;
+import weka.clusterers.ClusterEvaluation;
 import weka.clusterers.SimpleKMeans;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
@@ -29,14 +31,18 @@ public class SimpleKmeans {
 		DataSource source = new DataSource("output.arff");
 		Instances data = source.getDataSet();
 		
-		
+		 
 		
 		StringToWordVector filter = new StringToWordVector();
 		filter.setInputFormat(data);
 		Instances dataFiltered = Filter.useFilter(data, filter);
 		
+		
+		data.setClassIndex(dataFiltered.numAttributes() -1); 
+		
+		
 		SimpleKMeans kmeans = new SimpleKMeans();
-		kmeans.setNumClusters(2);
+		kmeans.setNumClusters(3);
 		kmeans.buildClusterer(dataFiltered);
 		
 		//System.out.println(kmeans.clusterInstance(dataFiltered.instance(0)));
@@ -47,32 +53,45 @@ public class SimpleKmeans {
 			int cluster = kmeans.clusterInstance(dataFiltered.instance(i));
 		//	System.out.println(cluster + " ***** " +dataFiltered.instance(i));
 		//	System.out.println(cluster + " ***** " +data.instance(i));
-			
 		//	System.out.println(data.instance(i));
 			String test = data.instance(i).toString();
-			
 			String work = test.substring(0, test.indexOf(","));
-			System.out.println(work);
-			PrintWriter pr;
+			
+		
 			if(cluster == 0){
 			//	System.out.println("CLUSTER:  " + cluster+"  " + data.instance(i));
-				pr = new PrintWriter(new File("Classified/Heart Failure"));
+				PrintWriter pr = new PrintWriter(new File("class/fail/test"+i+".txt"));
 				pr.write(work);
+				pr.close();
+				
 				
 			}else if(cluster == 1){
 			//	System.out.println("CLUSTER1:  " + cluster+"  " + data.instance(i));
 				//data.instance(0).attribute(0);
-				pr = new PrintWriter(new File("Classified/Heart Transplant"));
+				PrintWriter	pr = new PrintWriter(new File("class/assist/test"+i+".txt"));
 				pr.write(work);
+				pr.close();
 			}
-//			else if(cluster == 2){
-//				System.out.println("CLUSTER2:  " + cluster+"  " + data.instance(i));
-//			}
+			else if(cluster == 2){
+				//System.out.println("CLUSTER2:  " + cluster+"  " + data.instance(i));
+				PrintWriter	pr = new PrintWriter(new File("class/beer/test"+i+".txt"));
+				pr.write(work);
+				pr.close();
+			}
 			
 		
 		}
 		
+		 ClusterEvaluation eval = new ClusterEvaluation();
+		 eval.setClusterer(kmeans);
+		 eval.evaluateClusterer(data);
+		// System.out.println(eval.clusterResultsToString());
 		//System.out.println(kmeans);
+		
+		 
+		 NaiveBayesMultinomial nav = new NaiveBayesMultinomial();
+		 nav.buildClassifier(dataFiltered);
+		 System.out.println(nav);
 		
 
 	}
