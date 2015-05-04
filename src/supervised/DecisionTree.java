@@ -22,9 +22,7 @@ public class DecisionTree {
 			 fc.setClassifier(j48);
 			 // train and make predictions
 			 fc.buildClassifier(trainingData);
-			 
-			 
-			 double pred = fc.classifyInstance(testData.instance(0));
+			
 			 
 			 for (int i = 0; i < testData.numInstances(); i++) {
 			/*
