@@ -1,6 +1,6 @@
 package Main;
 
-import supervised.SimpleKmeans;
+import unsupervised.SimpleKmeans;
 
 public class Main {
 

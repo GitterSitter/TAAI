@@ -1,4 +1,4 @@
-package supervised;
+package unsupervised;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -64,21 +64,21 @@ public class SimpleKmeans {
 			if (cluster == 0) {
 				System.out.println("CLUSTER:  " + cluster + "  "
 						+ dataFiltered.instance(i));
-				PrintWriter pr = new PrintWriter(new File("class/fail/" + work));
+				PrintWriter pr = new PrintWriter(new File("class/heartFailure/" + work));
 				pr.write(work);
 				pr.close();
 
 			} else if (cluster == 1) {
 				System.out.println("CLUSTER1:  " + cluster + "  "
 						+ dataFiltered.instance(i));
-				PrintWriter pr = new PrintWriter(new File("class/assist/"
+				PrintWriter pr = new PrintWriter(new File("class/beer/"
 						+ work));
 				pr.write(work);
 				pr.close();
 			} else if (cluster == 2) {
 				System.out.println("CLUSTER2:  " + cluster + "  "
 						+ dataFiltered.instance(i));
-				PrintWriter pr = new PrintWriter(new File("class/beer/" + work));
+				PrintWriter pr = new PrintWriter(new File("class/heartTransplant/" + work));
 				pr.write(work);
 				pr.close();
 			}
