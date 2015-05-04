@@ -1,40 +1,98 @@
 package unsupervised;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
 import weka.clusterers.ClusterEvaluation;
 import weka.clusterers.EM;
+import weka.clusterers.FilteredClusterer;
 import weka.core.Instances;
+import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.Remove;
+import weka.filters.unsupervised.attribute.StringToWordVector;
+import Util.TextDirectoryToArff;
 public class EmCluster {
 
 	
-	 public void emCluster(Instances data) throws Exception{
-	
-		 /*
-		 String[] options = new String[2];
-	 options[0] = "-I";                 // max. iterations
-	 options[1] = "100";
-	
-	 EM clusterer = new EM();   // new instance of clusterer
-	 clusterer.setOptions(options);     // set the options
-	 clusterer.buildClusterer(data);    // buil
-	 System.out.println(clusterer);
-	 
-	 */
-		 
-		 data.setClassIndex(data.numAttributes() - 1);
-		 weka.filters.unsupervised.attribute.Remove filter = new weka.filters.unsupervised.attribute.Remove();
-		 filter.setAttributeIndices("" + (data.classIndex() + 1));
-		 filter.setInputFormat(data);
-		 Instances dataClusterer = Filter.useFilter(data, filter);
-		 EM clusterer = new EM();
-		 // set further options for EM, if necessary...
-		 clusterer.buildClusterer(dataClusterer);
+	public void EM() throws Exception {
+
+		TextDirectoryToArff tdta = new TextDirectoryToArff();
+		Instances dataset = tdta.createDataset("docs");
+		// TextDirectoryLoader loader = new TextDirectoryLoader();
+		// loader.setDirectory(new File(""));
+		// Instances dataset = loader.getDataSet();
+
+		String content = dataset.toString();// dataset.toString();
+		FileWriter wr = new FileWriter(new File("output.arff"));
+		wr.write(content);
+		wr.close();
+
+		DataSource source = new DataSource("output.arff");
+		Instances data = source.getDataSet();
+
+		StringToWordVector filter = new StringToWordVector();
+		filter.setIDFTransform(true);
+		filter.setTFTransform(true);
+		filter.setAttributeIndices("2-last");
+		// filter.setNormalizeDocLength(newType);¨
+		filter.setUseStoplist(true);
+		filter.setLowerCaseTokens(true);
+		filter.setWordsToKeep(5);
+		filter.setInputFormat(data);
+		Instances dataFiltered = Filter.useFilter(data, filter);
+
+		EM em = new EM();
+		FilteredClusterer fc = new FilteredClusterer();
+
+		String[] options = new String[2];
+		options[0] = "-R";
+		options[1] = "1";
+		Remove remove = new Remove();
+		remove.setOptions(options);
+		remove.setInputFormat(dataFiltered);
+		fc.setFilter(remove);
+
+		em.setNumClusters(3);
+		fc.setClusterer(em);
+		fc.buildClusterer(dataFiltered);
+
+		for (int i = 0; i < dataFiltered.numInstances(); i++) {
+			int cluster = fc.clusterInstance(dataFiltered.instance(i));
+			String test = data.instance(i).toString();
+			String work = test.substring(0, test.indexOf(","));
+
+			if (cluster == 0) {
+				System.out.println("CLUSTER:  " + cluster + "  "
+						+ dataFiltered.instance(i));
+				PrintWriter pr = new PrintWriter(new File("class/heartFailure/" + work));
+				pr.write(work);
+				pr.close();
+
+			} else if (cluster == 1) {
+				System.out.println("CLUSTER1:  " + cluster + "  "
+						+ dataFiltered.instance(i));
+				PrintWriter pr = new PrintWriter(new File("class/beer/"
+						+ work));
+				pr.write(work);
+				pr.close();
+			} else if (cluster == 2) {
+				System.out.println("CLUSTER2:  " + cluster + "  "
+						+ dataFiltered.instance(i));
+				PrintWriter pr = new PrintWriter(new File("class/heartTransplant/" + work));
+				pr.write(work);
+				pr.close();
+			}
+
+		}
+
 		 ClusterEvaluation eval = new ClusterEvaluation();
-		 eval.setClusterer(clusterer);
-		 eval.evaluateClusterer(data);
+		 eval.setClusterer(em);
+		 eval.evaluateClusterer(dataFiltered);
 		 System.out.println(eval.clusterResultsToString());
-	 
-	 
-	 
-	 }
+		// System.out.println(em);
+	
+	}
+
 }

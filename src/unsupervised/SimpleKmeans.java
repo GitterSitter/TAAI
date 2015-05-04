@@ -37,6 +37,7 @@ public class SimpleKmeans {
 		filter.setAttributeIndices("2-last");
 		// filter.setNormalizeDocLength(newType);¨
 		filter.setUseStoplist(true);
+		filter.setLowerCaseTokens(true);
 		filter.setWordsToKeep(5);
 		filter.setInputFormat(data);
 		Instances dataFiltered = Filter.useFilter(data, filter);
@@ -89,7 +90,7 @@ public class SimpleKmeans {
 		// eval.setClusterer(kmeans);
 		// eval.evaluateClusterer(data);
 		// System.out.println(eval.clusterResultsToString());
-		// System.out.println(kmeans);
+		 System.out.println(kmeans);
 	
 	}
 

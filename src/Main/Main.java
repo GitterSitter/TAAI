@@ -1,12 +1,17 @@
 package Main;
 
+import unsupervised.EmCluster;
 import unsupervised.SimpleKmeans;
 
 public class Main {
 
 	public static void main(String[] args) throws Exception {
 		SimpleKmeans kmeans = new SimpleKmeans();
-		kmeans.kMeans();
+	//	kmeans.kMeans();
+		
+		EmCluster em = new EmCluster();
+		em.EM();
+		
 		// algo. distributionForInstance(Instance).
 		// trainingData.setClassIndex(trainingData.numAttributes() - 1);
 		// testData.setClassIndex(testData.numAttributes() - 1);
