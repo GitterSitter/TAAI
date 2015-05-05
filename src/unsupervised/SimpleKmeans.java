@@ -46,8 +46,8 @@ public class SimpleKmeans {
 		FilteredClusterer fc = new FilteredClusterer();
 
 		String[] options = new String[2];
-		options[0] = "-R";
-		options[1] = "1";
+		options[0] = "-R"; //Range
+		options[1] = "1"; //First attribute
 		Remove remove = new Remove();
 		remove.setOptions(options);
 		remove.setInputFormat(dataFiltered);
@@ -66,7 +66,7 @@ public class SimpleKmeans {
 				System.out.println("CLUSTER:  " + cluster + "  "
 						+ dataFiltered.instance(i));
 				PrintWriter pr = new PrintWriter(new File("class/heartFailure/" + work));
-				pr.write(work);
+				pr.write(dataFiltered.instance(i).toString());
 				pr.close();
 
 			} else if (cluster == 1) {
@@ -74,13 +74,13 @@ public class SimpleKmeans {
 						+ dataFiltered.instance(i));
 				PrintWriter pr = new PrintWriter(new File("class/beer/"
 						+ work));
-				pr.write(work);
+				pr.write(dataFiltered.instance(i).toString());
 				pr.close();
 			} else if (cluster == 2) {
 				System.out.println("CLUSTER2:  " + cluster + "  "
 						+ dataFiltered.instance(i));
 				PrintWriter pr = new PrintWriter(new File("class/heartTransplant/" + work));
-				pr.write(work);
+				pr.write(dataFiltered.instance(i).toString());
 				pr.close();
 			}
 

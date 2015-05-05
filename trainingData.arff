@@ -1,0 +1,17 @@
+@relation C__Users_Trond_Desktop_TAAI_class
+
+@attribute text string
+@attribute @@class@@ {beer,heartFailure,heartTransplant}
+
+@data
+'{0 beer.txt,1 0.900594}',beer
+'{0 beer1.txt,1 0.900594}',beer
+'{0 beerHis.txt,1 0.900594,4 0.139094}',beer
+'{0 heartFail.txt,2 0.220735,3 0.220735,4 0.139094}',heartFailure
+'{0 heartFail1.txt,2 0.220735,3 0.220735,4 0.139094}',heartFailure
+'{0 heartFail2.txt,2 0.220735,3 0.220735,4 0.139094}',heartFailure
+'{0 heart_failure.txt,2 0.220735,3 0.220735,4 0.139094}',heartFailure
+'{0 heart_failure_8.txt,2 0.220735,3 0.220735,4 0.139094}',heartFailure
+'{0 \'Heart transplantation_29.txt\',2 0.220735,3 0.220735,4 0.139094,5 0.900594}',heartTransplant
+'{0 heartTrans1.txt,2 0.220735,3 0.220735,4 0.139094,5 0.900594}',heartTransplant
+'{0 heartTrans2.txt,2 0.220735,3 0.220735,4 0.139094,5 0.900594}',heartTransplant
