@@ -2,23 +2,19 @@ package supervised;
 
 import java.io.File;
 import java.io.FileWriter;
-
 import weka.classifiers.bayes.NaiveBayesUpdateable;
 import weka.classifiers.meta.FilteredClassifier;
-import weka.clusterers.FilteredClusterer;
 import weka.core.Instances;
 import weka.core.converters.TextDirectoryLoader;
 import weka.filters.Filter;
-import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.StringToNominal;
-import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class NaiveBayes {
 
 	public void Bayes() throws Exception {
 
 		TextDirectoryLoader loader = new TextDirectoryLoader();
-		loader.setDirectory(new File("class"));
+		loader.setDirectory(new File("test"));
 		Instances dataset = loader.getDataSet();
 		dataset.setClassIndex(dataset.numAttributes() - 1);
 	
@@ -37,6 +33,7 @@ public class NaiveBayes {
 		
 		StringToNominal nm = new StringToNominal();
 		nm.setAttributeRange("first-last");
+		nm.setAttributeRange("first");
 		nm.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, nm);
 		
@@ -45,14 +42,11 @@ public class NaiveBayes {
 		fc.setClassifier(nb);
 		fc.buildClassifier(dataFiltered);
 	
-		
-		String content = dataset.toString();// dataset.toString();
-		FileWriter wr = new FileWriter(new File("trainingData.arff"));
+		String content = dataset.toString();
+		FileWriter wr = new FileWriter(new File("testData.arff"));
 		wr.write(content);
 		wr.close();
 		
-		
-		//nb.buildClassifier(dataFiltered);
 
 		/*
 		 * Brukes dersom det er flere dataset filer Instance current; while

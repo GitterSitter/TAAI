@@ -1,1 +1,104 @@
-{0 heartFail1.txt,2 0.220735,3 0.220735,4 0.139094}
+Essential update: FDA approves I(f) "funny" current inhibitor for patients with worsening heart failure
+In April 2015, the FDA approved ivabradine (Corlanor) to reduce the risk of hospitalization for worsening heart failure in patients with stable, symptomatic chronic heart failure with a left ventricular ejection fraction (LVEF) of 35% or lower, who are in sinus rhythm with a resting heart rate of 70 bpm or higher, and who are either on maximally tolerated doses of beta-blockers or have a contraindication to beta-blocker use.[1, 2] This drug blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I(f) "funny" current, which regulates heart rate without any effect on ventricular repolarization or myocardial contractility.
+
+Approval for ivabradine was based on the international, placebo-controlled SHIFT trial published in 2010, which randomized more than 6500 patients with New York Heart Association (NYHA) class II-IV heart failure and an LVEF of 35% or lower.[1, 2] The trial saw a highly significant 18% drop in risk for cardiovascular death or hospitalization for worsening heart failure over an average of 23 months in patients treated with ivabradine.
+
+Signs and symptoms
+Signs and symptoms of heart failure include the following:
+
+Exertional dyspnea and/or dyspnea at rest
+Orthopnea
+Acute pulmonary edema
+Chest pain/pressure and palpitations
+Tachycardia
+Fatigue and weakness
+Nocturia and oliguria
+Anorexia, weight loss, nausea
+Exophthalmos and/or visible pulsation of eyes
+Distention of neck veins
+Weak, rapid, and thready pulse
+Rales, wheezing
+S 3 gallop and/or pulsus alternans
+Increased intensity of P 2 heart sound
+Hepatojugular reflux
+Ascites, hepatomegaly, and/or anasarca
+Central or peripheral cyanosis, pallor
+See Clinical Presentation for more detail.
+
+Diagnosis
+Heart failure criteria, classification, and staging
+
+The Framingham criteria for the diagnosis of heart failure consists of the concurrent presence of either 2 major criteria or 1 major and 2 minor criteria.[3]
+
+Major criteria include the following:
+
+Paroxysmal nocturnal dyspnea
+Weight loss of 4.5 kg in 5 days in response to treatment
+Neck vein distention
+Rales
+Acute pulmonary edema
+Hepatojugular reflux
+S 3 gallop
+Central venous pressure greater than 16 cm water
+Circulation time of 25 seconds
+Radiographic cardiomegaly
+Pulmonary edema, visceral congestion, or cardiomegaly at autopsy
+Minor criteria are as follows:
+
+Nocturnal cough
+Dyspnea on ordinary exertion
+A decrease in vital capacity by one third the maximal value recorded
+Pleural effusion
+Tachycardia (rate of 120 bpm)
+Bilateral ankle edema
+The New York Heart Association (NYHA) classification system categorizes heart failure on a scale of I to IV,[4] as follows:
+
+Class I: No limitation of physical activity
+Class II: Slight limitation of physical activity
+Class III: Marked limitation of physical activity
+Class IV: Symptoms occur even at rest; discomfort with any physical activity
+The American College of Cardiology/American Heart Association (ACC/AHA) staging system is defined by the following 4 stages[5, 6] :
+
+Stage A: High risk of heart failure but no structural heart disease or symptoms of heart failure
+Stage B: Structural heart disease but no symptoms of heart failure
+Stage C: Structural heart disease and symptoms of heart failure
+Stage D: Refractory heart failure requiring specialized interventions
+Testing
+
+The following tests may be useful in the initial evaluation for suspected heart failure[5, 7, 8] :
+
+Complete blood count (CBC)
+Urinalysis
+Electrolyte levels
+Renal and liver function studies
+Fasting blood glucose levels
+Lipid profile
+Thyroid stimulating hormone (TSH) levels
+B-type natriuretic peptide levels
+N-terminal pro-B-type natriuretic peptide
+Electrocardiography
+Chest radiography
+2-dimensional (2-D) echocardiography
+Nuclear imaging [9]
+Maximal exercise testing
+Pulse oximetry or arterial blood gas
+See Workup for more detail.
+
+Management
+Treatment includes the following:
+
+Nonpharmacologic therapy: Oxygen and noninvasive positive pressure ventilation, dietary sodium and fluid restriction, physical activity as appropriate, and attention to weight gain
+Pharmacotherapy: Diuretics, vasodilators, inotropic agents, anticoagulants, beta blockers, and digoxin
+Surgical options
+
+Surgical treatment options include the following:
+
+Electrophysiologic intervention
+Revascularization procedures
+Valve replacement/repair
+Ventricular restoration
+Extracorporeal membrane oxygenation
+Ventricular assist devices
+Heart transplantation
+Total artificial heart
+See Treatment and Medication for more detail.
