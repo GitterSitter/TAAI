@@ -72,7 +72,7 @@ public class SimpleKmeans {
 			} else if (cluster == 1) {
 				System.out.println("CLUSTER1:  " + cluster + "  "
 						+ dataFiltered.instance(i));
-				PrintWriter pr = new PrintWriter(new File("class/beer/"
+				PrintWriter pr = new PrintWriter(new File("class/beers/"
 						+ work));
 				pr.write(dataFiltered.instance(i).toString());
 				pr.close();

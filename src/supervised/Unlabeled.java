@@ -18,15 +18,21 @@ public class Unlabeled {
 		
 		// load unlabeled data
 		Instances unlabeled = new Instances(new BufferedReader(new FileReader(
-				"data/unlabeled.arff")));
+				"TestLabels/testUnlabel.arff")));
+		
+		Instances train = new Instances(new BufferedReader(new FileReader(
+				"TestLabels/iris.arff")));
 
 		// set class attribute
 		unlabeled.setClassIndex(unlabeled.numAttributes() - 1);
-
+		
 		// create copy
 		Instances labeled = new Instances(unlabeled);
 		J48 j48 = new J48();//må erstattes
 		// label instances
+		train.setClass(train.attribute(train.numAttributes() - 1));
+		
+		j48.buildClassifier(train);
 		for (int i = 0; i < unlabeled.numInstances(); i++) {
 			double clsLabel = j48.classifyInstance(unlabeled.instance(i));
 			labeled.instance(i).setClassValue(clsLabel);

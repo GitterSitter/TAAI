@@ -14,7 +14,7 @@ public class NaiveBayes {
 	public void Bayes() throws Exception {
 
 		TextDirectoryLoader loader = new TextDirectoryLoader();
-		loader.setDirectory(new File("test"));
+		loader.setDirectory(new File("class"));
 		Instances dataset = loader.getDataSet();
 		dataset.setClassIndex(dataset.numAttributes() - 1);
 	
@@ -29,21 +29,22 @@ public class NaiveBayes {
 		filter.setWordsToKeep(5);
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
-		*/
+		
 		
 		StringToNominal nm = new StringToNominal();
 		nm.setAttributeRange("first-last");
 		nm.setAttributeRange("first");
 		nm.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, nm);
+		*/
 		
 		NaiveBayesUpdateable nb = new NaiveBayesUpdateable();
 		FilteredClassifier fc = new FilteredClassifier();
 		fc.setClassifier(nb);
-		fc.buildClassifier(dataFiltered);
+	//	fc.buildClassifier(dataset);
 	
 		String content = dataset.toString();
-		FileWriter wr = new FileWriter(new File("testData.arff"));
+		FileWriter wr = new FileWriter(new File("trainingData.arff"));
 		wr.write(content);
 		wr.close();
 		
