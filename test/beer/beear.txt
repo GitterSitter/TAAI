@@ -1,0 +1,218 @@
+rand	% Alcohol	Calories
+per 100 ml	Brewer	Country	Ref
+Anchor Porter	5.66	59	Anchor	San Francisco, USA	2
+Anchor Steam Beer	4.63	43	Anchor	San Francisco, USA	2
+Asahi Draft Beer	5.21	41	Asahi	Japan	2
+Ballentine India Pale Ale	6.5	54	Pabst	Milwaukee, USA	2
+Ballentine Premium Lager	4.82	43	Pabst	Milwaukee, USA	2
+Ballentine XXX Ale	5.4	48	Pabst	Milwaukee, USA	2
+Ballentine Private Stock Malt Liquor	6.01	47	-	USA	2
+Bass Bale Ale	4.9	41	Bass & Co.-	England	2
+Beamish Red Ale	4.5	-	Beamish	Ireland	1
+Beamish Irish Cream Stout	4.2	37	Beamish	Ireland	1,2
+Beck Beer	5.13	43	Beck	Germany	2
+Big Barrell Australian Lager	4.25	35	Cooper & Sons	Australia	2
+Black Horse Premium Draft Beer	4.74	45	Black Horse	USA	2
+Blatz Beer	4.86	43	Blatz (G. Heileman)	USA	2
+Blatz Milwaukee 1851 Beer	4.48	38	Blatz (G. Heileman)	USA	2
+Boulder Porter	6.07	53	Boulder	USA	1
+Budweiser King of Beers	4.6	40	Anheuser Busch	USA	1
+Busch Beer	5.1	43	Anheuser Busch	USA	1
+Busch Premium Pilsner	2.12	28	Anheuser Busch	USA	2
+Caffrey's Irish Ale	4.8	-	Caffrey	Ireland	1
+Carling Black Label Canadian Style	4.55	42	G. Heileman	USA	1
+Cerveza Carta Blanca	4.02	36	Cerveceria Cauhtemoc	Mexico	1
+Cerveza Tecate Beer	4.25	39	Cerveceria Cauhtemoc	Mexico	1
+Chester Golden Ale	5.43	44	Greenall Whitley	England	1
+Colt 45 Malt Liquor	5.8	47	G. Heileman	USA	1
+Coors Banquet Beer	4.9	40	Adolph Coors	USA	2
+Corona Extra Beer	4.84	45	Cereveria Modela	Mexico	2
+Dos Equis XX Imported Beer	4.79	42	Cauhtemoc	Mexico	2
+Dos Equis XX Special Lager	4.96	44	Cerveceria Montezuma	Mexico	2
+Dragon Stout	6.79	62	Desnoes - Goeddes	Jamaica	2
+Foster's Lager	5.15	43	Garlton & United	Australia	2
+Furstenberg German Beer	4.43	39	Fustlich Ferstenbergische	Germany	2
+Genesee 12 Horse Ale	4.86	46	Genesee	USA	2
+Genesee Beer	5.03	43	Genesee	USA	2
+Genesee Cream Ale	4.86	43	Genesee	USA	2
+George Killian's Irish Red Ale	5.79	50	Adolph Coors	USA	2
+George Killian's Irish Red Brand Beer	5.54	49	Adolph Coors	USA	2
+Great Northern Porter	4.0	-	Hilden Brewery	Ireland	1
+Great Wall Imported Chinese Beer	4.63	45	Green Bamboo	China	2
+Greenall's Cheshire English Pub Beer	5.0	40/TD>	Crecnall Whitley PLC	England	2
+Grizzly Canadian Lager	5.0	40	Hamilton	Canada	2
+Grolsch Lager Beer	5.19	44	Grolsch Bierbrouweri	Holland	2
+Guinness Draught	4.1	-	Guinness	Ireland	1
+Guinness Extra Stout	4.27	43	Guinness	Ireland	2
+Guiness Foreign Extra Stout	7.5	-	Guinness	Ireland	1
+Guiness Special Export	8.0	-	Guinness	Ireland	1
+Hamm's Beer	4.53	40	Pabst	USA	2
+Harfenrefrer Private Stock Malt Liquor	6.87	50	Narragansett	USA	2
+Harp Export	4.5	-	Guinness	Ireland	1
+Harp Lager	3.6	42	Guinness	Ireland	1
+Heineken Lager Beer	5.41	46	Heineken	Holland	2
+Heineken Special Dark Beer	5.17	48	Heineken	Holland	2
+Hilden Ale	4.0	-	Hilden Brewery	Ireland	1
+Hilden Special Reserve	4.6	-	Hilden Brewery	Ireland	1
+Hofenperle Special Feldschlosschen Bier	5.28	45	Feldsohlosschen Rheinfelden	Switzerland	2
+Hoffmans Lager	3.3	-	Hoffmans	Waterford, Ireland	1
+Irish Festival Ale	5.0	-	Hilden Brewery	Ireland	1
+Kaiserdom Rauchbier - Smoked Bavarian Dark	5.88	40	Bamberg Worner OHG	Germany	2
+Kaliber	0.0	-	Guinness	Ireland	1
+Kilkenny	4.3	-	Guinness	Ireland	1
+Kilkenny Export	5.0	-	Guinness	Ireland	1
+Kirin Beer	6.0	48	Kirin	Japan	2
+Knickerbocker Natural Beer	4.16	38	Ruppert	USA	2
+Kronenbourg Beer	5.0	43	Kronenbourg	France	2
+Kronenbourg Imported Dark Beer	5.08	46	Kronenbourg	France	2
+Kuppers Kolsch	5.38	45	Kuppers	Germany	2
+Labatt's 50 Canadian Ale	5.34	43	Labatt	Canada	2
+Liberty Ale	6.12	53	Anchor	USA	2
+Lord Chesterrfeld Ale	5.48	37	D.G. Yuengling & Son	USA	2
+Lowenbrau Dark Special Beer	5.0	45	Miller	USA	2
+Lowenbrau Special Beer	5.8	45	Miller	USA	2
+Macardle's Ale	4.0	-	Macardle Moore Brewery	Dundalk, Ireland	1
+McEwans Scotch Ale	9.50	83	Scottish & Newcastle	Scotland	2
+Michelob Beer	4.94	45	Anheuser Busch	USA	2
+Michelob Classic Dark Beer	4.76	45	Anheuser Busch	USA	2
+Mickey's Fine Malt Liquor	5.70	45	G. Heileman	USA	2
+Miller High Life Beer	4.79	44	Miller	USA	2
+Miller High Life Genuine	4.85	43	Miller	USA	2
+Molson Canadian Beer	5.19	43	Molson	Canada	2
+Molson Golden Beer	5.62	46	Moldon	Canada	2
+Moosehead Canadian Laber Beer	4.96	42	Moosehead	Canada	2
+Murphy's Irish Stout	4.0	-	Murphy's	Ireland	1
+Murphy's Red Beer	5.0	-	Murphy's	Ireland	1
+Oyster Stout	4.8	-	Porter House Brew Co.	Dublin, Ireland	1
+Pheonix	4.0	-	Macardle Moore Brewery	Dundalk, Ireland	1
+O'Keefe Canadian Beer	5.00	40	O'Keefe	Canada	2
+Olde English Brand 800 Malt Liquor	5.93	46	Pabst	USA	2
+Old Milwaukee Beer	4.7	43	Stroh	USA	2
+Olympia Premium Lager Beer	4.78	41	Pabst	USA	2
+Pabst Blue Ribbon Beer	4.85	42	Pabst	USA	2
+Piels Premium Draft Style Beer	4.64	41	Stroh	USA	2
+Pilsener Urquell Beer	4.25	45	Pilsener Urquell Pilzen	Czechoslovakia	2
+Plain Porter	4.3	-	Porter House Brew Co.	Dublin, Ireland	1
+Porter House Red	4.4	-	Porter House Brew Co.	Dublin, Ireland	1
+Red Stripe Lager	4.93	43	Desnoes & Geddes	Jamaica	2
+Red White & Blue Special Lager Beer	5.15	43	G. Heileman	USA	2
+Rheingold Premium Beer	4.78	42	Rheingold	USA	2
+Rolling Rock Extra Pale Premium Beer	4.64	40	Latrobe	USA	2
+Rolling Rock Premium Beer	4.35	36	Latrobe	USA	2
+Samuel Adams Boston Lager	4.76	48	Boston Beer	USA	2
+Sapporo Draft	3.9	39	Sapporo	Japan	3
+Schaefer Beer	4.55	40	Stroh	USA	2
+Schlitz Beer	4.58	41	Stroh	USA	2
+Schlitz Malt Liquor	6.29	52	Stroh	USA	2
+Sheaf Stout	5.28	49	Carlton & United	Australia	2
+Sierra Nevada Pale Ale	5.6	45	Sierra Nevada	USA	SN
+Sierra Nevada Stout	5.10	56	Sierra Nevada	USA	2
+Signature Stroh Beer	4.84	43	Stroh	USA	2
+Smithwick's Barley Wine	5.5	-	Macardle Moore Brewery	Dundalk, Ireland	1
+Sol Cerveza Especial	4.04	37	Cerveceria Montezuma	Mexico	2
+Spaten Munich Special Dark Beer	6.63	52	Spaten-Brau	Germany	2
+St. Pauli Girl Beer	4.90	40	St. Pauli	Germany	2
+St. Pauli Girl Dark Beer	4.98	45	St. Pauli	Germany	2
+Stroh's Beer	4.66	42	Stroh	USA	2
+Suntory Draft Beer	4.64	39	Suntory	Japan	2
+Superior Imported Beer	4.34	43	Cerveceria Moctezuma	Mexico	2
+Thos Cooper & Sons Adelaide Lager	4.27	36	Cooper & Sons	Australia	2
+Thos Cooper & Sons Naturally Brewed Real Ale	6.77	45	Cooper & Sons	Australia	2
+Thos Cooper & Sons Naturally Brewed Stout	7.10	58	Cooper & Sons	Australia	2
+Tolly Original Premium Ale	4.85	41	Tollei-ache & Cobbold	England	2
+Tsingtao Beer	4.79	43	Tsingtao	China	2
+Tuborg Deluxe Dark Export Quality Beer	5.11	46	G. Heileman	USA	2
+Tuborg Export Quality Beer	5.02	45	G. Heileman	USA	2
+Tusker Malt Lager	5.24	42	Bia Ni Bora	Kenya	2
+Utica Club Pilsener Lager Beer	4.82	27	West End	USA	2
+Watney's Red Barrel Beer	3.92	40	Stag	England	2
+Whitewater Mountain Ale	4.2	-	Whitewater Brewery	Kilkeen, Ireland	1
+Wrasslers XXXX Stout	5.0	-	Hilden Brewery	Ireland	1
+Wurzburger Hofbrau Pilsner Beer	5.42	45	Wurtzburger Hofbrauag	Germany	2
+Yebisu	4.0	42	Sapporo	Japan	3
+Yuengling Porter	4.13	40	D.G. Yuengling & Son	USA	2
+Yuengling Premium Beer	4.38	39	D.G. Yuengling & Son	USA	2
+
+
+
+ALCOHOL AND CALORIE CONTENT OF LIGHT BEER
+
+Brand	% Alcohol	Calories
+per 100 ml	Brewer	Country	Ref.
+Amstel Light Bier	3.85	29	Amstel Brewery	Holland	2
+Anheuser Busch Natural Light	4.26	32	Anheuser Busch	USA	2
+Bud Light Beer	4.72	32	Anheuser Busch	USA	2
+Coors Light	4.36	30	Adolph Coors	USA	2
+Dribeck's Light Low Calorie	3.39	28	Brauerei Beck	Germany	2
+Genesee Light Beer	3.55	27	Genesee	USA	2
+Michelob Light	4.53	40	Anheuser Busch	USA	2
+Miller Lite Pilsner	4.51	30	Miller	USA	2
+Molson Light	2.41	23	Molson	Canada	2
+Nordik Wolf Light Imported	4.75	32	A.B. Pripps Bryggerier	Sweden	2
+Old Milwaukee Premium Light	3.82	32	Stroh	USA	2
+Pabst Extra Light Low Alcohol	2.50	19	Pabst	USA	2
+Piels Naturally Light	4.49	40	Stroh	USA	2
+Rheingold Extra Light	4.32	27	Rheingold	USA	2
+Schaeler Light Lager	4.07	34	Stroh	USA	2
+Schlitz Light Pilsner	4.28	31	Stroh	USA	2
+Stroh Light	4.67	39	Stroh	USA	2
+Watney's London Light	3.56	29	Whatney Combe Reid	England	2
+Wurtzburger Hofbrau Pure Bavarian Light	5.44	43	Wurtzburger Hofbrau	Germany	2
+
+
+
+ALC0H0L AND CALORIE CONTEHT OF NON-ALCOHOLIC BEER
+
+Brand	% Alcohol	Calories
+per 100 ml	Brewer	Country	Ref.
+Bass Barbican NA Malt Bev.	0.10	15	Bass	England	2
+Clausthaler NA Herbfisches Schankbier	0.46	14	Bass	England	2
+Elan Swiss Brew NA Malt Bev.	0.50	25	Feldschloschen	Switzerland	2
+Kallber All Natural NA Light Malt Bev.	0.10	14	Guinness	England	2
+Kingsbury NA Malt Beverage	0.13	14	G. Heileman	USA	2
+Metbrau All Natural Draft NA Malt Bev.	0.50	21	Metropolis	USA	2
+Moussy NA Malt Bev.	0.08	16	Cardinal Filbourg	Switzerland	2
+St. Michael's NA Malt Bev.	0.73	17	St. Michael's	USA	2
+Wurtzburger Hofbrau NA Light Malt Bev.	0.10	30	Wurzberger Hofbrau	Germany	2
+
+
+
+AVERAGE ALCOHOL AND CALORIE CONTENT OF REGULAR, LIGHT, AND NON-ALCOHOLIC BEER
+
+Product	No.
+Samples	% Alcohol
+per 100 ml	Calories
+per 100 ml
+Regular	163	5.00 [2.0-9.5]	43 [26-83]
+Light	26	4.1 [2.4-5.4] (-16%)	32 [19-43] (-27%)
+Non-alcoholic	13	0.3 [0.1-0.7] (-94%)	17 [13-30] (-60%)
+
+
+
+The number in parenthesls ( ) indicates average difference from regular beer and numbers in brackets [] is the range of % alcohol and calories per 100 ml, respectlvely.
+
+
+ADDITIONAL DATA
+
+Beer is a generic name for beverages made by fermentation of extracts of cereal grain, particularly barley, or other starchy material (1,8). Beer is a beverage known since antiquity and next to wine is probabLy the oldest of prepared food drinks. In modern times the countries of northern Europe set the style of beer as it appears today. In fact, the words "beer," "brewing," and "Lager" are all of German origin (1,8).
+
+Beer is defined in Connecticut Statutes (2) as any beverage obtained by the alcoholic fermentation of an infusion or decoction of barley, malt and hops in drinking water and containing more than one-half of one percent of absolute alcohol. Taxes on beer sold in Connecticut are collected by the Excise Tax Division of the Department of Revenue Services at the rate of $3 per barrel (not less than 28 nor more than 31 gallons per barrel).
+
+
+METHODS
+
+Samples were collected at wholesale beer distributors in Connecticut by inspectors of the Excise Tax Division of the Department of Revenue Services during April and May, 1987. Analysis for alcohol content was by AOAC methods (5) using gas chromatography (3). Proteins, ash, and solids were analyzed by AOAC methods (5). Carbohydrate content was calculated as percent total solids - (% protein + % ash) Calories were calculated as (% alcohoL X 6.93) + ((96 carbohydrate + %protein) X 4) (3). Duplicate analyses for alcohol in the same container of beer showed an average deviation of 0.057 percent and duplicates for protein 0.05 percent.
+
+
+RESULTS AND DISCUSSION
+
+Of the 202 samples tested, 163 were regular beer (Table 1), 26 were light beer (Table 2), and 13 were non-alcoholic beer (Table 3). These represented 81, 19 and 9 different brands of regular, light, and nonalcoholic beer, respectively. Each Table lists the brand name of the beer, the name of the brewer, the country of origin, alcohol content, and the calories per 100 ml (milliliters) (3.5 ounces).
+
+Alcohol in regular, light, and non-alcoholic beer averaged 5.0, 4.1, and 0.3 percent, respectively (Table 4). Calories in regular, light and non-alcoholic beer averaged 43, 32, and 17 per 100 ml, respectively. The range in values for alcohol and calories was wide. Alcohol in regular beer ranged from 1.0 to 9.5 percent, while light beer ranged from 2.4 to 5.4 percent and non-alcoholic beer from 0.1 to 0.7 percent. Similarly, calories varied among all types of beer. Some variation was noted in alcohol content among different containers of the same type of beer. A dilference of 1.5 percent was found in one type of regular beer and 1.6 percent in another. Although the labels showed no code numbers, each container of beer is likely from a different manufacturing batch.
+
+A comparison of alcohol and calorie content between regular and light beer from the same manufacturer can be made by examining Tables 1 and 2. For example, eight regular beers made by Anheuser Busch (does not include beer claiming half the amount of alcohol as regular beer) averaged 5.11 percent alcohol. Four light beers from the same manufacturer averaged 4.17 percent, 15 percent less than found in the regular beer. Calories in the same Anheuser Busch regular beer averaged 44 per 100 ml and 35 in light beer, or 20 percent lower calories. Similar comparisons may be made for other manufacturers.
+
+
+ACKNOWLEDGMENTS
+
+Analyses were by Lucia McLean, Dr. Vipin Agarwal, Lois Hornig, Deborah Behnfield, and John Hayes. Arrangements and collections of samples were made by Pasquale Oronzo, James Pyne, and Robert Brown of the Excise Tax Division.
