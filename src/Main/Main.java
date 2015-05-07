@@ -3,6 +3,7 @@ package Main;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.functions.MultilayerPerceptron;
 import weka.classifiers.functions.SMO;
+import weka.clusterers.EM;
 import weka.clusterers.SimpleKMeans;
 import Util.Filtering;
 
@@ -16,7 +17,10 @@ public class Main {
 		//filter.test(smo);
 		//filter.test(neural);
 		SimpleKMeans km = new SimpleKMeans();
-		filter.cluster(km);
+		//filter.cluster(km);
+		EM em = new EM();
+		filter.cluster(em);
+		
 	
 	}
 
