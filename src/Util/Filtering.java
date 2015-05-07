@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
+import Visuals.ClusterVisual;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.meta.FilteredClassifier;
@@ -23,7 +24,7 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class Filtering {
 
-	public void cluster(Clusterer cluster) throws Exception {
+	public String cluster(Clusterer cluster) throws Exception {
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
 		Instances dataset = tdta.createDataset("docs");
 
@@ -62,7 +63,7 @@ public class Filtering {
 
 		fc.setClusterer(cluster);
 		fc.buildClusterer(dataFiltered);
-
+		String output= "";
 		for (int i = 0; i < dataFiltered.numInstances(); i++) {
 			int predictionClass = fc.clusterInstance(dataFiltered.instance(i));
 			String test = dataset.instance(i).toString();
@@ -71,6 +72,8 @@ public class Filtering {
 			if (predictionClass == 0) {
 				System.out.println("CLUSTER:  " + predictionClass + "  "
 						+ dataFiltered.instance(i));
+				output = output + predictionClass + "  "
+						+ dataFiltered.instance(i)+"\n";
 				// PrintWriter pr = new PrintWriter(new
 				// File("class/heartFailure/" + work));
 				// pr.write(dataFiltered.instance(i).toString());
@@ -79,6 +82,8 @@ public class Filtering {
 			} else if (predictionClass == 1) {
 				System.out.println("CLUSTER1:  " + predictionClass + "  "
 						+ dataFiltered.instance(i));
+				output = output + predictionClass + "  "
+						+ dataFiltered.instance(i)+"\n";
 				// PrintWriter pr = new PrintWriter(new File("class/beers/"+
 				// work));
 				// pr.write(dataFiltered.instance(i).toString());
@@ -86,6 +91,8 @@ public class Filtering {
 			} else if (predictionClass == 2) {
 				System.out.println("CLUSTER2:  " + predictionClass + "  "
 						+ dataFiltered.instance(i));
+				output = output + predictionClass + "  "
+						+ dataFiltered.instance(i)+"\n";
 				// PrintWriter pr = new PrintWriter(new
 				// File("class/heartTransplant/" + work));
 				// pr.write(dataFiltered.instance(i).toString());
@@ -98,10 +105,18 @@ public class Filtering {
 		eval.setClusterer(cluster);
 		eval.evaluateClusterer(dataset);
 		System.out.println(eval.clusterResultsToString());
+		
+		output += "\n" + eval.clusterResultsToString();
+				
+		ClusterVisual visual = new ClusterVisual();
+		visual.visuals(cluster, dataset, eval);
+		
+		
+				return output;
 
 	}
 
-	public void classify(Classifier classifier) throws Exception {
+	public String classify(Classifier classifier) throws Exception {
 
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("class"));
@@ -153,10 +168,11 @@ public class Filtering {
 		// Instances newTest = Filter.useFilter(testSet, filter);
 
 		System.out.println(fc);
-
+		String output ="";
 		Evaluation eval = new Evaluation(trainingSet);
 		eval.evaluateModel(fc, testSet);
 		System.out.println(eval.toSummaryString());
+		output+= fc.toString() + "\n" + eval.toSummaryString();
 
 		for (int i = 0; i < testSet.numInstances(); i++) {
 			double pred = fc.classifyInstance(testSet.instance(i));
@@ -168,6 +184,10 @@ public class Filtering {
 			System.out.println(", predicted: "
 					+ testSet.classAttribute().value((int) pred));
 		}
+		
+		
+		
+		return output;
 
 	}
 
