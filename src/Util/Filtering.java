@@ -1,22 +1,106 @@
 package Util;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.PrintWriter;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.meta.FilteredClassifier;
+import weka.clusterers.ClusterEvaluation;
+import weka.clusterers.Clusterer;
+import weka.clusterers.FilteredClusterer;
+import weka.clusterers.SimpleKMeans;
 import weka.core.Instances;
 import weka.core.SelectedTag;
+import weka.core.converters.ConverterUtils.DataSource;
 import weka.core.converters.TextDirectoryLoader;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Add;
+import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class Filtering {
 
-	public void classify(Classifier classifier) throws Exception {
+	public void cluster(Clusterer cluster) throws Exception{
+		
+		TextDirectoryToArff tdta = new TextDirectoryToArff();
+		Instances dataset = tdta.createDataset("docs");
+		// TextDirectoryLoader loader = new TextDirectoryLoader();
+		// loader.setDirectory(new File(""));
+		// Instances dataset = loader.getDataSet();
+		//Auto Label?
+
+		
+		String content = dataset.toString();// dataset.toString();
+		FileWriter wr = new FileWriter(new File("outputCluster.arff"));
+		wr.write(content);
+		wr.close();
+
+		DataSource source = new DataSource("output.arff");
+		Instances data = source.getDataSet();
+
+		StringToWordVector filter = new StringToWordVector();
+		filter.setIDFTransform(true);
+		filter.setTFTransform(true);
+		filter.setAttributeIndices("2-last");
+		filter.setUseStoplist(true);
+		filter.setLowerCaseTokens(true);
+		filter.setWordsToKeep(5);
+		filter.setInputFormat(data);
+		Instances dataFiltered = Filter.useFilter(data, filter);
+
+		SimpleKMeans kmeans = new SimpleKMeans();
+		FilteredClusterer fc = new FilteredClusterer();
+
+		String[] options = new String[2];
+		options[0] = "-R"; //Range
+		options[1] = "1"; //First attribute
+		Remove remove = new Remove();
+		remove.setOptions(options);
+		remove.setInputFormat(dataFiltered);
+		fc.setFilter(remove);
+
+		kmeans.setNumClusters(3);
+		fc.setClusterer(kmeans);
+		fc.buildClusterer(dataFiltered);
+
+		for (int i = 0; i < dataFiltered.numInstances(); i++) {
+			int predictionClass = fc.clusterInstance(dataFiltered.instance(i));
+			String test = data.instance(i).toString();
+			String work = test.substring(0, test.indexOf(","));
+
+			if (predictionClass == 0) {
+				System.out.println("CLUSTER:  " + predictionClass + "  "
+						+ dataFiltered.instance(i));
+//				PrintWriter pr = new PrintWriter(new File("class/heartFailure/" + work));
+//				pr.write(dataFiltered.instance(i).toString());
+//				pr.close();
+
+			} else if (predictionClass == 1) {
+				System.out.println("CLUSTER1:  " + predictionClass + "  "
+						+ dataFiltered.instance(i));
+//				PrintWriter pr = new PrintWriter(new File("class/beers/"+ work));
+//				pr.write(dataFiltered.instance(i).toString());
+//				pr.close();
+			} else if (predictionClass == 2) {
+				System.out.println("CLUSTER2:  " + predictionClass + "  "
+						+ dataFiltered.instance(i));
+//				PrintWriter pr = new PrintWriter(new File("class/heartTransplant/" + work));
+//				pr.write(dataFiltered.instance(i).toString());
+//				pr.close();
+			}
+
+		}
+
+		 ClusterEvaluation eval = new ClusterEvaluation();
+		 eval.setClusterer(kmeans);
+		 eval.evaluateClusterer(data);
+		 System.out.println(eval.clusterResultsToString());
+		 
+	}
 	
+	public void classify(Classifier classifier) throws Exception {
 		
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("class"));
