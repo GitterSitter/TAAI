@@ -15,7 +15,9 @@ import weka.filters.unsupervised.attribute.StringToWordVector;
 
 public class Filtering {
 
-	public void test(Classifier classifier) throws Exception {
+	public void classify(Classifier classifier) throws Exception {
+	
+		
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("class"));
 		Instances trainingSet = loader.getDataSet();
