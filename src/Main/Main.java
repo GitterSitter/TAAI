@@ -12,8 +12,8 @@ public class Main {
 		MultilayerPerceptron neural = new MultilayerPerceptron();
 		Filtering filter = new Filtering();
 		filter.test(naive);
-		filter.test(smo);
-		filter.test(neural);
+		//filter.test(smo);
+		//filter.test(neural);
 	
 	}
 

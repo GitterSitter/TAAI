@@ -48,8 +48,6 @@ public class TextDirectoryToArff {
 		
 		wr2.close();
 		wr.close();
-
-	System.out.println("Done");	
 		
 	}
 	
@@ -58,7 +56,7 @@ public class TextDirectoryToArff {
  
     FastVector atts = new FastVector(2);
     atts.addElement(new Attribute("filename", (FastVector) null));
-    atts.addElement(new Attribute("contents", (FastVector) null));
+    atts.addElement(new Attribute("text", (FastVector) null));
     Instances data = new Instances("text_files_in_" + directoryPath, atts, 0);
  
     File dir = new File(directoryPath);
