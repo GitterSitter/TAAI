@@ -2,7 +2,7 @@ package Util;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import Visuals.ClusterVisual;
+
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.meta.FilteredClassifier;
@@ -204,6 +204,8 @@ public class Filtering {
    // testSet.instance(i).toString());
    System.out.println(", predicted: "
      + testSet.classAttribute().value((int) pred));
+   
+   output+= "ID: " + testSet.instance(i).value(0) +", predicted: " + testSet.classAttribute().value((int) pred) +"\n";
   }
   
   setClassy(classifier);

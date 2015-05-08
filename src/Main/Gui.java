@@ -97,7 +97,7 @@ private JFileChooser chooser;
  public Gui() {
   super("Test");
   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-  setBounds(100, 100, 755, 768);
+  setBounds(100, 100, 755, 693);
    
   filter = new Filtering();
   
@@ -319,7 +319,7 @@ private JFileChooser chooser;
   contentPane.setLayout(null);
   
   scrollPane = new JScrollPane();
-  scrollPane.setBounds(10, 517, 719, 201);
+  scrollPane.setBounds(10, 448, 719, 185);
   contentPane.add(scrollPane);
   
   textArea = new JTextArea();
