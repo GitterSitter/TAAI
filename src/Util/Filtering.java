@@ -1,4 +1,5 @@
 package Util;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
@@ -19,197 +20,203 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Add;
 import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.StringToWordVector;
+
 public class Filtering {
- 
- public Classifier classy;
- public Clusterer clus;
- public Instances inst;
- public ClusterEvaluation evaluation;
- 
- public Instances getInst() {
-  return inst;
- }
 
- public void setInst(Instances inst) {
-  this.inst = inst;
- }
+	public Classifier classy;
+	public Clusterer clus;
+	public Instances inst;
+	public ClusterEvaluation evaluation;
 
- public ClusterEvaluation getEvaluation() {
-  return evaluation;
- }
+	
 
- public void setEvaluation(ClusterEvaluation evaluation) {
-  this.evaluation = evaluation;
- }
+	public String cluster(Clusterer cluster) throws Exception {
+		TextDirectoryToArff tdta = new TextDirectoryToArff();
+		Instances dataset = tdta.createDataset("docs");
+		String content = dataset.toString();
+		FileWriter wr = new FileWriter(new File("outputCluster.arff"));
+		wr.write(content);
+		wr.close();
+	
+		dataset.deleteAttributeAt(0);
+		
+		StringToWordVector filter = new StringToWordVector();
+		filter.setIDFTransform(true);
+		filter.setTFTransform(true);
+		filter.setAttributeIndices("first-last");
+		filter.setUseStoplist(true);
+		filter.setLowerCaseTokens(true);
+		filter.setWordsToKeep(5);
+		filter.setInputFormat(dataset);
+		Instances dataFiltered = Filter.useFilter(dataset, filter);
+		FilteredClusterer fc = new FilteredClusterer();
+		String[] options = new String[2];
+		options[0] = "-R";
+		options[1] = "1";
+		
+		Remove remove = new Remove();
+		remove.setOptions(options);
+		remove.setInputFormat(dataFiltered);
+		fc.setFilter(remove);
+		if (cluster.getClass() == weka.clusterers.EM.class) {
+			((EM) cluster).setNumClusters(3);
+		} else if (cluster.getClass() == weka.clusterers.SimpleKMeans.class) {
+			((SimpleKMeans) cluster).setNumClusters(3);
+		} else if (cluster.getClass() == weka.clusterers.XMeans.class) {
+			((XMeans) cluster).setMinNumClusters(3);
+			((XMeans) cluster).setMaxNumClusters(3);
+		}
+		fc.setClusterer(cluster);
+		fc.buildClusterer(dataFiltered);
+		
+		
+		String output = "";
+		for (int i = 0; i < dataFiltered.numInstances(); i++) {
+			int predictionClass = fc.clusterInstance(dataFiltered.instance(i));
+			String test = dataset.instance(i).toString();
+			String work = test.substring(0, test.indexOf(","));
+			if (predictionClass == 0) {
+				System.out.println("CLUSTER:  " + predictionClass + "  "
+						+ dataFiltered.instance(i));
+				output = output + predictionClass + "  "
+						+ dataFiltered.instance(i) + "\n";
+				// PrintWriter pr = new PrintWriter(new
+				// File("class/heartFailure/" + work));
+				// pr.write(dataFiltered.instance(i).toString());
+				// pr.close();
+			} else if (predictionClass == 1) {
+				System.out.println("CLUSTER1:  " + predictionClass + "  "
+						+ dataFiltered.instance(i));
+				output = output + predictionClass + "  "
+						+ dataFiltered.instance(i) + "\n";
+				// PrintWriter pr = new PrintWriter(new File("class/beers/"+
+				// work));
+				// pr.write(dataFiltered.instance(i).toString());
+				// pr.close();
+			} else if (predictionClass == 2) {
+				System.out.println("CLUSTER2:  " + predictionClass + "  "
+						+ dataFiltered.instance(i));
+				output = output + predictionClass + "  "
+						+ dataFiltered.instance(i) + "\n";
+				// PrintWriter pr = new PrintWriter(new
+				// File("class/heartTransplant/" + work));
+				// pr.write(dataFiltered.instance(i).toString());
+				// pr.close();
+			}
+		}
+		ClusterEvaluation eval = new ClusterEvaluation();
+		eval.setClusterer(cluster);
+		eval.evaluateClusterer(dataset);
+	//	System.out.println(eval.clusterResultsToString());
 
- public Filtering(){
-  
- }
- 
- 
- public String cluster(Clusterer cluster) throws Exception {
-  TextDirectoryToArff tdta = new TextDirectoryToArff();
-  Instances dataset = tdta.createDataset("docs");
-  String content = dataset.toString();
-  FileWriter wr = new FileWriter(new File("outputCluster.arff"));
-  wr.write(content);
-  wr.close();
-  StringToWordVector filter = new StringToWordVector();
-  filter.setIDFTransform(true);
-  filter.setTFTransform(true);
-  filter.setAttributeIndices("2-last");
-  filter.setUseStoplist(true);
-  filter.setLowerCaseTokens(true);
-  filter.setWordsToKeep(5);
-  filter.setInputFormat(dataset);
-  Instances dataFiltered = Filter.useFilter(dataset, filter);
-  FilteredClusterer fc = new FilteredClusterer();
-  String[] options = new String[2];
-  options[0] = "-R";
-  options[1] = "1";
-  Remove remove = new Remove();
-  remove.setOptions(options);
-  remove.setInputFormat(dataFiltered);
-  fc.setFilter(remove);
-  if (cluster.getClass() == weka.clusterers.EM.class) {
-   ((EM) cluster).setNumClusters(3);
-  } else if (cluster.getClass() == weka.clusterers.SimpleKMeans.class) {
-   ((SimpleKMeans) cluster).setNumClusters(3);
-  } else if (cluster.getClass() == weka.clusterers.XMeans.class) {
-   ((XMeans) cluster).setMinNumClusters(3);
-   ((XMeans) cluster).setMaxNumClusters(3);
-  }
-  fc.setClusterer(cluster);
-  fc.buildClusterer(dataFiltered);
-  String output= "";
-  for (int i = 0; i < dataFiltered.numInstances(); i++) {
-   int predictionClass = fc.clusterInstance(dataFiltered.instance(i));
-   String test = dataset.instance(i).toString();
-   String work = test.substring(0, test.indexOf(","));
-   if (predictionClass == 0) {
-    System.out.println("CLUSTER:  " + predictionClass + "  "
-      + dataFiltered.instance(i));
-    output = output + predictionClass + "  "
-      + dataFiltered.instance(i)+"\n";
-    // PrintWriter pr = new PrintWriter(new
-    // File("class/heartFailure/" + work));
-    // pr.write(dataFiltered.instance(i).toString());
-    // pr.close();
-   } else if (predictionClass == 1) {
-    System.out.println("CLUSTER1:  " + predictionClass + "  "
-      + dataFiltered.instance(i));
-    output = output + predictionClass + "  "
-      + dataFiltered.instance(i)+"\n";
-    // PrintWriter pr = new PrintWriter(new File("class/beers/"+
-    // work));
-    // pr.write(dataFiltered.instance(i).toString());
-    // pr.close();
-   } else if (predictionClass == 2) {
-    System.out.println("CLUSTER2:  " + predictionClass + "  "
-      + dataFiltered.instance(i));
-    output = output + predictionClass + "  "
-      + dataFiltered.instance(i)+"\n";
-    // PrintWriter pr = new PrintWriter(new
-    // File("class/heartTransplant/" + work));
-    // pr.write(dataFiltered.instance(i).toString());
-    // pr.close();
-   }
-  }
-  ClusterEvaluation eval = new ClusterEvaluation();
-  eval.setClusterer(cluster);
-  eval.evaluateClusterer(dataset);
-  System.out.println(eval.clusterResultsToString());
-  
-  output += "\n" + eval.clusterResultsToString();
-  setEvaluation(eval);
-  setInst(dataset);
-  setClus(cluster);
-  //ClusterVisual visual = new ClusterVisual();
-  //visual.visuals(cluster, dataset, eval);
-  
- 
-    return output;
- }
+		output += "\n" + eval.clusterResultsToString();
+		setEvaluation(eval);
+		setInst(dataFiltered);
+		setClus(cluster);
+		// ClusterVisual visual = new ClusterVisual();
+		// visual.visuals(cluster, dataset, eval);
 
- public Classifier getClassy() {
-  return classy;
- }
+		return output;
+	}
 
- public void setClassy(Classifier classy) {
-  this.classy = classy;
- }
+	public Classifier getClassy() {
+		return classy;
+	}
 
- public Clusterer getClus() {
-  return clus;
- }
+	public void setClassy(Classifier classy) {
+		this.classy = classy;
+	}
 
- public void setClus(Clusterer clus) {
-  this.clus = clus;
- }
+	public Clusterer getClus() {
+		return clus;
+	}
 
- public String classify(Classifier classifier) throws Exception {
-  TextDirectoryLoader loader = new TextDirectoryLoader();
-  loader.setDirectory(new File("class"));
-  Instances trainingSet = loader.getDataSet();
-  TextDirectoryToArff source = new TextDirectoryToArff();
-  // loader.setDirectory(new File("test"));
-  Instances testSet = source.createDataset("unlabeled");
-  Add fil = new Add();
-  testSet.deleteAttributeAt(0);
-  fil.setAttributeIndex("2");
-  fil.setNominalLabels("beers,heartFailure,heartTransplant");
-  fil.setAttributeName("@@class@@");
-  fil.setInputFormat(testSet);
-  testSet.setClassIndex(0);
-  testSet = Filter.useFilter(testSet, fil);
-  testSet.setClassIndex(1);
-  System.out.println(testSet);
-  PrintWriter pr = new PrintWriter(new File("outputTest.arff"));
-  pr.write(testSet.toString());
-  pr.flush();
-  pr.close();
-  pr = new PrintWriter(new File("outputTraining.arff"));
-  pr.write(trainingSet.toString());
-  pr.flush();
-  pr.close();
-  FilteredClassifier fc = new FilteredClassifier();
-  StringToWordVector filter = new StringToWordVector();
-  filter.setIDFTransform(true);
-  filter.setTFTransform(true);
-  filter.setAttributeIndices("first");
-  filter.setNormalizeDocLength(new SelectedTag(
-    StringToWordVector.FILTER_NORMALIZE_ALL,
-    StringToWordVector.TAGS_FILTER));
-  filter.setUseStoplist(true);
-  filter.setLowerCaseTokens(true);
-  filter.setWordsToKeep(2);
-  filter.setInputFormat(trainingSet);
-  fc.setFilter(filter);
-  fc.setClassifier(classifier);
-  fc.buildClassifier(trainingSet);
-  // Instances newTrain = Filter.useFilter(trainingSet, filter);
-  // Instances newTest = Filter.useFilter(testSet, filter);
-  System.out.println(fc);
-  String output ="";
-  Evaluation eval = new Evaluation(trainingSet);
-  eval.evaluateModel(fc, testSet);
-  System.out.println(eval.toSummaryString());
-  output+= fc.toString() + "\n" + eval.toSummaryString();
-  for (int i = 0; i < testSet.numInstances(); i++) {
-   double pred = fc.classifyInstance(testSet.instance(i));
-   System.out.print("ID: " + testSet.instance(i).value(0));
-   // System.out.print(", actual: " +
-   // testSet.classAttribute().value((int)
-   // testSet.instance(i).classValue()) +
-   // testSet.instance(i).toString());
-   System.out.println(", predicted: "
-     + testSet.classAttribute().value((int) pred));
-   
-   output+= "ID: " + testSet.instance(i).value(0) +", predicted: " + testSet.classAttribute().value((int) pred) +"\n";
-  }
-  
-  setClassy(classifier);
-  
-  return output;
- }
+	public void setClus(Clusterer clus) {
+		this.clus = clus;
+	}
+	public Instances getInst() {
+		return inst;
+	}
+
+	public void setInst(Instances in) {
+		this.inst = in;
+	}
+
+	public ClusterEvaluation getEvaluation() {
+		return evaluation;
+	}
+
+	public void setEvaluation(ClusterEvaluation evaluation) {
+		this.evaluation = evaluation;
+	}
+
+	public Filtering() {
+
+	}
+	public String classify(Classifier classifier) throws Exception {
+		TextDirectoryLoader loader = new TextDirectoryLoader();
+		loader.setDirectory(new File("class"));
+		Instances trainingSet = loader.getDataSet();
+		TextDirectoryToArff source = new TextDirectoryToArff();
+		// loader.setDirectory(new File("test"));
+		Instances testSet = source.createDataset("unlabeled");
+		Add fil = new Add();
+		testSet.deleteAttributeAt(0);
+		fil.setAttributeIndex("2");
+		fil.setNominalLabels("beers,heartFailure,heartTransplant");
+		fil.setAttributeName("@@class@@");
+		fil.setInputFormat(testSet);
+		testSet.setClassIndex(0);
+		testSet = Filter.useFilter(testSet, fil);
+		testSet.setClassIndex(1);
+		System.out.println(testSet);
+		PrintWriter pr = new PrintWriter(new File("outputTest.arff"));
+		pr.write(testSet.toString());
+		pr.flush();
+		pr.close();
+		pr = new PrintWriter(new File("outputTraining.arff"));
+		pr.write(trainingSet.toString());
+		pr.flush();
+		pr.close();
+		FilteredClassifier fc = new FilteredClassifier();
+		StringToWordVector filter = new StringToWordVector();
+		filter.setIDFTransform(true);
+		filter.setTFTransform(true);
+		filter.setAttributeIndices("first");
+		filter.setNormalizeDocLength(new SelectedTag(
+				StringToWordVector.FILTER_NORMALIZE_ALL,
+				StringToWordVector.TAGS_FILTER));
+		filter.setUseStoplist(true);
+		filter.setLowerCaseTokens(true);
+		filter.setWordsToKeep(2);
+		filter.setInputFormat(trainingSet);
+		fc.setFilter(filter);
+		fc.setClassifier(classifier);
+		fc.buildClassifier(trainingSet);
+		// Instances newTrain = Filter.useFilter(trainingSet, filter);
+		// Instances newTest = Filter.useFilter(testSet, filter);
+		System.out.println(fc);
+		String output = "";
+		Evaluation eval = new Evaluation(trainingSet);
+		eval.evaluateModel(fc, testSet);
+		System.out.println(eval.toSummaryString());
+		output += fc.toString() + "\n" + eval.toSummaryString();
+		for (int i = 0; i < testSet.numInstances(); i++) {
+			double pred = fc.classifyInstance(testSet.instance(i));
+			System.out.print("ID: " + testSet.instance(i).value(0));
+			// System.out.print(", actual: " +
+			// testSet.classAttribute().value((int)
+			// testSet.instance(i).classValue()) +
+			// testSet.instance(i).toString());
+			System.out.println(", predicted: "
+					+ testSet.classAttribute().value((int) pred));
+
+			output += "ID: " + testSet.instance(i).value(0) + ", predicted: "
+					+ testSet.classAttribute().value((int) pred) + "\n";
+		}
+
+		setClassy(classifier);
+
+		return output;
+	}
 }

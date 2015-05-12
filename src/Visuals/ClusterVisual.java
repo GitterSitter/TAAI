@@ -15,8 +15,11 @@ import weka.gui.visualize.VisualizePanel;
 public class ClusterVisual {
 
 	public void visuals(Clusterer clusterer, Instances train, ClusterEvaluation eval) throws Exception{
-		   
-		    PlotData2D predData = ClustererPanel.setUpVisualizableInstances(train, eval);
+	
+	//	System.out.println(eval.clusterResultsToString() + "***************************");
+		System.out.println(clusterer);
+		
+		    PlotData2D predData = ClustererPanel.s setUpVisualizableInstances(train, eval);
 		    String name = (new SimpleDateFormat("HH:mm:ss - ")).format(new Date());
 		    String cname = clusterer.getClass().getName();
 		    if (cname.startsWith("weka.clusterers."))
@@ -29,7 +32,6 @@ public class ClusterVisual {
 		    predData.setPlotName(name + " (" + train.relationName() + ")");
 		    vp.addPlot(predData);
 		 
-		    // display data
 		    // taken from: ClustererPanel.visualizeClusterAssignments(VisualizePanel)
 		    String plotName = vp.getName();
 		    final javax.swing.JFrame jf = 

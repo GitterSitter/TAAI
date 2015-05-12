@@ -304,6 +304,7 @@ private JFileChooser chooser;
    public void actionPerformed(ActionEvent e) {
     ClusterVisual visual = new ClusterVisual();
     try {
+    	
      visual.visuals(filter.getClus(), filter.getInst(), filter.getEvaluation());
     } catch (Exception e1) {
      // TODO Auto-generated catch block
@@ -319,7 +320,7 @@ private JFileChooser chooser;
   contentPane.setLayout(null);
   
   scrollPane = new JScrollPane();
-  scrollPane.setBounds(10, 448, 719, 185);
+  scrollPane.setBounds(10, 266, 719, 367);
   contentPane.add(scrollPane);
   
   textArea = new JTextArea();
