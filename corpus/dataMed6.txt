@@ -12,6 +12,7 @@ Introduction
 This section deals with surgical issues that may
 potentially complicate the immediate post-transplant period.
 Many of these issues, particularly ones that arise in patient
+assist support devices 
 selection can have a very important impact on the immediate
 post-operative course of the patient and some can have far
 reaching consequences for long-term graft and patient
@@ -19,18 +20,18 @@ survival. Donor-recipient matching refers to the avoidance
 of size discrepancies that can impair graft function. However,
 in the broader sense, donor factors, particularly ones that
 might have an adverse impact on graft function, need to be
-viewed in the context of the recipient’s condition. These
+viewed in the context of the recipientâ€™s condition. These
 factors include the urgency of transplantation, the presence of
 comorbid disease and the adequacy of physical reserves in the
 recipient, which are important considerations in the context of
-the recipient’s ability to tolerate a post-operative course that
+the recipientâ€™s ability to tolerate a post-operative course that
 may be complicated by impaired graft function as the direct
 result of transplantation of a marginal donor heart. The
 projected ischemic time is another important variable in
 decision making regarding the use of a particular donor heart.
 The projected ischemic time is also emblematic of an
 important axiom in donor selection and matching to a specific
-recipient—and that is that factors that may adversely impact
+recipientâ€”and that is that factors that may adversely impact
 post-operative graft function should not be considered in
 isolation. For example, the use of a heart from a donor who
 died of toxicity (such as carbon monoxide) should be
@@ -43,13 +44,13 @@ myocardial preservation and technique of donor heart
 implantation (biatrial versus bicaval technique) that may
 influence the post-heart transplant (HT) period. Post-operative
 complications such as sternal wound infection and pericardial
-effusion may cause the patient’s convalescence to be
+effusion may cause the patientâ€™s convalescence to be
 prolonged.
 Donor Heart Selection
 Brain death is a hostile environment for the donor heart
 that undoubtedly contributes to the occurrence of primary
 graft failure (PGF) after HT. Donor heart dysfunction results
-from the “catecholamine storm” (hypertension, tachycardia,
+from the â€œcatecholamine stormâ€� (hypertension, tachycardia,
 and intense vasoconstriction) that produces an increase in
 myocardial oxygen demand and potentially myocardial
 ischemia. These phenomena may mediate myofibrillar
@@ -79,13 +80,13 @@ may be less able to withstand primary graft dysfunction and
 early acute HT rejection.
 Early in HT the upper donor age limit was 35 years, but
 over the ensuing 4 decades it has progressively risen with the
-routine use of donors older than 40 years and frequently ≥ 50 
+routine use of donors older than 40 years and frequently â‰¥ 50 
 ISHLT Guidelines for the Care of Heart Transplant Recipients Task Force 1
  2
-years. A safe “older donor age” has not been established.
+years. A safe â€œolder donor ageâ€� has not been established.
 Studies usually employ artificial age cutoffs (such as 40 or 50
-years) so that assignment of a 41-year-old donor to the “older
-group” may not provide accurate information regarding the
+years) so that assignment of a 41-year-old donor to the â€œolder
+groupâ€� may not provide accurate information regarding the
 effects of older donor age on post-HT outcomes. Furthermore,
 the impact of older donor age cannot be decoupled from
 recipient risk factors that can influence early post-HT survival.
@@ -99,15 +100,15 @@ hearts older than 50 years versus those and in those receiving
 younger donor organs (5% versus 3.5%).
 Recommendations on Donor Heart Selection2, 3:
 Class IIa:
-1. Taking into consideration only the variable of “donor
-age,” the hearts of donors younger than 45 years will
+1. Taking into consideration only the variable of â€œdonor
+age,â€� the hearts of donors younger than 45 years will
 invariably have sufficient reserves to withstand the rigors
 of HT even in settings of prolonged ischemic time,
 recipient comorbidities, and multiple previous recipient
 operations with hemodynamically destabilizing bleeding.
 Hearts from donors between the ages of 45 to 55 years
 should probably be used when the projected ischemic
-time is ≤ 4 hours and the potential recipient does not have
+time is â‰¤ 4 hours and the potential recipient does not have
 comorbidities or surgical issues where anything less than
 robust donor heart performance could prove fatal. The use
 of donor hearts > 55 years should only be used if the
@@ -158,7 +159,7 @@ Transplantation of Hearts from Donors with Potential
 Drug Toxicities
 Cocaine. Toxic effects on the heart include
 vasoconstriction, coronary endothelial dysfunction, and
-myocardial toxicity. These effects occur through a powerful α-
+myocardial toxicity. These effects occur through a powerful Î±-
 1 adrenergic effect, indirectly through release of
 norepinephrine by the sympathetic nervous system, an induced
 deficiency of endothelium-derived relaxation factor with the
@@ -219,7 +220,7 @@ cardiac function is normal and left ventricular
 hypertrophy (LVH) is absent.
 Level of Evidence: C.
 2. In light of current information, the use of hearts from
-donors with a history of “alcohol abuse” remains
+donors with a history of â€œalcohol abuseâ€� remains
 uncertain, but is should probably be considered unwise.
 Level of Evidence: C.
 3. The use of hearts from donors who have died of carbon
@@ -274,7 +275,7 @@ Class I:
 1. As far as function is concerned, a donor heart should not
 be used in the presence of intractable ventricular
 arrhythmias, the need for excessive inotropic support
-(dopamine at a dose of 20 µg/kg/min or similar doses of
+(dopamine at a dose of 20 Âµg/kg/min or similar doses of
 other adrenergic agents despite aggressive optimization of
 preload and after load), discreet wall motion 
 ISHLT Guidelines for the Care of Heart Transplant Recipients Task Force 1
@@ -306,7 +307,7 @@ systolic function (particularly discreet wall motion
 abnormalities), older donor age, and donor-recipient size
 mismatch (small female donors to large male recipients).49 In
 one study,49 the requirement for dopamine or dobutamine
-doses > 20 µg/kg/min with or without additional inotropic
+doses > 20 Âµg/kg/min with or without additional inotropic
 agents was an independent risk factor for PGF and early
 mortality. However, because high dose inotropic support is
 often required to overcome the hemodynamic consequences of
@@ -324,7 +325,7 @@ Class I:
 1. As far as the function is concerned, a donor heart should
 not be used in the presence of intractable ventricular
 arrhythmias, the need for excessive inotropic support
-(dopamine at a dose of 20 µg/kg/min or similar doses of
+(dopamine at a dose of 20 Âµg/kg/min or similar doses of
 other adrenergic agents despite aggressive optimization of
 preload and after load), discreet wall motion
 abnormalities on echocardiography or LVEF < 40%
@@ -452,31 +453,31 @@ which in turn are exchanged for calcium ions. Accumulation
 of calcium ions in the sarcolemma is potentially very
 damaging to myofibers upon reperfusion. Reperfusion injury
 has several components:
-(1) Free radical injury—these oxygen-derived free radicals
+(1) Free radical injuryâ€”these oxygen-derived free radicals
 cause direct myocardial injury. They are generated under
 normal aerobic conditions but are rapidly neutralized by
 intracellular enzymatic scavengers. However, under
 conditions of ischemia and reperfusion, they may
 accumulate in quantities that overwhelm the natural
 scavengers, setting the stage for free radical injury.
-(2) Complement activation—activation of the complement
+(2) Complement activationâ€”activation of the complement
 cascade results in the production of potent anaphylatoxins
 that mediate increased vascular permeability, leukocyte
 chemotaxis, adhesion and activation, and vascular smooth
 muscle contraction.
-(3) Neutrophil activation—neutrophil activation during
+(3) Neutrophil activationâ€”neutrophil activation during
 reperfusion involves accumulation of these cells on
 endothelial surfaces and promoting the release of
 inflammatory molecules.
-(4) Endothelial injury—“endothelial cell activation” is a term
+(4) Endothelial injuryâ€”â€œendothelial cell activationâ€� is a term
 used to describe the response of endothelial cells to 
 ISHLT Guidelines for the Care of Heart Transplant Recipients Task Force 1
  6
 ischemia. It involves promotion of leukocyte adhesion,
 smooth muscle proliferation and vasoconstriction.
-(5) Cytokine release—a number of molecules are released
+(5) Cytokine releaseâ€”a number of molecules are released
 that amplify inflammatory responses.
-(6) Calcium overload—as indicated earlier, calcium ions can
+(6) Calcium overloadâ€”as indicated earlier, calcium ions can
 accumulate in the sarcoplasmic reticulum damaging
 myocytes on reperfusion.
 The role of myocardial preservation solutions in HT is to
@@ -661,7 +662,7 @@ including fluid status, heart allograft function, intrinsic renal
 function, recent hemodynamic status, and the presence of
 nephrotoxic and vasoconstrictive medications such as
 calcineurin inhibitors (CNI) and vasopressors. Urine output
-typically is ≥ 30 mL/hour. 
+typically is â‰¥ 30 mL/hour. 
 ISHLT Guidelines for the Care of Heart Transplant Recipients Task Force 1
  8
 In the pediatric population, adequate urine output is age
@@ -707,7 +708,7 @@ typically experience a functional decline over the first 12 postoperative
 hours. This decrease in function is believed to be
 due to the effects of ischemia and reperfusion and myocardial
 edema, which result in both systolic and diastolic dysfunction.
-Donor heart LVH (wall thickness ≥ 1.4 cm) and or prolonged
+Donor heart LVH (wall thickness â‰¥ 1.4 cm) and or prolonged
 ischemia times (> 240 min) may also lead to impaired
 diastolic function in the early post-operative period. With
 intra-operative TEE, it is not uncommon to observe an
@@ -737,7 +738,7 @@ the recipient risks for right heart failure.
 Heart rate is variable and ranges from bradycardia to
 tachycardia. Factors such as parasympathetic denervation,
 surgical trauma, catecholamine administration, and even
-genomic variations in the β-adrenergic receptor may affect the
+genomic variations in the Î²-adrenergic receptor may affect the
 sinus node rate.94 Although sinus rhythm is typically observed,
 sinus node dysfunction may arise from injury related to donor
 cardiectomy or preservation. In this instance, the cardiac
@@ -822,23 +823,23 @@ recipients; however, in recent times the results of some studies
 have shown that increased body surface area in the recipient or
 smaller donor for a larger recipient have not been associated
 with worse outcomes.85, 98 There have been concerns that the
-use of “marginal” or “extended” donors may lead to an
+use of â€œmarginalâ€� or â€œextendedâ€� donors may lead to an
 increased incidence of PGF. There are a number of criteria to
-define the “extended” heart donor. These can be grouped into
+define the â€œextendedâ€� heart donor. These can be grouped into
 non-cardiac and cardiac factors. Non-cardiac factors include
 advanced donor age, donor size, and ischemic time. In
 addition, other comorbidities of the donor, such as positive
 viral serologies, diabetes mellitus, or substance abuse would
 be considered as non-cardiac risks for suboptimal donor organ
-quality. The cardiac criteria for “extended” donors include
+quality. The cardiac criteria for â€œextendedâ€� donors include
 LVH, congenital heart abnormalities, high donor
 catecholamine requirements, RV and/or LV systolic
 dysfunction and CAD.104 Lima et al. conducted a retrospective
-study of 260 HT patients with both standard and “extended”
-list donors.103 The “extended” list donors most commonly
+study of 260 HT patients with both standard and â€œextendedâ€�
+list donors.103 The â€œextendedâ€� list donors most commonly
 were older and had diabetes. They reported no difference in
 the incidence of PGF, with 23% in the standard group and
-26% in the “extended” list. The two factors the authors
+26% in the â€œextendedâ€� list. The two factors the authors
 identified as risk factors poorer outcomes were length of
 ischemia time and pre-operative MCS.
 Assessment of graft function can be made by
@@ -878,31 +879,31 @@ Doppler)
 > 12cm/s
 IVA ( using tissue pulsed wave
 Doppler)
-1.4 ± 0.5 m/s2 +
+1.4 Â± 0.5 m/s2 +
 Diastolic Performance Variables
 IVC dimension (cm), collapse
 index
 < 1.7 cm, CI > 50% +++
 Tricuspid early (E) to late (A)
 filling velocity ratio
-1.5 ± 0.3 +++
+1.5 Â± 0.3 +++
 Hepatic vein profile (S:systolic;
 D: diastolic)
 S/D velocity ratio > 1, no S
 reversal, atrial reversal < 50%
 S
 +++
-assist support devices
+assist support devices 
 IVRT < 60 ms +++
 Rapid myocardial filling
 velocity (Et) (cm/s)
-15.6 ± 3.9 +++
+15.6 Â± 3.9 +++
 Late diastolic myocardial filling
 velocity, At (cm/s)
-15.4 ± 4.5 +++
+15.4 Â± 4.5 +++
 Combined systolic and diastolic
 parameter RVMPI
-0.28 ± 0.04 ++
+0.28 Â± 0.04 ++
 IVA, isovolumic acceleration using Doppler tissue imaging; IVC, inferior vena cava; RV, right ventricle; RVEF, right ventricular
 ejection fraction; RVFAC, right ventricular fractional area change; RVMPI, right ventricular myocardial performance index; TAPSE,
 tricuspid annular plane systolic excursion; IVRT, isovolumic relaxation time.
@@ -949,7 +950,7 @@ perfusion.
 Therapy, in general, is aimed at reducing RV afterload
 while maintaining an adequate but not excessive RV preload
 (CVP < 15 mm Hg). Inotropic support of the RV should also
-be provided; usually an IV drug with β-agonist properties is
+be provided; usually an IV drug with Î²-agonist properties is
 selected first. Mean arterial blood pressure must be maintained
 not only to insure end-organ perfusion but also to maintain RV
 perfusion, which occurs in systole as well as diastole. Mild
@@ -1030,7 +1031,7 @@ higher PVR.118 Williams et al noted higher RAP (mean 10 vs.
 0.05) and greater right-side cardiac dimensions in 23 of 72
 patients with moderate to severe TR.119
 With longer follow-up duration, the severity and clinical
-impact of TR worsens. Among 238 patients who survived ≥ 1
+impact of TR worsens. Among 238 patients who survived â‰¥ 1
 year after HT, Aziz et al observed persistent higher mean
 RAP, PA systolic pressure and RV dimensions among patients
 with clinical TR. Clinically, 35% of patients complained of
@@ -1068,14 +1069,14 @@ congestion.112, 123 Prophylactic tricuspid valve annuloplasty
 been shown to reduce TR immediately after HT as well as on
 long-term follow-up. Sixty patients undergoing orthotopic HT
 with bicaval anastomosis were randomized to either
-concomitant DeVega TVA or no intervention on the donor’s
+concomitant DeVega TVA or no intervention on the donorâ€™s
 TV. At 5 years of follow up, compared to patients without TV
 intervention, recipients of the DeVega TVA had lower perioperative
 cardiac mortality [3 (10%) vs, 7 (23%); p < 0.05],
-average amount of TR (0.5± 0.4 vs. 1.5± 1.3; p < 0.05),
-percentage of patients with TR ≥ 2+ (0 vs. 34%; p < 0.05),
-serum creatinine (sCr) (1.8±0.7 vs. 2.9±2.0 mg/dL; p < 0.05)
-and change in sCr from baseline (0.7±0.8 vs. 2.0 ± 2.1 mg/dL;
+average amount of TR (0.5Â± 0.4 vs. 1.5Â± 1.3; p < 0.05),
+percentage of patients with TR â‰¥ 2+ (0 vs. 34%; p < 0.05),
+serum creatinine (sCr) (1.8Â±0.7 vs. 2.9Â±2.0 mg/dL; p < 0.05)
+and change in sCr from baseline (0.7Â±0.8 vs. 2.0 Â± 2.1 mg/dL;
 p < 0.05).111 These benefits did not result in significant
 differences between groups in 5 year survival. Other studies
 yielded similar results.126
@@ -1173,11 +1174,11 @@ However, tachycardia can limit its usefulness, particularly in
 bicaval and total HT, where the incidence of sinus node
 dysfunction is lower than with the biatrial surgical technique.
 Whereas the dose range for isoproterenol is usually 2 to 10
-µg/min, this drug can be titrated to achieve a target heart rate
+Âµg/min, this drug can be titrated to achieve a target heart rate
 of 90 to 110 bpm. Atrial pacing combined with dobutamine
 achieves results similar to those of isoproterenol.
 Combined infusion of low-dose dobutamine and
-dopamine (both at starting doses of 2.5-5 µg/kg/min) is
+dopamine (both at starting doses of 2.5-5 Âµg/kg/min) is
 another commonly used inotropic regimen after HT.138 This
 combination of inotropes may be titrated to achieve the
 desired hemodynamic effects. Milrinone, a phosphodiesterase
@@ -1200,7 +1201,7 @@ arising from an occult intra-abdominal catastrophe must also
 be considered, especially if there is lactic acidosis that persists
 beyond 6 hours after HT.140 The range of vasodilation seen in
 the post-operative period ranges from mild and responsive to
-the infusion of a low dose of a single α-adrenergic agent to
+the infusion of a low dose of a single Î±-adrenergic agent to
 quite profound and refractory to high levels of multiple
 vasoconstrictors. The guanylate cyclase inhibitor methylene
 blue has been successfully used for the treatment of
@@ -1221,14 +1222,14 @@ to maintain hemodynamic stability post-operatively.
 Inotropes should be weaned as tolerated over the first 3 to
 5 days. The lowest effective dose should be used.
 Level of Evidence: C.
-assist support devices
+assist support devices 
 2. The following therapies are suggested:
-a. isoproterenol 1 to 10 µg/min OR
-b. dobutamine 1 to 10 µg/kg/min ± dopamine 1 to
-10 µg/kg/min OR
-c. isoproterenol 1 to 10 µg/min ± dopamine 1 to
-10 µg/kg/min OR
-d. milrinone 0.375 to 0.75 µg/kg/min
+a. isoproterenol 1 to 10 Âµg/min OR
+b. dobutamine 1 to 10 Âµg/kg/min Â± dopamine 1 to
+10 Âµg/kg/min OR
+c. isoproterenol 1 to 10 Âµg/min Â± dopamine 1 to
+10 Âµg/kg/min OR
+d. milrinone 0.375 to 0.75 Âµg/kg/min
 Level of Evidence: C. 
 ISHLT Guidelines for the Care of Heart Transplant Recipients Task Force 1
  14
@@ -1243,12 +1244,12 @@ Norepinepherine ++++ +++ 0 + +
 Phenylepherine ++++ 0 0 0 0
 Vasopressin ++++ 0 0 0 0
 Adapted from Kirklin JK, et al.150
-3. Continuous infusion of α-adrenergic agonists including
+3. Continuous infusion of Î±-adrenergic agonists including
 phenylepherine, norepinepherine or epinephrine can be
 used to maintain adequate mean arterial pressure.
 Level of Evidence: C.
 4. Low dose vasopressin (0.03-0.1 U/min) or methylene blue
-can be added to α-agonist for vasodilatory shock.
+can be added to Î±-agonist for vasodilatory shock.
 Level of Evidence: B.
 Pulmonary Vasodilators
 Prostanoids
@@ -1287,7 +1288,7 @@ Continuous inhaled PGI2 has also been used in the
 treatment of RV dysfunction after HT and cardiac surgery.
 Haraldsson, et al. reported its use in 9 patients (2 of whom
 were HT recipients) with pulmonary hypertension and an
-increased PVR. Inhalation of PGI2, at 10 µg/mL, produced
+increased PVR. Inhalation of PGI2, at 10 Âµg/mL, produced
 reductions in mean pulmonary artery pressure and PVR
 without affecting systemic vascular resistance. No change in
 CO was noted.153 The use of the intermittently inhaled
@@ -1575,7 +1576,7 @@ developed RV failure. The results also confirm that high PVR
 is not an absolute contraindication to HT as 28 of 33 patients
 with a PVRi of > 6 Wood Units and 10 of 12 patients with a
 PVRi of > 9 Wood Units were successfully transplanted.
-assist support devices
+assist support devices 
 The infant population with either congenital heart disease
 predisposing to systemic pulmonary vascular pressures (duct
 dependent single ventricle physiology) or cardiomyopathy
@@ -1604,7 +1605,7 @@ Arrhythmias
 Heart rate is variable and ranges from bradycardia to
 tachycardia. Factors such as parasympathetic denervation,
 surgical trauma, catecholamine administration, and even
-genomic variations in the β-adrenergic receptor may affect the
+genomic variations in the Î²-adrenergic receptor may affect the
 sinus node rate.94
 Bradycardia
 Most HT recipients display normal sinus rhythm upon
@@ -1690,8 +1691,8 @@ and it is triggered by increased sensitivity to catecholamines
 and longer ischemic times.
 Pharmacologic management of tachyarrythmias is limited
 because the donor heart is denervated. Digoxin will not be
-effective for rate control. β-blocker therapy can lower heart
-rates through direct effect on cardiac β receptors. The nondihydropyridine
+effective for rate control. Î²-blocker therapy can lower heart
+rates through direct effect on cardiac Î² receptors. The nondihydropyridine
 calcium channel blockers, verapamil and
 diltiazem, can help control heart rate, but should be used
 judiciously because they can have negative inotropic effects
@@ -1828,7 +1829,7 @@ Recipients210, 220, 223, 232:
 Class I:
 1. The CVP should be maintained between 5 and 12 mm Hg,
 a level that provides adequate cardiac filling pressures
-assist support devices
+assist support devices.
 without causing RV overload.
 Level of Evidence: C.
 2. Colloid replacement is generally preferred in the first 24
@@ -2019,11 +2020,11 @@ tablet per day) is the most commonly used medication. In
 the setting of a sulfa allergy or glucose-6-phosphate
 dehydrogenase deficiency, alternative regimens can be
 used, including: (1) aerosolized pentamidine (AP)
-isethionate (300 mg every 3–4 weeks); (2) Dapsone
+isethionate (300 mg every 3â€“4 weeks); (2) Dapsone
 (diaminodiphenylsulfone) with or without TMP or
-pyrimethamine (50–100 mg/day). Pyrimethamine may be
+pyrimethamine (50â€“100 mg/day). Pyrimethamine may be
 administered weekly (25 or 50 mg) to supplement
-dapsone (50–100 mg/day). Dapsone is metabolized via
+dapsone (50â€“100 mg/day). Dapsone is metabolized via
 the hepatic cytochrome P-450 system (CYP3A); (3)
 Atovaquone (1500 mg PO QD); (4) Clindamycin and
 pyrimethamine.
@@ -2072,20 +2073,20 @@ and Terasaki, who documented poor survival of renal
 allografts in recipients whose serum caused lysis of donor
 leukocytes in an in vitro crossmatch test.248 This cell lysis was
 later proven to be due to the presence of alloantibodies in the
-recipient’s serum directed against donor HLA antigens.249
+recipientâ€™s serum directed against donor HLA antigens.249
 Since then, various modifications of crossmatch testing, in
-which recipient’s serum is combined with donor cells, have
+which recipientâ€™s serum is combined with donor cells, have
 been routinely used to determine donor-recipient
 compatibility. The crossmatch test helps clinicians avoid
 transplantation of an organ into a recipient with donor specific
 antibodies.
 Methods for the Detection of Anti-HLA Antibodies
 The detection of anti-HLA antibodies requires the
-recipient’s serum as the source of “unknown” anti-HLA
-antibodies and cells or materials bearing “known” HLA
+recipientâ€™s serum as the source of â€œunknownâ€� anti-HLA
+antibodies and cells or materials bearing â€œknownâ€� HLA
 antigens. These panel reactive antibody (PRA) tests, which
 determine the percentage of possible donor HLA antigens
-targeted by the recipient’s preformed circulating antibodies, is
+targeted by the recipientâ€™s preformed circulating antibodies, is
 routinely used to assess the likelihood of a recipient to reject a
 donor organ (Table 4).
 The target HLA antigens may be constitutively expressed
@@ -2102,7 +2103,7 @@ for the most part superseded by flow-cytometry
 techniques.
 (2) Complement-independent flow-cytometry enables the
 detection of the primary anti-HLA antibody after target
-(donor) cells are incubated with the recipient’s serum and
+(donor) cells are incubated with the recipientâ€™s serum and
 a secondary fluorescent-labeled antiglobulin (AHG).
 Table 4 Panel-Reactive Antibody and Crossmatch Methods Among
 20 Histocompatibility Laboratories
@@ -2122,17 +2123,17 @@ cytotoxicity; ELISA, enzyme-linked immunosorbent assay;
 n, number of programs using the indicated technique; PRA,
 panel-reactive antibody; XM, crossmatch methods.
 Adapted from Betkowski AS, et al.250
-Briefly, these PRA tests consist of adding the recipient’s
+Briefly, these PRA tests consist of adding the recipientâ€™s
 serum to HLA-antigen-bearing cells (lymphocytes) obtained
 from a panel of random individuals from the local population
 (usually 30-60) who are felt to be representative of the
 potential donor pool. The PRA result represents the percentage
 of the panel of cells which undergo lysis in the presence of the
-recipient’s serum. This PRA measurement does not specify the
+recipientâ€™s serum. This PRA measurement does not specify the
 HLA antigens against which the recipient has antibodies; it
 simply estimates the percentage of the local donor pool that
 will be incompatible. At most transplantation centers a percent
-PRA ≥10% is the threshold above which virtual or real time
+PRA â‰¥10% is the threshold above which virtual or real time
 prospective crossmatch should be done to determine if the
 recipient antibodies are actually directed against donor tissue
 (see below).250 The correlation between preformed antibodies
@@ -2184,9 +2185,9 @@ antibodies (antiplastic-antibodies, especially in patients with
 hemodialysis or MCS).
 Ideally more than 1 PRA screening method should be
 performed on more than 1 occasion (separated by at least 2
-weeks) for accurate assessment of the recipient’
+weeks) for accurate assessment of the recipientâ€™
 allosensitization status.252 The number of patients at risk for
-developing antibodies against donors’ HLA antigens is
+developing antibodies against donorsâ€™ HLA antigens is
 increasing due to previous transplants, use of homograft
 materials in cardiac surgery, exposure to paternal HLA
 antigens during pregnancy and transfusion of blood products.
@@ -2196,14 +2197,14 @@ setting may not be directed against HLA antigens and the
 crossmatch may be negative.252There is no universally
 accepted definition of a PRA threshold above which a real
 time or virtual prospective crossmatch should be done.250
-In a real-time prospective crossmatch, the donor’s
-lymphocytes are directly exposed to the recipient’s serum and
+In a real-time prospective crossmatch, the donorâ€™s
+lymphocytes are directly exposed to the recipientâ€™s serum and
 observed for lysis prior to accepting the donor for transplant.
 Real-time prospective crossmatch cannot be prospectively
 performed in the absence of readily available donor cells or
 when a short organ ischemia time is essential for successful
 transplantation. This is the case in HT, particularly when the
-donor heart is geographically distant from the recipient’s
+donor heart is geographically distant from the recipientâ€™s
 hospital. The predominant practice has been to accept only
 organs from local donors for immunologically sensitized HT
 candidates (candidates with serum antibodies directed against
@@ -2217,7 +2218,7 @@ antibodies with high sensitivity and accuracy.
 256
 These methods have been used to predict immune
 compatibility between donor and recipient by comparing the
-potential recipient’s HLA-specific antibodies with the HLA
+potential recipientâ€™s HLA-specific antibodies with the HLA
 type of the prospective donor, an approach called the virtual
 crossmatch.257 The use of the virtual crossmatch in kidney
 allocation is currently being debated.258, 259 Thus far, in kidney
@@ -2229,7 +2230,7 @@ Recommendations for the Evaluation of
 Donor/Recipient Histocompatibility250-253, 255, 256, 259:
 Class I:
 1. Screening PRA should be performed in all HT candidates.
-When the PRA is elevated (≥ 10%) further evaluation is
+When the PRA is elevated (â‰¥ 10%) further evaluation is
 recommended.
 Level of Evidence: C.
 2. The specificity of circulating antibodies should be
@@ -2242,7 +2243,7 @@ should be reported.
 Level of Evidence: C.
 4. The anti-HLA Class I and II specificities (i.e., any HLA
 antibody directed against HLA-A, HLA-B, HLA-Cw,
-HLA-DR, and HLA–DQ antigens) should be defined. In
+HLA-DR, and HLAâ€“DQ antigens) should be defined. In
 the absence of international standards, each transplant 
 ISHLT Guidelines for the Care of Heart Transplant Recipients Task Force 1
  25
@@ -2398,7 +2399,7 @@ pregnancies, implant of homograft materials, previous
 transplantation, and use of a VAD is required to assess the
 risk of heart allograft AMR.
 Level of Evidence: C.
-2. A PRA ≥ 10% indicates significant allosensitization and it
+2. A PRA â‰¥ 10% indicates significant allosensitization and it
 should raise the question of whether therapies aimed at
 reducing allosensitization should be instituted to minimize
 the need for a prospective donor/recipient crossmatch.
@@ -2508,8 +2509,8 @@ in the setting of preformed antibodies directed against epitopes
 of the HLA system or ABO system. Allosensitized patients
 who are sensitized may avoid hyperacute rejection by
 desensitization strategies (described above) and, most
-commonly, by acceptance only of donors with “acceptable
-antigens” and/or low level or “weak” antibody responses.
+commonly, by acceptance only of donors with â€œacceptable
+antigensâ€� and/or low level or â€œweakâ€� antibody responses.
 Despite manoeuvres to avoid hyperacute rejection sensitized
 recipients have a lower survival than those with PRA < 10%
 and appear to experience delayed AMR associated with
@@ -2645,7 +2646,7 @@ crossmatch at centers experienced in pediatric HT across
 a positive crossmatch.
 Level of Evidence: C.
 Topic 4: Management of Abo
-“Incompatible” Pediatric Heart Transplants
+â€œIncompatibleâ€� Pediatric Heart Transplants
 Overview
 When compared to older recipients, infants with severe
 congenital cardiac malformations or cardiomyopathies
@@ -2698,7 +2699,7 @@ incompatible HT beyond the infancy period in patients who
 were 2, 3.5, and 5 years of age and who lacked
 isohemagglutinins.270, 279 However, age itself is clearly not the
 primary risk indicator, and serves only as a surrogate marker
-for an individual’s ability to produce isohemagglutinins. Even
+for an individualâ€™s ability to produce isohemagglutinins. Even
 for infants who have begun to produce isohemagglutinins, the
 absolute titer above which HT is contraindicated remains
 unclear. Successful HT even in children with donor-specific
@@ -2709,7 +2710,7 @@ successful HT without AMR and minimal re-accumulation of
 anti-donor antibodies after HT. Therefore, the absolute upper
 limit of age or isohemagglutinin titers remain unclear.
 Recommendations for the Selection of Candidates
-for ABO “Incompatible” Heart Transplant269, 271:
+for ABO â€œIncompatibleâ€� Heart Transplant269, 271:
 Class IIa:
 1. The upper limit of age or isohemagglutinin titer for ABOincompatible
 pediatric HT remains unclear.
@@ -2737,7 +2738,7 @@ titer (<1:4). With the utilization of pre-operative
 plasma exchange, there have been no reported cases of
 hyperacute rejection.
 Recommendation for the Intra-operative Care of
-ABO “Incompatible” Heart Transplant Recipients269,
+ABO â€œIncompatibleâ€� Heart Transplant Recipients269,
 271:
 Class IIa:
 1. ABO-incompatible HT can be undertaken by performing
@@ -2765,7 +2766,7 @@ AMR in the Toronto cohort, management similar to that of the
 sensitized population with a course of plasmapheresis and
 augmentation of immunosuppression was successful.276, 278
 Recommendations for the Monitoring of
-Isohemagglutinin Levels in ABO “Incompatible”
+Isohemagglutinin Levels in ABO â€œIncompatibleâ€�
 Heart Transplant Recipients269, 277:
 Class IIa:
 1. Serial measurements of isohemagglutinin titers should be
@@ -2780,7 +2781,7 @@ Table 7 Match of Blood Products to Specific ABO-Incompatible Heart Transplant Sc
 Blood group
 Platelets
 (managed similarly to plasma)
-Recipient’s Donor’s
+Recipientâ€™s Donorâ€™s
 Red blood cells
 (plasma depleted) Fresh frozen plasma Cryoprecipitate 2nd choice
 O A O A A A O concentrate
@@ -2806,11 +2807,11 @@ Whole blood transfusions must be avoided in a recipient of an
 ABO-incompatible HT, and the families of these children
 should be instructed to inform future medical care providers
 that in case of surgeries and emergencies any blood product
-must appropriately match to the child’s situation. Parents can
+must appropriately match to the childâ€™s situation. Parents can
 easily understand and rememberthe information that group O
 red blood cells and group AB blood elements are safe for
 every blood group combination of heart donor and recipient.
-The children’s families can be provided with written
+The childrenâ€™s families can be provided with written
 instructions than can be shared with the health care provider to
 minimize the likelihood of errors.
 Platelet preparations require special attention because the
@@ -2820,7 +2821,7 @@ plasma products rather than to that of red blood cells
 preparations contain very low levels of ABH antigens and
 large amounts of plasma.280
 Recommendations for the Administration of Blood
-Products in ABO “Incompatible” Heart Transplant
+Products in ABO â€œIncompatibleâ€� Heart Transplant
 Recipients269, 271, 277:
 (See Table 7)
 Class IIa:
@@ -2834,11 +2835,11 @@ combination.
 Level of Evidence: C.
 2. If red blood cell transfusions are given to any ABOincompatible
 HT recipient, red blood cell units should be
-matched based on the HT recipient’s ABO blood type.
+matched based on the HT recipientâ€™s ABO blood type.
 Level of Evidence: C.
 3. If platelets and/or plasma preparations are needed in
 ABO-incompatible HT recipients, these blood products
-should be matched based on the donor’s ABO blood type.
+should be matched based on the donorâ€™s ABO blood type.
 Level of Evidence: C.
 Immunotherapy
 For patients undergoing ABO-incompatible HT, standard
@@ -2857,7 +2858,7 @@ immunosuppression.269-276
 ISHLT Guidelines for the Care of Heart Transplant Recipients Task Force 1
  32
 Recommendations for Immunosuppression in ABO
-“Incompatible” Heart Transplant Recipients269, 271, 282:
+â€œIncompatibleâ€� Heart Transplant Recipients269, 271, 282:
 Class IIa:
 1. Standard (triple) immunosuppression with a CNI, an
 antiproliferative agent, and CSs can be used in children
@@ -2879,7 +2880,7 @@ Rejection episodes requiring intensification of
 immunosuppressionshould be treated according to the
 guidelines described in Task Force 2.269, 271, 281
 Recommendation for Rejection Surveillance in ABO
-“Incompatible” Heart Transplant Recipients269, 271, 277:
+â€œIncompatibleâ€� Heart Transplant Recipients269, 271, 277:
 Class IIa:
 1. Rejection surveillance in ABO-incompatible HT
 recipients is the same as that of the ABO-compatible HT
@@ -2907,14 +2908,14 @@ area, emergency surgery, low temperature during CPB,
 assist support devices
 duration of extracorporeal circulation (> 150 minutes),
 combined valvular revascularization surgery, number of
-bypass grafts (≥ 5), reoperative surgery, and pre-operative
+bypass grafts (â‰¥ 5), reoperative surgery, and pre-operative
 antiplatelet therapy to be risk factors for bleeding in cardiac
 surgery.285, 286, 289, 291-293
 Coagulopathy in Heart Transplantation
 HT recipients have additional risk factors for perioperative
-bleeding including recipient’s coagulopathy, need
+bleeding including recipientâ€™s coagulopathy, need
 for repeat median sternotomy, and a prolonged CPB.294
-Various factors contribute to a recipient’s coagulopathy. First,
+Various factors contribute to a recipientâ€™s coagulopathy. First,
 many patients are on anticoagulation pre-operatively for poor
 LV function, AF, mechanical valves, or MCS. In the pediatric
 population, patients with complex congenital heart disease
@@ -2997,7 +2998,7 @@ and thrombin which in turn stimulate the release of tissue
 plasminogen activator from the endothelium.
 Hypothermia can also alter the clotting mechanisms.
 Changes in platelet aggregation in patients undergoing
-hypothermic CPB at 27°C to 28°C have been seen.307-309
+hypothermic CPB at 27Â°C to 28Â°C have been seen.307-309
 assist support devices
 Conventional tests of the hemostatic mechanisms are done at
 37 C, which limits the detection of some of the clotting defects
@@ -3030,7 +3031,7 @@ reversal of heparin effects. The goal is usually to achieve a
 level < 130 seconds or within 10% of the pre-CPB value.
 Testing to Evaluate Hemostasis in Cardiac Surgery
 Pre-operative evaluation of hemostasis must include
-knowledge of the patient’s renal and hepatic function and
+knowledge of the patientâ€™s renal and hepatic function and
 treatment with platelet inhibitors and oral anticoagulants. Preoperative
 evaluation should include determination of the
 activated partial thromboplastin time (aPTT) and prothrombin
@@ -3055,7 +3056,7 @@ during cardiac surgery.
 Platelet function is the other important determinant of
 operative bleeding. Platelet counts > 100,000/uL are generally
 considered adequate for surgical hemostasis. Although platelet
-aggregometry is the “gold-standard” test of platelet function,
+aggregometry is the â€œgold-standardâ€� test of platelet function,
 easier point of care assays, such as the one using the platelet
 function analyzer-100 (PFA-100) are typically employed
 during cardiac surgery. In these assays, whole blood is used to
@@ -3096,7 +3097,7 @@ Level of Evidence: C.
 assist support devices
 Class IIa:
 1. Thromboelastography may be useful during the HT
-surgery to further elucidate the status of the patient’s
+surgery to further elucidate the status of the patientâ€™s
 hemostasis.
 Level of Evidence: C.
 2. Platelet function can be measured either by platelet
@@ -3110,14 +3111,14 @@ fibrinolysis and correlate with the risk of bleeding after
 HT surgery.
 Level of Evidence: C.
 4. Thromboelastography may be repeated after HT surgery
-to monitor patients’ hemostasis.
+to monitor patientsâ€™ hemostasis.
 Level of Evidence: C.
 Reversal of Anticoagulation before Heart
 Transplantation
 In patients chronically anticoagulated with warfarin
 undergoing cardiac surgery, including HT, the risk of bleeding
 is likely to be increased when the international normalized
-ratio (INR) is ≥ 1.5. Therefore, it is reasonable to reduce the
+ratio (INR) is â‰¥ 1.5. Therefore, it is reasonable to reduce the
 INR to this level at the time of surgery.324 Several therapies
 are available for the reversal of oral anticoagulation, and these
 include oral or IV vitamin K, human fresh frozen plasma
@@ -3143,7 +3144,7 @@ level.327
 ISHLT Guidelines for the Care of Heart Transplant Recipients Task Force 1
  35
 Comparative studies have demonstrated that PCCs are
-more effective than FFP for correcting patients’ INRs. In one
+more effective than FFP for correcting patientsâ€™ INRs. In one
 such study, the mean post-treatment and lowest INR values in
 patients receiving 4 units of FFP were, respectively 2.3 and
 1.6, compared with 1.3 in patients receiving PCC at a dose of
@@ -3186,7 +3187,7 @@ Recommendations for the Reversal of
 Anticoagulation before Heart Transplantation324, 326,
 328, 332:
 Class I:
-1. Pre-operatively, the INR should be reduced to ≤ 1.5.
+1. Pre-operatively, the INR should be reduced to â‰¤ 1.5.
 Level of Evidence: C.
 2. Low doses of vitamin K (2.5-5.0 mg) given IV are
 preferable to high doses because they are associated with
@@ -3195,7 +3196,7 @@ Level of Evidence: C.
 3. Given the need for rapid normalization of the INR,
 chronically anticoagulated patients about to undergo HT
 should receive vitamin K in conjunction with FFP, PCCs,
-or rFVII depending on their availability and the patient’s
+or rFVII depending on their availability and the patientâ€™s
 renal and hepatic functions.
 Level of Evidence: C.
 Peri-operative Management of Heart Transplant
@@ -3221,9 +3222,9 @@ because of their different modes of excretion and inactivation,
 patients with HIT and renal insufficiency are usually treated
 with argatroban, whereas those with hepatic impairment are
 typically given lepirudin.
-Lepirudin (Refludan®) is a recombinant hirudin approved
+Lepirudin (RefludanÂ®) is a recombinant hirudin approved
 by the FDA for the treatment of HIT complicated by
-thrombosis. A starting dose of lepirudin ≤ 0.10 mg/kg/hr has
+thrombosis. A starting dose of lepirudin â‰¤ 0.10 mg/kg/hr has
 been recommended in patients with serum creatinine < 1
 mg/dL. Because the drug undergoes renal clearance and
 anticoagulant effect is not easily reversed, doses must be
@@ -3248,18 +3249,18 @@ with longer treatment.
 Argatroban is a direct thrombin inhibitor with a short in
 vivo plasma half-life of 24 minutes; and its effect is monitored
 by the aPTT. In patients with normal hepatic function, the
-standard starting dose is 2 µg/kg/min by continuous IV
+standard starting dose is 2 Âµg/kg/min by continuous IV
 infusion, adjusted to maintain the aPTT at 1.5 to 3 times the
 baseline value. Due to hepatobiliary elimination, a lower
-starting dose (0.5-1.2 µg/kg/min) is appropriate in patients
+starting dose (0.5-1.2 Âµg/kg/min) is appropriate in patients
 with hepatic dysfunction, combined hepatic/renal dysfunction,
 heart failure, or anasarca.335 In such patients, the aPTT should
 be checked at 4-hour intervals after drug initiation or dose
 change to ensure that the desired level of anticoagulation is
 present. An even lower starting dose of argatroban (0.2
-µg/kg/min) may be appropriate in critically ill patients with
+Âµg/kg/min) may be appropriate in critically ill patients with
 multiple organ dysfunction and HIT.335
-Danaparoid (Orgaran®) is a heparinoid that includes
+Danaparoid (OrgaranÂ®) is a heparinoid that includes
 predominantly dermatan sulfate and low-sulfated heparan
 sulfate. It is available in many countries but not in the US.
 It has been given to patients with HIT or a history of HIT
@@ -3269,7 +3270,7 @@ weight, followed by an IV infusion of 400 U/hr for 4 hours,
 300 U/hr for the next 4 hours, and 200 U/hr thereafter. Doses
 are adjusted to achieve anti-Xa levels of 0.5 to 0.8 U/mL.
 Disadvantages of danaparoid include the need to measure antifactor
-Xa levels, its long half-life (25 ± 100 h), renal
+Xa levels, its long half-life (25 Â± 100 h), renal
 elimination, and the absence of an antidote.335
 Other approaches, including plasmapheresis, are not
 effective for the treatment of HIT and should not be used in
@@ -3481,7 +3482,7 @@ and adherence to medical treatment regimens.357, 358
 b. Psychiatry/psychology specialists diagnose psychiatric
 illnesses, manage pharmacologic therapy, 359 and identify
 personality traits that may allow the transplant team to
-improve the patient’s understanding and adherence to
+improve the patientâ€™s understanding and adherence to
 their medical therapy.360, 361 Qualified social work
 counselors often subsume the functions of these
 specialists.
@@ -3501,7 +3502,7 @@ transplant pharmacist led to improved patient compliance
 with medications at the end of 1 year (95.1% in those
 patients who interacted with pharmacists vs. 81.6% with
 those who did not).362, 363 In addition, the inclusion of
-pharmacy input led to an increase in “therapeutic” drug
+pharmacy input led to an increase in â€œtherapeuticâ€� drug
 concentrations from 48% to 64%.363.
 d. Dieticians play an important during both the pre- and
 post-HT periods. Pre-operatively, HT recipients are often
@@ -3574,9 +3575,9 @@ Transplant Recipients
 Primary Heart Allograft Failure
 The ISHLT defines PGF as severe dysfunction of the
 cardiac allograft in the absence of any anatomic or
-immunological cause.365 Huang defined it as “circulatory
+immunological cause.365 Huang defined it as â€œcirculatory
 insufficiency within the first 24 hours after HT requiring MCS
-or the use of 2 inotrope/vasopressor agents.”85 As such, PGF is
+or the use of 2 inotrope/vasopressor agents.â€�85 As such, PGF is
 a diagnosis of exclusion, and reversible causes should be
 exhaustively sought and corrected prior to making the
 diagnosis of PGF. This condition accounts for the highest
@@ -3659,27 +3660,27 @@ Level of Evidence: C.
 Table 8 Potential Causes of Primary Graft Failure After Pediatric
 Heart Transplantation
 Donor Issues
-• Poor donor organ preservation
-• Poor donor quality
+â€¢ Poor donor organ preservation
+â€¢ Poor donor quality
 o Diminished echocardiographic ejection fraction
 o Requirement for high inotropic support
 o Elevated blood troponin I level
-• Prolonged ischemic time
-• Large donor (donor-to-recipient weight ratio >2.0)
-• Small donor (donor-to-recipient weight ratio <1.0)
-• Prolonged donor cardiopulmonary resuscitation times
-• Anoxia as cause of death
-• Nonidentical blood type
+â€¢ Prolonged ischemic time
+â€¢ Large donor (donor-to-recipient weight ratio >2.0)
+â€¢ Small donor (donor-to-recipient weight ratio <1.0)
+â€¢ Prolonged donor cardiopulmonary resuscitation times
+â€¢ Anoxia as cause of death
+â€¢ Nonidentical blood type
 assist support devices
 
-• Donor age
+â€¢ Donor age
 Recipient Issues
-• Pre-transplantation diagnosis of congenital heart disease
-• Previous sternotomy
-• Elevated pulmonary vascular resistance
-• Pre-transplantation need for extracorporeal membrane
+â€¢ Pre-transplantation diagnosis of congenital heart disease
+â€¢ Previous sternotomy
+â€¢ Elevated pulmonary vascular resistance
+â€¢ Pre-transplantation need for extracorporeal membrane
 oxygenator
-• Pre-transplantation need for ventilatory support
+â€¢ Pre-transplantation need for ventilatory support
 Adapted from Huddleston CB, et al.365
 Conduct of Cardiac Extracorporeal Membrane
 Oxygenation
