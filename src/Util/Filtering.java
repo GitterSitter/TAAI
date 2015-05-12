@@ -38,9 +38,8 @@ public class Filtering {
 		wr.write(content);
 		wr.close();
 	
-		dataset.deleteAttributeAt(0);
-		
 		StringToWordVector filter = new StringToWordVector();
+	
 		filter.setIDFTransform(true);
 		filter.setTFTransform(true);
 		filter.setAttributeIndices("first-last");
@@ -50,14 +49,18 @@ public class Filtering {
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
+		
+		
+		/*
 		String[] options = new String[2];
 		options[0] = "-R";
 		options[1] = "1";
-		
 		Remove remove = new Remove();
 		remove.setOptions(options);
 		remove.setInputFormat(dataFiltered);
 		fc.setFilter(remove);
+		*/
+		
 		if (cluster.getClass() == weka.clusterers.EM.class) {
 			((EM) cluster).setNumClusters(3);
 		} else if (cluster.getClass() == weka.clusterers.SimpleKMeans.class) {
@@ -104,17 +107,17 @@ public class Filtering {
 				// pr.close();
 			}
 		}
+		
+		
 		ClusterEvaluation eval = new ClusterEvaluation();
 		eval.setClusterer(cluster);
-		eval.evaluateClusterer(dataset);
-	//	System.out.println(eval.clusterResultsToString());
+		eval.evaluateClusterer(dataFiltered);
 
 		output += "\n" + eval.clusterResultsToString();
 		setEvaluation(eval);
 		setInst(dataFiltered);
 		setClus(cluster);
-		// ClusterVisual visual = new ClusterVisual();
-		// visual.visuals(cluster, dataset, eval);
+		
 
 		return output;
 	}

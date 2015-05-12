@@ -1,14 +1,18 @@
 package Visuals;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import weka.classifiers.Evaluation;
 import weka.clusterers.ClusterEvaluation;
 import weka.clusterers.Clusterer;
+import weka.clusterers.FilteredClusterer;
+import weka.core.FastVector;
 import weka.core.Instances;
 import weka.gui.explorer.ClustererPanel;
+import weka.gui.visualize.Plot2D;
 import weka.gui.visualize.PlotData2D;
 import weka.gui.visualize.VisualizePanel;
 
@@ -16,10 +20,16 @@ public class ClusterVisual {
 
 	public void visuals(Clusterer clusterer, Instances train, ClusterEvaluation eval) throws Exception{
 	
-	//	System.out.println(eval.clusterResultsToString() + "***************************");
-		System.out.println(clusterer);
 		
-		    PlotData2D predData = ClustererPanel.s setUpVisualizableInstances(train, eval);
+		  PlotData2D predData =  ClustererPanel.setUpVisualizableInstances(train, eval); 
+		  int[] m_shapeType = new int [train.numInstances()];
+		    for (int i = 0; i < train.numInstances(); i++) {
+		   // 	m_shapeType[i] = Plot2D.DEFAULT_SHAPE_SIZE; 
+		    	m_shapeType[i] = Plot2D.X_SHAPE ; // default (automatic shape assignment)
+		    	
+		      }
+		    
+		    predData.setShapeType(m_shapeType);
 		    String name = (new SimpleDateFormat("HH:mm:ss - ")).format(new Date());
 		    String cname = clusterer.getClass().getName();
 		    if (cname.startsWith("weka.clusterers."))
@@ -28,10 +38,13 @@ public class ClusterVisual {
 		      name += cname;
 		 
 		    VisualizePanel vp = new VisualizePanel();
+		    
 		    vp.setName(name + " (" + train.relationName() + ")");
 		    predData.setPlotName(name + " (" + train.relationName() + ")");
 		    vp.addPlot(predData);
 		 
+		    
+		    
 		    // taken from: ClustererPanel.visualizeClusterAssignments(VisualizePanel)
 		    String plotName = vp.getName();
 		    final javax.swing.JFrame jf = 
