@@ -183,7 +183,7 @@ public class Filtering {
 	}
 	public String classify(Classifier classifier) throws Exception {
 		TextDirectoryLoader loader = new TextDirectoryLoader();
-		loader.setDirectory(new File("class"));
+		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
 		// loader.setDirectory(new File("test"));
@@ -191,13 +191,13 @@ public class Filtering {
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
 		fil.setAttributeIndex("2");
-		fil.setNominalLabels("beers,heartFailure,heartTransplant");
+		fil.setNominalLabels("surgery,medicine");
 		fil.setAttributeName("@@class@@");
 		fil.setInputFormat(testSet);
 		testSet.setClassIndex(0);
 		testSet = Filter.useFilter(testSet, fil);
 		testSet.setClassIndex(1);
-		System.out.println(testSet);
+		//System.out.println(testSet);
 		PrintWriter pr = new PrintWriter(new File("outputTest.arff"));
 		pr.write(testSet.toString());
 		pr.flush();
@@ -206,6 +206,12 @@ public class Filtering {
 		pr.write(trainingSet.toString());
 		pr.flush();
 		pr.close();
+		
+		
+		
+
+		
+		/*
 		FilteredClassifier fc = new FilteredClassifier();
 		StringToWordVector filter = new StringToWordVector();
 		filter.setIDFTransform(true);
@@ -218,12 +224,49 @@ public class Filtering {
 		filter.setLowerCaseTokens(true);
 		filter.setWordsToKeep(2);
 		filter.setInputFormat(trainingSet);
+		
+		*/
+		
+		FilteredClassifier fc = new FilteredClassifier();
+		StringToWordVector filter = new StringToWordVector();
+		filter.setIDFTransform(true);
+		filter.setTFTransform(true);
+		filter.setAttributeIndices("first");
+		filter.setUseStoplist(true);
+		filter.setLowerCaseTokens(true);
+		filter.setWordsToKeep(30);
+		filter.setNormalizeDocLength(new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL,StringToWordVector.TAGS_FILTER));
+		filter.setInputFormat(trainingSet);
+		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
+		
+		int[] atts = new int[2];
+		int tell=0;
+		for(int i =0;i < dataFiltered.numAttributes();i++){
+			if("medicine".equals(dataFiltered.attribute(i).name()) || "surgery".equals(dataFiltered.attribute(i).name()) ){
+				atts[tell++] = dataFiltered.attribute(i).index();
+			}
+		}
+
+		Remove remove = new Remove();
+		remove.setAttributeIndicesArray(atts);
+		remove.setInvertSelection(true);
+		remove.setInputFormat(dataFiltered);
+		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
+		dataFiltered  =dataFiltered1;
+		
+		
+		
 		fc.setFilter(filter);
 		fc.setClassifier(classifier);
 		fc.buildClassifier(trainingSet);
 		// Instances newTrain = Filter.useFilter(trainingSet, filter);
 		// Instances newTest = Filter.useFilter(testSet, filter);
-		System.out.println(fc);
+
+		
+		
+		
+		
+		
 		String output = "";
 		Evaluation eval = new Evaluation(trainingSet);
 		eval.evaluateModel(fc, testSet);
@@ -232,6 +275,7 @@ public class Filtering {
 		for (int i = 0; i < testSet.numInstances(); i++) {
 			double pred = fc.classifyInstance(testSet.instance(i));
 			System.out.print("ID: " + testSet.instance(i).value(0));
+		//	System.out.println(testSet.instance(i).toString());
 			// System.out.print(", actual: " +
 			// testSet.classAttribute().value((int)
 			// testSet.instance(i).classValue()) +
