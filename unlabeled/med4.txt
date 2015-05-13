@@ -1,0 +1,275 @@
+GLOBAL EDITION
+INSIDER
+MAGAZINE
+BUSINESS REPORTS
+LISTS
+EVENTS
+MORE
+CONNECT
+ 
+LOG IN / JOIN
+MIT Technology ReviewMIT Technology Review - logo
+
+HomeNEWS & ANALYSIS▾
+FEATURES
+VIEWS
+MULTIMEDIA
+DISCUSSIONS
+TOPICS
+POPULAR:DROPBOX’S BUSINESS BIDROBOT REALITYTHE VERSATILE BLOCKCHAINAPPLE AND DNABRAIN-INSPIRED CHIPPERFECT BABIESVERIZON-AOL DEAL
+EmTech Digital
+June 1-2, 2015
+St. Regis Hotel
+San Francisco
+REGISTER NOW
+ 
+HOME
+MENU
+INSIDER
+CONNECT
+THE LATEST
+POPULAR
+MOST SHARED
+MY PROFILE
+A SKEPTIC TAKES ON MOBILE HEALTH
+TECHNOLOGY LISTENS AS DOCTORS KEEP TALKING
+Comments
+Email
+Service
+Service
+More Share
+Print
+BUSINESS REPORT The Era of E-Medicine 
+Mining Data for Better Medicine
+The health battles of millions, recorded digitally, open a world of virtual research.
+
+By Neil Savage on September 19, 2011
+
+BUSINESS REPORT
+The Era of E-Medicine
+CONTENTS
+The Rise of Electronic Medicine
+A Federal Jump-start for Health IT
+E-Medicine's Perfect Storm
+Internet VCs Circle Health Care
+Company Pitch to Docs: Pocket $44,000!
+Medical App Explosion: TR’s Picks
+Apps for What Ails You
+How to Get Your Medical Device into the Apple Store
+Your Heartbeat on an iPhone
+From No Doctor to E-Doctors in Rural India
+A Skeptic Takes On Mobile Health
+Mining Data for Better Medicine
+Technology Listens as Doctors Keep Talking
+With Watson, IBM Seeks to Sell Medical Knowledge
+The Quantified-Self Business
+A DNA Tower of Babel
+Nine E-Medicine Stocks
+Why Doctors Don't Like Electronic Health Records
+Technology Tames the Beast
+Pharmacists Offer an Rx for Health Communication
+Cancer, Then a Calling, for 'e-Patient Dave'
+Download Full Report  View More Reports
+
+Prescription for speed: Digitized medical records allow data mining of hospital cases.
+
+The antidepressant Paxil was approved for sale in 1992, the cholesterol-lowering drug Pravachol in 1996. Company studies proved that each drug, on its own, works and is safe. But what about when they are taken together?
+
+By mining tens of thousands of electronic patient records, researchers at Stanford University quickly discovered an unexpected answer: people who take both drugs have higher blood glucose levels. The effect was even greater in diabetics, for whom excess blood sugar is a health danger. 
+
+The research is an example of the increasing ease with which scientists now scour digitized medical results, like glucose tests and drug prescriptions, to find hidden patterns. “You’re not constrained by the need to actually get patients lined up in a clinical trial that would be incredibly expensive,” says Russ Altman, director of Stanford’s Biomedical Informatics Training Program, whose group published the Paxil/Pravachol result in the journal Clinical Pharmacology and Therapeutics this July. “We had most of this paper done probably in a month.”
+
+The spread of electronic patient records, with their computer-readable entries, is opening new possibilities for medical data mining. Instead of being limited to carefully planned studies on volunteers, scientists can increasingly carry out research virtually by sifting through troves of data collected from the unplanned experiments of real life, as preserved in medical records from scores of hospitals.
+
+Such techniques are allowing researchers to ask questions never envisioned at the time of a drug’s approval, such as how a medicine might affect particular ethnicities. They are also being used to uncover evidence of economic problems, such as overbilling and unnecessary procedures. Mining of health records “is going to build advancements in research, but also efficiencies in the health delivery system,” says Margaret Anderson, executive director of FasterCures, a think tank in Washington, D.C.
+
+Some large hospital systems that use electronic records now employ full-time database research teams. Laurence Meyer, associate chief of staff for research at the Salt Lake City Veterans Administration Medical Center, says he knows of more than 100 research projects using electronic records from the VA’s six million patients, who are seen at 152 hospitals and 804 outpatient clinics across the country.
+
+PAGE1
+2
+CONTINUE
+Next in this Business Report:
+Technology Listens as Doctors Keep Talking
+
+CONTINUE
+0 COMMENTS about this story. Start the discussion »
+Credit: Technology Review
+Tagged: Business
+
+Reprints and Permissions | Send feedback to the editor
+
+PART OF SEPTEMBER 2011 BUSINESS REPORT
+YOU MAY HAVE MISSED
+MORE FROM THIS AUTHOR
+ 
+The Era of E-Medicine
+Medicine is stuck in the era of fax machines. But not for long. New technology and new laws are...
+The Rise of Electronic Medicine
+A Federal Jump-start for Health IT
+E-Medicine's Perfect Storm
+Internet VCs Circle Health Care
+Company Pitch to Docs: Pocket $44,000!
+Medical App Explosion: TR’s Picks
+Apps for What Ails You
+How to Get Your Medical Device into the Apple Store
+VIEW MORE REPORTS
+THE LATEST
+POPULAR
+MOST SHARED
+12 hours ago
+
+The Lake That Could Light Up Central Africa
+21 hours ago
+
+Verizon’s Ambitious Ad Play with AOL Faces Headwinds
+1 day ago
+
+How Dropbox Plans to Compete with Microsoft, Google, and IBM: Simplicity
+1 day ago
+
+Virtual Reality Lets Robots Work Out Their Kinks
+Internet of Everything—and Everyone
+Brought to you by National Instruments
+1 day ago
+
+Why Uber Wants Here
+2 days ago
+
+The Machine Vision Algorithm Beating Art Historians at Their Own Game
+2 days ago
+
+Nanoscale Semiconductors Offer a New Approach to Artificial Photosynthesis
+3 days ago
+
+Other Interesting arXiv Papers (Week ending May 9, 2015)
+4 days ago
+
+Does Facebook Filter Its Own Research?
+4 days ago
+
+Evolution Simulator Reveals the Secret to Mating Without Social Skills
+5 days ago
+
+Seven Stories You Shouldn’t Miss 
+(Week Ending May 9, 2015)
+5 days ago
+
+The Most Valuable Aspect of Bitcoin: Its Versatile Ledger Technology
+Listen to our new podcast for a preview of what you’ll experience at EmTech Digital.
+
+Innovations, Ideas, and Insights
+Provided by 
+5 days ago
+
+Recommended from Around the Web (Week Ending May 9, 2015)
+5 days ago
+
+Facebook Study: Users, More Than Algorithms, Choose What News to See
+5 days ago
+
+Some Model S Enthusiasts Write Code for the Cars
+6 days ago
+
+Memristors Used to Make a Neural-Network Chip
+SEE FULL ARCHIVE
+
+0 comments
+Sign in1 person listening
+ 
+ 
++ Follow
+Share
+Post comment as...
+Newest | Oldest | Top Comments
+Conversation powered by Livefyre
+New & Trending
+
+Dropbox’s Business Bid
+Robot Reality
+The Versatile Blockchain
+Apple and DNA
+Brain-Inspired Chip
+Perfect Babies
+Verizon-AOL deal
+The Lake That Could Light Up Central Africa
+
+Verizon’s Risky Bet on AOL’s Ad Business
+
+Dropbox Follows the Money into Crowded Market for Business Tools
+
+Even Robots Now Have Their Own Virtual World
+
+From the Archives
+
+Global-Warming Myths
+
+8 years ago
+Lifeline for Renewable Power
+
+6 years ago
+Broadband's Coming Attractions
+
+13 years ago
+Lucent Ventures Into the Future
+
+14 years ago
+MORE
+2012
+2011
+2010
+2009
+2008
+...1899
+MORE
+News and Analysis HomePopularToday's NewsBlogsPhoto GalleriesVideosBACK TO TOP
+The mission of MIT Technology Review is to equip its audiences with the intelligence to understand a world shaped by technology.
+
+Editions
+Find your preferred version. Choose from six languages and in 13 regions worldwide.
+Archives
+Explore 116 years of innovation from the most respected technology publication.
+Lists
+Discover the most important people, companies and technologies shaping our future.
+Events
+Attend one of our over 400 thought-provoking live events worldwide.
+Subscribers
+Have MIT Technology Review delivered to your doorstep, desktop, or tablet.
+More
+
+Newsletters
+MIT Enterprise Forum
+MIT News Magazine
+EmTech
+Company
+
+About Us
+Work for Us
+Advertise with Us
+Reprints and Permissions
+Your Account
+
+Join
+View Profile
+Manage Account
+Manage Subscription
+Customer Support
+
+Help / Support
+Contact us
+Feedback
+Sitemap
+Connect
+
+Twitter
+LinkedIn
+YouTube
+Google+
+StumbleUpon
+Facebook
+RSS
+Mobile
+MIT Technology Review Ethics StatementTerms of ServicePrivacyCommenting Guidelines
+© 2015v1.13.05.10
+heart failure
+heart transplant
+assist support devices

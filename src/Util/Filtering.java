@@ -3,6 +3,8 @@ package Util;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
@@ -45,14 +47,29 @@ public class Filtering {
 		filter.setAttributeIndices("first-last");
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(5);
+		filter.setWordsToKeep(100);
+		filter.setNormalizeDocLength(new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL,StringToWordVector.TAGS_FILTER));
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
 		
+		int[] atts = new int[2];
+		int tell=0;
+		for(int i =0;i < dataFiltered.numAttributes();i++){
+			if("medicine".equals(dataFiltered.attribute(i).name()) || "surgery".equals(dataFiltered.attribute(i).name()) ){
+				atts[tell++] = dataFiltered.attribute(i).index();
+			}
+		}
+
+		Remove remove = new Remove();
+		remove.setAttributeIndicesArray(atts);
+		remove.setInvertSelection(true);
+		remove.setInputFormat(dataFiltered);
+		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
+		dataFiltered  =dataFiltered1;
 		
-		
-		
+	
+
 		
 		/*
 		String[] options = new String[2];
@@ -67,38 +84,42 @@ public class Filtering {
 		if (cluster.getClass() == weka.clusterers.EM.class) {
 			((EM) cluster).setNumClusters(3);
 		} else if (cluster.getClass() == weka.clusterers.SimpleKMeans.class) {
-			((SimpleKMeans) cluster).setNumClusters(3);
+			((SimpleKMeans) cluster).setNumClusters(2);
 		} else if (cluster.getClass() == weka.clusterers.XMeans.class) {
-			((XMeans) cluster).setMinNumClusters(3);
-			((XMeans) cluster).setMaxNumClusters(3);
+			((XMeans) cluster).setMinNumClusters(2);
+			((XMeans) cluster).setMaxNumClusters(2);
 		}
 		fc.setClusterer(cluster);
 		fc.buildClusterer(dataFiltered);
 		
-		
+		double[] testt =null;
 		String output = "";
 		for (int i = 0; i < dataFiltered.numInstances(); i++) {
 			int predictionClass = fc.clusterInstance(dataFiltered.instance(i));
+			testt	 = fc.distributionForInstance(dataFiltered.instance(i));
+				
+			
+				
 			String test = dataset.instance(i).toString();
 			String work = test.substring(0, test.indexOf(","));
 			if (predictionClass == 0) {
 				System.out.println("CLUSTER:  " + predictionClass + "  "
 						+ dataFiltered.instance(i));
 				output = output + predictionClass + "  "
-						+ dataFiltered.instance(i) + "\n";
-				// PrintWriter pr = new PrintWriter(new
-				// File("class/heartFailure/" + work));
-				// pr.write(dataFiltered.instance(i).toString());
-				// pr.close();
+						+ dataFiltered.instance(i) + "\n" ;
+				 PrintWriter pr = new PrintWriter(new
+				 File("labeled/medicine/" + work));
+				 pr.write(dataset.instance(i).toString());
+				 pr.close();
 			} else if (predictionClass == 1) {
 				System.out.println("CLUSTER1:  " + predictionClass + "  "
 						+ dataFiltered.instance(i));
-				output = output + predictionClass + "  "
+						output = output + predictionClass + "  "
 						+ dataFiltered.instance(i) + "\n";
-				// PrintWriter pr = new PrintWriter(new File("class/beers/"+
-				// work));
-				// pr.write(dataFiltered.instance(i).toString());
-				// pr.close();
+				 PrintWriter pr = new PrintWriter(new File("labeled/surgery/"+
+				 work));
+				 pr.write(dataset.instance(i).toString());
+				 pr.close();
 			} else if (predictionClass == 2) {
 				System.out.println("CLUSTER2:  " + predictionClass + "  "
 						+ dataFiltered.instance(i));
@@ -110,6 +131,7 @@ public class Filtering {
 				// pr.close();
 			}
 		}
+	
 		
 		
 		ClusterEvaluation eval = new ClusterEvaluation();

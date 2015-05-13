@@ -1,0 +1,274 @@
+Skip Navigation
+Healthcare Cost and Utilization Project logo
+
+Overview of the State Ambulatory Surgery and Services Databases (SASD)
+The SASD are a set of longitudinal State-specific ambulatory surgery and services databases included in the HCUP family. These databases are created by AHRQ through a Federal-State-Industry partnership.
+	search
+ 	heart failure
+heart transplant
+assist support devices
+
+Home
+What is HCUP?
+Overview of HCUP
+On-line HCUP Overview Course
+Frequently Asked Questions
+HCUP Products
+HCUP Databases
+HCUPnet
+HCUP Tools & Software
+HCUP Reports
+HCUP Services
+Purchase HCUP Data
+HCUP Technical Assistance
+HCUP On-line Tutorials Series
+HCUP Data Use Agreement Training
+
+Databases
+Nationwide HCUP Databases
+National (Nationwide) Inpatient Sample (NIS)
+Overview of the NIS
+HCUP Partners in the NIS
+Obtaining the NIS
+HCUP Data Use Agreement Training
+Nationwide Data Use Agreement
+Using the NIS
+NIS Database Documentation
+NIS Related Reports
+Publishing with HCUP Data
+Kids' Inpatient Database (KID)
+Overview of the KID
+HCUP Partners in the KID
+Obtaining the KID
+HCUP Data Use Agreement Training
+Nationwide Data Use Agreement
+Using the KID
+KID Database Documentation
+KID Related Reports
+Publishing with HCUP Data
+Nationwide Emergency Department Sample (NEDS)
+Overview of the NEDS
+HCUP Partners in the NEDS
+Obtaining the NEDS
+HCUP Data Use Agreement Training
+Nationwide Data Use Agreement
+Using the NEDS
+NEDS Database Documentation
+NEDS Related Reports
+Publishing with HCUP Data
+State-Specific HCUP Databases
+State Inpatient Databases (SID)
+Overview of the SID
+HCUP Partners in the SID
+Obtaining the SID
+HCUP Data Use Agreement Training
+State Database Data Use Agreement
+Using the SID
+SID Database Documentation
+SID Related Reports
+Publishing with HCUP Data
+State Ambulatory Surgery and Services Databases (SASD)
+Overview of the SASD
+HCUP Partners in the SASD
+Obtaining the SASD
+HCUP Data Use Agreement Training
+State Database Data Use Agreement
+Using the SASD
+SASD Database Documentation
+SASD Related Reports
+Publishing with HCUP Data
+State Emergency Department Databases (SEDD)
+Overview of the SEDD
+HCUP Partners in the SEDD
+Obtaining the SEDD
+HCUP Data Use Agreement Training
+SEDD Data Use Agreement
+Using the SEDD
+SEDD Database Documentation
+SEDD Related Reports
+Publishing with HCUP Data
+Tools &
+Software
+Favorites
+HCUPNet
+AHRQ Quality Indicators (QIs)
+MONAHRQ
+HCUP Tools & Software
+Clinical Classifications Software (CCS) for ICD-10-CM/PCS
+Clinical Classifications Software (CCS) for ICD-9-CM
+Clinical Classifications Software (CCS) for Services and Procedures
+Classifications Software (CCS) for Mortality Reporting
+Clinical Classifications Software for Mental Health and Substance Abuse (CCS-MHSA)
+Chronic Condition Indicator
+Chronic Condition Indicator for ICD-10-CM
+Comorbidity Software
+Comorbidity Software for ICD-10-CM
+Procedure Classes
+Procedure Classes for ICD-10-PCS
+Utilization Flags
+Surgery Flags
+HCUP Supplemental Files
+Cost-to-Charge Ratio (CCR) Files
+Hospital Market Structure (HMS) Files
+HCUP Supplemental Variables for Revisit Analyses
+American Hospital Association (AHA) Linkage Files
+NIS Hospital Ownership Files
+Nationwide Inpatient Sample Trends (NIS-Trends) Files
+Kid’s Inpatient Database Trends (KID-Trends) File
+
+Reports
+Favorites
+HCUP Statistical Briefs
+Topical list
+Chronological list
+HCUP Infographics
+HCUP Projections
+Information About Using HCUP Data
+HCUP Methods Series
+Topical list
+Chronological list
+HCUP Nationwide Database Reports
+NIS
+KID
+NEDS
+HCUP State Database Reports
+SID
+SASD
+SEDD
+Additional Topics
+Topical Reports
+Race/Ethnicity
+Mental and Substance Use Disorders
+HCUP Publications
+Publication search
+Research Spotlights
+AHRQ Publications
+HCUP Archive
+Hospital Discharge Data report
+HCUP Highlights
+HCUP Fact Books
+HCUP National Statistics Archive
+HCUP Facts and Figures
+News &
+Events
+HCUP e-News
+HCUP e-News Archives
+Announcements
+Announcements Archives
+Calendar
+Events
+Database and Product Releases
+Archives
+Virtual Exhibit Booth
+Purchase
+HCUP Data
+Technical
+Assistance
+Need Help?
+FAQs
+HCUP Databases
+HCUP Central Distributor
+HCUP Publishing Requirements
+HCUP Index
+HCUP Training & Tutorials
+HCUP Overview Course
+Data Use Agreement Training Tool
+HCUP On-line Tutorials
+Contact Information
+Technical Support
+Data Orders
+Data
+Innovations
+ICD-10-CM/PCS Resources
+Present on Admission Resources
+Race and Ethnicity Data Improvement Toolkit
+Clinical Content Enhancement Toolkit
+ 
+State Ambulatory Surgery and Services Databases
+
+The State Ambulatory Surgery and Services Databases (SASD) are part of the family of databases and software tools developed for the Healthcare Cost and Utilization Project (HCUP). The SASD include encounter-level data for ambulatory surgeries and may also include various types of outpatient services such as observation stays, lithotripsy, radiation therapy, imaging, chemotherapy, and labor and delivery. The specific types of ambulatory surgery and outpatient services included in each SASD vary by State and data year. All SASD include data from hospital-owned ambulatory surgery facilities. In addition, some States include data from nonhospital-owned facilities. 
+
+Developed through a Federal-State-Industry partnership sponsored by the Agency for Healthcare Research and Quality, HCUP data inform decisionmaking at the national, State, and community levels. 
+
+This page provides an overview of the SASD. For more details, see SASD Database Documentation and the Introduction to the SASD (PDF file, 196 KB; HTML). 
+
+Contents:
+About the SASD
+SASD Data Elements
+SASD Areas of Research and HCUP Publications
+Purchase the SASD
+SASD Hardware and Software Requirements
+
+About the SASD
+The SASD include encounter-level data for ambulatory surgery and other outpatient services from hospital-owned facilities. In addition, some States provide ambulatory surgery and outpatient services from nonhospital-owned facilities. The specific types of ambulatory surgery and outpatient services included in each SASD vary by State and data year. A number of States make their SASD files available for purchase through the HCUP Central Distributor. 
+
+Thirty-four States now participate in the SASD: 
+
+The SASD include encounter-level data for ambulatory surgery and other outpatient services from hospital-owned facilities in participating States that are translated into a uniform format to facilitate multistate comparisons and analyses.
+All SASD include data from hospital-owned ambulatory surgery facilities. In addition, some States include data from facilities not owned by a hospital.
+The databases contain a core set of clinical and nonclinical information on all patients, regardless of payer, including those covered by Medicare, Medicaid, private insurance, and the uninsured.
+In addition to the core set of uniform data elements common to all SASD, some include other elements such as the patient's race.
+Free HCUP Tools & Software are also available to identify preventable hospitalizations, estimate costs, assess quality of care and patient safety, categorize diagnoses and procedures, and identify comorbidities. 
+
+Additional information on the SASD may be found in the Introduction to the SASD (PDF file, 196 KB; HTML).
+Return to Contents
+ 
+SASD Data Elements
+
+The SASD contain clinical and resource-use information that is included in a typical discharge abstract, with safeguards to protect the privacy of individual patients, physicians, and hospitals (as required by data sources). The SASD contain more than 100 clinical and nonclinical variables included in a hospital discharge abstract, such as: 
+
+All-listed diagnoses and procedures
+Patient demographic characteristics (e.g., sex, age, and, for some States, race)
+Expected payment source
+Total charges
+Hospital identifiers that permit linkage to inpatient hospital databases, such as the AHRQ-sponsored State Inpatient Databases (SID) and the American Hospital Association Annual Survey File
+Elements included in the SASD are not always available for all States, including the hospital county identifiers or HCUP's Revisit Variables. Please see the Availability of Data Elements by Year.
+Return to Contents
+ 
+SASD Areas of Research and HCUP Publications
+
+The SASD are well suited for research that requires complete enumeration of ambulatory surgery in hospital-owned facilities within market areas or States. Used with the SID, the SASD may be used to compare inpatient surgery data with ambulatory surgery data. The SASD promote comparative studies of health care services and support health care policy research on a variety of topics, including: 
+
+Analyses of ambulatory surgeries
+Trends in ambulatory surgery utilization, access, charges, and outcomes
+Shift in surgical procedures to outpatient facilities
+Diffusion of medical technology
+The SASD are used in a variety of publications: 
+
+HCUP Statistical Briefs highlight a variety of health topics.
+Use the HCUP Publications Search Tool to find publications using the SASD.
+Review featured publications on the HCUP Research Spotlights page.
+Read publications by the winners of the HCUP Outstanding Article of the Year Awards.
+Return to Contents
+ 
+Purchase the SASD
+
+SASD releases beginning in data year 1997 are available for purchase through the HCUP Central Distributor. Costs vary by State and data year. 
+
+Prior to purchasing HCUP data, all individuals are required to take the online HCUP Data Use Agreement Training Course, and users of the SASD must read and sign the Data Use Agreement for State Databases (PDF file, 206 KB; HTML). 
+
+The SASD are available for purchase online through the HCUP Central Distributor. 
+
+Questions regarding purchasing databases can be directed to the HCUP Central Distributor:
+E-mail: HCUPDistributor@AHRQ.gov 
+Telephone: (866) 556-4287 (toll free)	
+Fax: (866) 792-5313 (toll free)
+
+Return to Contents
+ 
+SAS Hardware and Software Requirements
+
+The SASD data set comes in ASCII format and can be run on desktop computers with a DVD drive. To load and analyze the SASD, you will need the following: 
+
+A DVD drive
+A hard drive with one to four gigabytes of space available, depending on the SID being used
+SAS®, SPSS®, or similar analysis software
+The data set comes with full documentation. SASD documentation and tools, including programs for loading the ASCII file into SAS or SPSS, are also available on the SASD Database Documentation page. 
+
+Return to Contents
+ 
+Internet Citation: HCUP Databases. Healthcare Cost and Utilization Project (HCUP). February 2015. Agency for Healthcare Research and Quality, Rockville, MD. www.hcup-us.ahrq.gov/sasdoverview.jsp.
+Are you having problems viewing or printing pages on this Website?
+If you have comments, suggestions, and/or questions, please contact	hcup@ahrq.gov.
+Privacy Notice, Viewers & Players
+Last modified 2/18/15

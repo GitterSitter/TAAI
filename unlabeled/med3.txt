@@ -1,0 +1,445 @@
+HELP & FEEDBACKScroll
+ eMC logo
+HOME
+MEDICINES
+BROWSE MEDICINE A-Z
+BROWSE ACTIVE INGREDIENT A-Z
+MEDICINES WITH BLACK TRIANGLE
+DISCONTINUED MEDICINES
+REPORT SIDE EFFECT
+COMPANIES
+LATEST UPDATES
+ABOUT EMC
+SIGN UP
+|
+LOG IN
+ Submit Search Advanced search >
+SPC Logo
+Abilify 7.5 mg/ml solution for injection (intramuscular)
+Last Updated on eMC 07-Nov-2014 View changes  | Otsuka Pharmaceuticals (UK) Ltd Contact details
+Patient Information
+print SPC this link will open a new window
+Bookmark This Medicine
+email SPC this link will open a new window
+check related medicine
+report side effect
+1. Name of the medicinal product
+2. Qualitative and quantitative composition
+3. Pharmaceutical form
+4. Clinical particulars
+4.1 Therapeutic indications
+4.2 Posology and method of administration
+4.3 Contraindications
+4.4 Special warnings and precautions for use
+4.5 Interaction with other medicinal products and other forms of interaction
+4.6 Fertility, pregnancy and lactation
+4.7 Effects on ability to drive and use machines
+4.8 Undesirable effects
+4.9 Overdose
+5. Pharmacological properties
+5.1 Pharmacodynamic properties
+5.2 Pharmacokinetic properties
+5.3 Preclinical safety data
+6. Pharmaceutical particulars
+6.1 List of excipients
+6.2 Incompatibilities
+6.3 Shelf life
+6.4 Special precautions for storage
+6.5 Nature and contents of container
+6.6 Special precautions for disposal and other handling
+7. Marketing authorisation holder
+8. Marketing authorisation number(s)
+9. Date of first authorisation/renewal of the authorisation
+10. Date of revision of the text
+1. Name of the medicinal product
+ABILIFY 7.5 mg/ml solution for injection
+2. Qualitative and quantitative composition
+Each ml contains 7.5 mg of aripiprazole.
+Each vial contains 9.75 mg aripiprazole.
+For the full list of excipients, see section 6.1.
+3. Pharmaceutical form
+Solution for injection
+Clear, colourless, aqueous solution.
+4. Clinical particulars
+4.1 Therapeutic indications
+ABILIFY solution for injection is indicated for the rapid control of agitation and disturbed behaviours in patients with schizophrenia or in patients with manic episodes in Bipolar I Disorder, when oral therapy is not appropriate.
+Treatment with aripiprazole solution for injection should be discontinued as soon as clinically appropriate and the use of oral aripiprazole should be initiated.
+4.2 Posology and method of administration
+Posology
+Adults
+The recommended initial dose for aripiprazole solution for injection is 9.75 mg (1.3 ml), administered as a single intramuscular injection. The effective dose range of aripiprazole solution for injection is 5.25-15 mg as a single injection. A lower dose of 5.25 mg (0.7 ml) may be given, on the basis of individual clinical status, which should also include consideration of medicinal products already administered either for maintenance or acute treatment (see section 4.5). A second injection may be administered 2 hours after the first injection, on the basis of individual clinical status and no more than three injections should be given in any 24-hour period.
+The maximum daily dose of aripiprazole is 30 mg (including all formulations of aripiprazole).
+If continued treatment is indicated with oral aripiprazole, see the Summary of Product Characteristics for ABILIFY tablets, ABILIFY orodispersible tablets, or ABILIFY oral solution.
+Paediatric population
+There is no experience in children and adolescents under 18 years of age.
+Patients with hepatic impairment
+No dosage adjustment is required for patients with mild to moderate hepatic impairment. In patients with severe hepatic impairment, the data available are insufficient to establish recommendations. In these patients dosing should be managed cautiously. However, the maximum daily dose of 30 mg should be used with caution in patients with severe hepatic impairment (see section 5.2).
+Patients with renal impairment
+No dosage adjustment is required in patients with renal impairment.
+Older people
+The effectiveness of ABILIFY solution for injection in patients aged 65 years and older has not been established. Owing to the greater sensitivity of this population, a lower starting dose should be considered when clinical factors warrant (see section 4.4).
+Gender
+No dosage adjustment is required for female patients as compared to male patients (see section 5.2).
+Smoking status
+According to the metabolic pathway of aripiprazole no dosage adjustment is required for smokers (see section 4.5).
+Dose adjustments due to interactions
+When concomitant administration of potent CYP3A4 or CYP2D6 inhibitors with aripiprazole occurs, the aripiprazole dose should be reduced. When the CYP3A4 or CYP2D6 inhibitor is withdrawn from the combination therapy, aripiprazole dose should then be increased (see section 4.5).
+When concomitant administration of potent CYP3A4 inducers with aripiprazole occurs, the aripiprazole dose should be increased. When the CYP3A4 inducer is withdrawn from the combination therapy, the aripiprazole dose should then be reduced to the recommended dose (see section 4.5).
+Method of administration
+ABILIFY solution for injection is for intramuscular use.
+To enhance absorption and minimise variability, injection into the deltoid or deep within the gluteus maximus muscle, avoiding adipose regions, is recommended.
+ABILIFY solution for injection should not be administered intravenously or subcutaneously. ABILIFY solution for injection is ready to use and intended for short-term use only (see section 5.1).
+4.3 Contraindications
+Hypersensitivity to the active substance or to any of the excipients listed in section 6.1.
+4.4 Special warnings and precautions for use
+The efficacy of aripiprazole solution for injection in patients with agitation and disturbed behaviours has not been established related to conditions other than schizophrenia and manic episodes in Bipolar I Disorder.
+Simultaneous administration of injectable antipsychotics and parenteral benzodiazepine may be associated with excessive sedation and cardiorespiratory depression. If parenteral benzodiazepine therapy is deemed necessary in addition to aripiprazole solution for injection, patients should be monitored for excessive sedation and for orthostatic hypotension (see section 4.5).
+Patients receiving aripiprazole solution for injection should be observed for orthostatic hypotension. Blood pressure, pulse, respiratory rate and level of consciousness should be monitored regularly.
+The safety and efficacy of aripiprazole solution for injection has not been evaluated in patients with alcohol or medicinal product intoxication (either with prescribed or illicit medicinal products).
+During antipsychotic treatment, improvement in the patient's clinical condition may take several days to some weeks. Patients should be closely monitored throughout this period.
+Suicidality
+The occurrence of suicidal behaviour is inherent in psychotic illnesses and mood disorders and in some cases has been reported early after initiation or switch of antipsychotic therapy, including treatment with aripiprazole (see section 4.8). Close supervision of high-risk patients should accompany antipsychotic therapy. Results of an epidemiological study suggested that there was no increased risk of suicidality with aripiprazole compared to other antipsychotics among adult patients with schizophrenia or bipolar disorder. There are insufficient paediatric data to evaluate this risk in younger patients (below 18 years of age), but there is evidence that the risk of suicide persists beyond the first 4 weeks of treatment for atypical antipsychotics, including aripiprazole.
+Cardiovascular disorders
+Aripiprazole should be used with caution in patients with known cardiovascular disease (history of myocardial infarction or ischaemic heart disease, heart failure, or conduction abnormalities), cerebrovascular disease, conditions which would predispose patients to hypotension (dehydration, hypovolemia, and treatment with antihypertensive medicinal products) or hypertension, including accelerated or malignant.
+Cases of venous thromboembolism (VTE) have been reported with antipsychotic drugs. Since patients treated with antipsychotics often present with acquired risk factors for VTE, all possible risk factors for VTE should be identified before and during treatment with ABILIFY and preventive measures undertaken.
+Conduction abnormalities
+In clinical trials of aripiprazole, the incidence of QT prolongation was comparable to placebo. As with other antipsychotics, aripiprazole should be used with caution in patients with a family history of QT prolongation.
+Tardive dyskinesia
+In clinical trials of one year or less duration, there were uncommon reports of treatment emergent dyskinesia during treatment with aripiprazole. If signs and symptoms of tardive dyskinesia appear in a patient on ABILIFY, dose reduction or discontinuation should be considered. These symptoms can temporally deteriorate or can even arise after discontinuation of treatment.
+Other extrapyramidal symptoms
+In paediatric clinical trials of aripiprazole akathisia and parkinsonism were observed. If signs and symptoms of other EPS appear in a patient taking ABILIFY, dose reduction and close clinical monitoring should be considered.
+Neuroleptic Malignant Syndrome (NMS)
+NMS is a potentially fatal symptom complex associated with antipsychotic medicinal products. In clinical trials, rare cases of NMS were reported during treatment with aripiprazole. Clinical manifestations of NMS are hyperpyrexia, muscle rigidity, altered mental status and evidence of autonomic instability (irregular pulse or blood pressure, tachycardia, diaphoresis and cardiac dysrhythmia). Additional signs may include elevated creatine phosphokinase, myoglobinuria (rhabdomyolysis), and acute renal failure. However, elevated creatine phosphokinase and rhabdomyolysis, not necessarily in association with NMS, have also been reported. If a patient develops signs and symptoms indicative of NMS, or presents with unexplained high fever without additional clinical manifestations of NMS, all antipsychotic medicinal products, including ABILIFY, must be discontinued.
+Seizure
+In clinical trials, uncommon cases of seizure were reported during treatment with aripiprazole. Therefore, aripiprazole should be used with caution in patients who have a history of seizure disorder or have conditions associated with seizures.
+Elderly patients with dementia-related psychosis
+Increased mortality
+In three placebo-controlled trials (n= 938; mean age: 82.4 years; range: 56-99 years) of aripiprazole in elderly patients with psychosis associated with Alzheimer's disease, patients treated with aripiprazole were at increased risk of death compared to placebo. The rate of death in aripiprazole-treated patients was 3.5 % compared to 1.7 % in the placebo group. Although the causes of deaths were varied, most of the deaths appeared to be either cardiovascular (e.g. heart failure, sudden death) or infectious (e.g. pneumonia) in nature.
+Cerebrovascular adverse reactions
+In the same trials, cerebrovascular adverse reactions (e.g. stroke, transient ischaemic attack), including fatalities, were reported in patients (mean age: 84 years; range: 78-88 years). Overall, 1.3 % of aripiprazole-treated patients reported cerebrovascular adverse reactions compared with 0.6 % of placebo-treated patients in these trials. This difference was not statistically significant. However, in one of these trials, a fixed-dose trial, there was a significant dose response relationship for cerebrovascular adverse reactions in patients treated with aripiprazole.
+ABILIFY is not indicated for the treatment of dementia-related psychosis.
+Hyperglycaemia and diabetes mellitus
+Hyperglycaemia, in some cases extreme and associated with ketoacidosis or hyperosmolar coma or death, has been reported in patients treated with atypical antipsychotic agents, including ABILIFY. Risk factors that may predispose patients to severe complications include obesity and family history of diabetes. In clinical trials with aripiprazole, there were no significant differences in the incidence rates of hyperglycaemia-related adverse reactions (including diabetes) or in abnormal glycaemia laboratory values compared to placebo. Precise risk estimates for hyperglycaemia-related adverse reactions in patients treated with ABILIFY and with other atypical antipsychotic agents are not available to allow direct comparisons. Patients treated with any antipsychotic agents, including ABILIFY, should be observed for signs and symptoms of hyperglycaemia (such as polydipsia, polyuria, polyphagia and weakness) and patients with diabetes mellitus or with risk factors for diabetes mellitus should be monitored regularly for worsening of glucose control.
+Hypersensitivity
+As with other medicinal products, hypersensitivity reactions, characterised by allergic symptoms, may occur with aripiprazole (see section 4.8).
+Weight gain
+Weight gain is commonly seen in schizophrenic and bipolar mania patients due to co-morbidities, use of antipsychotics known to cause weight gain, poorly managed life-style, and might lead to severe complications. Weight gain has been reported post-marketing among patients prescribed ABILIFY. When seen, it is usually in those with significant risk factors such as history of diabetes, thyroid disorder or pituitary adenoma. In clinical trials aripiprazole has not been shown to induce clinically relevant weight gain in adults (see section 5.1). In clinical trials of adolescent patients with bipolar mania, aripiprazole has been shown to be associated with weight gain after 4 weeks of treatment. Weight gain should be monitored in adolescent patients with bipolar mania. If weight gain is clinically significant, dose reduction should be considered (see section 4.8).
+Dysphagia
+Oesophageal dysmotility and aspiration have been associated with antipsychotic treatment, including ABILIFY. Aripiprazole and other antipsychotic active substances should be used cautiously in patients at risk for aspiration pneumonia.
+Pathological gambling
+Post-marketing reports of pathological gambling have been reported among patients prescribed ABILIFY, regardless of whether these patients had a prior history of gambling. Patients with a prior history of pathological gambling may be at increased risk and should be monitored carefully (see section 4.8).
+Patients with ADHD comorbidity
+Despite the high comorbidity frequency of Bipolar I Disorder and ADHD, very limited safety data are available on concomitant use of ABILIFY and stimulants; therefore, extreme caution should be taken when these drugs are co-administered.
+4.5 Interaction with other medicinal products and other forms of interaction
+Due to its α1-adrenergic receptor antagonism, aripiprazole has the potential to enhance the effect of certain antihypertensive agents.
+Given the primary CNS effects of aripiprazole, caution should be used when aripiprazole is taken in combination with alcohol or other CNS medicinal products with overlapping adverse reactions such as sedation (see section 4.8).
+If aripiprazole is administered concomitantly with medicinal products known to cause QT prolongation or electrolyte imbalance, caution should be used.
+Potential for other medicinal products to affect ABILIFY
+The administration of lorazepam solution for injection had no effect on the pharmacokinetics of aripiprazole solution for injection when administered concomitantly. However, in a single-dose, intramuscular study of aripiprazole (dose 15 mg) in healthy subjects, administered simultaneously with intramuscular lorazepam (dose 2 mg), the intensity of sedation was greater with the combination as compared to that observed with aripiprazole alone.
+A gastric acid blocker, the H2 antagonist famotidine, reduces aripiprazole rate of absorption but this effect is deemed not clinically relevant.
+Aripiprazole is metabolised by multiple pathways involving the CYP2D6 and CYP3A4 enzymes but not CYP1A enzymes. Thus, no dosage adjustment is required for smokers.
+Quinidine and other CYP2D6 inhibitors
+In a clinical trial in healthy subjects, a potent inhibitor of CYP2D6 (quinidine) increased aripiprazole AUC by 107 %, while Cmax was unchanged. The AUC and Cmax of dehydro-aripiprazole, the active metabolite, decreased by 32 % and 47 %. ABILIFY dose should be reduced to approximately one-half of its prescribed dose when concomitant administration of ABILIFY with quinidine occurs. Other potent inhibitors of CYP2D6, such as fluoxetine and paroxetine, may be expected to have similar effects and similar dose reductions should therefore be applied.
+Ketoconazole and other CYP3A4 inhibitors
+In a clinical trial in healthy subjects, a potent inhibitor of CYP3A4 (ketoconazole) increased aripiprazole AUC and Cmax by 63 % and 37 %, respectively. The AUC and Cmax of dehydro-aripiprazole increased by 77 % and 43 %, respectively. In CYP2D6 poor metabolisers, concomitant use of potent inhibitors of CYP3A4 may result in higher plasma concentrations of aripiprazole compared to that in CYP2D6 extensive metabolizers. When considering concomitant administration of ketoconazole or other potent CYP3A4 inhibitors with ABILIFY, potential benefits should outweigh the potential risks to the patient. When concomitant administration of ketoconozole with ABILIFY occurs, ABILIFY dose should be reduced to approximately one-half of its prescribed dose. Other potent inhibitors of CYP3A4, such as itraconazole and HIV protease inhibitors, may be expected to have similar effects and similar dose reductions should therefore be applied.
+Upon discontinuation of the CYP2D6 or CYP3A4 inhibitor, the dosage of ABILIFY should be increased to the level prior to the initiation of the concomitant therapy.
+When weak inhibitors of CYP3A4 (e.g., diltiazem or escitalopram) or CYP2D6 are used concomitantly with ABILIFY, modest increases in aripiprazole concentrations might be expected.
+Carbamazepine and other CYP3A4 inducers
+Following concomitant administration of carbamazepine, a potent inducer of CYP3A4, the geometric means of Cmax and AUC for aripiprazole were 68 % and 73 % lower, respectively, compared to when aripiprazole (30 mg) was administered alone. Similarly, for dehydro-aripiprazole the geometric means of Cmax and AUC after carbamazepine co-administration were 69 % and 71 % lower, respectively, than those following treatment with aripiprazole alone.
+ABILIFY dose should be doubled when concomitant administration of ABILIFY occurs with carbamazepine. Other potent inducers of CYP3A4 (such as rifampicin, rifabutin, phenytoin, phenobarbital, primidone, efavirenz, nevirapine and St. John's Wort) may be expected to have similar effects and similar dose increases should therefore be applied. Upon discontinuation of potent CYP3A4 inducers, the dosage of ABILIFY should be reduced to the recommended dose.
+Valproate and lithium
+When either valproate or lithium were administered concomitantly with aripiprazole, there was no clinically significant change in aripiprazole concentrations.
+Serotonin syndrome
+Cases of serotonin syndrome have been reported in patients taking aripiprazole, and possible signs and symptoms for this condition can occur especially in cases of concomitant use with other serotonergic drugs, such as SSRI/SNRI, or with drugs that are known to increase aripiprazole concentrations (see section 4.8).
+Potential for ABILIFY to affect other medicinal products
+The administration of aripiprazole solution for injection had no effect on the pharmacokinetics of lorazepam solution for injection when administered concomitantly. However, in a single-dose, intramuscular study of aripiprazole (dose 15 mg) in healthy subjects, administered simultaneously with intramuscular lorazepam (dose 2 mg), the orthostatic hypotension observed was greater with the combination as compared to that observed with lorazepam alone.
+In clinical studies, 10-30 mg/day doses of aripiprazole had no significant effect on the metabolism of substrates of CYP2D6 (dextromethorphan/3-methoxymorphinan ratio), CYP2C9 (warfarin), CYP2C19 (omeprazole), and CYP3A4 (dextromethorphan). Additionally, aripiprazole and dehydro-aripiprazole did not show potential for altering CYP1A2-mediated metabolism in vitro. Thus, aripiprazole is unlikely to cause clinically important medicinal product interactions mediated by these enzymes.
+When aripiprazole was administered concomitantly with either valproate, lithium or lamotrigine, there was no clinically important change in valproate, lithium or lamotrigine concentrations.
+4.6 Fertility, pregnancy and lactation
+Pregnancy
+There are no adequate and well-controlled trials of aripiprazole in pregnant women. Congenital anomalies have been reported; however, causal relationship with aripiprazole could not be established. Animal studies could not exclude potential developmental toxicity (see section 5.3). Patients should be advised to notify their physician if they become pregnant or intend to become pregnant during treatment with aripiprazole. Due to insufficient safety information in humans and concerns raised by animal reproductive studies, this medicinal product should not be used in pregnancy unless the expected benefit clearly justifies the potential risk to the foetus.
+Neonates exposed to antipsychotics (including aripiprazole) during the third trimester of pregnancy are at risk of adverse reactions including extrapyramidal and/or withdrawal symptoms that may vary in severity and duration following delivery. There have been reports of agitation, hypertonia, hypotonia, tremor, somnolence, respiratory distress, or feeding disorder. Consequently, newborns should be monitored carefully.
+Breast-feeding
+Aripiprazole is excreted in human breast milk. Patients should be advised not to breast feed if they are taking aripiprazole.
+4.7 Effects on ability to drive and use machines
+As with other antipsychotics, patients should be cautioned about operating hazardous machines, including motor vehicles, until they are reasonably certain that aripiprazole does not affect them adversely. Some paediatric patients with Bipolar I Disorder have an increased incidence of somnolence and fatigue (see section 4.8).
+4.8 Undesirable effects
+Summary of the safety profile
+The most commonly reported adverse reactions in placebo-controlled trials are nausea, dizziness and somnolence each occurring in more than 3 % of patients treated with aripiprazole solution for injection.
+Tabulated list of adverse reactions
+The following adverse reactions occurred more often (≥ 1/100) than placebo, or were identified as possibly medically relevant adverse reactions (*) in clinical trials with aripiprazole solution for injection (see section 5.1).
+The frequency listed below is defined using the following convention: common (≥ 1/100 to < 1/10) and uncommon (≥ 1/1,000 to < 1/100).
+Nervous system disorders
+Common: somnolence, dizziness, headache, akathisia
+Cardiac disorders
+Uncommon: tachycardia*
+Vascular disorders
+Uncommon: orthostatic hypotension*, increased diastolic blood pressure*
+Gastrointestinal disorders
+Common: nausea, vomiting
+Uncommon: dry mouth*
+General disorders and administration site conditions
+Uncommon: fatigue*
+The following undesirable effects occurred more often (≥ 1/100) than placebo, or were identified as possibly medically relevant adverse reactions (*) in clinical trials with oral formulations of aripiprazole (see section 5.1):
+Psychiatric disorders
+Common: restlessness, insomnia, anxiety
+Uncommon: depression*
+Nervous system disorders
+Common: extrapyramidal disorder, akathisia, tremor, dizziness, somnolence, sedation, headache
+Eye disorders
+Common: blurred vision
+Uncommon: diplopia
+Cardiac disorders
+Uncommon: tachycardia*
+Vascular disorders
+Uncommon: orthostatic hypotension*
+Gastrointestinal disorders
+Common: dyspepsia, vomiting, nausea, constipation, salivary hypersecretion
+General disorders and administration site conditions
+Common: fatigue
+Description of selected adverse reactions
+Extrapyramidal symptoms (EPS):
+Schizophrenia:- in a long term 52-week controlled trial, aripiprazole-treated patients had an overall-lower incidence (25.8 %) of EPS including parkinsonism, akathisia, dystonia and dyskinesia compared with those treated with haloperidol (57.3 %). In a long term 26-week placebo-controlled trial, the incidence of EPS was 19 % for aripiprazole-treated patients and 13.1 % for placebo-treated patients. In another long-term 26-week controlled trial, the incidence of EPS was 14.8 % for aripiprazole-treated patients and 15.1 % for olanzapine-treated patients. Manic episodes in Bipolar I Disorder - in a 12-week controlled trial, the incidence of EPS was 23.5 % for aripiprazole-treated patients and 53.3 % for haloperidol-treated patients. In another 12-week trial, the incidence of EPS was 26.6 % for patients treated with aripiprazole and 17.6 % for those treated with lithium. In the long term 26-week maintenance phase of a placebo-controlled trial, the incidence of EPS was 18.2 % for aripiprazole-treated patients and 15.7 % for placebo-treated patients.
+Akathisia
+In placebo-controlled trials, the incidence of akathisia in bipolar patients was 12.1 % with aripiprazole and 3.2 % with placebo. In schizophrenia patients the incidence of akathisia was 6.2 % with aripiprazole and 3.0 % with placebo.
+Dystonia
+Class Effect - Symptoms of dystonia, prolonged abnormal contractions of muscle groups, may occur in susceptible individuals during the first few days of treatment. Dystonic symptoms include: spasm of the neck muscles, sometimes progressing to tightness of the throat, swallowing difficulty, difficulty breathing, and/or protrusion of the tongue. While these symptoms can occur at low doses, they occur more frequently and with greater severity with high potency and at higher doses of first generation antipsychotic drugs. An elevated risk of acute dystonia is observed in males and younger age groups.
+Comparisons between aripiprazole and placebo in the proportions of patients experiencing potentially clinically significant changes in routine laboratory and lipid parameters (see section 5.1) revealed no medically important differences. Elevations of CPK (Creatine Phosphokinase), generally transient and asymptomatic, were observed in 3.5 % of aripiprazole treated patients as compared to 2.0 % of patients who received placebo.
+Other findings
+Adverse reactions known to be associated with antipsychotic therapy and also reported during treatment with aripiprazole include neuroleptic malignant syndrome, tardive dyskinesia, seizure, cerebrovascular adverse reactions and increased mortality in elderly demented patients, hyperglycaemia and diabetes mellitus (see section 4.4).
+Paediatric population
+Schizophrenia in adolescents aged 15 years and older
+In a short-term placebo-controlled clinical trial involving 302 adolescents (13-17 years) with schizophrenia, the frequency and type of undesirable effects were similar to those in adults except for the following reactions that were reported more frequently in adolescents receiving oral aripiprazole than in adults receiving oral aripiprazole (and more frequently than placebo): somnolence/sedation and extrapyramidal disorder were reported very commonly (≥ 1/10), and dry mouth, increased appetite, and orthostatic hypotension were reported commonly (≥ 1/100, < 1/10).
+The safety profile in a 26-week open-label extension trial was similar to that observed in the short-term, placebo-controlled trial.
+In the pooled adolescent schizophrenia population (13-17 years) with exposure up to 2 years, incidence of low serum prolactin levels in females (<3 ng/ml) and males (<2 ng/ml) was 29.5 % and 48.3 %, respectively.
+In the adolescent (13-17 years) schizophrenia population with aripiprazole exposure of 5 to 30 mg up to 72 months, incidence of low serum prolactin levels in females (<3 ng/ml) and males (<2 ng/ml) was 25.6 % and 45.0 %, respectively.
+Manic episodes in Bipolar I Disorder in adolescents aged 13 years and older
+The frequency and type of undesirable effects in adolescents with Bipolar I Disorder were similar to those in adults except for the following reactions: very commonly (≥ 1/10) somnolence (23.0 %), extrapyramidal disorder (18.4 %), akathisia (16.0 %), and fatigue (11.8 %); and commonly (≥ 1/100, < 1/10) abdominal pain upper, heart rate increased, weight increased, increased appetite, muscle twitching, and dyskinesia.
+The following undesirable effects had a possible dose response relationship; extrapyramidal disorder (incidences were 10 mg, 9.1 %, 30 mg, 28.8 %, placebo, 1.7 %,); and akathisia (incidences were 10 mg, 12.1 %, 30 mg, 20.3 %, placebo, 1.7 %).
+Mean changes in body weight in adolescents with Bipolar I Disorder at 12 and 30 weeks for aripiprazole were 2.4 kg and 5.8 kg, and for placebo 0.2 kg and 2.3 kg, respectively.
+In the paediatric population somnolence and fatigue were observed more frequently in patients with bipolar disorder compared to patients with schizophrenia.
+In the paediatric bipolar population (10-17 years) with exposure up to 30 weeks, incidence of low serum prolactin levels in females (<3 ng/ml) and males (<2 ng/ml) was 28.0 % and 53.3 %, respectively.
+Post-Marketing
+The following adverse reactions have been reported during post-marketing surveillance. The frequency of these reactions is considered not known (cannot be estimated from the available data).
+Blood and lymphatic system disorders:
+leukopenia, neutropenia, thrombocytopenia
+Immune system disorders:
+allergic reaction (e.g. anaphylactic reaction, angioedema including swollen tongue, tongue oedema, face oedema, pruritus, or urticaria)
+Endocrine disorders:
+hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, diabetic hyperosmolar coma
+Metabolism and nutrition disorders:
+weight gain, weight decreased, anorexia, hyponatremia
+Psychiatric disorders:
+agitation, nervousness, pathological gambling; suicide attempt, suicidal ideation, and completed suicide (see section 4.4)
+Nervous system disorders:
+speech disorder, Neuroleptic Malignant Syndrome (NMS), grand mal convulsion, serotonin syndrome
+Cardiac disorders:
+QT prolongation, ventricular arrhythmias, sudden unexplained death, cardiac arrest, torsades de pointes, bradycardia
+Vascular disorders:
+syncope, hypertension, venous thromboembolism (including pulmonary embolism and deep vein thrombosis)
+Respiratory, thoracic and mediastinal disorders:
+oropharyngeal spasm, laryngospasm, aspiration pneumonia
+Gastrointestinal disorders:
+pancreatitis, dysphagia, abdominal discomfort, stomach discomfort, diarrhoea
+Hepatobiliary disorders:
+hepatic failure, jaundice, hepatitis, increased Alanine Aminotransferase (ALT), increased Aspartate Aminotransferase (AST), increased Gamma Glutamyl Transferase (GGT), increased alkaline phosphatase
+Skin and subcutaneous tissue disorders:
+rash, photosensitivity reaction, alopecia, hyperhidrosis
+Musculoskeletal and connective tissue disorders:
+rhabdomyolysis, myalgia, stiffness
+Renal and urinary disorders:
+urinary incontinence, urinary retention
+Pregnancy, puerperium and perinatal conditions:
+drug withdrawal syndrome neonatal (see section 4.6)
+Reproductive system and breast disorders:
+priapism
+General disorders and administration site conditions:
+temperature regulation disorder (e.g. hypothermia, pyrexia), chest pain, peripheral oedema
+Investigations:
+increased Creatine Phosphokinase, blood glucose increased, blood glucose fluctuation, glycosylated haemoglobin increased
+Reporting of suspected adverse reactions
+Reporting suspected adverse reactions after authorisation of the medicinal product is important. It allows continued monitoring of the benefit/risk balance of the medicinal product. Healthcare professionals are asked to report any suspected adverse reactions via the Yellow Card Scheme at: www.mhra.gov.uk/yellowcard.
+4.9 Overdose
+Signs and symptoms
+In clinical trials and post-marketing experience, accidental or intentional acute overdose of aripiprazole alone was identified in adult patients with reported estimated doses up to 1,260 mg with no fatalities. The potentially medically important signs and symptoms observed included lethargy, increased blood pressure, somnolence, tachycardia, nausea, vomiting and diarrhoea. In addition, reports of accidental overdose with aripiprazole alone (up to 195 mg) in children have been received with no fatalities. The potentially medically serious signs and symptoms reported included somnolence, transient loss of consciousness and extrapyramidal symptoms.
+Management of overdose
+Management of overdose should concentrate on supportive therapy, maintaining an adequate airway, oxygenation and ventilation, and management of symptoms. The possibility of multiple medicinal product involvement should be considered. Therefore cardiovascular monitoring should be started immediately and should include continuous electrocardiographic monitoring to detect possible arrhythmias. Following any confirmed or suspected overdose with aripiprazole, close medical supervision and monitoring should continue until the patient recovers.
+Activated charcoal (50 g), administered one hour after aripiprazole, decreased aripiprazole Cmax by about 41 % and AUC by about 51 %, suggesting that charcoal may be effective in the treatment of overdose.
+Haemodialysis
+Although there is no information on the effect of haemodialysis in treating an overdose with aripiprazole, haemodialysis is unlikely to be useful in overdose management since aripiprazole is highly bound to plasma proteins.
+5. Pharmacological properties
+5.1 Pharmacodynamic properties
+Pharmacotherapeutic group: other antipsychotics, ATC code: N05AX12
+Mechanism of action
+It has been proposed that aripiprazole's efficacy in schizophrenia and Bipolar I Disorder is mediated through a combination of partial agonism at dopamine D2 and serotonin 5HT1a receptors and antagonism of serotonin 5HT2a receptors. Aripiprazole exhibited antagonist properties in animal models of dopaminergic hyperactivity and agonist properties in animal models of dopaminergic hypoactivity. Aripiprazole exhibited high binding affinity in vitro for dopamine D2 and D3, serotonin 5HT1a and 5HT2a receptors and moderate affinity for dopamine D4, serotonin 5HT2c and 5HT7, alpha-1 adrenergic and histamine H1 receptors. Aripiprazole also exhibited moderate binding affinity for the serotonin reuptake site and no appreciable affinity for muscarinic receptors. Interaction with receptors other than dopamine and serotonin subtypes may explain some of the other clinical effects of aripiprazole.
+Aripiprazole doses ranging from 0.5 to 30 mg administered once a day to healthy subjects for 2 weeks produced a dose-dependent reduction in the binding of 11C-raclopride, a D2/D3 receptor ligand, to the caudate and putamen detected by positron emission tomography.
+Clinical efficacy and safety
+Agitation in schizophrenia and Bipolar I Disorder with aripiprazole solution for injection
+In two short- term (24-hour) placebo-controlled trials involving 554 schizophrenic adult patients presenting with agitation and disturbed behaviours, aripiprazole solution for injection was associated with statistically significant greater improvements in agitation/behavioural symptoms compared to placebo and was similar to haloperidol. In one short-term (24-hour) placebo-controlled trial involving 291 patients with bipolar disorder presenting with agitation and disturbed behaviours, aripiprazole solution for injection was associated with statistically significant greater improvements in agitation/behavioural symptoms compared to placebo and was similar to the reference arm lorazepam. The observed mean improvement from baseline on the PANSS Excitement Component score at the primary 2-hour endpoint was 5.8 for placebo, 9.6 for lorazepam, and 8.7 for aripiprazole. In subpopulation analyses on patients with mixed episodes or on patients with severe agitation, a similar pattern of efficacy to the overall population was observed but statistical significance could not be established due to a reduced sample size.
+Schizophrenia with oral aripiprazole
+In three short-term (4 to 6 weeks) placebo-controlled trials involving 1,228 schizophrenic adult patients, presenting with positive or negative symptoms, oral aripiprazole was associated with statistically significantly greater improvements in psychotic symptoms compared to placebo.
+ABILIFY is effective in maintaining the clinical improvement during continuation therapy in adult patients who have shown an initial treatment response. In a haloperidol-controlled trial, the proportion of responder patients maintaining response to medicinal product at 52-weeks was similar in both groups (oral aripiprazole 77 % and haloperidol 73 %). The overall completion rate was significantly higher for patients on oral aripiprazole (43 %) than for oral haloperidol (30 %). Actual scores in rating scales used as secondary endpoints, including PANSS and the Montgomery-Asberg Depression Rating Scale showed a significant improvement over haloperidol.
+In a 26-week, placebo-controlled trial in adult stabilised patients with chronic schizophrenia, oral aripiprazole had significantly greater reduction in relapse rate, 34 % in oral aripiprazole group and 57 % in placebo.
+Weight gain :in clinical trials oral aripiprazole has not been shown to induce clinically relevant weight gain. In a 26-week, olanzapine-controlled, double-blind, multi-national study of schizophrenia which included 314 adult patients and where the primary end-point was weight gain, significantly less patients had at least 7 % weight gain over baseline (i.e. a gain of at least 5.6 kg for a mean baseline weight of ~80.5 kg) on oral aripiprazole (n = 18, or 13 % of evaluable patients), compared to oral olanzapine (n = 45, or 33 % of evaluable patients).
+Lipid parameters: in a pooled analysis on lipid parameters from placebo controlled clinical trials in adults, aripiprazole has not been shown to induce clinically relevant alterations in levels of total cholesterol, triglycerides, HDL and LDL.
+-Total cholesterol: incidence of changes in levels from normal (<5.18 mmol/l) to high (≥ 6.22 mmol/l) was 2.5 % for aripiprazole and 2.8 % for placebo and mean change from baseline was -0.15 mmol/l (95 % CI: -0.182, -0.115) for aripiprazole and -0.11 mmol/l (95 % CI: -0.148, -0.066) for placebo.
+-Fasting triglycerides: incidence of changes in levels from normal (<1.69 mmol/l) to high (≥ 2.26 mmol/l) was 7.4 % for aripiprazole and 7.0 % for placebo and mean change from baseline was -0.11 mmol/l (95 % CI: -0.182, -0.046) for aripiprazole and -0.07 mmol/l (95 % CI: -0.148, 0.007) for placebo.
+-HDL: incidence of changes in levels from normal (≥ 1.04 mmol/l) to low (<1.04 mmol/l) was 11.4 % for aripiprazole and 12.5 % for placebo and mean change from baseline was -0.03 mmol/l (95 % CI: -0.046, -0.017) for aripiprazole and -0.04 mmol/l (95 % CI: -0.056, -0.022) for placebo.
+-Fasting LDL: incidence of changes in levels from normal (<2.59 mmol/l) to high (≥ 4.14 mmol/l) was 0.6 % for aripiprazole and 0.7 % for placebo and mean change from baseline was -0.09 mmol/l (95 % CI: -0.139, -0.047) for aripiprazole and -0.06 mmol/l (95 % CI: -0.116, -0.012) for placebo.
+Manic episodes in Bipolar I Disorder with oral aripiprazole
+In two 3-week, flexible-dose, placebo-controlled monotherapy trials involving patients with a manic or mixed episode of Bipolar I Disorder, aripiprazole demonstrated superior efficacy to placebo in reduction of manic symptoms over 3 weeks. These trials included patients with or without psychotic features and with or without a rapid-cycling course.
+In one 3-week, fixed-dose, placebo-controlled monotherapy trial involving patients with a manic or mixed episode of Bipolar I Disorder, aripiprazole failed to demonstrate superior efficacy to placebo.
+In two 12-week, placebo- and active-controlled monotherapy trials in patients with a manic or mixed episode of Bipolar I Disorder, with or without psychotic features, aripiprazole demonstrated superior efficacy to placebo at week 3 and a maintenance of effect comparable to lithium or haloperidol at week 12. Aripiprazole also demonstrated a comparable proportion of patients in symptomatic remission from mania as lithium or haloperidol at week 12.
+In a 6-week, placebo-controlled trial involving patients with a manic or mixed episode of Bipolar I Disorder, with or without psychotic features, who were partially non-responsive to lithium or valproate monotherapy for 2 weeks at therapeutic serum levels, the addition of aripiprazole as adjunctive therapy resulted in superior efficacy in reduction of manic symptoms than lithium or valproate monotherapy.
+In a 26-week, placebo-controlled trial, followed by a 74-week extension, in manic patients who achieved remission on aripiprazole during a stabilization phase prior to randomization, aripiprazole demonstrated superiority over placebo in preventing bipolar recurrence, primarily in preventing recurrence into mania but failed to demonstrate superiority over placebo in preventing recurrence into depression.
+In a 52-week, placebo-controlled trial, in patients with a current manic or mixed episode of Bipolar I Disorder who achieved sustained remission (Y-MRS and MADRS total scores ≤ 12) on aripiprazole (10 mg/day to 30 mg/day) adjunctive to lithium or valproate for 12 consecutive weeks, adjunctive aripiprazole demonstrated superiority over placebo with a 46 % decreased risk (hazard ratio of 0.54) in preventing bipolar recurrence and a 65 % decreased risk (hazard ratio of 0.35) in preventing recurrence into mania over adjunctive placebo but failed to demonstrate superiority over placebo in preventing recurrence into depression. Adjunctive aripiprazole demonstrated superiority over placebo on the secondary outcome measure, CGI-BP Severity of Illness score (mania).
+In this trial, patients were assigned by investigators with either open-label lithium or valproate monotherapy to determine partial non-response. Patients were stabilised for at least 12 consecutive weeks with the combination of aripiprazole and the same mood stabilizer.
+Stabilized patients were then randomised to continue the same mood stabilizer with double-blind aripiprazole or placebo. Four mood stabilizer subgroups were assessed in the randomised phase: aripiprazole + lithium; aripiprazole + valproate; placebo + lithium; placebo + valproate.
+The Kaplan-Meier rates for recurrence to any mood episode for the adjunctive treatment arm were 16 % in aripiprazole + lithium and 18 % in aripiprazole + valproate compared to 45 % in placebo + lithium and 19 % in placebo + valproate.
+Paediatric population
+Schizophrenia in adolescents with oral aripiprazole
+In a 6-week placebo-controlled trial involving 302 schizophrenic adolescent patients (13-17 years), presenting with positive or negative symptoms, aripiprazole was associated with statistically significantly greater improvements in psychotic symptoms compared to placebo.
+In a sub-analysis of the adolescent patients between the ages of 15 to 17 years, representing 74 % of the total enrolled population, maintenance of effect was observed over the 26-week open-label extension trial.
+Manic episodes in Bipolar I Disorder in children and adolescents with oral aripiprazole
+Aripiprazole was studied in a 30-week placebo-controlled trial involving 296 children and adolescents (10-17 years), who met DSM-IV criteria for Bipolar I Disorder with manic or mixed episodes with or without psychotic features and had a Y-MRS score ≥20 at baseline. Among the patients included in the primary efficacy analysis, 139 patients had a current co-morbid diagnosis of ADHD.
+Aripiprazole was superior to placebo in change from baseline at week 4 and at week 12 on the Y-MRS total score. In a post-hoc analysis, the improvement over placebo was more pronounced in the patients with associated co-morbidity of ADHD compared to the group without ADHD, where there was no difference from placebo. Recurrence prevention was not established.
+Table 1: Mean improvement from baseline YMRS score by psychiatric comorbidity
+Psychiatric comorbidities
+Week 4
+Week 12
+ADHD
+Week 4
+Week 12
+ABILIFY 10 mg (n = 48)
+14.9
+15.1
+ABILIFY 10 mg (n = 44)
+15.2
+15.6
+ABILIFY 30 mg (n = 51)
+16.7
+16.9
+ABILIFY 30 mg (n = 48)
+15.9
+16.7
+Placebo (n = 52)a
+7.0
+8.2
+Placebo (n = 47)b
+6.3
+7.0
+No psychiatric comorbidities
+Week 4
+Week 12
+No ADHD
+Week 4
+Week 12
+ABILIFY 10 mg (n = 27)
+12.8
+15.9
+ABILIFY 10 mg (n = 37)
+12.7
+15.7
+ABILIFY 30 mg (n = 25)
+15.3
+14.7
+ABILIFY 30 mg (n = 30)
+14.6
+13.4
+Placebo (n = 18)
+9.4
+9.7
+Placebo (n = 25)
+9.9
+10.0
+a n = 51 at Week 4
+b n = 46 at Week 4
+The most common treatment-emergent adverse events among patients receiving 30 mg were extrapyramidal disorder (28.3 %), somnolence (27.3 %), headache (23.2 %), and nausea (14.1 %). Mean weight gain in the 30 weeks treatment-interval was 2.9 kg as compared to 0.98 kg in patients treated with placebo.
+The European Medicines Agency has deferred the obligation to submit the results of studies with ABILIFY in one or more subsets of the paediatric population in the treatment of schizophrenia and in the treatment of bipolar affective disorder (see section 4.2 for information on paediatric use).
+5.2 Pharmacokinetic properties
+Absorption
+Aripiprazole solution for injection administered intramuscularly as a single-dose to healthy subjects is well absorbed and has an absolute bioavailability of 100 %. The aripiprazole AUC in the first 2 hours after an intramuscular injection was 90 % greater than the AUC after the same dose as a tablet; systemic exposure was generally similar between the 2 formulations. In 2 studies in healthy subjects the median times to the peak plasma concentrations were 1 and 3 hours after dosing.
+Distribution
+Aripiprazole is widely distributed throughout the body with an apparent volume of distribution of 4.9 l/kg, indicating extensive extravascular distribution. At therapeutic concentrations, aripiprazole and dehydro-aripiprazole are greater than 99 % bound to serum proteins, binding primarily to albumin.
+Biotransformation
+Aripiprazole is extensively metabolised by the liver primarily by three biotransformation pathways: dehydrogenation, hydroxylation, and N-dealkylation. Based on in vitro studies, CYP3A4 and CYP2D6 enzymes are responsible for dehydrogenation and hydroxylation of aripiprazole, and N-dealkylation is catalysed by CYP3A4. Aripiprazole is the predominant medicinal product moiety in systemic circulation. At steady state, dehydro-aripiprazole, the active metabolite, represents about 40 % of aripiprazole AUC in plasma.
+Elimination
+The mean elimination half-lives for aripiprazole are approximately 75 hours in extensive metabolisers of CYP2D6 and approximately 146 hours in poor metabolisers of CYP2D6.
+The total body clearance of aripiprazole is 0.7 ml/min/kg, which is primarily hepatic.
+Following a single oral dose of [14C]-labelled aripiprazole, approximately 27 % of the administered radioactivity was recovered in the urine and approximately 60 % in the faeces. Less than 1 % of unchanged aripiprazole was excreted in the urine and approximately 18 % was recovered unchanged in the faeces.
+Pharmacokinetics in special patient groups
+Paediatric population
+The pharmacokinetics of oral aripiprazole and dehydro-aripiprazole in paediatric patients 10 to 17 years of age were similar to those in adults after correcting for the differences in body weights.
+Older people
+There are no differences in the pharmacokinetics of aripiprazole between healthy elderly and younger adult subjects, nor is there any detectable effect of age in a population pharmacokinetic analysis in schizophrenic patients.
+Gender
+There are no differences in the pharmacokinetics of aripiprazole between healthy male and female subjects nor is there any detectable effect of gender in a population pharmacokinetic analysis in schizophrenic patients.
+Smoking and Race
+Population pharmacokinetic evaluation has revealed no evidence of clinically significant race-related differences or effects from smoking upon the pharmacokinetics of aripiprazole.
+Renal impairment
+The pharmacokinetic characteristics of aripiprazole and dehydro-aripiprazole were found to be similar in patients with severe renal disease compared to young healthy subjects.
+Hepatic impairment:
+A single-dose study in subjects with varying degrees of liver cirrhosis (Child-Pugh Classes A, B, and C) did not reveal a significant effect of hepatic impairment on the pharmacokinetics of aripiprazole and dehydro-aripiprazole, but the study included only 3 patients with Class C liver cirrhosis, which is insufficient to draw conclusions on their metabolic capacity.
+5.3 Preclinical safety data
+Administration of aripiprazole solution for injection was well tolerated and produced no direct target organ toxicity in rats or monkeys after repeated dosing at systemic exposures (AUC) that were 15 and 5 times, respectively, human exposure at the maximum recommended human dose of 30 mg intramuscular. In intravenous reproductive toxicity studies, no new safety concerns were observed at maternal exposures up to 15 (rat) and 29 (rabbit) times human exposure at 30 mg.
+Non-clinical data reveal no special hazard for humans based on conventional oral aripiprazole studies of safety pharmacology, repeated dose toxicity, genotoxicity, carcinogenic potential, toxicity to reproduction and development.
+Toxicologically significant effects were observed only at doses or exposures that were sufficiently in excess of the maximum human dose or exposure, indicating that these effects were limited or of no relevance to clinical use. These included: dose-dependent adrenocortical toxicity (lipofuscin pigment accumulation and/or parenchymal cell loss) in rats after 104 weeks at 20 to 60 mg/kg/day (3 to 10 times the mean steady-state AUC at the maximum recommended human dose) and increased adrenocortical carcinomas and combined adrenocortical adenomas/carcinomas in female rats at 60 mg/kg/day (10 times the mean steady-state AUC at the maximum recommended human dose). The highest nontumorigenic exposure in female rats was 7 times the human exposure at the recommended dose.
+An additional finding was cholelithiasis as a consequence of precipitation of sulphate conjugates of hydroxy metabolites of aripiprazole in the bile of monkeys after repeated oral dosing at 25 to 125 mg/kg/day (1 to 3 times the mean steady-state AUC at the maximum recommended clinical dose or 16 to 81 times the maximum recommended human dose based on mg/m2). However, the concentrations of the sulphate conjugates of hydroxy aripiprazole in human bile at the highest dose proposed, 30 mg per day, were no more than 6 % of the bile concentrations found in the monkeys in the 39-week study and are well below (6 %) their limits of in vitro solubility.
+In repeat-dose studies in juvenile rats and dogs, the toxicity profile of aripiprazole was comparable to that observed in adult animals, and there was no evidence of neurotoxicity or adverse effects on development.
+Based on results of a full range of standard genotoxicity tests, aripiprazole was considered non-genotoxic. Aripiprazole did not impair fertility in reproductive toxicity studies. Developmental toxicity, including dose-dependent delayed foetal ossification and possible teratogenic effects, were observed in rats at doses resulting in subtherapeutic exposures (based on AUC) and in rabbits at doses resulting in exposures 3 and 11 times the mean steady-state AUC at the maximum recommended clinical dose. Maternal toxicity occurred at doses similar to those eliciting developmental toxicity.
+6. Pharmaceutical particulars
+6.1 List of excipients
+Sulfobutylether β-cyclodextrin (SBECD)
+Tartaric acid
+Sodium hydroxide
+Water for injections
+6.2 Incompatibilities
+Not applicable
+6.3 Shelf life
+18 months
+After opening: use product immediately.
+6.4 Special precautions for storage
+Keep the vial in the outer carton in order to protect from light.
+For storage conditions after first opening of the medicinal product, see section 6.3.
+6.5 Nature and contents of container
+Each carton contains one single-use type I glass vial with a rubber butyl stopper and a "flip-off" aluminium seal.
+6.6 Special precautions for disposal and other handling
+Any unused medicinal product or waste material should be disposed of in accordance with local requirements.
+7. Marketing authorisation holder
+Otsuka Pharmaceutical Europe Ltd.
+Gallions, Wexham Springs, Framewood Road,
+Wexham, SL3 6PJ - United Kingdom
+8. Marketing authorisation number(s)
+EU/1/04/276/036
+9. Date of first authorisation/renewal of the authorisation
+Date of first authorisation: 04 June 2004
+Date of latest renewal: 04 June 2009
+10. Date of revision of the text
+10/2014
+Detailed information on this medicinal product is available on the website of the European Medicines Agency http://www.ema.europa.eu.
+Company contact details
+Otsuka Pharmaceuticals (UK) Ltd
+http://www.otsuka-europe.com
+Company image
+Address
+Gallions, Wexham Springs, Framewood Road, Wexham, SL3 6PJ, UK
+Fax
++44 (0)20 8848 0529
+Telephone
++44 (0)20 3747 5300
+Medical Information e-mail
+medinfo@otsuka.co.uk
+Before you contact this company: often several companies will market medicines with the same active ingredient. Please check that this is the correct company before contacting them. Why?
+Active ingredients
+aripiprazole
+Legal categories
+POM - Prescription Only Medicine
+Contact us | Mobile Site | Useful links | Accessibility | Legal and privacy policy | Glossary | Site map
+ this link will open a new window
+© 2015 Datapharm Ltd
+This site uses cookies. By continuing to browse the site you are agreeing to our policy on the use of cookies. Continue
+Find out more here.
+
+heart failure
+heart transplant
+assist support devices
