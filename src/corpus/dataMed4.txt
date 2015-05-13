@@ -1,0 +1,52 @@
+PMID- 25922738
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DA  - 20150429
+DCOM- 20150429
+LR  - 20150501
+IS  - 2072-1439 (Print)
+IS  - 2072-1439 (Linking)
+VI  - 7
+IP  - 3
+DP  - 2015 Mar
+TI  - Long-term outcome following heart transplantation: current perspective.
+PG  - 549-51
+LID - 10.3978/j.issn.2072-1439.2015.01.46 [doi]
+AB  - Heart transplantation keeps its leading position in the treatment of end-stage
+      heart failure (HF). Survival rates and functional status following heart
+      transplantation are excellent, particularly if compared to medical therapy. The
+      process of acute and chronic transplant rejection, however, and the sequelae of
+      immunosuppression, such as infection, malignancy and renal insufficiency,
+      prevents even better results. Therapy with current mechanical circulatory support
+      devices is associated with improving outcome and may become competitive to heart 
+      transplantation, at least in selected patients. But long-term results are not yet
+      available.
+FAU - Wilhelm, Markus J
+AU  - Wilhelm MJ
+AD  - Clinic for Cardiovascular Surgery, University Hospital Zurich, Zurich,
+      Switzerland.
+LA  - eng
+PT  - Journal Article
+PL  - China
+TA  - J Thorac Dis
+JT  - Journal of thoracic disease
+JID - 101533916
+PMC - PMC4387387
+OID - NLM: PMC4387387
+OTO - NOTNLM
+OT  - Heart transplantation
+OT  - immunosuppression
+OT  - transplant rejection
+OT  - ventricular assist device
+EDAT- 2015/04/30 06:00
+MHDA- 2015/04/30 06:01
+CRDT- 2015/04/30 06:00
+PHST- 2014/11/01 [received]
+PHST- 2014/12/23 [accepted]
+AID - 10.3978/j.issn.2072-1439.2015.01.46 [doi]
+AID - jtd-07-03-549 [pii]
+PST - ppublish
+SO  - J Thorac Dis. 2015 Mar;7(3):549-51. doi: 10.3978/j.issn.2072-1439.2015.01.46.
+assist support devices
+heart failure
+heart transplant

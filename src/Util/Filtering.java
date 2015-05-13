@@ -32,7 +32,7 @@ public class Filtering {
 
 	public String cluster(Clusterer cluster) throws Exception {
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
-		Instances dataset = tdta.createDataset("docs");
+		Instances dataset = tdta.createDataset("corpus");
 		String content = dataset.toString();
 		FileWriter wr = new FileWriter(new File("outputCluster.arff"));
 		wr.write(content);
@@ -49,6 +49,9 @@ public class Filtering {
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
+		
+		
+		
 		
 		
 		/*

@@ -1,0 +1,2127 @@
+PMID- 25922157
+OWN - NLM
+STAT- Publisher
+DA  - 20150429
+LR  - 20150430
+IS  - 1469-7793 (Electronic)
+IS  - 0022-3751 (Linking)
+DP  - 2015 Apr 29
+TI  - Manipulation of SR Ca -release in heart failure through mechanical intervention.
+LID - 10.1113/JP270446 [doi]
+AB  - Left ventricular assist devices (LVADs) were developed as a means of temporary
+      circulatory support, but the mechanical unloading they offer also results in
+      significant reverse remodeling. In selected patients, these improvements are
+      sufficient to allow ultimate device explantation without requiring
+      transplantation; this represents a fundamental shift in our understanding of
+      heart failure. Like heart failure itself, LVADs influence multiple biological
+      systems. The transverse tubules are a system of membrane invaginations in
+      ventricular cardiomyocytes which allow rapid propagation of the action potential 
+      throughout the cell. Through their dense concentration of L-type Ca2+ channels in
+      close proximity with intracellular Ryanodine receptors, the t-tubules enable
+      synchronous Ca2+ release throughout the cell. The t-tubules' structure appears to
+      be specifically regulated by mechanical load, such that either the overload of
+      heart failure (or the spontaneously hypertensive rat model (Song et al., 2006))
+      or the profound unloading in a chronically unloaded heart result in impaired
+      t-tubule structure, with ineffective Ca2+ release. While there are multiple
+      molecular pathways which underpin t-tubule regulation, Tcap appears to be
+      important in regulating the effect of altered loading on the t-tubule system.
+      This article is protected by copyright. All rights reserved.
+CI  - This article is protected by copyright. All rights reserved.
+FAU - Ibrahim, Michael
+AU  - Ibrahim M
+AD  - Integrated Resident in Cardiac Surgery, Division of Cardiovascular Surgery,
+      Hospital of the University of Pennsylvania, Philadelphia, Pennsylvania, 19104,
+      USA.
+FAU - Nader, Anas
+AU  - Nader A
+FAU - Yacoub, Magdi H
+AU  - Yacoub MH
+FAU - Terracciano, Cesare
+AU  - Terracciano C
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150429
+TA  - J Physiol
+JT  - The Journal of physiology
+JID - 0266262
+EDAT- 2015/04/30 06:00
+MHDA- 2015/04/30 06:00
+CRDT- 2015/04/30 06:00
+PHST- 2015/02/28 [received]
+PHST- 2015/04/26 [accepted]
+AID - 10.1113/JP270446 [doi]
+PST - aheadofprint
+SO  - J Physiol. 2015 Apr 29. doi: 10.1113/JP270446.
+
+PMID- 25914956
+OWN - NLM
+STAT- Publisher
+DA  - 20150427
+LR  - 20150429
+IS  - 1538-943X (Electronic)
+IS  - 1058-2916 (Linking)
+DP  - 2015 Apr 23
+TI  - Lung Procurement from a Donor on ECMO Support.
+AB  - We report the case of a 50 year-old man with congestive heart failure who became 
+      a candidate for organ donation following anoxic brain injury after CPR who was on
+      a Veno-Arterial extracorporeal membrane oxygenation support (VA ECMO). On
+      visualization the donor's lung was acceptable for lung transplantation to a 68
+      year-old male patient with a chronic history of pulmonary fibrosis. Right single 
+      lung implantation was successfully performed in the recipient. We herein report a
+      case that highlights our institution's result suggesting that the use of a lung
+      previously on ECMO support can safely and potentially expand the donor lung pool 
+      in carefully selected patients.
+FAU - Ren, Dewei
+AU  - Ren D
+AD  - Methodist DeBakey Heart & Vascular Center, Department of Cardiovascular Surgery, 
+      Division of Transplantation and Assist Devices, the Methodist Hospital, Houston, 
+      Texas.
+FAU - Abu Saleh, Walid K
+AU  - Abu Saleh WK
+FAU - Jabbari, Odeaa Al
+AU  - Jabbari OA
+FAU - Ramlawi, Basel
+AU  - Ramlawi B
+FAU - Bruckner, Brian A
+AU  - Bruckner BA
+FAU - Suarez, Eddie
+AU  - Suarez E
+FAU - Loebe, Matthias
+AU  - Loebe M
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150423
+TA  - ASAIO J
+JT  - ASAIO journal (American Society for Artificial Internal Organs : 1992)
+JID - 9204109
+EDAT- 2015/04/29 06:00
+MHDA- 2015/04/29 06:00
+CRDT- 2015/04/28 06:00
+AID - 10.1097/MAT.0000000000000249 [doi]
+PST - aheadofprint
+SO  - ASAIO J. 2015 Apr 23.
+
+PMID- 25905105
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DA  - 20150423
+DCOM- 20150423
+LR  - 20150427
+IS  - 2296-875X (Electronic)
+IS  - 2296-875X (Linking)
+VI  - 2
+DP  - 2015
+TI  - Advanced Strategies for End-Stage Heart Failure: Combining Regenerative
+      Approaches with LVAD, a New Horizon?
+PG  - 10
+LID - 10.3389/fsurg.2015.00010 [doi]
+AB  - Despite the improved treatment of cardiovascular diseases, the population with
+      end-stage heart failure (HF) is progressively growing. The scarcity of the gold
+      standard therapy, heart transplantation, demands novel therapeutic approaches.
+      For patients awaiting transplantation, ventricular-assist devices have been of
+      great benefit on survival. To allow explantation of the assist device and obviate
+      heart transplantation, sufficient and durable myocardial recovery is necessary.
+      However, explant rates so far are low. Combining mechanical circulatory support
+      with regenerative therapies such as cell (-based) therapy and biomaterials might 
+      give rise to improved long-term results. Although synergistic effects are
+      suggested with mechanical support and stem cell therapy, evidence in both
+      preclinical and clinical setting is lacking. This review focuses on advanced and 
+      innovative strategies for the treatment of end-stage HF and furthermore appraises
+      clinical experience with combined strategies.
+FAU - Tseng, Cheyenne C S
+AU  - Tseng CC
+AD  - Department of Cardiology, Division Heart and Lungs, University Medical Center ,
+      Utrecht , Netherlands ; Interuniversity Cardiology Institute of the Netherlands ,
+      Utrecht , Netherlands.
+FAU - Ramjankhan, Faiz Z
+AU  - Ramjankhan FZ
+AD  - Department of Cardio-thoracic Surgery, Division Heart and Lungs, University
+      Medical Center , Utrecht , Netherlands.
+FAU - de Jonge, Nicolaas
+AU  - de Jonge N
+AD  - Department of Cardiology, Division Heart and Lungs, University Medical Center ,
+      Utrecht , Netherlands.
+FAU - Chamuleau, Steven A J
+AU  - Chamuleau SA
+AD  - Department of Cardiology, Division Heart and Lungs, University Medical Center ,
+      Utrecht , Netherlands.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20150407
+PL  - Switzerland
+TA  - Front Surg
+JT  - Frontiers in surgery
+JID - 101645127
+PMC - PMC4387859
+OID - NLM: PMC4387859
+OTO - NOTNLM
+OT  - cardiac recovery
+OT  - cell therapy
+OT  - heart failure
+OT  - mechanical circulatory support
+OT  - regenerative therapies
+OT  - ventricular-assist device
+EDAT- 2015/04/24 06:00
+MHDA- 2015/04/24 06:01
+CRDT- 2015/04/24 06:00
+PHST- 2015 [ecollection]
+PHST- 2014/11/02 [received]
+PHST- 2015/03/07 [accepted]
+PHST- 2015/04/07 [epublish]
+AID - 10.3389/fsurg.2015.00010 [doi]
+PST - epublish
+SO  - Front Surg. 2015 Apr 7;2:10. doi: 10.3389/fsurg.2015.00010. eCollection 2015.
+
+PMID- 25873821
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20150415
+LR  - 20150417
+IS  - 1526-6702 (Electronic)
+IS  - 0730-2347 (Linking)
+VI  - 42
+IP  - 2
+DP  - 2015 Apr
+TI  - Anthracycline treatment and ventricular remodeling in left ventricular assist
+      device patients.
+PG  - 124-30
+LID - 10.14503/THIJ-14-4509 [doi]
+AB  - Nonischemic cardiomyopathy can complicate antineoplastic therapy and lead to
+      irreversible heart failure. We evaluated structural changes at the time of left
+      ventricular assist device implantation in heart failure patients who had been
+      exposed to anthracycline, and we correlated those changes with clinical
+      presentation. We retrospectively studied left ventricular core samples taken at
+      implantation of the HeartMate II left ventricular assist device in 12 heart
+      failure patients (mean age, 46 +/- 16 yr) who had histories of anthracycline
+      exposure. We evaluated those samples for hypertrophy, myocytolysis, and fibrosis.
+      Histopathologic findings showed moderate-to-severe myocyte hypertrophy, moderate 
+      myocytolysis, and perivascular and interstitial fibrosis with areas of
+      replacement fibrosis. Ultrastructural studies revealed marked decreases in
+      myofibrils, diffuse mitochondrial swelling, and disorganization of the
+      sarcoplasmic reticulum. The interval between anthracycline therapy and heart
+      failure was a mean of 6.8 +/- 5.7 years; duration of heart failure symptoms, 38
+      +/- 47 months; and duration of device support, 414 +/- 266 days. Four patients
+      are continuing on device support, 3 have undergone transplantation, 3 have
+      undergone device explantation, and 2 have died. The time of heart failure onset
+      and the duration of symptoms did not correlate with the severity and extent of
+      the histopathologic changes. The histopathologic findings and the clinical course
+      varied in heart failure patients with anthracycline exposure. No correlation was 
+      observed between anthracycline therapy and the development or duration of heart
+      failure symptoms, severity of histopathologic changes, or outcomes.
+FAU - Segura, Ana Maria
+AU  - Segura AM
+FAU - Radovancevic, Rajko
+AU  - Radovancevic R
+FAU - Demirozu, Zumrat T
+AU  - Demirozu ZT
+FAU - Frazier, O H
+AU  - Frazier OH
+FAU - Buja, L Maximilian
+AU  - Buja LM
+LA  - eng
+PT  - Journal Article
+DEP - 20150401
+PL  - United States
+TA  - Tex Heart Inst J
+JT  - Texas Heart Institute journal / from the Texas Heart Institute of St. Luke's
+      Episcopal Hospital, Texas Children's Hospital
+JID - 8214622
+SB  - IM
+PMC - PMC4382876
+OID - NLM: PMC4382876
+OTO - NOTNLM
+OT  - Anthracyclines/adverse effects
+OT  - antineoplastic agents/adverse effects
+OT  - arrhythmias, cardiac/chemically induced
+OT  - cardiomyopathies/chemically induced
+OT  - congestive heart failure/chemically induced
+OT  - doxorubicin/toxicity
+OT  - heart-assist devices
+OT  - myocardium/pathology
+OT  - nonischemic cardiomyopathy
+OT  - retrospective studies
+OT  - ventricular remodeling
+EDAT- 2015/04/16 06:00
+MHDA- 2015/04/16 06:00
+CRDT- 2015/04/16 06:00
+PHST- 2015/04 [ecollection]
+PHST- 2015/04/01 [epublish]
+AID - 10.14503/THIJ-14-4509 [doi]
+PST - epublish
+SO  - Tex Heart Inst J. 2015 Apr 1;42(2):124-30. doi: 10.14503/THIJ-14-4509.
+      eCollection 2015 Apr.
+
+PMID- 25870363
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20150414
+IS  - 2150-136X (Electronic)
+IS  - 2150-1351 (Linking)
+VI  - 6
+IP  - 2
+DP  - 2015 Apr
+TI  - Use of HeartWare Ventricular Assist System for Systemic Ventricular Support of a 
+      Pediatric Patient After Mustard Procedure.
+PG  - 339-41
+LID - 10.1177/2150135114563769 [doi]
+AB  - BACKGROUND: The HeartWare Ventricular Assist System is indicated to provide
+      mechanical circulatory support of patients with intractable heart failure as a
+      bridge to cardiac transplantation. We describe the use of this device to support 
+      the systemic right ventricle (RV) of a pediatric patient with New York Heart
+      Association class IIIC congestive heart failure who had undergone Mustard
+      procedure for D-transposition of the great vessels as an infant. CASE REPORT: A
+      HeartWare ventricular assist device was implanted in the left chest of a
+      16-year-old female patient (body surface area 1.43 m(2)) who presented with edema
+      and later deteriorated, developing acute kidney injury, dysrhythmia, and
+      pulmonary edema. RESULTS: The patient's edema and acute kidney injury resolved
+      after device placement. She was discharged home and successfully underwent device
+      removal with heart transplant five months later. CONCLUSION: The HeartWare device
+      may be used for extended support as a systemic RV in a pediatric patient. It is
+      feasible to consider using the device in this patient population.
+CI  - (c) The Author(s) 2014.
+FAU - Kenleigh, Dorian
+AU  - Kenleigh D
+AD  - University of Iowa Carver College of Medicine, Iowa City, IA, USA
+      dorian-kenleigh@uiowa.edu.
+FAU - Edens, R Erik
+AU  - Edens RE
+AD  - Stead Family Department of Pediatrics, University of Iowa Children's Hospital,
+      Iowa City, IA, USA.
+FAU - Bates, Michael J
+AU  - Bates MJ
+AD  - Department of Cardiothoracic Surgery, Ochsner Health System, New Orleans, LA,
+      USA.
+FAU - Turek, Joseph W
+AU  - Turek JW
+AD  - Division of Pediatric Cardiac Surgery, University of Iowa Children's Hospital,
+      Iowa City, IA, USA.
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - World J Pediatr Congenit Heart Surg
+JT  - World journal for pediatric & congenital heart surgery
+JID - 101518415
+SB  - IM
+OTO - NOTNLM
+OT  - adult congenital heart disease
+OT  - arterial switch operation
+OT  - artificial organs
+OT  - circulatory assist devices (LVAD, RVAD, BVAD, TAH)
+OT  - circulatory hemodynamics
+OT  - congenital heart disease
+OT  - congenital heart surgery
+OT  - heart
+OT  - heart failure
+OT  - pediatric
+OT  - transplantation
+EDAT- 2015/04/15 06:00
+MHDA- 2015/04/15 06:00
+CRDT- 2015/04/15 06:00
+AID - 6/2/339 [pii]
+AID - 10.1177/2150135114563769 [doi]
+PST - ppublish
+SO  - World J Pediatr Congenit Heart Surg. 2015 Apr;6(2):339-41. doi:
+      10.1177/2150135114563769.
+
+PMID- 25865791
+OWN - NLM
+STAT- Publisher
+DA  - 20150413
+LR  - 20150414
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+DP  - 2015 Apr 10
+TI  - Clinical and Molecular Comparison of Pediatric and Adult Reverse Remodeling With 
+      Ventricular Assist Devices.
+LID - 10.1111/aor.12451 [doi]
+AB  - Ventricular assist device (VAD) support induces reverse remodeling of failing
+      myocardium that leads to occasional functional recovery of the adult heart. While
+      there have been numerous clinical reports in adult patients with end-stage
+      cardiomyopathy, little is known about reverse remodeling in children, which has
+      increasing clinical potential with the recent expansion of pediatric VADs in the 
+      setting of static organ supply for heart transplantation. Pediatric myocardium
+      also promises theoretical advantages for recovery over adult myocardium due to
+      its greater abundance of cardiac progenitor cells. To identify potential targets 
+      of future studies, we conducted a literature review with two aims: (i) to
+      summarize clinical cases of pediatric patients who exhibited cardiac recovery
+      following VAD support; and (ii) to analyze genetic changes in pediatric
+      myocardium induced by VAD support compared with those observed in adult patients.
+      Several clinical series of pediatric VAD cases report that small proportions of
+      their cohorts were weaned off from device support, but a lack of information
+      about the etiology and support duration of these patients limits the ability to
+      determine whether they represent reverse remodeling of myocardial structure or
+      just recovery from acute illness. A comparison of pediatric and adult gene
+      expression changes with VAD support reveals approximately 40% of genes to be
+      oppositely regulated, indicating that the pediatric genetic response is distinct.
+      These observations highlight a necessity to better understand reverse remodeling 
+      specific to pediatric myocardium, which is crucial to improving clinical
+      strategies for bridge-to-recovery in children.
+CI  - Copyright (c) 2015 International Center for Artificial Organs and Transplantation
+      and Wiley Periodicals, Inc.
+FAU - Weia, Benjamin C
+AU  - Weia BC
+AD  - Department of Bioengineering, Rice University, Houston, TX, USA.
+FAU - Adachi, Iki
+AU  - Adachi I
+FAU - Jacot, Jeffrey G
+AU  - Jacot JG
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150410
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+OTO - NOTNLM
+OT  - Bridge to recovery
+OT  - Gene expression
+OT  - Heart failure
+OT  - Pediatric cardiomyopathy
+OT  - Reverse remodeling
+OT  - Ventricular assist device
+EDAT- 2015/04/14 06:00
+MHDA- 2015/04/14 06:00
+CRDT- 2015/04/14 06:00
+AID - 10.1111/aor.12451 [doi]
+PST - aheadofprint
+SO  - Artif Organs. 2015 Apr 10. doi: 10.1111/aor.12451.
+
+PMID- 25864509
+OWN - NLM
+STAT- Publisher
+DA  - 20150413
+LR  - 20150414
+IS  - 1747-0803 (Electronic)
+IS  - 1747-079X (Linking)
+DP  - 2015 Apr 10
+TI  - Pediatric Quality of Life while Supported with a Ventricular Assist Device.
+LID - 10.1111/chd.12260 [doi]
+AB  - OBJECTIVE: Ventricular assist devices (VADs) have emerged as an important
+      treatment option for bridging pediatric patients with heart failure to
+      transplant. VADs have shown improved survival; however, the pediatric quality of 
+      life (QoL) while on VAD support is unknown. We aimed to evaluate the QoL of our
+      pediatric patients while supported with a VAD. DESIGN: In this prospective study,
+      pediatric patients who underwent VAD placement, and their parents, were
+      administered a generic Pediatric Quality of Life Inventory (PedsQL) 4.0 pre-VAD
+      implant, when feasible, after the acute postoperative period, and then
+      periodically until heart transplant or death. Their final scores while on support
+      were compared with three previously reported groups: healthy controls,
+      outpatients with severe heart disease, and children after heart transplant.
+      RESULTS: From January 2008 to July 2014, 13 pediatric patients required VAD
+      support greater than 2 weeks and completed a PedsQL. The mean age at implant was 
+      10.0 +/- 4.2 years and median duration of support was 1.6 (0.5-19.7) months.
+      Eleven (85%) patients survived to transplant with one (8%) patient remaining
+      alive on support. The median duration of support prior to their final PedsQL was 
+      1.4 (0.5-11.4) months. Patients self-reported significantly (P < .05) lower total
+      and physical QoL scores when compared with all three comparison groups.
+      Self-reported psychosocial QoL scores were significantly lower than healthy
+      controls only. Parent proxy-reported scores were significantly lower than all
+      three comparison groups for all three categories (P < .05). CONCLUSIONS: A large 
+      deficit exists in the total QoL of pediatric patients supported by a VAD compared
+      with outpatient management of severe heart disease or postheart transplant
+      patients; however, VAD patients do represent a group with more severe heart
+      failure. Improvements in QoL must be made, as time spent with a VAD will likely
+      continue to increase.
+CI  - (c) 2015 Wiley Periodicals, Inc.
+FAU - Miller, Jacob R
+AU  - Miller JR
+AD  - Section of Pediatric Cardiothoracic Surgery, Washington University School of
+      Medicine, St. Louis, Mo, USA.
+FAU - Boston, Umar S
+AU  - Boston US
+FAU - Epstein, Deirdre J
+AU  - Epstein DJ
+FAU - Henn, Matthew C
+AU  - Henn MC
+FAU - Lawrance, Christopher P
+AU  - Lawrance CP
+FAU - Kallenbach, Jacob
+AU  - Kallenbach J
+FAU - Simpson, Kathleen E
+AU  - Simpson KE
+FAU - Canter, Charles E
+AU  - Canter CE
+FAU - Eghtesady, Pirooz
+AU  - Eghtesady P
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150410
+TA  - Congenit Heart Dis
+JT  - Congenital heart disease
+JID - 101256510
+OTO - NOTNLM
+OT  - Heart Failure
+OT  - Pediatric
+OT  - Quality of Life
+OT  - Ventricular Assist Device
+EDAT- 2015/04/14 06:00
+MHDA- 2015/04/14 06:00
+CRDT- 2015/04/14 06:00
+PHST- 2015/03/16 [accepted]
+AID - 10.1111/chd.12260 [doi]
+PST - aheadofprint
+SO  - Congenit Heart Dis. 2015 Apr 10. doi: 10.1111/chd.12260.
+
+PMID- 25841881
+OWN - NLM
+STAT- Publisher
+DA  - 20150405
+LR  - 20150407
+IS  - 1861-0692 (Electronic)
+IS  - 1861-0684 (Linking)
+DP  - 2015 Apr 5
+TI  - A single German center experience with intermittent inotropes for patients on the
+      high-urgent heart transplant waiting list.
+AB  - AIM: Currently, more than 900 patients with end-stage heart failure are listed
+      for heart transplantation in Germany. All patients on the Eurotransplant
+      high-urgent status (HU) have to be treated in intensive care units and have to be
+      relisted every 8 weeks. Long-term continuous inotropes are associated with
+      tachyphylaxia, arrhythmias and even increased mortality. In this retrospective
+      analysis, we report our single center experience with HU patients treated with
+      intermittent inotropes as a bridging therapy. METHODS AND RESULTS: 117
+      consecutive adult HU candidates were treated at our intensive care heart failure 
+      unit between 2008 and 2013, of whom 14 patients (12 %) were stabilized and
+      delisted during follow-up. In the remaining 103 patients (age 42 +/- 15 years),
+      different inotropes (dobutamine, milrinone, adrenaline, noradrenaline,
+      levosimendan) were administered based on the patient's specific characteristics. 
+      After initial recompensation, patients were weaned from inotropes as soon as
+      possible. Thereafter, intermittent inotropes (over 3-4 days) were given as a
+      predefined weekly (until 2011) or 8 weekly regimen (from 2011 to 2013). In 57 %
+      of these patients, additional regimen-independent inotropic support was necessary
+      due to hemodynamic instabilities. Fourteen patients (14 %) needed a left- or
+      biventricular assist device; 14 patients (14 %) died while waiting and 87 (84 %) 
+      received heart transplants after 87 +/- 91 days. Cumulative 3 and 12 months
+      survival of all 103 patients was 75 and 67 %, respectively. CONCLUSION:
+      Intermittent inotropes in HU patients are an adequate strategy as a bridge to
+      transplant; the necessity for assist devices was low. These data provide the
+      basis for a prospective multicenter trial of intermittent inotropes in patients
+      on the HU waiting list.
+FAU - Hubner, T
+AU  - Hubner T
+AD  - Medizinische Abteilung, Kliniken der Barmherzigen Schwestern, Krankenhaus
+      Neuwittelsbach, Renatastrasse 71a, 80639, Munich, Germany.
+FAU - Nickel, T
+AU  - Nickel T
+FAU - Steinbeck, G
+AU  - Steinbeck G
+FAU - Massberg, S
+AU  - Massberg S
+FAU - Schramm, R
+AU  - Schramm R
+FAU - Reichart, B
+AU  - Reichart B
+FAU - Hagl, C
+AU  - Hagl C
+FAU - Kiwi, A
+AU  - Kiwi A
+FAU - Weis, Michael
+AU  - Weis M
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150405
+TA  - Clin Res Cardiol
+JT  - Clinical research in cardiology : official journal of the German Cardiac Society
+JID - 101264123
+EDAT- 2015/04/07 06:00
+MHDA- 2015/04/07 06:00
+CRDT- 2015/04/06 06:00
+PHST- 2015/01/22 [received]
+PHST- 2015/03/31 [accepted]
+PHST- 2015/04/05 [aheadofprint]
+AID - 10.1007/s00392-015-0852-1 [doi]
+PST - aheadofprint
+SO  - Clin Res Cardiol. 2015 Apr 5.
+
+PMID- 25832983
+OWN - NLM
+STAT- Publisher
+DA  - 20150402
+LR  - 20150404
+IS  - 1532-6551 (Electronic)
+IS  - 1071-3581 (Linking)
+DP  - 2015 Apr 2
+TI  - Imaging in patients after cardiac transplantation and in patients with
+      ventricular assist devices.
+AB  - The field of cardiac imaging and the management of patients with severe heart
+      failure have advanced substantially during the past 10 years. Cardiac
+      transplantation offers the best long-term survival with high quality of life for 
+      the patients with end stage heart failure. However, acute cardiac rejection and
+      cardiac allograft vasculopathy (CAV) can occur post cardiac transplantation and
+      these problems necessitate regular surveillance. The short-term success of
+      mechanical circulatory support devices (MCSD), such as ventricular assist devices
+      (VADs), in improving survival and quality of life has led to a dramatic growth of
+      the patient population with these devices. The development of optimal imaging
+      techniques and algorithms to evaluate these advanced heart failure patients is
+      evolving and multimodality non-invasive imaging approaches and invasive
+      techniques are commonly employed. Most of the published studies done in the
+      transplant and VAD population are small, and biased based on the strength of the 
+      particular program, and there is a relative lack of published protocols to
+      evaluate these patient groups. Moreover, the techniques of echocardiography,
+      computed tomography (CT), magnetic resonance imaging, and nuclear cardiology have
+      all progressed rapidly in recent years. There is thus a knowledge gap for
+      cardiologists, radiologists, and clinicians, especially regarding surveillance
+      for CAV and ideal imaging approaches for patients with VADs. The purpose of this 
+      review article is to provide an overview of different noninvasive imaging
+      modalities used to evaluate patients after cardiac transplantation and for
+      patients with VADs. The review focuses on the role of echocardiography, CT, and
+      nuclear imaging in surveillance for CAV and rejection and on the assessment of
+      ventricular structure and function, myocardial remodeling and complications for
+      VAD patients.
+FAU - Gupta, Bhanu
+AU  - Gupta B
+AD  - Department of Cardiology, St. Luke's Mid America Heart Institute, 4330 Wornall
+      Rd, Suite 2000, Kansas City, MO, USA.
+FAU - Jacob, Dany
+AU  - Jacob D
+FAU - Thompson, Randall
+AU  - Thompson R
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150402
+TA  - J Nucl Cardiol
+JT  - Journal of nuclear cardiology : official publication of the American Society of
+      Nuclear Cardiology
+JID - 9423534
+EDAT- 2015/04/03 06:00
+MHDA- 2015/04/03 06:00
+CRDT- 2015/04/03 06:00
+PHST- 2014/12/08 [received]
+PHST- 2015/01/29 [accepted]
+PHST- 2015/04/02 [aheadofprint]
+AID - 10.1007/s12350-015-0115-6 [doi]
+PST - aheadofprint
+SO  - J Nucl Cardiol. 2015 Apr 2.
+
+PMID- 25824553
+OWN - NLM
+STAT- Publisher
+DA  - 20150331
+LR  - 20150401
+IS  - 1557-3117 (Electronic)
+IS  - 1053-2498 (Linking)
+DP  - 2015 Jan 16
+TI  - Regional differences in use and outcomes of left ventricular assist devices:
+      Insights from the Interagency Registry for Mechanically Assisted Circulatory
+      Support Registry.
+LID - S1053-2498(15)00009-1 [pii]
+LID - 10.1016/j.healun.2015.01.007 [doi]
+AB  - BACKGROUND: We examined whether characteristics, implant strategy, and outcomes
+      in patients who receive continuous-flow left ventricular assist devices (CF-LVAD)
+      differ across geographic regions in the United States. METHODS: A total of 7,404 
+      CF-LVAD patients enrolled in the Interagency Registry for Mechanically Assisted
+      Circulatory Support (INTERMACS) from 134 participating institutions were analyzed
+      from 4 distinct regions: Northeast, 2,605 (35%); Midwest, 2,210 (30%); West, 973 
+      (13%); and South, 1,616 (22%). RESULTS: At baseline, patients in the Northeast
+      and South were more likely to have INTERMACS risk profiles 1 and 2. A
+      bridge-to-transplant (BTT) strategy was more common in the Northeast (31.7%;
+      West, 18.5%; South, 26.9%; Midwest, 25.5%; p < 0.0001). In contrast, destination 
+      therapy (DT) was more likely in the South (40.6%; Northeast, 32.3%; Midwest,
+      27.3%; West, 27.3%; p < 0.0001). Although all regions showed a high 1-year
+      survival rate, some regional differences in long-term mortality were observed.
+      Notably, survival beyond 1 year after LVAD implant was significantly lower in the
+      South. However, when stratified by device strategy, no significant differences in
+      survival for BTT or DT patients were found among the regions. Finally, with the
+      exception of right ventricular failure, which was more common in the South, no
+      other significant differences in causes of death were observed among the regions.
+      CONCLUSIONS: Regional differences in clinical profile and LVAD strategy exist in 
+      the United States. Despite an overall high survival rate at 1 year, differences
+      in mortality among the regions were noted. The lower survival rate in the South
+      may be attributed to patient characteristics and higher use of LVAD as DT.
+CI  - Copyright (c) 2015 International Society for Heart and Lung Transplantation.
+      Published by Elsevier Inc. All rights reserved.
+FAU - Krim, Selim R
+AU  - Krim SR
+AD  - John Ochsner Heart and Vascular Institute, Ochsner Clinic Foundation, New
+      Orleans, Louisiana. Electronic address: selim.krim@ochsner.org.
+FAU - Vivo, Rey P
+AU  - Vivo RP
+AD  - Ahmanson-University of California, Los Angeles (UCLA) Cardiomyopathy Center,
+      Ronald Reagan-UCLA Medical Center, Los Angeles, California.
+FAU - Campbell, Patrick
+AU  - Campbell P
+AD  - John Ochsner Heart and Vascular Institute, Ochsner Clinic Foundation, New
+      Orleans, Louisiana.
+FAU - Estep, Jerry D
+AU  - Estep JD
+AD  - Methodist DeBakey Heart and Vascular Center, Houston Methodist Hospital, Houston,
+      Texas.
+FAU - Fonarow, Gregg C
+AU  - Fonarow GC
+AD  - Ahmanson-University of California, Los Angeles (UCLA) Cardiomyopathy Center,
+      Ronald Reagan-UCLA Medical Center, Los Angeles, California.
+FAU - Naftel, David C
+AU  - Naftel DC
+AD  - the Department of Surgery, University of Alabama at Birmingham, Birmingham,
+      Alabama.
+FAU - Ventura, Hector O
+AU  - Ventura HO
+AD  - John Ochsner Heart and Vascular Institute, Ochsner Clinic Foundation, New
+      Orleans, Louisiana.
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150116
+TA  - J Heart Lung Transplant
+JT  - The Journal of heart and lung transplantation : the official publication of the
+      International Society for Heart Transplantation
+JID - 9102703
+OTO - NOTNLM
+OT  - INTERMACS
+OT  - bridge to transplant
+OT  - continuous-flow
+OT  - destination therapy
+OT  - left ventricular assist device
+OT  - mechanical circulatory support
+OT  - outcomes
+OT  - regions
+EDAT- 2015/04/01 06:00
+MHDA- 2015/04/01 06:00
+CRDT- 2015/04/01 06:00
+PHST- 2014/09/03 [received]
+PHST- 2014/11/23 [revised]
+PHST- 2015/01/13 [accepted]
+AID - S1053-2498(15)00009-1 [pii]
+AID - 10.1016/j.healun.2015.01.007 [doi]
+PST - aheadofprint
+SO  - J Heart Lung Transplant. 2015 Jan 16. pii: S1053-2498(15)00009-1. doi:
+      10.1016/j.healun.2015.01.007.
+
+PMID- 25822421
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20150331
+IS  - 1615-6692 (Electronic)
+IS  - 0340-9937 (Linking)
+VI  - 40
+IP  - 2
+DP  - 2015 Apr
+TI  - [Ventricular long-term support with implantable continuous flow pumps : On the
+      way to a gold standard in the therapy of terminal heart failure].
+PG  - 231-9
+LID - 10.1007/s00059-015-4209-3 [doi]
+AB  - Mechanical circulatory support nowadays represents an important option in the
+      treatment of patients with advanced heart insufficiency. Once developed as a
+      bridging to heart transplantation, it is now a valuable option for permanent
+      support in patients for whom a heart transplantation is not possible due to
+      contraindications or a lack of available organs. Furthermore, it can be used as a
+      bridging to myocardial recovery and explantation. The number of implantations of 
+      left ventricular assist devices (LVAD) has clearly increased in recent years and 
+      approximately one half of these implantations is already carried out in centers
+      not specialized in transplantations. This development necessitates that every
+      practicing physician is aware of the basic principles of mechanical circulatory
+      support and with the possible complications. This article gives a summary of the 
+      current state of the technology and treatment of patients with long-term VADs.
+FAU - Krabatsch, T
+AU  - Krabatsch T
+AD  - Klinik fur Herz-, Thorax- und Gefasschirurgie, Deutsches Herzzentrum Berlin,
+      Augustenburger Platz 1, 13353, Berlin, Deutschland, krabatsch@dhzb.de.
+FAU - Potapov, E
+AU  - Potapov E
+FAU - Soltani, S
+AU  - Soltani S
+FAU - Dandel, M
+AU  - Dandel M
+FAU - Falk, V
+AU  - Falk V
+FAU - Knosalla, C
+AU  - Knosalla C
+LA  - ger
+PT  - English Abstract
+PT  - Journal Article
+TT  - Ventrikulare Langzeitunterstutzung mit implantierbaren kontinuierlichen
+      Flusspumpen : Auf dem Weg zum Goldstandard in der Therapie der terminalen
+      Herzinsuffizienz.
+PL  - Germany
+TA  - Herz
+JT  - Herz
+JID - 7801231
+SB  - IM
+EDAT- 2015/03/31 06:00
+MHDA- 2015/03/31 06:00
+CRDT- 2015/03/31 06:00
+AID - 10.1007/s00059-015-4209-3 [doi]
+PST - ppublish
+SO  - Herz. 2015 Apr;40(2):231-9. doi: 10.1007/s00059-015-4209-3.
+
+PMID- 25808201
+OWN - NLM
+STAT- Publisher
+DA  - 20150326
+LR  - 20150327
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+DP  - 2015 Mar 21
+TI  - Simulation of Ventricular, Cavo-Pulmonary, and Biventricular Ventricular Assist
+      Devices in Failing Fontan.
+LID - 10.1111/aor.12434 [doi]
+AB  - Considering the lack of donors, ventricular assist devices (VADs) could be an
+      alternative to heart transplantation for failing Fontan patients, in spite of the
+      lack of experience and the complex anatomy and physiopathology of these patients.
+      Considering the high number of variables that play an important role such as type
+      of Fontan failure, type of VAD connection, and setting (right VAD [RVAD], left
+      VAD [LVAD], or biventricular VAD [BIVAD]), a numerical model could be useful to
+      support clinical decisions. The aim of this article is to develop and test a
+      lumped parameter model of the cardiovascular system simulating and comparing the 
+      VAD effects on failing Fontan. Hemodynamic and echocardiographic data of 10
+      Fontan patients were used to simulate the baseline patients' condition using a
+      dedicated lumped parameter model. Starting from the simulated baseline and for
+      each patient, a systolic dysfunction, a diastolic dysfunction, and an increment
+      of the pulmonary vascular resistance were simulated. Then, for each patient and
+      for each pathology, the RVAD, LVAD, and BIVAD implantations were simulated. The
+      model can reproduce patients' baseline well. In the case of systolic dysfunction,
+      the LVAD unloads the single ventricle and increases the cardiac output (CO) (35%)
+      and the arterial systemic pressure (Pas) (25%). With RVAD, a decrement of
+      inferior vena cava pressure (Pvci) (39%) was observed with 34% increment of CO,
+      but an increment of the single ventricle external work (SVEW). With the BIVAD, an
+      increment of Pas (29%) and CO (37%) was observed. In the case of diastolic
+      dysfunction, the LVAD increases CO (42%) and the RVAD decreases the Pvci, while
+      both increase the SVEW. In the case of pulmonary vascular resistance increment,
+      the highest CO (50%) and Pas (28%) increment is obtained with an RVAD with the
+      highest decrement of Pvci (53%) and an increment of the SVEW but with the lowest 
+      VAD power consumption. The use of numerical models could be helpful in this
+      innovative field to evaluate the effect of VAD implantation on Fontan patients to
+      support patient and VAD type selection personalizing the assistance.
+CI  - Copyright (c) 2015 International Center for Artificial Organs and Transplantation
+      and Wiley Periodicals, Inc.
+FAU - Di Molfetta, Arianna
+AU  - Di Molfetta A
+AD  - Cardiovascular Engineering Laboratory, Institute of Clinical Physiology-CNR,
+      Rome, Italy.
+FAU - Amodeo, Antonio
+AU  - Amodeo A
+FAU - Fresiello, Libera
+AU  - Fresiello L
+FAU - Trivella, Maria Giovanna
+AU  - Trivella MG
+FAU - Iacobelli, Roberta
+AU  - Iacobelli R
+FAU - Pilati, Mara
+AU  - Pilati M
+FAU - Ferrari, Gianfranco
+AU  - Ferrari G
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150321
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+OTO - NOTNLM
+OT  - Fontan failure
+OT  - Lumped parameter models
+OT  - Ventricular assist devices
+EDAT- 2015/03/27 06:00
+MHDA- 2015/03/27 06:00
+CRDT- 2015/03/27 06:00
+AID - 10.1111/aor.12434 [doi]
+PST - aheadofprint
+SO  - Artif Organs. 2015 Mar 21. doi: 10.1111/aor.12434.
+
+PMID- 25796280
+OWN - NLM
+STAT- In-Process
+DA  - 20150323
+IS  - 0030-6002 (Print)
+IS  - 0030-6002 (Linking)
+VI  - 156
+IP  - 13
+DP  - 2015 Mar 29
+TI  - [Mechanical circulatory support saves lives - three years' experience of the
+      newly established assist device program at Semmelweis University].
+PG  - 521-7
+LID - 10.1556/OH.2015.30115 [doi]
+AB  - INTRODUCTION: Since the celebration of the 20th anniversary of the first heart
+      transplantation in Hungary in 2012 the emerging need for modern heart failure
+      management via mechanical circulatory support has evolved. In May 2012 the
+      opening of a new heart failure and transplant unit with 9 beds together with the 
+      procurement of necessary devices at Semmelweis University accomplished this need.
+      AIM: The aim of the authors was to report their initial experience obtained in
+      this new cardiac assist device program. METHOD: Since May, 2012, mechanical
+      circulatory support system was applied in 89 cases in 72 patients. Indication for
+      support were end stage heart failure refractory to medical treatment and acute
+      left or right heart failure. RESULTS: Treatment was initiated for acute graft
+      failure after heart transplantation in 27 cases, for end stage heart failure in
+      24 cases, for acute myocardial infarction in 21 cases, for acute postcardiotomy
+      heart failure in 14 cases, for severe respiratory insufficiency in 2 cases and
+      for drug intoxication in one case. Among the 30 survivor of the whole program 13 
+      patients were successfully transplanted. CONCLUSIONS: The available devices can
+      cover all modalities of current bridge therapy from short term support through
+      medium support to heart transplantation or long term support and destination
+      therapy. These conditions made possible the successful start of a new cardiac
+      assist device program.
+FAU - Fazekas, Levente
+AU  - Fazekas L
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+FAU - Sax, Balazs
+AU  - Sax B
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+FAU - Hartyanszky, Istvan
+AU  - Hartyanszky I
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+FAU - Polos, Miklos
+AU  - Polos M
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+FAU - Horkay, Ferenc
+AU  - Horkay F
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+FAU - Varga, Tamas
+AU  - Varga T
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Aneszteziologiai es Intenziv
+      Terapias Klinika Budapest.
+FAU - Racz, Kristof
+AU  - Racz K
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Aneszteziologiai es Intenziv
+      Terapias Klinika Budapest.
+FAU - Nemeth, Endre
+AU  - Nemeth E
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Aneszteziologiai es Intenziv
+      Terapias Klinika Budapest.
+FAU - Szekely, Andrea
+AU  - Szekely A
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Aneszteziologiai es Intenziv
+      Terapias Klinika Budapest.
+FAU - Paulovich, Erzsebet
+AU  - Paulovich E
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Aneszteziologiai es Intenziv
+      Terapias Klinika Budapest.
+FAU - Heltai, Krisztina
+AU  - Heltai K
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+FAU - Zima, Endre
+AU  - Zima E
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+FAU - Szabolcs, Zoltan
+AU  - Szabolcs Z
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+FAU - Merkely, Bela
+AU  - Merkely B
+AD  - Semmelweis Egyetem, Altalanos Orvostudomanyi Kar Varosmajori Sziv- es
+      Ergyogyaszati Klinika Budapest Varosmajor u. 68. 1122.
+LA  - hun
+PT  - English Abstract
+PT  - Journal Article
+TT  - A mechanikus keringestamogatas eletet ment - a muszivprogram elso harom evenek
+      tapasztalata a Semmelweis Egyetemen.
+PL  - Hungary
+TA  - Orv Hetil
+JT  - Orvosi hetilap
+JID - 0376412
+SB  - IM
+OAB - Publisher: Abstract available from the publisher.
+OABL- hun
+OTO - NOTNLM
+OT  - ECMO
+OT  - VAD
+OT  - heart transplantation
+OT  - mechanical circulatory support
+OT  - mechanikus keringestamogatas
+OT  - musziv
+OT  - szivtranszplantacio
+EDAT- 2015/03/23 06:00
+MHDA- 2015/03/23 06:00
+CRDT- 2015/03/23 06:00
+AID - 807388U251140873 [pii]
+AID - 10.1556/OH.2015.30115 [doi]
+PST - ppublish
+SO  - Orv Hetil. 2015 Mar 29;156(13):521-7. doi: 10.1556/OH.2015.30115.
+
+PMID- 25773536
+OWN - NLM
+STAT- Publisher
+DA  - 20150501
+LR  - 20150501
+IS  - 1399-0012 (Electronic)
+IS  - 0902-0063 (Linking)
+DP  - 2015 Mar 13
+TI  - Clinical outcomes in sensitized heart transplant patients bridged with
+      ventricular assist devices.
+LID - 10.1111/ctr.12540 [doi]
+AB  - BACKGROUND: Left ventricular assist devices (LVADs) as a bridge to transplant
+      (BTT) have been known to cause allosensitization, as measured by panel-reactive
+      antibody (PRA) levels. The goal of this study was to measure the impact of this
+      allosensitization on outcomes. METHODS: Panel-reactive antibodies were analyzed
+      in BTT patients, with sensitization defined as peak PRAs >/= 10%. Baseline
+      characteristics and outcomes in the two patient groups were evaluated using
+      descriptive statistics, Kaplan-Meier, and regression analysis. RESULTS:
+      Thirty-eight patients were included in the study (17 sensitized vs. 21
+      non-sensitized). There were more women in the sensitized group (47% vs. 10%, p = 
+      0.023). There was no difference in mean times to high-grade acute cellular
+      rejection (ACR; 18.3 months in sensitized vs. 36.9 months in non-sensitized).
+      Five patients in the sensitized groups developed antibody-mediated rejection
+      (AMR) vs. 0 in the non-sensitized, and all five patients died (Kaplan-Meier
+      log-rank p = 0.024). There was also a significant difference in the incidence of 
+      infection at the one- to six-month stage (52.9% vs. 19.0%, p = 0.03). CONCLUSION:
+      Sensitization appears to have a negative effect on mortality. This mortality
+      appears to be concentrated in patients with AMR, and we postulate that the
+      development of AMR in a sensitized patient may be a predictor of mortality.
+CI  - (c) 2015 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+FAU - Kidambi, Sumanth
+AU  - Kidambi S
+AD  - Division of Advanced Heart Failure and Clinical Transplantation, Advocate Christ 
+      Medical Center, Oak Lawn, IL, USA.
+FAU - Mohamedali, Burhan
+AU  - Mohamedali B
+FAU - Bhat, Geetha
+AU  - Bhat G
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150313
+TA  - Clin Transplant
+JT  - Clinical transplantation
+JID - 8710240
+OTO - NOTNLM
+OT  - acute cellular rejection
+OT  - allosensitization
+OT  - antibody-mediated rejection
+OT  - bridge to transplant
+OT  - heart transplant
+OT  - infection
+OT  - left ventricular assist device
+OT  - mechanical support
+OT  - mortality
+OT  - orthotopic heart transplant
+OT  - outcomes
+OT  - panel-reactive antibody
+EDAT- 2015/03/17 06:00
+MHDA- 2015/03/17 06:00
+CRDT- 2015/03/17 06:00
+PHST- 2015/03/10 [accepted]
+AID - 10.1111/ctr.12540 [doi]
+PST - aheadofprint
+SO  - Clin Transplant. 2015 Mar 13. doi: 10.1111/ctr.12540.
+
+PMID- 25773501
+OWN - NLM
+STAT- Publisher
+DA  - 20150316
+LR  - 20150317
+IS  - 0219-3108 (Electronic)
+IS  - 1015-9584 (Linking)
+DP  - 2015 Mar 12
+TI  - Colo-colonic anastomosis in a continuous-flow left ventricular assist device
+      patient.
+LID - S1015-9584(15)00004-4 [pii]
+LID - 10.1016/j.asjsur.2015.01.003 [doi]
+AB  - Noncardiac operations are being increasingly performed on patients with left
+      ventricular assist devices (LVADs). However, little is known on the impact of
+      continuous-flow LVADs on the vascular supply of the colon for anastomoses. In
+      this case, a 67-year-old male supported on an LVAD underwent four successful
+      noncardiac operations including two intestinal anastomoses; left colon and small 
+      bowel anastomosis. To the best of our knowledge, no existing literature has
+      reported successful colonic anastomosis on a continuous-flow LVAD. This case
+      illustrates the plausibility of performing colonic anastomoses with appropriately
+      selected patients supported on an LVAD. A 67-year-old male with congestive heart 
+      failure underwent LVAD placement for decompensated heart failure while awaiting
+      orthotopic transplantation. During his recovery, he developed a stage IV sacral
+      decubitus ulcer which required a sigmoid loop colostomy placement and a
+      rotational flap. Subsequent stoma closure with partial sigmoid colectomy and
+      stapled anastomosis was performed, and healed without evidence of anastomotic
+      leak. This case illustrates the potential for colonic anastomoses for patients on
+      continuous-flow LVAD support. Although oxygenation is known to be an important
+      aspect of healing, this patient's outcome suggests that intestinal anastomoses
+      can be performed on the induced pulseless environment of an LVAD. Further studies
+      will be needed to further elucidate the success of longer segment resections and 
+      appropriate surgical candidates.
+CI  - Copyright (c) 2015. Published by Elsevier Taiwan.
+FAU - Knaus, William J
+AU  - Knaus WJ
+AD  - University of Texas, Southwestern Dallas, TX, USA.
+FAU - Olson, Craig H
+AU  - Olson CH
+AD  - University of Texas, Southwestern Dallas, TX, USA. Electronic address:
+      Craig.Olson@utsouthwestern.edu.
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150312
+TA  - Asian J Surg
+JT  - Asian journal of surgery / Asian Surgical Association
+JID - 8900600
+OTO - NOTNLM
+OT  - anastomosis
+OT  - heart failure
+OT  - ventricular assist device
+OT  - wound healing
+EDAT- 2015/03/17 06:00
+MHDA- 2015/03/17 06:00
+CRDT- 2015/03/17 06:00
+PHST- 2013/09/25 [received]
+PHST- 2015/01/29 [accepted]
+AID - S1015-9584(15)00004-4 [pii]
+AID - 10.1016/j.asjsur.2015.01.003 [doi]
+PST - aheadofprint
+SO  - Asian J Surg. 2015 Mar 12. pii: S1015-9584(15)00004-4. doi:
+      10.1016/j.asjsur.2015.01.003.
+
+PMID- 25772738
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20150413
+IS  - 1879-1913 (Electronic)
+IS  - 0002-9149 (Linking)
+VI  - 115
+IP  - 9
+DP  - 2015 May 1
+TI  - Outcomes of patients implanted with a left ventricular assist device at
+      nontransplant mechanical circulatory support centers.
+PG  - 1254-9
+LID - 10.1016/j.amjcard.2015.02.010 [doi]
+LID - S0002-9149(15)00702-X [pii]
+AB  - The goal of this study was to assess outcomes of patients who underwent
+      implantation of left ventricular assist devices (LVADs) at nontransplantation
+      mechanical circulatory support centers. As the availability of LVADs for advanced
+      heart failure has expanded to nontransplantation mechanical circulatory support
+      centers, concerns have been expressed about maintaining good outcomes.
+      Demographics and outcomes were evaluated in 276 patients with advanced heart
+      failure who underwent implantation of LVADs as bridge to transplantation or
+      destination therapy at 27 open-heart centers. Baseline characteristics, operative
+      mortality, length of stay, readmission rate, adverse events, quality of life, and
+      survival were analyzed. The overall 30-day mortality was 3% (8 of 276), and
+      survival rates at 6, 12, and 24 months, respectively, were 92 +/- 2%, 88 +/- 3%, 
+      and 84 +/- 4% for the bridge-to-transplantation group and 81 +/- 3%, 70 +/- 5%,
+      and 63 +/- 6% for the destination therapy group, comparable with results
+      published by the national Interagency Registry for Mechanically Assisted
+      Circulatory Support (INTERMACS). The median length of stay for all patients was
+      21 days. Bleeding was the most frequent adverse event. Stroke occurred in 4%
+      (bridge to transplantation) and 6% (destination therapy) of patients.
+      Quality-of-life measures and 6-minute walk distances showed sustained
+      improvements throughout support. In conclusion, outcomes with LVAD support at
+      open-heart centers are acceptable and comparable with results from the INTERMACS 
+      registry. With appropriate teams, training, center commitment, and certification,
+      LVAD therapy is being disseminated in a responsible way to open-heart centers.
+CI  - Copyright (c) 2015 Elsevier Inc. All rights reserved.
+FAU - Katz, Marc R
+AU  - Katz MR
+AD  - Bon Secours Health System, Richmond, Virginia. Electronic address:
+      mkatz@misva.org.
+FAU - Dickinson, Michael G
+AU  - Dickinson MG
+AD  - Heart Failure Cardiology, Spectrum Health, Grand Rapids, Michigan.
+FAU - Raval, Nirav Y
+AU  - Raval NY
+AD  - Piedmont Healthcare, Atlanta, Georgia.
+FAU - Slater, James P
+AU  - Slater JP
+AD  - Atlantic Health System, Morristown, New Jersey.
+FAU - Dean, David A
+AU  - Dean DA
+AD  - Piedmont Healthcare, Atlanta, Georgia.
+FAU - Zeevi, Gary R
+AU  - Zeevi GR
+AD  - Bon Secours Health System, Richmond, Virginia.
+FAU - Horn, Evelyn M
+AU  - Horn EM
+AD  - Weill Cornell Medical Center, New York, New York.
+FAU - Salemi, Arash
+AU  - Salemi A
+AD  - Weill Cornell Medical Center, New York, New York.
+LA  - eng
+PT  - Journal Article
+DEP - 20150212
+PL  - United States
+TA  - Am J Cardiol
+JT  - The American journal of cardiology
+JID - 0207277
+SB  - AIM
+SB  - IM
+EDAT- 2015/03/17 06:00
+MHDA- 2015/03/17 06:00
+CRDT- 2015/03/17 06:00
+PHST- 2014/11/08 [received]
+PHST- 2015/02/03 [revised]
+PHST- 2015/02/03 [accepted]
+PHST- 2015/02/12 [aheadofprint]
+AID - S0002-9149(15)00702-X [pii]
+AID - 10.1016/j.amjcard.2015.02.010 [doi]
+PST - ppublish
+SO  - Am J Cardiol. 2015 May 1;115(9):1254-9. doi: 10.1016/j.amjcard.2015.02.010. Epub 
+      2015 Feb 12.
+
+PMID- 25770410
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20150410
+IS  - 2213-1787 (Electronic)
+IS  - 2213-1779 (Linking)
+VI  - 3
+IP  - 4
+DP  - 2015 Apr
+TI  - The Heartmate Risk Score Predicts Morbidity and Mortality in Unselected Left
+      Ventricular Assist Device Recipients and Risk Stratifies INTERMACS Class 1
+      Patients.
+PG  - 283-90
+LID - 10.1016/j.jchf.2014.11.005 [doi]
+LID - S2213-1779(15)00019-0 [pii]
+AB  - OBJECTIVES: This study evaluated the Heartmate Risk Score (HMRS) and its
+      potential benefits in clinical practice. BACKGROUND: The HMRS has been shown to
+      correlate with mortality in the cohort of patients enrolled in the Heartmate II
+      trials, but its validity in unselected, "real world" populations remains unclear.
+      METHODS: This study identified a cohort of 269 consecutive patients who received 
+      a Heartmate II left ventricular assist device at our institution, the
+      Barnes-Jewish Hospital in St. Louis, Missouri, between June 2005 and June 2013.
+      Ninety-day and 2-year mortality rates, as well as frequency of several morbid
+      events, were compared by retrospectively assigned HMRS category groups. The
+      analysis was repeated within the subgroup of INTERMACS (Interagency Registry for 
+      Mechanically Assisted Circulatory Support) class 1 patients. RESULTS: Receiver
+      operating curve analysis showed that the HMRS correlated with 90-day mortality
+      with an area under the curve of 0.70. Stratification in low, mid, and high HMRS
+      groups identified patients with increasing hazard of 90-day mortality, increasing
+      long-term mortality, increasing rate of gastrointestinal bleeding events, and
+      increasing median number of days spent in the hospital in the first year post
+      implant. Within INTERMACS class 1 patients, those in the highest HMRS group were 
+      found to have a relative risk of 90-day mortality 5.7 times higher than those in 
+      the lowest HMRS group (39.1% vs. 6.9%, p = 0.029). CONCLUSIONS: HMRS is a valid
+      clinical tool to stratify risk of morbidity and mortality after implant of
+      Heartmate II devices in unselected patients and can be used to predict short-term
+      mortality risk in INTERMACS class 1 patients.
+CI  - Copyright (c) 2015 American College of Cardiology Foundation. Published by
+      Elsevier Inc. All rights reserved.
+FAU - Adamo, Luigi
+AU  - Adamo L
+AD  - Division of Cardiology, Washington University School of Medicine, St. Louis,
+      Missouri.
+FAU - Nassif, Michael
+AU  - Nassif M
+AD  - Division of Cardiology, Washington University School of Medicine, St. Louis,
+      Missouri.
+FAU - Tibrewala, Anjan
+AU  - Tibrewala A
+AD  - Department of Medicine, Washington University School of Medicine, St. Louis,
+      Missouri.
+FAU - Novak, Eric
+AU  - Novak E
+AD  - Division of Cardiology, Washington University School of Medicine, St. Louis,
+      Missouri.
+FAU - Vader, Justin
+AU  - Vader J
+AD  - Division of Cardiology, Washington University School of Medicine, St. Louis,
+      Missouri.
+FAU - Silvestry, Scott C
+AU  - Silvestry SC
+AD  - Division of Cardiothoracic Surgery, Washington University School of Medicine, St.
+      Louis, Missouri.
+FAU - Itoh, Akinobu
+AU  - Itoh A
+AD  - Division of Cardiothoracic Surgery, Washington University School of Medicine, St.
+      Louis, Missouri.
+FAU - Ewald, Gregory A
+AU  - Ewald GA
+AD  - Division of Cardiology, Washington University School of Medicine, St. Louis,
+      Missouri.
+FAU - Mann, Douglas L
+AU  - Mann DL
+AD  - Division of Cardiology, Washington University School of Medicine, St. Louis,
+      Missouri.
+FAU - LaRue, Shane J
+AU  - LaRue SJ
+AD  - Division of Cardiology, Washington University School of Medicine, St. Louis,
+      Missouri. Electronic address: slarue@dom.wustl.edu.
+LA  - eng
+PT  - Journal Article
+DEP - 20150311
+PL  - United States
+TA  - JACC Heart Fail
+JT  - JACC. Heart failure
+JID - 101598241
+SB  - IM
+OTO - NOTNLM
+OT  - heart failure
+OT  - left ventricular assist device
+OT  - survival
+OT  - transplantation
+EDAT- 2015/03/17 06:00
+MHDA- 2015/03/17 06:00
+CRDT- 2015/03/16 06:00
+PHST- 2014/10/27 [received]
+PHST- 2014/11/25 [accepted]
+PHST- 2015/03/11 [aheadofprint]
+AID - S2213-1779(15)00019-0 [pii]
+AID - 10.1016/j.jchf.2014.11.005 [doi]
+PST - ppublish
+SO  - JACC Heart Fail. 2015 Apr;3(4):283-90. doi: 10.1016/j.jchf.2014.11.005. Epub 2015
+      Mar 11.
+
+PMID- 25770404
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20150410
+IS  - 2213-1787 (Electronic)
+IS  - 2213-1779 (Linking)
+VI  - 3
+IP  - 4
+DP  - 2015 Apr
+TI  - Anti-Factor Xa and Activated Partial Thromboplastin Time Measurements for Heparin
+      Monitoring in Mechanical Circulatory Support.
+PG  - 314-22
+LID - 10.1016/j.jchf.2014.11.009 [doi]
+LID - S2213-1779(15)00063-3 [pii]
+AB  - OBJECTIVES: This study investigated the relationship between anti-factor Xa
+      (anti-FXa) and activated partial thromboplastin time (aPTT) for monitoring
+      intravenous unfractionated heparin (IV-UFH) in patients with continuous-flow left
+      ventricular assist devices (CF-LVADs). BACKGROUND: CF-LVADs have become
+      mainstream therapy for patients with advanced heart failure. Thromboembolic
+      events, device thrombosis, and bleeding continue to be a challenge with this
+      technology. Adequate anticoagulation is required to prevent these adverse events.
+      METHODS: A prospective study of consecutive patients implanted with a CF-LVAD was
+      conducted. Paired samples were considered concordant if aPTT values fell into
+      expected ranges for subtherapeutic, therapeutic, and supratherapeutic anti-FXa
+      levels. Heparin dosing was on the basis of anti-Xa levels. RESULTS: A total of
+      340 paired values from 38 patients were evaluated. Anti-FXa and aPTT were
+      discordant in 253 samples (74.4%), with a high degree of variability in aPTT for 
+      any given anti-FXa level (r(2) = 0.57). Results were discordant in 104 samples
+      (63.8%) from patients undergoing bridging therapy with warfarin and in 149
+      samples (84.2%) from patients with device obstruction and/or hemolysis (p <
+      0.001). The most common pattern of discordance was a supratherapeutic aPTT value 
+      despite a therapeutic anti-FXa level (49.1% for bridging vs. 75.8% for device
+      obstruction and/or hemolysis; p < 0.001). CONCLUSIONS: Levels of aPTT were
+      disproportionately prolonged relative to the corresponding anti-FXa levels in
+      CF-LVAD patients, particularly those with device obstruction. Hemolysis and
+      warfarin administration may falsely elevate aPTT, resulting in overestimation of 
+      heparin concentration and under-anticoagulation. Use of aPTT and anti-FXa to
+      guide heparin therapy may lead to different estimates of heparin concentration in
+      the same patient.
+CI  - Copyright (c) 2015 American College of Cardiology Foundation. Published by
+      Elsevier Inc. All rights reserved.
+FAU - Adatya, Sirtaz
+AU  - Adatya S
+AD  - Department of Medicine, Cardiology Division, University of Minnesota,
+      Minneapolis, Minnesota. Electronic address: snadatya@umn.edu.
+FAU - Uriel, Nir
+AU  - Uriel N
+AD  - Department of Medicine, Cardiology Division, University of Chicago, Chicago,
+      Illinois.
+FAU - Yarmohammadi, Hirad
+AU  - Yarmohammadi H
+AD  - Department of Medicine, Cardiology Division, University of Minnesota,
+      Minneapolis, Minnesota.
+FAU - Holley, Christopher T
+AU  - Holley CT
+AD  - Department of Medicine, Cardiology Division, University of Minnesota,
+      Minneapolis, Minnesota.
+FAU - Feng, Amy
+AU  - Feng A
+AD  - Department of Medicine, Cardiology Division, University of Minnesota,
+      Minneapolis, Minnesota.
+FAU - Roy, Samit S
+AU  - Roy SS
+AD  - Department of Medicine, Cardiology Division, University of Minnesota,
+      Minneapolis, Minnesota.
+FAU - Reding, Mark T
+AU  - Reding MT
+AD  - Department of Medicine, Division of Hematology, Oncology and Transplantation,
+      University of Minnesota, Minneapolis, Minnesota.
+FAU - John, Ranjit
+AU  - John R
+AD  - Department of Medicine, Cardiology Division, University of Minnesota,
+      Minneapolis, Minnesota.
+FAU - Eckman, Peter
+AU  - Eckman P
+AD  - Department of Medicine, Cardiology Division, University of Minnesota,
+      Minneapolis, Minnesota.
+FAU - Zantek, Nicole D
+AU  - Zantek ND
+AD  - Department of Laboratory Medicine and Pathology, University of Minnesota,
+      Minneapolis, Minnesota.
+LA  - eng
+PT  - Journal Article
+DEP - 20150311
+PL  - United States
+TA  - JACC Heart Fail
+JT  - JACC. Heart failure
+JID - 101598241
+SB  - IM
+OTO - NOTNLM
+OT  - activated partial thromboplastin time
+OT  - anti-factor Xa
+OT  - continuous-flow left ventricular assist device
+OT  - intravenous unfractionated heparin
+OT  - monitoring
+EDAT- 2015/03/17 06:00
+MHDA- 2015/03/17 06:00
+CRDT- 2015/03/16 06:00
+PHST- 2014/09/26 [received]
+PHST- 2014/11/22 [revised]
+PHST- 2014/11/25 [accepted]
+PHST- 2015/03/11 [aheadofprint]
+AID - S2213-1779(15)00063-3 [pii]
+AID - 10.1016/j.jchf.2014.11.009 [doi]
+PST - ppublish
+SO  - JACC Heart Fail. 2015 Apr;3(4):314-22. doi: 10.1016/j.jchf.2014.11.009. Epub 2015
+      Mar 11.
+
+PMID- 25770085
+OWN - NLM
+STAT- Publisher
+DA  - 20150314
+LR  - 20150315
+IS  - 1569-9285 (Electronic)
+IS  - 1569-9285 (Linking)
+DP  - 2015 Mar 13
+TI  - Impact of age on outcomes following continuous-flow left ventricular assist
+      device implantation.
+LID - ivv051 [pii]
+AB  - OBJECTIVES: The goal of our study was to analyse the impact of age on outcomes in
+      patients who underwent continuous-flow left ventricular assist device (CF-LVAD)
+      placement at our institution. METHODS: One hundred and twenty-eight patients were
+      implanted with a CF-LVAD between January 2008 and June 2014. Eighty-five patients
+      were implanted with the device as a bridge to transplant (BTT); the remaining (n 
+      = 43) were on destination therapy (DT). Each group was divided into patients <65 
+      years old and >/=65 years old at device implantation. Patients were followed up
+      for at least 24 months or until transplant or death. RESULTS: Eighty-five
+      patients (66%) received a CF-LVAD as BTT. Patients >/=65 years old (n = 8) had a 
+      lower preoperative cardiac index and prothrombin time-international normalized
+      ratio (P = 0.009), and a longer stay in the intensive care unit (P = 0.008).
+      Adverse events including infections, re-exploration for bleeding, ischaemic and
+      haemorrhagic stroke, renal failure and right heart failure were comparable in
+      both age groups. Eighty-two percent (n = 63) of the young patients and 75% (n =
+      6) of the older patients, who were on LVAD as BTT, underwent heart transplant
+      within the first 24 months of LVAD implantation. Overall survival at 3, 6, 12 and
+      24 months were 95, 95, 77 and 70%, respectively, post-CF-LVAD implantation as BTT
+      for the younger group and 73% for the older group at 3, 6 and 12 months (P =
+      0.35). Forty-three patients (34%) received a CF-LVAD as DT. Patients >/=65 years 
+      old (n = 14) on DT had a higher incidence of peripheral vascular disease (P =
+      0.048), higher serum sodium (P = 0.004) and serum creatinine values (P = 0.002), 
+      preoperatively. There were more strokes in the older patients post-LAVD
+      implantation (14 vs 0%; P = 0.048). Overall survival at 3, 6, 12 and 24 months
+      were 85, 79, 75 and 62%, respectively, for the younger group and 93, 77, 67 and
+      34% for the older group, respectively (P = 0.26). CONCLUSION: This study
+      demonstrates that LVAD therapy can be used in the older patients with acceptable 
+      mortality and morbidity, and age alone should not be used as the sole criterion
+      for exclusion from LVAD implantation.
+CI  - (c) The Author 2015. Published by Oxford University Press on behalf of the
+      European Association for Cardio-Thoracic Surgery. All rights reserved.
+FAU - Lushaj, Entela B
+AU  - Lushaj EB
+AD  - Department of Surgery, Division of Cardiothoracic Surgery, University of
+      Wisconsin School of Medicine and Public Health, Madison, WI, USA.
+FAU - Badami, Abbasali
+AU  - Badami A
+AD  - Department of Surgery, Division of Cardiothoracic Surgery, University of
+      Wisconsin School of Medicine and Public Health, Madison, WI, USA.
+FAU - Osaki, Satoru
+AU  - Osaki S
+AD  - Department of Surgery, Division of Cardiothoracic Surgery, University of
+      Wisconsin School of Medicine and Public Health, Madison, WI, USA.
+FAU - Murray, Margaret
+AU  - Murray M
+AD  - Department of Surgery, Division of Cardiothoracic Surgery, University of
+      Wisconsin School of Medicine and Public Health, Madison, WI, USA.
+FAU - Leverson, Glen
+AU  - Leverson G
+AD  - Department of Surgery, Division of Cardiothoracic Surgery, University of
+      Wisconsin School of Medicine and Public Health, Madison, WI, USA.
+FAU - Lozonschi, Lucian
+AU  - Lozonschi L
+AD  - Department of Surgery, Division of Cardiothoracic Surgery, University of
+      Wisconsin School of Medicine and Public Health, Madison, WI, USA.
+FAU - Akhter, Shahab
+AU  - Akhter S
+AD  - Department of Surgery, Division of Cardiothoracic Surgery, University of
+      Wisconsin School of Medicine and Public Health, Madison, WI, USA.
+FAU - Kohmoto, Takushi
+AU  - Kohmoto T
+AD  - Department of Surgery, Division of Cardiothoracic Surgery, University of
+      Wisconsin School of Medicine and Public Health, Madison, WI, USA
+      kohmoto@surgery.wisc.edu.
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150313
+TA  - Interact Cardiovasc Thorac Surg
+JT  - Interactive cardiovascular and thoracic surgery
+JID - 101158399
+OTO - NOTNLM
+OT  - Adult
+OT  - Circulatory support devices
+OT  - Outcomes
+EDAT- 2015/03/15 06:00
+MHDA- 2015/03/15 06:00
+CRDT- 2015/03/15 06:00
+AID - ivv051 [pii]
+AID - 10.1093/icvts/ivv051 [doi]
+PST - aheadofprint
+SO  - Interact Cardiovasc Thorac Surg. 2015 Mar 13. pii: ivv051.
+
+PMID- 25763721
+OWN - NLM
+STAT- In-Process
+DA  - 20150313
+IS  - 1527-1323 (Electronic)
+IS  - 0271-5333 (Linking)
+VI  - 35
+IP  - 2
+DP  - 2015 Mar-Apr
+TI  - Building a bridge to save a failing ventricle: radiologic evaluation of short-
+      and long-term cardiac assist devices.
+PG  - 327-56
+LID - 10.1148/rg.352140149 [doi]
+AB  - Heart failure is recognized with increasing frequency worldwide and often
+      progresses to an advanced refractory state. Although the reference standard for
+      treatment of advanced heart failure remains cardiac transplantation, the
+      increasing shortage of donor organs and the unsuitability of many patients for
+      transplantation surgery has led to a search for alternative therapies. One such
+      therapy is mechanical circulatory support, which helps relieve the load on the
+      ventricle and thereby allows it to recover function. In addition, there is
+      increasing evidence supporting the use of mechanical devices as a bridge to
+      recovery in patients with acute refractory heart failure. In this article, the
+      imaging evaluation of various commonly used short- and long-term cardiac assist
+      devices is discussed, and their relevant mechanisms of action and physiology are 
+      described. Imaging, particularly computed tomography (CT), plays a crucial role
+      in preoperative evaluation for assessment of candidacy for implantation of a left
+      ventricular assist device (LVAD) or total artificial heart (TAH). Also,
+      echocardiography and CT are indispensable in assessment of complications
+      associated with cardiac devices. Complications commonly associated with
+      short-term assist devices include bleeding and malpositioning, whereas long-term 
+      devices such as LVADs may be associated with infection, pump thrombosis, and
+      cannula malfunction, as well as bleeding. CT is also commonly performed for
+      preoperative planning before LVAD or TAH explantation, replacement of a device or
+      one of its components, and cardiac transplantation. Online supplemental material 
+      is available for this article.
+CI  - ((c))RSNA, 2015.
+FAU - Mohamed, Inas
+AU  - Mohamed I
+AD  - From the Sections of Thoracic Imaging (I.M., C.T.L., M.A.B., A.H.E., J.T.A.,
+      R.D.R.) and Cardiovascular Imaging (M.A.B.), Imaging Institute, Section of
+      Biomedical Engineering (J.H.K., N.M.), and Section of Thoracic and Cardiovascular
+      Surgery, Heart and Vascular Institute (N.M.), Cleveland Clinic, 9500 Euclid Ave, 
+      Room L10, Cleveland, OH 44195.
+FAU - Lau, Charles T
+AU  - Lau CT
+FAU - Bolen, Michael A
+AU  - Bolen MA
+FAU - El-Sherief, Ahmed H
+AU  - El-Sherief AH
+FAU - Azok, Joseph T
+AU  - Azok JT
+FAU - Karimov, Jamshid H
+AU  - Karimov JH
+FAU - Moazami, Nader
+AU  - Moazami N
+FAU - Renapurkar, Rahul D
+AU  - Renapurkar RD
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - Radiographics
+JT  - Radiographics : a review publication of the Radiological Society of North
+      America, Inc
+JID - 8302501
+SB  - IM
+EDAT- 2015/03/13 06:00
+MHDA- 2015/03/13 06:00
+CRDT- 2015/03/13 06:00
+AID - 10.1148/rg.352140149 [doi]
+PST - ppublish
+SO  - Radiographics. 2015 Mar-Apr;35(2):327-56. doi: 10.1148/rg.352140149.
+
+PMID- 25759700
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DA  - 20150311
+DCOM- 20150311
+LR  - 20150313
+IS  - 1664-3828 (Print)
+IS  - 1664-5502 (Linking)
+VI  - 5
+IP  - 1
+DP  - 2015 Feb
+TI  - Kidney dysfunction and left ventricular assist device support: a comprehensive
+      perioperative review.
+PG  - 48-60
+LID - 10.1159/000369589 [doi]
+AB  - Left ventricular assist devices (LVADs) are used increasingly as a bridge to
+      transplantation or as destination therapy in end-stage heart failure patients who
+      do not respond to optimal medical therapy. Many of these patients have end-organ 
+      dysfunction, including advanced kidney dysfunction, before and after LVAD
+      implantation. Kidney dysfunction is a marker of adverse outcomes, such as
+      increased morbidity and mortality. This review discusses kidney dysfunction and
+      associated management strategies during the dynamic perioperative time period of 
+      LVAD implantation. Furthermore, we suggest potential future research directions
+      to better understand the complex relationship between renal pathophysiology and
+      mechanical circulatory support.
+FAU - Coffin, Samuel T
+AU  - Coffin ST
+AD  - Division of Cardiology, Vanderbilt University Medical Center, Nashville, Tenn.,
+      USA.
+FAU - Waguespack, Dia R
+AU  - Waguespack DR
+AD  - Division of Nephrology, Vanderbilt University Medical Center, Nashville, Tenn.,
+      USA.
+FAU - Haglund, Nicholas A
+AU  - Haglund NA
+AD  - Division of Cardiology, Vanderbilt University Medical Center, Nashville, Tenn.,
+      USA.
+FAU - Maltais, Simon
+AU  - Maltais S
+AD  - Division of Cardiovascular Surgery, Vanderbilt University Medical Center,
+      Nashville, Tenn., USA.
+FAU - Dwyer, Jamie P
+AU  - Dwyer JP
+AD  - Division of Nephrology, Vanderbilt University Medical Center, Nashville, Tenn.,
+      USA.
+FAU - Keebler, Mary E
+AU  - Keebler ME
+AD  - Division of Cardiology, Vanderbilt University Medical Center, Nashville, Tenn.,
+      USA.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20150109
+PL  - Switzerland
+TA  - Cardiorenal Med
+JT  - Cardiorenal medicine
+JID - 101554863
+PMC - PMC4327330
+OID - NLM: PMC4327330
+OTO - NOTNLM
+OT  - Heart failure
+OT  - Kidney injury
+OT  - Ventricular assist device
+EDAT- 2015/03/12 06:00
+MHDA- 2015/03/12 06:01
+CRDT- 2015/03/12 06:00
+PHST- 2014/09/26 [received]
+PHST- 2014/10/31 [accepted]
+PHST- 2015/01/09 [epublish]
+AID - 10.1159/000369589 [doi]
+AID - crm-0005-0048 [pii]
+PST - ppublish
+SO  - Cardiorenal Med. 2015 Feb;5(1):48-60. doi: 10.1159/000369589. Epub 2015 Jan 9.
+
+PMID- 25759442
+OWN - NLM
+STAT- In-Process
+DA  - 20150318
+LR  - 20150322
+IS  - 1941-7705 (Electronic)
+IS  - 1941-7713 (Linking)
+VI  - 8
+IP  - 2
+DP  - 2015 Mar
+TI  - Decision-making for destination therapy left ventricular assist devices:
+      implications for caregivers.
+PG  - 172-8
+LID - 10.1161/CIRCOUTCOMES.114.001276 [doi]
+AB  - BACKGROUND: Implanting centers often require the identification of a dedicated
+      caregiver before destination therapy left ventricular assist device (DT LVAD)
+      implantation; however, the caregiver experience surrounding this difficult
+      decision is relatively unexplored. METHODS AND RESULTS: From October 2012 through
+      July 2013, we conducted semistructured, in-depth interviews with caregivers of
+      patients considering DT LVAD. Data were analyzed using a mixed inductive and
+      deductive approach. We interviewed 17 caregivers: 10 caregivers of patients
+      living with DT LVAD, 6 caregivers of patients who had died with DT LVAD, and 1
+      caregiver of a patient who had declined DT LVAD. The themes identified, which
+      could also be considered dialectical tensions, are broadly interpreted under 3
+      domains mapping to decision context, process, and outcome: (1) the stark decision
+      context, with tension between hope and reality; (2) the challenging decision
+      process, with tension between wanting loved ones to live and wanting to respect
+      loved ones' wishes; and (3) the downstream decision outcome, with tension between
+      gratitude and burden. CONCLUSIONS: Decision-making surrounding DT LVAD should
+      incorporate decision support for patients and caregivers. This should include a
+      focus on caregiver burden and the predictable tensions that caregivers
+      experience.
+CI  - (c) 2015 American Heart Association, Inc.
+FAU - McIlvennan, Colleen K
+AU  - McIlvennan CK
+AD  - From the Section of Advanced Heart Failure and Transplantation, Division of
+      Cardiology (C.K.M., L.A.A., J.L.), Colorado Cardiovascular Outcomes Research
+      Consortium (C.K.M., L.A.A., D.D.M.) and Division of General Internal Medicine
+      (C.N., D.D.M.), University of Colorado School of Medicine, Aurora; University of 
+      Colorado School of Nursing, Aurora (J.J.); and Division of General Internal
+      Medicine, Mayo Clinic, Rochester, MN (K.M.S.). colleen.mcilvennan@ucdenver.edu.
+FAU - Jones, Jacqueline
+AU  - Jones J
+AD  - From the Section of Advanced Heart Failure and Transplantation, Division of
+      Cardiology (C.K.M., L.A.A., J.L.), Colorado Cardiovascular Outcomes Research
+      Consortium (C.K.M., L.A.A., D.D.M.) and Division of General Internal Medicine
+      (C.N., D.D.M.), University of Colorado School of Medicine, Aurora; University of 
+      Colorado School of Nursing, Aurora (J.J.); and Division of General Internal
+      Medicine, Mayo Clinic, Rochester, MN (K.M.S.).
+FAU - Allen, Larry A
+AU  - Allen LA
+AD  - From the Section of Advanced Heart Failure and Transplantation, Division of
+      Cardiology (C.K.M., L.A.A., J.L.), Colorado Cardiovascular Outcomes Research
+      Consortium (C.K.M., L.A.A., D.D.M.) and Division of General Internal Medicine
+      (C.N., D.D.M.), University of Colorado School of Medicine, Aurora; University of 
+      Colorado School of Nursing, Aurora (J.J.); and Division of General Internal
+      Medicine, Mayo Clinic, Rochester, MN (K.M.S.).
+FAU - Lindenfeld, JoAnn
+AU  - Lindenfeld J
+AD  - From the Section of Advanced Heart Failure and Transplantation, Division of
+      Cardiology (C.K.M., L.A.A., J.L.), Colorado Cardiovascular Outcomes Research
+      Consortium (C.K.M., L.A.A., D.D.M.) and Division of General Internal Medicine
+      (C.N., D.D.M.), University of Colorado School of Medicine, Aurora; University of 
+      Colorado School of Nursing, Aurora (J.J.); and Division of General Internal
+      Medicine, Mayo Clinic, Rochester, MN (K.M.S.).
+FAU - Swetz, Keith M
+AU  - Swetz KM
+AD  - From the Section of Advanced Heart Failure and Transplantation, Division of
+      Cardiology (C.K.M., L.A.A., J.L.), Colorado Cardiovascular Outcomes Research
+      Consortium (C.K.M., L.A.A., D.D.M.) and Division of General Internal Medicine
+      (C.N., D.D.M.), University of Colorado School of Medicine, Aurora; University of 
+      Colorado School of Nursing, Aurora (J.J.); and Division of General Internal
+      Medicine, Mayo Clinic, Rochester, MN (K.M.S.).
+FAU - Nowels, Carolyn
+AU  - Nowels C
+AD  - From the Section of Advanced Heart Failure and Transplantation, Division of
+      Cardiology (C.K.M., L.A.A., J.L.), Colorado Cardiovascular Outcomes Research
+      Consortium (C.K.M., L.A.A., D.D.M.) and Division of General Internal Medicine
+      (C.N., D.D.M.), University of Colorado School of Medicine, Aurora; University of 
+      Colorado School of Nursing, Aurora (J.J.); and Division of General Internal
+      Medicine, Mayo Clinic, Rochester, MN (K.M.S.).
+FAU - Matlock, Daniel D
+AU  - Matlock DD
+AD  - From the Section of Advanced Heart Failure and Transplantation, Division of
+      Cardiology (C.K.M., L.A.A., J.L.), Colorado Cardiovascular Outcomes Research
+      Consortium (C.K.M., L.A.A., D.D.M.) and Division of General Internal Medicine
+      (C.N., D.D.M.), University of Colorado School of Medicine, Aurora; University of 
+      Colorado School of Nursing, Aurora (J.J.); and Division of General Internal
+      Medicine, Mayo Clinic, Rochester, MN (K.M.S.).
+LA  - eng
+GR  - 1 K07 AG030337-01A2/AG/NIA NIH HHS/United States
+GR  - 1K23AG040696/AG/NIA NIH HHS/United States
+GR  - 1K23HL105896/HL/NHLBI NIH HHS/United States
+GR  - K23 AG040696/AG/NIA NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20150310
+PL  - United States
+TA  - Circ Cardiovasc Qual Outcomes
+JT  - Circulation. Cardiovascular quality and outcomes
+JID - 101489148
+SB  - IM
+CIN - Circ Cardiovasc Qual Outcomes. 2015 Mar;8(2):133-4. PMID: 25759444
+PMC - PMC4365422
+MID - NIHMS658385
+OID - NLM: NIHMS658385 [Available on 03/10/16]
+OID - NLM: PMC4365422 [Available on 03/10/16]
+OTO - NOTNLM
+OT  - heart failure
+OT  - patient-centered care
+EDAT- 2015/03/12 06:00
+MHDA- 2015/03/12 06:00
+CRDT- 2015/03/12 06:00
+PMCR- 2016/03/10 00:00
+PHST- 2015/03/10 [aheadofprint]
+AID - CIRCOUTCOMES.114.001276 [pii]
+AID - 10.1161/CIRCOUTCOMES.114.001276 [doi]
+PST - ppublish
+SO  - Circ Cardiovasc Qual Outcomes. 2015 Mar;8(2):172-8. doi:
+      10.1161/CIRCOUTCOMES.114.001276. Epub 2015 Mar 10.
+
+PMID- 25735454
+OWN - NLM
+STAT- Publisher
+DA  - 20150304
+LR  - 20150305
+IS  - 1525-1594 (Electronic)
+IS  - 0160-564X (Linking)
+DP  - 2015 Mar 4
+TI  - Minimally Invasive Ventricular Assist Device Surgery.
+LID - 10.1111/aor.12422 [doi]
+AB  - The use of mechanical circulatory support to treat patients with congestive heart
+      failure has grown enormously, recently surpassing the number of annual heart
+      transplants worldwide. The current generation of left ventricular assist devices 
+      (LVADs), as compared with older devices, is characterized by improved
+      technologies and reduced size. The result is that minimally invasive surgery is
+      now possible for the implantation, explantation, and exchange of LVADs. Minimally
+      invasive procedures improve surgical outcome; for example, they lower the rates
+      of operative complications (such as bleeding or wound infection). The
+      miniaturization of LVADs will continue, so that minimally invasive techniques
+      will be used for most implantations in the future. In this article, we summarize 
+      and describe minimally invasive state-of-the-art implantation techniques, with a 
+      focus on the most common LVAD systems in adults.
+CI  - Copyright (c) 2015 International Center for Artificial Organs and Transplantation
+      and Wiley Periodicals, Inc.
+FAU - Rojas, Sebastian V
+AU  - Rojas SV
+AD  - Department of Cardiothoracic, Transplantation, and Vascular Surgery, Hannover
+      Medical School, Hannover, Germany.
+FAU - Avsar, Murat
+AU  - Avsar M
+FAU - Hanke, Jasmin S
+AU  - Hanke JS
+FAU - Khalpey, Zain
+AU  - Khalpey Z
+FAU - Maltais, Simon
+AU  - Maltais S
+FAU - Haverich, Axel
+AU  - Haverich A
+FAU - Schmitto, Jan D
+AU  - Schmitto JD
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150304
+TA  - Artif Organs
+JT  - Artificial organs
+JID - 7802778
+OTO - NOTNLM
+OT  - Cardiac surgery
+OT  - Left ventricular assist device
+OT  - Minimally invasive surgery
+EDAT- 2015/03/05 06:00
+MHDA- 2015/03/05 06:00
+CRDT- 2015/03/05 06:00
+AID - 10.1111/aor.12422 [doi]
+PST - aheadofprint
+SO  - Artif Organs. 2015 Mar 4. doi: 10.1111/aor.12422.
+
+PMID- 25732410
+OWN - NLM
+STAT- In-Process
+DA  - 20150323
+IS  - 1744-8344 (Electronic)
+IS  - 1477-9072 (Linking)
+VI  - 13
+IP  - 4
+DP  - 2015 Apr
+TI  - Current approaches to device implantation in pediatric and congenital heart
+      disease patients.
+PG  - 417-27
+LID - 10.1586/14779072.2015.1021786 [doi]
+AB  - The pediatric ventricular assist device (VAD) has recently shown substantial
+      improvements in survival as a bridge to heart transplant for patients with
+      end-stage heart failure. Since that time, its use has become much more frequent. 
+      With increasing utilization, additional questions have arisen including patient
+      selection, timing of VAD implantation and device selection. These challenges are 
+      amplified by the uniqueness of each patient, the recent abundance of literature
+      surrounding VAD use as well as the technological advancements in the devices
+      themselves. Ideal strategies for device placement must be sought, for not only
+      improved patient care, but also for optimal resource utilization. Here, we review
+      the most relevant literature to highlight some of the challenges facing the heart
+      failure specialist, and any physician, who will care for a child with a VAD.
+FAU - Miller, Jacob R
+AU  - Miller JR
+AD  - Pediatric Cardiothoracic Surgery, Washington University School of Medicine, St.
+      Louis Children's Hospital, One Children's Place, Suite 5 South St. Louis, MO
+      63110, USA.
+FAU - Lancaster, Timothy S
+AU  - Lancaster TS
+FAU - Eghtesady, Pirooz
+AU  - Eghtesady P
+LA  - eng
+GR  - T32 HL007776/HL/NHLBI NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20150303
+PL  - England
+TA  - Expert Rev Cardiovasc Ther
+JT  - Expert review of cardiovascular therapy
+JID - 101182328
+SB  - IM
+OTO - NOTNLM
+OT  - Berlin heart
+OT  - HeartMate
+OT  - HeartWare
+OT  - dilated cardiomyopathy
+OT  - heart failure
+OT  - mechanical circulatory support
+OT  - myocarditis
+OT  - pediatric
+OT  - ventricular assist device
+EDAT- 2015/03/04 06:00
+MHDA- 2015/03/04 06:00
+CRDT- 2015/03/04 06:00
+PHST- 2015/03/03 [aheadofprint]
+AID - 10.1586/14779072.2015.1021786 [doi]
+PST - ppublish
+SO  - Expert Rev Cardiovasc Ther. 2015 Apr;13(4):417-27. doi:
+      10.1586/14779072.2015.1021786. Epub 2015 Mar 3.
+
+PMID- 25710008
+OWN - NLM
+STAT- In-Process
+DA  - 20150224
+LR  - 20150226
+IS  - 2314-6141 (Electronic)
+VI  - 2015
+DP  - 2015
+TI  - Differential regulation of microRNAs in end-stage failing hearts is associated
+      with left ventricular assist device unloading.
+PG  - 592512
+LID - 10.1155/2015/592512 [doi]
+AB  - Mechanical unloading by left ventricular assist devices (LVADs) in advanced heart
+      failure (HF), in addition to improving symptoms and end-organ perfusion, is
+      supposed to stimulate cellular and molecular responses which can reverse
+      maladaptive cardiac remodeling. As microRNAs (miRNAs) are key regulators in
+      remodeling processes, a comparative miRNA profiling in transplanted hearts of HF 
+      patients with/without LVAD assistance could aid to comprehend underlying
+      molecular mechanisms. Next generation sequencing (NGS) was used to analyze miRNA 
+      differential expression in left ventricles of HF patients who underwent heart
+      transplantation directly (n = 9) or following a period of LVAD support (n = 8).
+      After data validation by quantitative real-time PCR, association with functional 
+      clinical parameters was investigated. Bioinformatics' tools were then used for
+      prediction of putative targets of modulated miRNAs and relative pathway
+      enrichment. The analysis revealed 13 upregulated and 10 downregulated miRNAs in
+      failing hearts subjected to LVAD assistance. In particular, the expression level 
+      of some of them (miR-338-3p, miR-142-5p and -3p, miR-216a-5p, miR-223-3p,
+      miR-27a-5p, and miR-378g) showed correlation with off-pump cardiac index values. 
+      Predicted targets of these miRNAs were involved in focal adhesion/integrin
+      pathway and in actin cytoskeleton regulation. The identified miRNAs might
+      contribute to molecular regulation of reverse remodeling and heart recovery
+      mechanisms.
+FAU - Barsanti, Cristina
+AU  - Barsanti C
+AD  - Institute of Clinical Physiology, National Research Council, CNR, Via Moruzzi 1, 
+      56124 Pisa, Italy ; Institute of Life Sciences, Scuola Superiore Sant'Anna,
+      Piazza Martiri della Liberta 33, 56127 Pisa, Italy.
+FAU - Trivella, Maria Giovanna
+AU  - Trivella MG
+AD  - Institute of Clinical Physiology, National Research Council, CNR, Via Moruzzi 1, 
+      56124 Pisa, Italy.
+FAU - D'Aurizio, Romina
+AU  - D'Aurizio R
+AD  - Laboratory of Integrative Systems Medicine, National Research Council, Via
+      Moruzzi 1, 56124 Pisa, Italy.
+FAU - El Baroudi, Mariama
+AU  - El Baroudi M
+AD  - Laboratory of Integrative Systems Medicine, National Research Council, Via
+      Moruzzi 1, 56124 Pisa, Italy.
+FAU - Baumgart, Mario
+AU  - Baumgart M
+AD  - Fritz Lipmann Institute for Age Research, Leibniz Institute, Beutenbergstrasse
+      11, 07745 Jena, Germany.
+FAU - Groth, Marco
+AU  - Groth M
+AD  - Fritz Lipmann Institute for Age Research, Leibniz Institute, Beutenbergstrasse
+      11, 07745 Jena, Germany.
+FAU - Caruso, Raffaele
+AU  - Caruso R
+AD  - Institute of Clinical Physiology, National Research Council, Cardiothoracic and
+      Vascular Department, Niguarda Ca' Granda Hospital, Piazza Ospedale Maggiore 3,
+      20162 Milan, Italy.
+FAU - Verde, Alessandro
+AU  - Verde A
+AD  - Institute of Clinical Physiology, National Research Council, Cardiothoracic and
+      Vascular Department, Niguarda Ca' Granda Hospital, Piazza Ospedale Maggiore 3,
+      20162 Milan, Italy ; Cardiothoracic and Vascular Department, Niguarda Ca' Granda 
+      Hospital, Piazza Ospedale Maggiore 3, 20162 Milan, Italy.
+FAU - Botta, Luca
+AU  - Botta L
+AD  - Cardiothoracic and Vascular Department, Niguarda Ca' Granda Hospital, Piazza
+      Ospedale Maggiore 3, 20162 Milan, Italy.
+FAU - Cozzi, Lorena
+AU  - Cozzi L
+AD  - Institute of Clinical Physiology, National Research Council, Cardiothoracic and
+      Vascular Department, Niguarda Ca' Granda Hospital, Piazza Ospedale Maggiore 3,
+      20162 Milan, Italy.
+FAU - Pitto, Letizia
+AU  - Pitto L
+AD  - Institute of Clinical Physiology, National Research Council, CNR, Via Moruzzi 1, 
+      56124 Pisa, Italy.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20150201
+PL  - United States
+TA  - Biomed Res Int
+JT  - BioMed research international
+JID - 101600173
+SB  - IM
+PMC - PMC4330954
+OID - NLM: PMC4330954
+EDAT- 2015/02/25 06:00
+MHDA- 2015/02/25 06:00
+CRDT- 2015/02/25 06:00
+PHST- 2014/08/29 [received]
+PHST- 2014/11/07 [revised]
+PHST- 2014/11/13 [accepted]
+PHST- 2015/02/01 [epublish]
+AID - 10.1155/2015/592512 [doi]
+PST - ppublish
+SO  - Biomed Res Int. 2015;2015:592512. doi: 10.1155/2015/592512. Epub 2015 Feb 1.
+
+PMID- 25697807
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20150502
+IS  - 1557-3117 (Electronic)
+IS  - 1053-2498 (Linking)
+VI  - 34
+IP  - 5
+DP  - 2015 May
+TI  - Uncorrected pre-operative mitral valve regurgitation is not associated with
+      adverse outcomes after continuous-flow left ventricular assist device
+      implantation.
+PG  - 718-23
+LID - 10.1016/j.healun.2014.11.023 [doi]
+LID - S1053-2498(14)01488-0 [pii]
+AB  - BACKGROUND: Mitral valve regurgitation (MR) is prevalent in patients with heart
+      failure. Because very few data exist examining the influence of significant
+      pre-operative MR on outcomes after left ventricular assist device (LVAD)
+      implantation, we evaluate our experience. METHODS: Between October 1996 and
+      August 2013, 756 patients underwent primary LVAD implantation at our
+      institutions. Of these, 508 patients received a continuous-flow LVAD and
+      represent the contemporary cohort for this analysis. Devices implanted included
+      the HeartMate II in 410 patients (81%) and HeartWare HVAD in 98 patients (19%).
+      Based on availability of pre-operative echocardiography, 491 patients were
+      divided into 2 study groups according to degree of pre-operative MR; 189 patients
+      (39%) had moderate to severe or greater MR (MR group), and 302 (61%) had less
+      than moderate to severe MR (less MR group). Median age at operation (60 years in 
+      MR group vs 58 years in less MR group, p = 0.19), male sex (78% in MR group vs
+      81% in less MR group, p = 0.42), and ischemic etiology (46% in MR group vs 51% in
+      less MR group, p = 0.35) were similar between groups. RESULTS: There were 40
+      early deaths (7.9%), and follow-up was available in all 468 early survivors for
+      641 patient-years of support. Patients in the MR group had higher late survival
+      (2 years, 75%; 4 years, 65%) compared with patients in the less MR group (2
+      years, 66%; 4 years, 48%; p < 0.04). Cox proportional hazards model confirmed the
+      independent interaction between MR and late survival (hazard ratio 0.62, p =
+      0.04). CONCLUSIONS: There was improved survival in patients with severe
+      pre-operative MR after continuous-flow LVAD implantation in our cohort. These
+      findings may lend insight into the possible lack of value of addressing
+      significant MR at the time of LVAD implantation.
+CI  - Copyright (c) 2015 International Society for Heart and Lung Transplantation.
+      Published by Elsevier Inc. All rights reserved.
+FAU - Stulak, John M
+AU  - Stulak JM
+AD  - Mayo Clinic College of Medicine, Rochester, Minnesota. Electronic address:
+      stulak.john@mayo.edu.
+FAU - Tchantchaleishvili, Vakhtang
+AU  - Tchantchaleishvili V
+AD  - University of Rochester Medical Center, Rochester, New York.
+FAU - Haglund, Nicholas A
+AU  - Haglund NA
+AD  - Vanderbilt Heart and Vascular Institute, Nashville, Tennessee.
+FAU - Davis, Mary E
+AU  - Davis ME
+AD  - Vanderbilt Heart and Vascular Institute, Nashville, Tennessee.
+FAU - Schirger, John A
+AU  - Schirger JA
+AD  - Mayo Clinic College of Medicine, Rochester, Minnesota.
+FAU - Cowger, Jennifer A
+AU  - Cowger JA
+AD  - St. Vincent Heart Center of Indiana, Indianapolis, Indiana.
+FAU - Shah, Palak
+AU  - Shah P
+AD  - Inova Fairfax Hospital, Falls Church, Virginia.
+FAU - Aaronson, Keith D
+AU  - Aaronson KD
+AD  - University of Michigan Health System, Ann Arbor, Michigan.
+FAU - Pagani, Francis D
+AU  - Pagani FD
+AD  - University of Michigan Health System, Ann Arbor, Michigan.
+FAU - Maltais, Simon
+AU  - Maltais S
+AD  - Vanderbilt Heart and Vascular Institute, Nashville, Tennessee.
+LA  - eng
+PT  - Journal Article
+DEP - 20141208
+PL  - United States
+TA  - J Heart Lung Transplant
+JT  - The Journal of heart and lung transplantation : the official publication of the
+      International Society for Heart Transplantation
+JID - 9102703
+SB  - IM
+OTO - NOTNLM
+OT  - cardiomyopathy
+OT  - heart failure
+OT  - mechanical support
+OT  - mitral valve regurgitation
+OT  - ventricular assist device
+EDAT- 2015/02/24 06:00
+MHDA- 2015/02/24 06:00
+CRDT- 2015/02/21 06:00
+PHST- 2014/05/21 [received]
+PHST- 2014/10/19 [revised]
+PHST- 2014/11/19 [accepted]
+PHST- 2014/12/08 [aheadofprint]
+AID - S1053-2498(14)01488-0 [pii]
+AID - 10.1016/j.healun.2014.11.023 [doi]
+PST - ppublish
+SO  - J Heart Lung Transplant. 2015 May;34(5):718-23. doi:
+      10.1016/j.healun.2014.11.023. Epub 2014 Dec 8.
+
+PMID- 25691066
+OWN - NLM
+STAT- Publisher
+DA  - 20150218
+LR  - 20150219
+IS  - 1873-734X (Electronic)
+IS  - 1010-7940 (Linking)
+DP  - 2015 Feb 16
+TI  - Mechanical circulatory support in the Dutch National Paediatric Heart
+      Transplantation Programmedagger
+LID - ezv011 [pii]
+AB  - OBJECTIVES: Mechanical circulatory support (MCS) with a ventricular assist device
+      (VAD) as a bridge to heart transplantation (HTx) or recovery may improve outcome 
+      in children with terminal heart failure. We report our experience with MCS in
+      children eligible for HTx and its effect on waiting list mortality. METHODS:
+      Retrospective single-centre cohort study, National Paediatric HTx Programme
+      including all children eligible for HTx, since the introduction of MCS-VAD in
+      2006. RESULTS: A total of 43 patients were eligible for HTx, median age 11.7
+      years [Inter Quartile Range (IQR) 3.0-14.7]. In 18 patients, (42%) a VAD was
+      implanted, 11 (61%) survived to HTx (n = 9) or recovery (n = 2). Techniques and
+      devices used were left ventricular assist device (n = 16, 89%), in 4 cases
+      preceded by extracorporeal membrane oxygenation (ECMO), and biventricular assist 
+      device (n = 2, 11%), both preceded by ECMO. In the VAD group, median time to
+      death (n = 7) was 18 days (IQR 7-75), median time to HTx (n = 9) 66 days (IQR
+      33-223) and 2 patients recovered after 30 and 308 days. The main cause of death
+      on MCS was neurological injury in 4 patients (22%) and systemic thrombo-embolic
+      events in 2 (11%). The most common serious adverse events included confirmed
+      thrombus requiring pump replacement (in 11 patients, 61%) and pericardial
+      effusion leading to rethoracotomy (in 5 patients, 28%). Compared with the era
+      before MCS (1998-2006), waiting list mortality decreased from 44 to 21%, and is
+      now mainly related to complications of VAD support. CONCLUSIONS: Since the
+      introduction of MCS-VAD, waiting list mortality halved and more children with
+      end-stage heart failure survived to heart transplantation, thus improving
+      outcome. Although there is substantial mortality and morbidity, overall mortality
+      decreases, making MCS-VAD an essential therapeutic tool. The need for donor
+      organs remains critically urgent.
+CI  - (c) The Author 2015. Published by Oxford University Press on behalf of the
+      European Association for Cardio-Thoracic Surgery. All rights reserved.
+FAU - van der Meulen, Marijke H
+AU  - van der Meulen MH
+AD  - Department of Pediatric Cardiology, Erasmus Medical Center, Rotterdam,
+      Netherlands Department of Cardiothoracic Surgery, Erasmus Medical Center,
+      Rotterdam, Netherlands.
+FAU - Dalinghaus, Michiel
+AU  - Dalinghaus M
+AD  - Department of Pediatric Cardiology, Erasmus Medical Center, Rotterdam,
+      Netherlands m.dalinghaus@erasmusmc.nl.
+FAU - Maat, Alexander P W M
+AU  - Maat AP
+AD  - Department of Cardiothoracic Surgery, Erasmus Medical Center, Rotterdam,
+      Netherlands.
+FAU - van de Woestijne, Pieter C
+AU  - van de Woestijne PC
+AD  - Department of Cardiothoracic Surgery, Erasmus Medical Center, Rotterdam,
+      Netherlands.
+FAU - van Osch, M
+AU  - van Osch M
+AD  - Department of Pediatric Cardiology, Erasmus Medical Center, Rotterdam,
+      Netherlands.
+FAU - de Hoog, M
+AU  - de Hoog M
+AD  - Department of Pediatric Intensive Care, Erasmus Medical Center, Rotterdam,
+      Netherlands.
+FAU - Kraemer, Ulrike S
+AU  - Kraemer US
+AD  - Department of Pediatric Intensive Care, Erasmus Medical Center, Rotterdam,
+      Netherlands.
+FAU - Bogers, Ad J J C
+AU  - Bogers AJ
+AD  - Department of Cardiothoracic Surgery, Erasmus Medical Center, Rotterdam,
+      Netherlands.
+LA  - ENG
+PT  - JOURNAL ARTICLE
+DEP - 20150216
+TA  - Eur J Cardiothorac Surg
+JT  - European journal of cardio-thoracic surgery : official journal of the European
+      Association for Cardio-thoracic Surgery
+JID - 8804069
+OTO - NOTNLM
+OT  - Extracorporeal circulation
+OT  - Mechanical circulatory assistance
+OT  - Transplantation-heart
+EDAT- 2015/02/19 06:00
+MHDA- 2015/02/19 06:00
+CRDT- 2015/02/19 06:00
+AID - ezv011 [pii]
+AID - 10.1093/ejcts/ezv011 [doi]
+PST - aheadofprint
+SO  - Eur J Cardiothorac Surg. 2015 Feb 16. pii: ezv011.

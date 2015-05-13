@@ -1,0 +1,132 @@
+PMID- 25925372
+OWN - NLM
+STAT- Publisher
+DA  - 20150430
+LR  - 20150505
+IS  - 1941-7705 (Electronic)
+IS  - 1941-7713 (Linking)
+DP  - 2015 Apr 29
+TI  - Incidence and Predictors of Cognitive Decline in Patients with Left Ventricular
+      Assist Devices.
+LID - CIRCOUTCOMES.115.001856 [pii]
+AB  - BACKGROUND: After left ventricular assist device (LVAD) placement for advanced
+      heart failure, increased cerebral perfusion should result in improved cognitive
+      function. However, stroke (a well-known LVAD complication) and subclinical
+      cerebral ischemia may result in transient or permanent cognitive decline. We
+      sought to describe the incidence and predictors of cognitive decline after LVAD
+      using a valid, sensitive assessment tool. METHODS AND RESULTS: Among 4419
+      patients in the Interagency Registry for Mechanically Assisted Circulatory
+      Support who underwent LVAD implantation between May 2012 and December 2013,
+      cognitive function was assessed in 1173 patients with the Trail Making B Test
+      before LVAD and at 3, 6, and 12 months. The test detects several forms of
+      cognitive impairment, including subclinical stroke. Cognitive decline was defined
+      as a clinically important increase during follow-up using a moderate Cohen d
+      effect size of 0.5xbaseline SD (32 s). The cumulative incidence of cognitive
+      decline in the year after LVAD implantation, treating death and transplantation
+      as competing risks, was 29.2%. In adjusted analysis, older age (>/=70 versus <50 
+      years; hazard ratio, 2.24; 95% confidence interval 1.46-3.44; Ptrend<0.001) and
+      destination therapy (hazard ratio, 1.42; 95% confidence interval, 1.05-1.92) were
+      significantly associated with greater risk of cognitive decline. CONCLUSIONS:
+      Cognitive decline occurs commonly in patients in the year after LVAD and is
+      associated with older age and destination therapy. These results could have
+      important implications for patient selection and improved communication of risks 
+      before LVAD implantation. Additional studies are needed to explore the
+      association between cognitive decline and subsequent stroke, health status, and
+      mortality in patients after LVAD.
+CI  - (c) 2015 American Heart Association, Inc.
+FAU - Fendler, Timothy J
+AU  - Fendler TJ
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.). fendlert@umkc.edu.
+FAU - Spertus, John A
+AU  - Spertus JA
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+FAU - Gosch, Kensey L
+AU  - Gosch KL
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+FAU - Jones, Philip G
+AU  - Jones PG
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+FAU - Bruce, Jared M
+AU  - Bruce JM
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+FAU - Nassif, Michael E
+AU  - Nassif ME
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+FAU - Flint, Kelsey M
+AU  - Flint KM
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+FAU - Dunlay, Shannon M
+AU  - Dunlay SM
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+FAU - Allen, Larry A
+AU  - Allen LA
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+FAU - Arnold, Suzanne V
+AU  - Arnold SV
+AD  - From the Mid-America Heart Institute, Kansas City, MO (T.J.F., J.A.S., K.L.G.,
+      P.G.J., S.V.A.); University of Missouri-Kansas City (T.J.F., J.A.S., J.M.B.,
+      S.V.A.); Washington University School of Medicine, Saint Louis, MO (M.E.N.);
+      University of Colorado School of Medicine, Aurora (K.M.F., L.A.A.); and Mayo
+      Clinic of Rochester, MN (S.M.D.).
+LA  - ENG
+GR  - HHSN268201100025C/HL/NHLBI NIH HHS/United States
+GR  - K23 HL116799/HL/NHLBI NIH HHS/United States
+GR  - T32 HL110837/HL/NHLBI NIH HHS/United States
+PT  - JOURNAL ARTICLE
+DEP - 20150429
+TA  - Circ Cardiovasc Qual Outcomes
+JT  - Circulation. Cardiovascular quality and outcomes
+JID - 101489148
+PMC - PMC4418227
+MID - NIHMS678189
+OTO - NOTNLM
+OT  - brain ischemia
+OT  - heart-assist devices
+OT  - mild cognitive impairment
+EDAT- 2015/05/01 06:00
+MHDA- 2015/05/01 06:00
+CRDT- 2015/05/01 06:00
+PMCR- 2016/10/29 00:00
+AID - CIRCOUTCOMES.115.001856 [pii]
+AID - 10.1161/CIRCOUTCOMES.115.001856 [doi]
+PST - aheadofprint
+SO  - Circ Cardiovasc Qual Outcomes. 2015 Apr 29. pii: CIRCOUTCOMES.115.001856.
+assist support devices
+heart failure
+heart transplant

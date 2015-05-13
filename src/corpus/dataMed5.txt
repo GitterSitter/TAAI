@@ -1,0 +1,143 @@
+PMID- 25922736
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+DA  - 20150429
+DCOM- 20150429
+LR  - 20150501
+IS  - 2072-1439 (Print)
+IS  - 2072-1439 (Linking)
+VI  - 7
+IP  - 3
+DP  - 2015 Mar
+TI  - Long-term continuous-flow left ventricular assist devices (LVAD) as bridge to
+      heart transplantation.
+PG  - 532-42
+LID - 10.3978/j.issn.2072-1439.2015.01.45 [doi]
+AB  - Heart transplantation (HTx) is the treatment of choice for end-stage heart
+      failure but the limited availability of heart's donors still represents a major
+      issue. So long-term mechanical circulatory support (MCS) has been proposed as an 
+      alternative treatment option to assist patients scheduled on HTx waiting list
+      bridging them for a variable time period to cardiac transplantation-the so-called
+      bridge-to-transplantation (BTT) strategy. Nowadays approximately 90% of patients 
+      being considered for MCS receive a left ventricular assist device (LVAD). In
+      fact, LVAD experienced several improvements in the last decade and the
+      predominance of continuous-flow over pulsatile-flow technology has been evident
+      since 2008. The aim of the present report is to give an overview of
+      continuous-flow LVAD utilization in the specific setting of the BTT strategy
+      taking into consideration the most representative articles of the scientific
+      literature and focusing the attention on the evolution, clinical outcomes,
+      relevant implications on the HTx strategy and future perspectives of the
+      continuous-flow LVAD technology.
+FAU - Pozzi, Matteo
+AU  - Pozzi M
+AD  - 1 Department of Cardiac Surgery, "Louis Pradel" Cardiologic Hospital, Hospices
+      Civils de Lyon, "Claude Bernard" University, Lyon, France ; 2 Intensive Care
+      Service, Geneva University Hospitals, Faculty of Medicine, University of Geneva, 
+      Geneva Hemodynamic Research Group, Geneva, Switzerland ; 3 Cardiac Surgery Unit, 
+      University Hospital of Lausanne, Lausanne, Switzerland ; 4 Division of
+      Cardiology, Geneva University Hospitals, Faculty of Medicine, University of
+      Geneva, Geneva, Switzerland ; 5 Division of Cardiovascular Surgery, Geneva
+      University Hospitals, Faculty of Medicine, University of Geneva, Geneva
+      Hemodynamic Research Group, Geneva, Switzerland.
+FAU - Giraud, Raphael
+AU  - Giraud R
+AD  - 1 Department of Cardiac Surgery, "Louis Pradel" Cardiologic Hospital, Hospices
+      Civils de Lyon, "Claude Bernard" University, Lyon, France ; 2 Intensive Care
+      Service, Geneva University Hospitals, Faculty of Medicine, University of Geneva, 
+      Geneva Hemodynamic Research Group, Geneva, Switzerland ; 3 Cardiac Surgery Unit, 
+      University Hospital of Lausanne, Lausanne, Switzerland ; 4 Division of
+      Cardiology, Geneva University Hospitals, Faculty of Medicine, University of
+      Geneva, Geneva, Switzerland ; 5 Division of Cardiovascular Surgery, Geneva
+      University Hospitals, Faculty of Medicine, University of Geneva, Geneva
+      Hemodynamic Research Group, Geneva, Switzerland.
+FAU - Tozzi, Piergiorgio
+AU  - Tozzi P
+AD  - 1 Department of Cardiac Surgery, "Louis Pradel" Cardiologic Hospital, Hospices
+      Civils de Lyon, "Claude Bernard" University, Lyon, France ; 2 Intensive Care
+      Service, Geneva University Hospitals, Faculty of Medicine, University of Geneva, 
+      Geneva Hemodynamic Research Group, Geneva, Switzerland ; 3 Cardiac Surgery Unit, 
+      University Hospital of Lausanne, Lausanne, Switzerland ; 4 Division of
+      Cardiology, Geneva University Hospitals, Faculty of Medicine, University of
+      Geneva, Geneva, Switzerland ; 5 Division of Cardiovascular Surgery, Geneva
+      University Hospitals, Faculty of Medicine, University of Geneva, Geneva
+      Hemodynamic Research Group, Geneva, Switzerland.
+FAU - Bendjelid, Karim
+AU  - Bendjelid K
+AD  - 1 Department of Cardiac Surgery, "Louis Pradel" Cardiologic Hospital, Hospices
+      Civils de Lyon, "Claude Bernard" University, Lyon, France ; 2 Intensive Care
+      Service, Geneva University Hospitals, Faculty of Medicine, University of Geneva, 
+      Geneva Hemodynamic Research Group, Geneva, Switzerland ; 3 Cardiac Surgery Unit, 
+      University Hospital of Lausanne, Lausanne, Switzerland ; 4 Division of
+      Cardiology, Geneva University Hospitals, Faculty of Medicine, University of
+      Geneva, Geneva, Switzerland ; 5 Division of Cardiovascular Surgery, Geneva
+      University Hospitals, Faculty of Medicine, University of Geneva, Geneva
+      Hemodynamic Research Group, Geneva, Switzerland.
+FAU - Robin, Jacques
+AU  - Robin J
+AD  - 1 Department of Cardiac Surgery, "Louis Pradel" Cardiologic Hospital, Hospices
+      Civils de Lyon, "Claude Bernard" University, Lyon, France ; 2 Intensive Care
+      Service, Geneva University Hospitals, Faculty of Medicine, University of Geneva, 
+      Geneva Hemodynamic Research Group, Geneva, Switzerland ; 3 Cardiac Surgery Unit, 
+      University Hospital of Lausanne, Lausanne, Switzerland ; 4 Division of
+      Cardiology, Geneva University Hospitals, Faculty of Medicine, University of
+      Geneva, Geneva, Switzerland ; 5 Division of Cardiovascular Surgery, Geneva
+      University Hospitals, Faculty of Medicine, University of Geneva, Geneva
+      Hemodynamic Research Group, Geneva, Switzerland.
+FAU - Meyer, Philippe
+AU  - Meyer P
+AD  - 1 Department of Cardiac Surgery, "Louis Pradel" Cardiologic Hospital, Hospices
+      Civils de Lyon, "Claude Bernard" University, Lyon, France ; 2 Intensive Care
+      Service, Geneva University Hospitals, Faculty of Medicine, University of Geneva, 
+      Geneva Hemodynamic Research Group, Geneva, Switzerland ; 3 Cardiac Surgery Unit, 
+      University Hospital of Lausanne, Lausanne, Switzerland ; 4 Division of
+      Cardiology, Geneva University Hospitals, Faculty of Medicine, University of
+      Geneva, Geneva, Switzerland ; 5 Division of Cardiovascular Surgery, Geneva
+      University Hospitals, Faculty of Medicine, University of Geneva, Geneva
+      Hemodynamic Research Group, Geneva, Switzerland.
+FAU - Obadia, Jean Francois
+AU  - Obadia JF
+AD  - 1 Department of Cardiac Surgery, "Louis Pradel" Cardiologic Hospital, Hospices
+      Civils de Lyon, "Claude Bernard" University, Lyon, France ; 2 Intensive Care
+      Service, Geneva University Hospitals, Faculty of Medicine, University of Geneva, 
+      Geneva Hemodynamic Research Group, Geneva, Switzerland ; 3 Cardiac Surgery Unit, 
+      University Hospital of Lausanne, Lausanne, Switzerland ; 4 Division of
+      Cardiology, Geneva University Hospitals, Faculty of Medicine, University of
+      Geneva, Geneva, Switzerland ; 5 Division of Cardiovascular Surgery, Geneva
+      University Hospitals, Faculty of Medicine, University of Geneva, Geneva
+      Hemodynamic Research Group, Geneva, Switzerland.
+FAU - Banfi, Carlo
+AU  - Banfi C
+AD  - 1 Department of Cardiac Surgery, "Louis Pradel" Cardiologic Hospital, Hospices
+      Civils de Lyon, "Claude Bernard" University, Lyon, France ; 2 Intensive Care
+      Service, Geneva University Hospitals, Faculty of Medicine, University of Geneva, 
+      Geneva Hemodynamic Research Group, Geneva, Switzerland ; 3 Cardiac Surgery Unit, 
+      University Hospital of Lausanne, Lausanne, Switzerland ; 4 Division of
+      Cardiology, Geneva University Hospitals, Faculty of Medicine, University of
+      Geneva, Geneva, Switzerland ; 5 Division of Cardiovascular Surgery, Geneva
+      University Hospitals, Faculty of Medicine, University of Geneva, Geneva
+      Hemodynamic Research Group, Geneva, Switzerland.
+LA  - eng
+PT  - Journal Article
+PL  - China
+TA  - J Thorac Dis
+JT  - Journal of thoracic disease
+JID - 101533916
+PMC - PMC4387421
+OID - NLM: PMC4387421
+OTO - NOTNLM
+OT  - Heart failure
+OT  - heart transplantation (HTx)
+OT  - organ donors
+OT  - ventricular assist device
+EDAT- 2015/04/30 06:00
+MHDA- 2015/04/30 06:01
+CRDT- 2015/04/30 06:00
+PHST- 2014/08/10 [received]
+PHST- 2014/11/12 [accepted]
+AID - 10.3978/j.issn.2072-1439.2015.01.45 [doi]
+AID - jtd-07-03-532 [pii]
+PST - ppublish
+SO  - J Thorac Dis. 2015 Mar;7(3):532-42. doi: 10.3978/j.issn.2072-1439.2015.01.45.
+assist support devices
+heart failure
+heart transplant

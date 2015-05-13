@@ -1,0 +1,2102 @@
+Västra Götalandsregionen
+Sahlgrenska Universitetssjukhuset, HTA-centrum
+Health Technology Assessment
+HTA-rapport 2014:66
+
+Left Ventricular Assist Device as Permanent Support in
+Patients with End-Stage Heart Failure
+Karason K, Dellgren G, Isaksson E, Lidén H, Liljegren A,
+Redfors B, Sjögren P, Svanberg T, Samuelsson O 
+ HTA-report: LVAD in heart failure 2(22)
+Left Ventricular Assist Device as Permanent Support in
+Patients with End-Stage Heart Failure
+[LVAD som permanent behandling vid terminal hjärtsvikt]
+Running title: LVAD in heart failure
+Karason K1*, Dellgren G2
+, Isaksson E1
+, Lidén H2
+, Liljegren A3
+, Redfors B4
+, Sjögren P5
+, Svanberg T3
+,
+Samuelsson O5
+¹ Department of Cardiology
+2 Department of Cardiothoracic Surgery
+3 Medical Library
+4 Department of Cardiothorasic Anaesthesia and Intensive Care
+5 HTA-centre of Region Västra Götaland
+all at Sahlgrenska University Hospital, Göteborg, Sweden
+*Corresponding author
+Published February 2014
+2014:66
+Suggested citation: Karason K, Dellgren G, Redfors B, Isaksson E, Lidén H, Liljegren A, Sjögren P, Svanberg T,
+Samuelsson O. Left Ventricular Assist Device as permanent support in patients with terminal heart failure
+[LVAD som permanent behandling vid terminal hjärtsvikt]. Göteborg: Västra Götalandsregionen, Sahlgrenska
+Universitetssjukhuset, HTA-centrum; 2014. Regional activity-based HTA 2014:66 
+ HTA-report: LVAD in heart failure 3(22)
+Table of content
+Participants................................................................................................................................... 4
+Summary of the Health Technology Assessment ........................................................................ 5
+Swedish Summary of the Health Technology Assessment.......................................................... 7
+Abbreviations............................................................................................................................... 9
+The Patient Category and the Present Treatment....................................................................... 10
+The New Health Technology – Left Ventricular Assisted Device............................................. 13
+The Central Question at Issue .................................................................................................... 15
+Review of the Quality of Evidence ............................................................................................ 16
+Ethical Aspects........................................................................................................................... 20
+Organisation ............................................................................................................................... 20
+Economy Aspects ....................................................................................................................... 21
+Unanswered Questions............................................................................................................... 22
+Appendix 1 Search strategy, study selection and references
+Appendix 2 Included studies – design and patient characteristics
+Appendix 3 Excluded articles
+Appendix 4 Outcome tables PICO 1
+Appendix 5 Outcome tables PICO2
+Appendix 6 Complications
+Appendix 7 Summary of findings (SoF)-table
+Appendix 8 Ethical analyses 
+ HTA-report: LVAD in heart failure 4(22)
+Participants
+Participants in the HTA group
+Göran Dellgren, MD, Associate professor, Consultant Cardiothoracic Surgery, Director Heart and
+Lung Transplantation
+Kristjan Karason, MD, Phd, Consultant Cardiology, Director Transplant Cardiology
+Bengt Redfors, MD, PhD, Consultant Cardiothoracic Anesthesia and Intensive Care
+Hans Lidén, MD,PhD, Consultant, Cardiothoracic Surgery
+Ewa Isaksson, Nurse coordinator, Heart Failure Outpatient Clinic
+All at the Sahlgrenska University Hospital, Göteborg, Sweden
+From the HTA centre
+Ola Samuelsson, MD, Associate professor, Petteri Sjögren, DDS, PhD, and Therese Svanberg,
+librarian. All at HTA centrum, Sahlgrenska University Hospital, Göteborg, Sweden
+Ann Liljegren, librarian, Medical Library, Sahlgrenska University Hospital, Göteborg, Sweden
+Who posed the question?
+Olof Ekre, Chairman, Department of Cardiothoracic Surgery, Anesthesia, Intensive Care and
+Vascular Surgery, Sahlgrenska University Hospital, Göteborg, Sweden, and Göran Matejka,
+Chairman, Department of Cardiology, Sahlgrenska University Hospital, Göteborg, Sweden
+External reviewers
+Anders Larsson, MD, Department of Neurology, Södra Älvsborg Hospital, Sweden
+Karl Swedberg, Professor emeritus in Cardiology, Sahlgrenska Academy, Göteborg, Sweden
+Are there any conflicts of interest for the proposer or any of the participants in the HTA
+group?
+No
+The HTA was accomplished during the period of 2013-02-21 – 2013-12-11.
+The last literature search was updated in February 2013
+The Regional Health Technology Assessment Centre (HTA-centrum) of Region Västra Götaland, Sweden (VGR) has
+the task to make statements on HTA reports carried out in VGR. The statement should summarise the question at
+issue, results and quality of evidence regarding efficacy and risks, and economical and ethical aspects of the
+particular health technology that has been assessed in the report.
+Christina Bergh, Professor, MD
+Head of HTA-centrum of Region Västra Götaland, Sweden
+HTA quality assurance group, Region Västra Götaland, Sweden
+Christina Bergh
+MD, Professor
+Anders Larsson
+MD, PhD
+Maria Skogby
+RN, PhD
+Thomas Franzén
+Head of hospital library
+Christian Rylander
+MD, PhD
+Annika Strandell
+MD, Associate professor
+Magnus Hakeberg
+OD, Professor
+Ola Samuelsson
+MD, Associate professor
+Therese Svanberg
+HTA-librarian
+Lennart Jivegård
+MD, Senior university lecturer
+Henrik Sjövall
+MD, Professor
+Kjell-Arne Ung
+MD, Associate professor
+Peter Johansson
+MD, PhD
+Petteri Sjögren
+DDS, PhD
+ HTA-report: LVAD in heart failure 5(22)
+Summary of the Health Technology Assessment
+Method and patient group
+Subjects with severe heart failure are most commonly treated with pharmacological therapy. In
+selected cases an implantable automatic defibrillator and/or resynchronisation therapy may be of
+additional benefit. However, in some patients with end-stage heart failure these therapies are
+insufficient. Mechanical circulatory support (MCS) can be an alternative in these subjects. The
+goal of MCS is to support the circulation until transplantation (bridge to transplantation), or until
+the heart recovers (bridge to recovery), or as a permanent treatment option. The third alternative,
+which is called destination therapy (DT), is a possible option for selected patients who are not
+eligible for heart transplantation due to advanced age or comorbidities.
+Question at issue:
+Does mechanical circulatory support with left ventricular assist devices (LVAD) reduce
+morbidity, improve quality of life, and prolong survival in patients with end-stage heart failure
+not eligible for heart transplantation in comparison to optimal medical treatment?
+Patients, Intervention, Comparison, Outcome (PICO1 and PICO2)
+P = Patients with end-stage left ventricular heart failure despite optimal medical treatment
+I1 = Left ventricular assist device with pulsatile flow (PF-LVAD)
+C1= Optimal medical treatment (OMT)
+I2 = Left ventricular assist device with continuous flow (CF-LVAD)
+C2= Left ventricular assist device with pulsatile flow (PF-LVAD)
+O = Survival, quality of life (QoL), functional capacity (NYHA classification, 6 minute walk test,
+exercise test) and biomarkers of heart failure. Complications such as infections,
+haemorrhages, thromboembolic events, neuropsychological functions
+Studied risks and benefits for patients of the new health technology
+The systematic literature search identified one randomised controlled trial (RCT) and one nonrandomised
+controlled study that have evaluated the effects of PF-LVAD in comparison to OMT,
+and one RCT and two non-randomised controlled studies that have evaluated the effects of PFLVAD
+in comparison to CF-LVAD in patients with terminal heart failure.
+Pulsatile flow LVAD in comparison to optimal medical management (PICO1)
+Conclusions: Pulsatile LVAD as destination therapy probably increases survival (GRADE
+), and may improve the functional capacity (GRADE ) in patients with terminal
+left ventricular heart failure in comparison with OMT. It is uncertain whether the treatment has
+any effect on quality of life (GRADE )
+Continuous flow LVAD in comparison to pulsatile flow LVAD (PICO2)
+Conclusions: Continuous flow LVAD as destination therapy probably increases survival in
+patients with terminal left ventricular heart failure in comparison with PF-LVAD (GRADE
+). While both PF and CF flow devices have been shown to improve quality of life and
+functional outcome compared to baseline, there is only low quality evidence that CF may improve
+quality of life more than PF (GRADE ), and it is uncertain whether the effect on
+functional capacity differs between CF and PF. (GRADE ). 
+ HTA-report: LVAD in heart failure 6(22)
+Complications
+Long-term MCS is hampered by several complications such as device malfunction, infections (20
+– 60 %), bleeding (15 – 30 %), thromboembolic events (5 – 25 %) and right ventricular failure
+(10 – 40 %). The rate of adverse events has steadily declined over time with improved techniques.
+Ethical aspects
+Introduction of a DT program raises several ethical issues. The self-esteem and self-image of the
+individual patient probably vary between subjects, but may be affected in both positive and
+negative ways. The patient will still be dependent on assistance from family members and/or
+health care providers, and the physical integrity is affected. Without additional economic
+resources there is a substantial risk that DT will reallocate current resources from the needs of
+other patient categories.
+Economical aspects
+The present cost for the currently most used continuous flow device, the HeartMate II, is 750 000
+SEK (about 82 000 €) with an additional 125 000 SEK (14 000 €) for necessary accessories. At
+Sahlgrenska University hospital eight patients had a HeartMate II implanted as MCS for 12
+months or longer during 2010-2012. The average cost per patient for the first year was about 1.5
+million SEK (about 160 000 €).
+Concluding remark:
+Treatment with LVAD as DT increases survival in patients with terminal heart failure. It is costly
+and hampered by several serious complications. During the last decade costs have come down
+and the rate of complications have started to decline.
+ HTA-report: LVAD in heart failure 7(22)
+Swedish Summary of the Health Technology Assessment
+Mekaniskt vänsterkammarstöd som permanent behandling vid terminal hjärtsvikt
+Metod och målgrupp:
+Avancerad hjärtsvikt behandlas huvudsakligen farmakologiskt. I utvalda fall kan en automatisk
+defibrillator eller så kallad resynkroneringsterapi sättas in i hjärtat. Hos en del patienter med
+uttalad hjärtsvikt är dessa behandlingar emellertid inte tillräckligt effektiva. Ett alternativ är då
+mekaniskt cirkulationsstöd (MCS). Målet med MCS är att ge cirkulatoriskt stöd i väntan på
+hjärttransplantation (“bridge to transplantation”), eller tills hjärtfunktionen återhämtar sig (”bridge
+to recovery”), eller som permanent stödjande behandling. Det sistnämnda benämns “destination
+therapy” (DT), och är en möjlig behandling hos utvalda patienter som på grund av ålder eller
+annan svår samtidig sjuklighet inte är kandidater för hjärt transplantation. Denna HTA-utredning
+omfattar denna sistnämnda patientgrupp.
+Frågeställning:
+Minskar vänsterkammarstöd med mekanisk cirkulatorisk terapi, “left ventricular assist devices
+(LVAD)” dödlighet och sjuklighet hos patienter med terminal hjärtsvikt, och förbättras deras
+livskvalitet jämfört med optimal medicinsk behandling?
+PICO
+P = Patienter med svår kronisk vänsterkammarsvikt, trots optimal medicinsk behandling
+I1 = Mekaniskt vänsterkammarstöd för permanent bruk med pump som ger pulsativt flöde
+(PF-LVAD)
+C1 = Optimal medicinsk handläggning
+I2 = Mekaniskt vänsterkammarstöd för permanent bruk med pump som ger kontinuerligt
+flöde (CF-LVAD)
+C2 =Mekaniskt vänsterkammarstöd för permanent bruk med pump som ger pulsativt flöde
+(PF-LVAD)
+O = Överlevnad, livskvalitet, funktionsförmåga (NYHA, 6 MWT, arbetsprov) och andra
+markörer för hjärtsvikt, samt infektioner, blödningar, tromboembolism och
+neuropsykologiska funktioner
+Kunskapsläge och evidensgradering:
+Den systematiska litteratursökningen identifierade en randomiserad kontrollerad studie (RCT)
+och en icke-randomiserad kontrollerad studie som analyserat effekten av PF-LVAD jämfört med
+optimal medicinsk behandling, och en RCT och två icke-randomiserade kontrollerade studier som
+analyserat effekten av PF-LVAD jämfört med CF-LVAD hos patienter med terminal hjärtsvikt.
+LVAD med pulsativt flöde jämfört med optimal medicinsk behandling (PICO1)
+Slutsatser: I jämförelse med optimal medicinsk behandling förlänger LVAD med pulsativt flöde,
+som ”destination therapy”, överlevnaden hos patienter med terminal hjärtsvikt (GRADE ).
+Behandlingen kan förbättra patienternas funktionsförmåga (GRADE ), men det är osäkert
+om den har någon effekt på livskvalitet (GRADE ).
+ HTA-report: LVAD in heart failure 8(22)
+LVAD med kontinuerligt flöde jämfört med LVAD med pulsativt flöde (PICO2)
+Slutsatser: I jämförelse med LVAD med pulsativt flöde förlänger LVAD med kontinuerligt flöde
+överlevnaden hos patienter med terminal hjärtsvikt (GRADE ). Såväl livskvalitet som
+funktionsförmåga förbättras troligen av båda behandlingarna men det vetenskapliga underlaget
+som stöd för att CF-LVAD och PF-LVAD skiljer sig åt i effekt är begränsat (GRADE ).
+Det är även osäkert om de har olika effekt på funktionsförmågan (GRADE ).
+Komplikationer
+Långtidsbehandling med MCS försvåras av flera olika komplikationer som pumpdysfunktion,
+infektioner (20 – 60 %), blödningar (15 – 30 %), tromboemboliska händelser (5 – 25 %)
+högerkammarsvikt (10 – 40 %). Parallellt med förbättrad teknik har frekvensen av olika bieffekter
+stadigt sjunkit under senare år.
+Etiska aspekter:
+Ett behandlingsprogram med MCS har ett antal etiska konsekvenser. Effekten på individens
+självkänsla och självbild varierar sannolikt mellan olika patienter och de kan påverkas såväl
+positivt som negativt. Patienten kommer inte vara helt obereoende av andra utan förblir till viss
+del beroende av hjälp från familjemedlemmar och hälso- och sjukvårdspersonal. Den fysiska
+integriteten påverkas. Om inte nya ekonomiska resurser tillförs hälso- och sjukvården är risken
+stor att ett program med permanent MCS till patienter med terminal hjärtsvikt kommer att ta
+resurser för andra patientkategorier.
+Ekonomiska aspekter:
+Kostnaden för den idag mest använda CF-LVAD, HeartMate II, är 750 000 SEK. Ytterligare 125
+000 SEK tillkommer för nödvändiga tillbehör. På Sahlgrenska Universitetssjukhuset har åtta
+patienter fått en HeartMate II inplanterad som MCS för längre än 12 månader under åren 2010-
+2012. Den genomsnittliga behandlingskostnaden per patient för det första året var cirka 1,5
+miljoner SEK.
+Slutsatser:
+Mekaniskt vänsterkammarstöd som permanent behandling kan förlänga överlevnaden hos
+patienter med terminal hjärtsvikt och minska 1-årsdödligheten med cirka 30 % . Behandlingen är
+förenad med hög kostnad och försvåras av flera allvarliga komplikationer. Under senare år har
+kostnaderna minskat och även komplikationsfrekvensen har sjunkit.
+ HTA-report: LVAD in heart failure 9(22)
+Abbreviations
+ACE Angiotensin converting enzyme
+BIVAD Biventricular assist device
+BTT Bridge to transplantation
+CF Continuous flow
+CPET Cardiopulmonary exercise test
+CRT Resynchronization therapy
+DT
+ICD
+Destination therapy
+Implantable cardioverter defibrillator
+LVAD Left ventricular assisted device
+MCS Mechanical circulatory support
+NYHA New York Heart Association
+OMT Optimal medical treatment
+PF Pulsatile flow
+QALY Quality-adjusted life years
+QoL Quality of life
+RCT Randomised controlled trial
+RVAD Right ventricular assist device
+RVF Right ventricular failure
+VAD Ventricular assist device
+ HTA-report: LVAD in heart failure 10(22)
+The Patient Category and the Present Treatment
+Heart failure and degree of severity
+Heart failure is a clinical syndrome attributable to disturbances in cardiac function. The
+dysfunctions may have various underlying causes. The heart failure syndrome is multifaceted and
+not readily defined. Below are three definitions that describe heart failure from different
+viewpoints.
+1. Acute and hemodynamic viewpoint
+- a pathological state in which an abnormality of cardiac function is responsible for failure of
+the heart to pump blood at a rate commensurate with the requirements of the metabolizing
+tissues, or to do so only from an elevated filling pressure. (Braunwald E. 1997)
+2. Chronic and neurohumoral viewpoint
+- a clinical syndrome characterized by abnormalities of left ventricular function and
+neurohormonal regulation, which are accompanied by effort intolerance, fluid retention and
+reduced longevity. (Packer M. 1992)
+3. Clinical and diagnostic viewpoint
+- a clinical syndrome in which patients have the following features: symptoms typical of
+heart failure and signs typical of heart failure and objective signs of a structural or functional
+abnormality of the heart at rest. (European Society of Cardiology 1995)
+The syndrome is characterized by inability of the heart to maintain adequate blood flow and/or
+normal filling pressures during physical activity or in later stages also at rest. A number of
+neurohumoral compensatory mechanisms are activated in order to maintain the circulation. Over
+time they have a deleterious effect on the heart with further deterioration of cardiac function. A
+vicious cycle arises. If untreated this leads to a continuous decline of cardiac function and
+progressive worsening of the symptoms. Clinical symptoms consist mainly of fatigue,
+breathlessness and fluid retention. This frequently leads to hospitalisation. Quality of life is
+impaired and mortality is high.
+During work up of a heart failure patient, it is important to evaluate the underlying cause of
+cardiac failure, the degree of cardiac dysfunction and the functional capacity of the patient.
+Pharmacologic treatment is aimed at reducing the deleterious effects of neurohumoral activation
+and to alleviate fluid retention. In selected patients a pacemaker system may improve left
+ventricular dyssynchrony and an implantable defibrillator can prevent sudden cardiac death. In
+terminal heart failure, mechanical circulatory assist devices or heart transplantation can be an
+alternative to palliative care.
+Heart failure is a serious condition with an increased
+ risk of premature death
+ risk of permanent illness or damage, or reduced quality of life
+ risk of disability and impaired health-related quality of life
+The prevalence and incidence of heart failure
+In a recently published report the prevalence of chronic heart failure in Sweden was estimated to
+2 % (Zarinkoub R et al. 2013). The mean age of heart failure patients was 77 years, and more than
+90 % of the patients were 60 years or older. The estimated incidence rate of chronic heart failure
+was 3.8/1000. The 5-year survival rate from first diagnosis was 48 %, which is considerably
+lower than in the general Swedish population matched for age and sex (95%).
+In other community-based cohorts the annual survival rate in patients diagnosed with mild heart
+failure (NYHA I-II) has been shown to be around 95 %, whereas the 1-year survival rate for those
+diagnosed with severe heart failure (NYHA IV) has been reported to below 50 %. 
+ HTA-report: LVAD in heart failure 11(22)
+Present treatment of heart failure
+The goal of treatment is to relieve symptoms, optimize cardiac function and increase longevity.
+This can be achieved in most cases with the currently available treatment alternatives. They
+include different pharmacological, electric, mechanical and surgical options. On the other hand, it
+is also important to identify patients in the terminal phase of the disease, who are not suitable for
+advanced treatment with devices, mechanical pumps or heart transplantation. These patients
+should receive supportive and palliative care to provide relief from symptoms and other distress
+associated with end-stage heart failure.
+Pharmacological intervention is the cornerstone of heart failure treatment. It is well documented
+that neurohumoral blockade of the sympathetic nervous system and the renin-angotensinaldosteron-system
+reduce symptoms, improve cardiac function and increase survival. Four
+different pharmaceutical groups are currently recommended for treatment of heart failure; beta
+blockers, ACE-inhibitors, angiotensin II receptor blockers, and mineralcorticoid receptor
+antagonists. Diuretics are frequently used to control fluid retention. Other drugs that sometimes
+are used are ivabradin (sinus node inhibitor), digoxin (inotropic agent), hydralazine and
+isosorbiddinitrate (vasodilators), and anticoagulant agents (thromboembolic prophylaxis).
+About one third of all patients with heart failure die suddenly, mainly due to a ventricular
+tachyarrhythmia. The implantation of a cardioverter defibrillator (ICD) reduces mortality in
+patients with moderate to severe systolic heart failure. One third of patients with heart failure has
+an intraventricular conduction disturbance that can cause left ventricular dyssynchrony with less
+efficient ventricular emptying and, often, mitral regurgitation. Cardiac resynchronization therapy
+(CRT) can improve cardiac function in these patients, relieve symptoms, improve functional
+capacity, and improve survival. Currently, patients who fulfil the criteria for CRT treatment most
+often also receive an ICD.
+Also surgical interventions may be indicated for specific underlying or contributing causes of
+heart failure. These include revascularization in patients with ischemic heart disease, valvular
+surgery in patients with valvular disease, and left ventricular reconstruction in patients with
+extensive scarring and remodelling of the left ventricle after myocardial infarction. For a small
+minority of heart failure patients heart transplantation may be indicated. The indication for heart
+transplantation is terminal heart failure with severe symptoms, poor prognosis, and no remaining
+treatment alternatives. However, due to organ shortage this treatment is only available to a limited
+number of patients (approximately 50 annually in Sweden).
+Contraindications to a cardiac transplant are high pulmonary vascular resistance, active infection,
+widespread atherosclerotic disease, drug abuse, malignant disease, recent thromboembolism,
+significant renal or liver disease, or other serious non-reversible co-morbidies. At Sahlgrenska
+University Hospital 20-30 heart transplantations are performed each year including approximately
+5-7 recepients from the Region Västra Götaland.
+Selected patients with progressive heart failure in whom pharmacological and/or
+resynchronisation therapy are insufficient can be treated with mechanical circulatory support
+(MCS). The goal of MCS is to support the circulation until transplantation (bridge to
+transplantation) or until the heart recovers (bridge to recovery), or to offer a permanent treatment
+option, which has been called destination therapy (DT). Presently, DT is not available as a
+treatment alternative in routine clinical practice in Region Västra Götaland, Sweden. In countries
+such as USA and Germany the number of patients who receive MCS as DT has now exceeded
+that of patients treated with heart transplantation. 
+ HTA-report: LVAD in heart failure 12(22)
+Numbers of patients per year who are candidates for LVAD as destination therapy
+Potential candidates for DT are patients with end-stage heart failure who are not considered
+suitable for heart transplantation due to advanced age and/or severe co-morbidities.
+Examples of customary criteria for identification of end-stage heart failure are the following:
+ Left ventricular ejection fraction ≤ 35%
+ Max VO2 ≤ 14 ml/kg/min on cardiopulmonary exercise test (CPET)
+ 6 minute walking distance ≤ 300 m
+ More than one hospitalisation during 6 months
+ Intolerance of ACE-inhibitors and/or beta-blockers
+ Low systolic blood pressure (< 90 mmHg)
+ Inotrope dependence in-hospital and difficult to wean
+ Worsening renal and/or liver function
+ Worsening right ventricular function.
+Apart from advanced age, there are several co-morbidities that render heart failure patients
+ineligible for heart transplantation, but not for treatment with destination therapy: Examples of
+such co-morbidities are: BMI ≥ 30 kg/m2
+, increased pulmonary vascular resistance, cancer
+treatment within 5 years, and reduced pulmonary, renal and/or liver function. However, only a
+small fraction of all patients with end-stage heart failure should be considered candidates for DT.
+For example, it is vital that potential DT candidates are emotionally stable and able to comply
+with MCS treatment. Absolute contraindications for MCS include active infection, widespread
+atherosclerotic disease, terminal disease other than heart failure, dialysis, severe liver cirrhosis,
+alcohol or drug abuse, and untreated psychiatric disease.
+Thus, identification of potential candidates for DT is a highly selective process. It is estimated
+that around 5-10 patients would fulfil the criteria for DT each year in Region Västra Götaland.
+The normal pathway of patients with terminal heart failure through the health care
+system
+Patients who are considered candidates for heart transplantation undergo a thorough in-hospital
+work-up before they are discussed at a multidisciplinary board. The board consists of
+cardiologists, thoracic surgeons, thoracic anaesthesiologists, heart failure nurses and patient
+coordinators. The work-up includes extensive laboratory investigations and a thorough
+investigation of cardiac function with echocardiography and cardiac catheterisation. Further
+functional capacity is evaluated with CPET and/or 6-minute walking test. Renal function is
+assessed by glomerular filtration rate and pulmonary function is estimated by spirometry. An
+odontologist evaluates the dental status.
+The patients who are accepted for transplantation ofte receive MCS as bridge to transplantation.
+Patients that are declined heart transplantation due to advanced age or comorbidities continue to
+receive conventional heart failure treatment, often combined with supportive and/or palliative
+care.
+The work-up and decision process for DT is very similar to that used for heart transplantation. 
+ HTA-report: LVAD in heart failure 13(22)
+The New Health Technology – Left Ventricular Assisted Device
+Description of left ventricular assisted device
+A ventricular assist device (VAD) is a mechanical circulatory device that is used to partially, or
+completely, replace the function of a failing heart. It takes blood from a ventricle of the heart and
+pumps it to the circulation, and thereby secures perfusion of vital organs. A VAD can support the
+left ventricle (LVAD), the right ventricle (RVAD), or both ventricles (BIVAD).
+A VAD consists of a small pump, a tube that carries blood from a heart ventricle into the pump,
+and another tube that carries the blood from the pump to either the pulmonary artery (RVAD) or
+the aorta (LVAD). It also has a driveline that connects the pump to a power source through a
+control unit. The figures illustrate a LVAD (Courtesy of Thoratec corporation).
+VADs can be divided into two main categories. Firstly, pulsatile flow (PF) pumps that mimic the
+natural pulsing action of the heart (first generation VADs), and secondly, continuous flow (CF)
+devices that generate continuous blood flow with either a centrifugal or an axial pump (second
+generation VADs). Patients treated with a VAD require life-long anticoagulation therapy in order
+to prevent thrombus formation and thromboembolic complications.
+The group’s understanding of left ventricular assist devices as destination therapy in
+patients with terminal heart failure
+The use of LVADs for DT has steadily increased, especially in countries such as Germany,
+France, Belgium, Switzerland, Austria, Canada and USA. In 2010 there were 79 destinationtherapy
+centres in USA certified to perform implantation of LVADs. According to the
+INTERMACS registry (only including US patients) approximately 1000 patients received LVAD
+as DT-therapy in 2012, and another 800 patients received LVAD as bridge-to-transplantation
+(BTT).
+Some patients that initially have been regarded as excellent BTT candidates will eventually not
+become eligible for heart transplantation due to progression of co-morbidities or new
+complications. On the other hand, some patients being identified, as DT-candidates will after
+LVAD implantations improve in such a way that they become suitable for a cardiac
+transplantation. 
+ HTA-report: LVAD in heart failure 14(22)
+In 2012 approximately 700 patients had an LVAD implanted in Germany, and only 300 heart
+transplantations were performed. This means that most patients with terminal heart failure receive
+a LVAD initially, and later it is decided whether they should be listed for transplantation or
+remain on DT.
+There is no Swedish VAD registry, but there is some information available on DT in Sweden
+from a company registry (Vingmed AB, the sales representative for Thoratec and the Heart Mate
+II). In total, 25 patients have received a LVAD (Heart Mate II) for DT in Sweden between 2005
+and 2013 (survival range 2 - 2216 days, mean age 63 years, 22 males, 18 patients had ischemic
+cardiomyopathy). Among these patients, six (24 %) died within 90 days. The remaining 19
+patients have survived for a mean of 815 days (with 9 patients still alive). Six of the patients (24
+%) patients eventually underwent heart transplantation, again underlining that DT patients on
+LVAD may improve to such an extent that they become suitable candidates for transplantation. It
+seems necessary to have a DT program in order to give all patients a chance to become
+transplanted, even if the majority will remain on LVAD for the rest of their lives. Thus, DTtherapy
+as an entity and definition is slowly becoming obsolete. If permanent LVAD treatment is
+not available, patients with transplant precluding comorbidities that might resolve during
+mechanical support will not get an opportunity for transplantation.
+During the last decade, the LVAD technology has progressed to become standard therapy in
+some medical centres. It is important that all centres that provide DT use best-practice guidelines
+to maintain outcomes that are comparable to those of existing centres of excellence.
+The ethical concerns raised by DT will require extensive information to patients and their
+families, and also a detailed DT program that will meet the needs of patients and other family
+members. Examples of prerequisite conditions before introducing a program with destination
+therapy include:
+1. Participation of a multidisciplinary care team, including palliative care specialists
+2. Adopting a concise plan of care for anticipated device-related complications
+3. Planning for anticipated end-of-life care and timing of device deactivation
+ HTA-report: LVAD in heart failure 15(22)
+The Central Question at Issue
+Does mechanical circulatory support with left ventricular assist devices (LVAD) reduce
+morbidity, improve quality of life, and prolong survival in patients with end-stage heart failure
+not eligible for heart transplantation, in comparison to optimal medical treatment?
+PICO
+P= Patients, I= Intervention, C= Comparison, O=Outcome
+PICO 1
+P = Patients with end-stage left ventricular heart failure despite optimal medical treatment
+I = Left ventricular assist device with pulsatile flow (PF-LVAD)
+heart transplant
+C = Optimal medical treatment (OMT)
+O = Survival, quality of life (QoL), functional capacity (NYHA classification, 6 minute walk
+test, exercise test) and biomarkers of heart failure. Complications such as infections,
+haemorrhages, thromboembolic events and neuropsychological functions
+PICO 2
+P = Patients with terminal left ventricular heart failure despite optimal medical treatment
+I = Left ventricular assist device with continuous flow (CF-LVAD)
+C = Left ventricular assist device with pulsatile flow (PF-LVAD)
+O = Survival, quality of life, functional capacity (NYHA classification, 6 minute walk test,
+exercise test) and biomarkers of heart failure.
+Complications such as infections, haemorrhages, thromboembolic events and
+neuropsychological functions
+heart transplant
+ HTA-report: LVAD in heart failure 16(22)
+Review of the Quality of Evidence
+Search strategy, study selection and references – appendix 1
+During February 2013 two librarians (TS, AL) performed systematic searches in
+Medline, PubMed, Embase, the Cochrane Library and a number of HTA-databases.
+Reference lists of relevant articles were also scrutinised for additional references.
+Search strategies, eligibility criteria and a graphic presentation of the selection
+process are accounted for in appendix 1. The librarians conducted the literature
+searches, selected studies, and independently assessed the obtained abstracts and
+made a first selection of full-text articles for inclusion or exclusion. After reading
+the articles in full text they made a second selection of articles. Any disagreements
+were resolved in consensus. The articles that remained were sent to the other
+participants in the HTA group, who read the articles independently of one another,
+and then decided in a consensus meeting which articles that should be included.
+The literature search identified a total of 1231 articles (after removal of duplicates).
+The librarians then excluded 1095 articles after reading their abstracts. Another 136
+articles were excluded by the librarians after reading the articles in full text. The
+remaining 56 articles were sent to the group, and 26 of them were finally included
+in the report. There were two randomised controlled trials (RCT, four publications)
+and three non-randomised controlled studies (three publications). Twelve were case
+series, five were systematic reviews, and two were health economy analyses. The
+controlled studies have been critically appraised using modified checklists from the
+Swedish Council on Health Technology Assessment regarding randomized
+controlled trials and cohort studies.
+The present knowledge of left ventricular assist devices as destination therapy
+in patients with terminal heart failure
+PICO 1 – comparison of PF-LVAD with OMT
+Two HTA reports have concluded that LVAD with pulsatile flow improves survival
+and quality of life. One was published in 2005 by the NIHR Coordinating Centre for
+Health Technology Assessment (NCCHTA) in Southampton, UK (Clegg AJ et al.
+2005), and the other in 2007 by the German Agency for HTA of German Institute of
+Medical Documentation and Information (Angermayr L et al. 2007).
+The systematic literature search identified one randomised controlled trial (RCT)
+and one non-randomised controlled study that have studied the effects of PF-LVAD
+in comparison to OMT in patients with end-stage heart failure. In the RCT 61
+patients were treated with OMT and 68 patients were treated with the pulsatile
+LVAD HeartMate I. The trial had no major problems concerning directness, study
+limitations or precision. The non-randomised study was smaller and the two study
+groups were not balanced with regard to socio-economic status. The patients in the
+control group consisted of patients who did not choose, or did not have the financial
+resources, to undergo LVAD implantation.
+ HTA-report: LVAD in heart failure 17(22)
+Mortality (Appendix 4a)
+The RCT reported a significantly (p< 0.01) higher one-year survival in the PFLVAD
+group (52 %) compared to the OMT group (23 %). The two-year survival
+rates were 23 %, and 8 % respectively (ns). In the non-randomised study, the
+corresponding 1-year survival rates were 27 % and 11% (p>0.05).
+Conclusion: Pulsatile LVAD as destination therapy probably increases survival in
+comparison with OMT in patients with end-stage left ventricular heart failure.
+Moderate quality of evidence (GRADE ).
+Quality of life (Appendix 4b)
+The RCT analysed quality of life after one year using three different questionnaires.
+Due to the high mortality rate QoL-scores were only available in six OMT and 23
+PF-LVAD patients. The SF-36 Emotional role and Beck Depression Inventory
+scores were significantly better in the PF-LVAD group, but no difference between
+the study groups was seen in Minnesota Living with heart Failure scores.
+Conclusion: It is uncertain whether PF-LVAD improves the quality of life in
+comparison with OMT in patients with end-stage left ventricular heart failure.
+Very low quality of evidence (GRADE )
+Functional capacity (Appendix 4c)
+Both the RCT and the non-randomised study analysed functional capacity after oneyear
+follow-up. Due to the high mortality rate only six OMT-patients and 23
+LVAD-patients were tested in the RCT. Both the ability to “walk one block without
+any physical limitation” and SF-36 physical function score were significantly better
+in the PF-LVAD group than in the OMT group. In the non-randomised study 11 of
+18 patients in the OMT and 22 of 37 patients in the PF-LVAD group were evaluated
+by the NYHA classification. At the last assessment all patients in the OMT were
+still in NYHA class IV, while 85 % of the patients in the PF-LVAD group had
+improved to NYHA class I-II.
+Conclusion: PF-LVAD may improve the functional capacity in comparison with
+OMT in patients with end-stage left ventricular heart failure.
+Low quality of evidence (GRADE )
+PICO 2 – comparison of CF-LVAD with PF-LVAD
+Two published reviews have assessed the effects of the newer continuous flow
+devices (CF-LVAD) in patients with end-stage heart failure. One is a systematic
+review from the Department of Veteran Affairs, US, published in 2011 (Rector TS
+et al. 2012). It concludes that one single study provides moderate evidence that the
+use of the HeartMate II LVAD increases patient survival, with fewer complications
+and fewer hospitalizations compared to the older pulsatile flow LVAD HeartMate I.
+The other review is from Quebec (INESS) published in 2012 (Sas G et al. 2012). It
+concludes that CF-LVAD can be considered a clinically effective therapeutic option
+compared to optimal medical treatment for appropriate patients in both BTT and DT
+patients.
+The systematic literature search identified one RCT and two non-randomised
+controlled studies that have studied the effects of PF-LVAD in comparison to CFLVAD
+in patients with end-stage heart failure. In the RCT the patients were
+randomised in a 2:1 ratio. Thus, 134 patients received a continuous flow HeartMate
+II and 66 patients received a pulsatile flow HeartMate I. The study had some 
+ HTA-report: LVAD in heart failure 18(22)
+problems with directness and precision (see Appendix 7, SoF table). The two nonrandomised
+trials had major problems, as most of the pulsatile LVADs were
+implanted some years before the continuous flow devices came in use. Thus, the
+patient study groups with PF-LVADs must be regarded as historical controls.
+Mortality (Appendix 5a)
+The RCT reported a one-year survival of 68 % in the CF-LVAD group and 55 % in
+the PF-LVAD group. The survival was significantly better ( p< 0.01) in the CFLVAD
+group after two years with a survival rate of 58 % in comparison to 24 % in
+the PF-LVAD group. Both the non-randomised studies reported significantly higher
+two-year survival rates in the patients who received a CF-LVAD.
+Conclusion: Continuous flow LVAD as destination therapy probably increases
+survival in patients with end-stage heart failure in comparison with pulsatile flow
+LVAD.
+Moderate quality of evidence (GRADE ).
+Quality of life (Appendix 5b)
+Only the RCT analysed the quality of life. This was done after one year and two
+years follow-up using two different questionnaires. However, the small numbers of
+patients at the two-year follow-up did not allow any meaningful analyses. QoL
+improved in both LVAD groups in comparison to baseline. According to Minnesota
+Living with Heart Failure questionnaire, QoL was significantly better in the CFLVAD
+group compared to the PF-LVAD group after one year, whereas the
+difference in the Kansas City Cardiomyopathy questionnaire did not reach statistical
+significance (p = 0.06).
+Conclusion: PF-LVAD may improve the quality of life in patients with end-stage
+left ventricular heart failure in comparison with PF-LVAD.
+Low quality of evidence (GRADE )
+Functional capacity (Appendix 5c)
+Only the RCT analysed functional capacity. As for the QoL analyses, only the data
+at 12-month follow-up allowed a meaningful comparison. Both study groups
+experienced early, and sustained, improvement of functional capacity. However,
+there was no significant difference between the two groups.
+Conclusion: It is uncertain whether CF-LVAD and PF-LVAD differ in their effects
+on functional capacity.
+Very low quality of evidence (GRADE ).
+Complications (Appendix 6)
+Long-term MCS is hampered by several complications such as device malfunction,
+infections, bleeding, thromboembolic events and right ventricular failure (RVF).
+The rate of adverse events has steadily declined with improved techniques (second
+generation LVAD vs first generation).
+Infections are a significant problem. They often occur at the driveline exit site. The
+reported incidence is up to 40 % per year (events/patient/year). Sepsis is also
+common with reported incidence rates varying from 20 % to 60 % in different
+studies. Infections that involve the pump itself are uncommon, but are serious since
+long-term eradication is nearly impossible.
+ HTA-report: LVAD in heart failure 19(22)
+Bleeding events are common. Perioperative bleeding occurs, in particular in patients
+with previous cardiac operations and/or coagulopathy related to hepatic dysfunction.
+Re-exploration due to a post-operative bleeding has been reported to be required in
+15 – 30 %. Bleeding complications during long-term follow-up are also frequent, in
+particular gastrointestinal bleeding, with incidence rates up to 50 %
+(events/patient/year).
+Patients with LVADs may also suffer thromboembolic complications. The reported
+incidence of ischemic stroke varies between 5 - 25 %. Pump thrombus may occur,
+and sometimes necessitates pump replacement if aggressive anticoagulation or
+thrombolytic therapies are not successful.
+It is essential that the right ventricular function is adequate for an LVAD to function
+normally. Right ventricular failure occurs in10 - 40 % of patients who receive
+LVAD as bridge-to-transplantation.. The incidence of RVF in adequately selected
+patients for DT is not known. Treatment includes optimization of the right
+ventricular function, management of pulmonary vasoconstriction, and in some cases
+temporary support with a right ventricular assist device.
+Ongoing research?
+A search in the ClinicalTrials database (www.clinicaltrials.gov) July 4, 2013, using the
+search terms (heart-assist device OR left ventricular assist device OR left ventricular
+assist system OR ventricular assist device OR VAD OR LVAD OR LVAS) AND
+(destination OR permanent OR non-transplant OR long-term OR ineligible OR "not
+assist support devices
+eligible" OR "not candidate" OR non-candidate) identified 33 studies with regard to
+LVADs. Five studies were relevant for the present questions at issue.
+Two studies will compare the CF-LVAD HeartMate II with optimal medical therapy.
+Both of them are being performed in the USA. One of them is an RCT (REVIVE-IT), and
+it is currently recruiting patients. The estimated completion date is December 2016. The
+other study one is a non-randomised study that is ongoing. Its estimated completion date
+is December 2015.
+Another two RCTs are ongoing. They compare either the LVADs Jarvik 2000 with Heart
+Mate II (estimated completion date December 2016), or the HeartWear LVAD with “any
+other FDA approved LVAD” (estimated completion date May 2017). Both are being
+performed in the USA. The former is still recruiting patients whereas the other is not.
+A fifth study is ongoing in Belgium. It is a non-randomised study that will compare the
+efficacy of HeartMate II with historical controls.
+Which medical societies or health authorities recommend left ventricular assist devices as
+destination therapy in patients with terminal heart failure?
+In the European Society of Cardiology Guidelines for the diagnosis and treatment of acute and
+chronic heart failure 2012 DT it is recommended for highly selected patients, who have end-stage
+heart failure despite optimal pharmacological and device therapy, and who are not suitable for
+heart transplantation, but are expected to survive over one year with good functional status, to
+improve symptoms, and reduce the risk of heart failure hospitalization and of premature death
+(Eur Soc Cardiol. 2012) 
+ HTA-report: LVAD in heart failure 20(22)
+The 2013 ACCF/ American Heart Association Guidelines for the Management of Heart Failure
+also recommended DT with durable MCS to prolong survival for carefully selected patients with
+stage D heart failure with reduced ejection fraction (ACCF/AHA 2013).
+In the Swedish National Guidelines for Cardiovascular Diseases from 2008 it is concluded that
+DT may improve survival, functional capacity and quality of life in patients with advanced heart
+failure (NYHA IIIB-IV) that receive OMT and are not eligible for heart transplantation
+(Socialstyrelsen 2008). However, the ratio of cost to quality-adjusted life-year (QALY) was
+considered to be very high. In these guidelines, which are those available in Sweden today, DT is
+not recommended for routine use. Instead it is advocated that further results from on-going
+studies should be awaited.
+Ethical Aspects
+See Appendix 8
+Organisation
+When can left ventricular assist device for destination therapy be put into practice at the
+hospital?
+Immediately.
+Is left ventricular assist device for destination therapy used in other hospitals in Region
+Västra Götaland, Sweden?
+No. At the present, DT is not available for patients with end-stage heart failure in Region Västra
+Götaland. In the Stockholm Region there is currently a treatment program with DT, and up until
+now a total of 15-20 patients have received this treatment (Dr LH Lund, Karolinska University
+Hospital, Stockholm, Sweden, personal communication October 2013).
+Will there be any consequences of left ventricular assist device for destination therapy for
+the personnel?
+Currently, mechanical circulatory support systems are frequently utilized as BTT, and the
+hospital personnel are already familiar with the treatment. Introduction of DT would lead to an
+increased number of patients with long-term follow-up.
+Will there be any consequences for other clinics or supporting functions at the hospital or
+in the whole Region Västra Götaland?
+Yes. Initial, follow-up of the patients will take place at the outpatient clinic of the Department
+of Cardiology Sahlgrenska Hospital. Later on follow-up visits will also be necessary at the local
+hospitals. However, there will only be a few patients (less than 10) requiring follow-up during
+the first years after the initiation of a DT program. 
+ HTA-report: LVAD in heart failure 21(22)
+Economy Aspects
+Present costs of a continuous flow left ventricular assist device
+The current cost for the CF-LVAD HeartMate II implant kit is 750,000 SEK
+(82,000 €), and for accessories 125,000 SEK (14 000 €).
+During 2010-2012, 8 patients had an implanted HeartMate II as mechanical circulatory support
+for 12 months or longer. The average cost for the first year was about 1.5 million SEK
+(including the cost of the implant kit and accessories) ranging between 1.4-2.7 million SEK
+(153,000 – 295,000 €). The cost was related to the number of in-hospital days, especially the
+number of days in the intensive care unit. The average length of hospital stay was 50.5 days
+(range 29-95).
+As a comparison, three patients with terminal heart failure (NYHA class III-IV) who have been
+followed for more than one year with OMT were identified. The costs for these patients
+between June 2011 to May 2012, i.e. one year, were 132,000 SEK (14,000 €) , 759,000 SEK
+(144,000 €) and 1,909,000 SEK (208,000 €), respectively. Also in these cases the yearly
+costs was directly related to the length of hospital stay (range: 17- 134 days).
+In the calculations of the costs for CF-LVAD and OMT above, the costs of home care are not
+included (due to different management systems).
+In 2010, the average cost for heart transplantation was approximately 1.25 million SEK
+(136,000 €). This includes only the surgical procedure and the postoperative hospital stay. The
+costs of follow-up and later hospitalisations are not included.
+Expected costs of left ventricular assist device in patients with terminal heart failure
+See 9a.
+Total change of cost of left ventricular assist device in patients with terminal heart failure
+The cost of 10 patients treated with LVAD (see 2d) during the first year is estimated to be about
+15 million SEK. Assuming that the corresponding cost for a patient treated with OMT is
+750,000 SEK, the change in cost will be an increase of 7.5 million SEK.
+Since patients with LVAD are expected to live longer this will add further increments in the
+total costs during the following years. It is difficult to estimate this additional cost.
+Can the use of left ventricular assist device in patients with terminal heart failure be
+adopted and used within the present clinic budget?
+No.
+Are there any available analyses of health economy? Cost advantages or disadvantages?
+There is no Swedish cost-effectiveness analysis.
+In the German HTA report (Angermayer 2007), which was based predominately on studies of
+the first generation LVADs, i.e. PF-LVADS, the conclusion was that “the incremental costs per
+quality-adjusted life years (QALYs) may be between 200 000 and 600 000 € for DT”. Similar 
+ HTA-report: LVAD in heart failure 22(22)
+conclusions were made in a British expert review from 2008 that could identify four published
+cost-effectiveness studies (Hutchinson 2008). However, they also pointed out that the
+methodological quality in the majority of the studies was poor, as was their generalizability.
+A Canadian HTA report published in 2012 concluded that the cost-effectiveness of Heart Mate
+II was “unfavourable” regardless of the initial indication (Sas 2012). However, the conclusions
+were based predominantly on experiences of HeartMate II and mostly as BTT. Since these
+patients relatively soon get a transplant, the real cost benefit of the LVAD is therefore
+underestimated when data are extrapolated to the DT indication.
+There have been no studies that directly have compared CF-LVADS with OMT. Rogers et al.
+used data from the REMATCH trial and the Heart Mate II trial to indirectly estimate the costeffectiveness
+of using the CF-LVAD Heart Mate II (Rogers 2012). Compared with medical
+management the CF-LVAD had higher 5-year costs ($360 407 versus $62 856) and QALYs
+(1.87 vs 0.37). The incremental cost-effectiveness ratio of the CF-LVAD was estimated to be
+$198 184 per QALY (this corresponds to about 1.2 million SEK/QALY).
+Unanswered Questions
+Important gaps in scientific knowledge
+There are no published RCTs that have compared the outcomes of modern CF-LVADs with OMT
+with regard to survival, functional capacity, or quality of life. Such a trial would presently be of
+great interest, since pharmacological treatment, resynchronization therapy, and the overall
+management of heart failure have improved during the last decade (after the publication of the
+RCT that initially compared PF-LVAD with OMT). It is of interest to point out that such a trial is
+presently considered unethical in the USA.
+Is there any interest in your own clinic/research group/organisation to start studies/trials
+within the research field at issue?
+Yes. We are interested in starting a prospective, randomized multicentre trial in Sweden
+evaluating the HeartMate II® LVAD versus OMT in patients with severe heart failure (NYHA
+IIIb-IV) that are not eligible for heart transplantation. In such a study we would aim to include
+100-120 patients and randomize them to HM II or OMT in a 1:1 ratio. The primary outcome
+would be a composite endpoint of survival, freedom from debilitating stroke and improved
+functional capacity. Patient recruitment would be expected to take 18 months and each
+included patient would be followed for 18 months.
+The Departments of Cardiology and Thoracic Surgery at all Swedish University Hospitals have
+shown interest in such a study and are willing to participate. A reference group with
+participants from all university hospitals has been engaged to work on a study protocol. The
+initial response from the LVAD industry (Thoratec) has been positive and negotiations with
+respect to specific terms regarding such a study are ongoing. The project will, however, need
+additional funding and applications for study grants are being prepared. 
+
+Appendix 1, Search strategy, study selection and references –
+Question(s) at issue:
+Does mechanical circulatory support with left ventricular assist devices (LVAD) reduce
+morbidity, improve quality of life, and prolong survival in patients with terminal heart failure,
+in comparison to optimal medical treatment?
+PICO: (P=Patient I=Intervention C=Comparison O=Outcome)
+PICO 1
+P = Patients with terminal left ventricular heart
+failure despite optimal medical treatment
+I = Implantation of a left ventricular assist device
+with pulsatile flow (PF-LVAD)
+C = Optimal medical treatment (OMT)
+O = Survival, quality of life (QoL), functional
+capacity (NYHA classification, 6 minute walk
+test, exercise test) and biomarkers of heart
+failure. Complications such as infections,
+haemorrhages, thromboembolic events,
+neuropsychological functions
+PICO 2
+P = Patients with terminal left ventricular heart
+failure despite optimal medical treatment
+I = Implantation of a left ventricular assist device
+with continous flow (CF-LVAD)
+C = Implantation of a left ventricular assist device
+with pulsatile flow (PF-LVAD)
+O = Survival, quality of life, functional capacity
+ (NYHA classification, 6 minute walk test,
+ exercise test) and biomarkers of heart failure.
+ Complications such as infections,
+ haemorrhages, thromboembolic events,
+ neuropsychological functions
+Eligibility criteria
+Study design:
+Randomized controlled trials
+Non-randomized controlled trials
+Case series if ≥ 30 patients
+Systematic reviews
+Language:
+English, Swedish, Danish, Norwegian
+Publication date:
+2000- 
+
+Selection process – flow diagram
+
+Records identified through database
+searching
+(n =1852)
+Screening Included Eligibility Identification
+Additional records identified
+through other sources
+(n =76)
+Records after duplicates removed
+(n = 1231)
+Records screened by HTAlibrarians
+(n = 1231)
+Records excluded by HTA-librarians. Did
+not fulfil PICO or other eligibility criteria
+(n = 1095)
+Full-text articles assessed for
+eligibility by HTA-librarians
+(n = 136)
+Full-text articles excluded by HTAlibrarians,
+with reasons
+(n = 81)
+52 = wrong intervention
+2 = wrong comparison
+1 = wrong outcome
+23 = wrong study design
+3 = wrong focus
+Full-text articles assessed for
+eligibility by project group
+(n = 55)
+Full-text articles excluded by project
+group, with reasons
+(n = 30)
+See Appendix 2
+Studies included in synthesis
+(n =26)
+Including 4 systematic reviews
+commented upon
+See Appendix 1
+assist support devices
+Search strategies
+Database: Medline & Medline in process (OVID)
+Date: 2013-02-26
+No of results: 786
+# Searches Results
+1 exp Heart Failure/ 79663
+2 exp Ventricular Dysfunction, Left/ 19737
+3 heart failure.ab,kw,ti. 96006
+4 (left adj3 ventric$4 adj3 dysfunction$1).ab,kw,ti. 13158
+5 1 or 2 or 3 or 4 142421
+6 exp Heart-Assist Devices/ 7680
+7 heart-assist device$1.ab,kw,ti. 106
+8 left ventric$4 assist device$1.ab,kw,ti. 3102
+9 left ventric$4 assist system$1.ab,kw,ti. 338
+10 ventric$4 assist device$1.ab,kw,ti. 5143
+11 (VAD or LVAD or LVAS).ab,kw,ti. 6602
+12 6 or 7 or 8 or 9 or 10 or 11 12798
+13
+((destination adj3 therapy) or permanent or non-transplant$ or nontransplant$ or non transplant$ or
+longterm or long-term or long term).ab,kw,ti. 553532
+14 ((ineligible or "not eligible" or "not candidate$1" or non-candidate$1) adj4 transplant$).ab,kw,ti. 301
+15 13 or 14 553741
+16 5 and 12 and 15 1035
+17 (animals not (animals and humans)).sh. 3673442
+18 (comment or editorial or letter).pt. 1217538
+19 16 not 17 1003
+20 19 not 18 980
+21 limit 20 to (yr="2000 -Current" and (danish or english or norwegian or swedish)) 786
+Database: PubMed
+Date: 2013-02-26
+No of results: 81
+Search Query Items
+found
+#32 Search #30 AND #31 81
+#31 Search (pubmednotmedline[sb] OR in process[sb] OR publisher[sb]) 1900735
+#30 Search #28 NOT #29 836
+#29 Search ((animals[mh]) NOT (animals[mh] AND humans[mh])) 3757147
+#28 Search #26 NOT #27 859
+#27 Search (Editorial[ptyp] OR Letter[ptyp] OR Comment[ptyp]) 1219963
+#26
+Search #9 AND #18 AND #22 Filters: Publication date from 2000/01/01; Danish; English;
+Norwegian; Swedish 882
+#23 Search #9 AND #18 AND #22 1111
+#22 Search #19 OR #21 562736
+#21
+Search (ineligible[tiab] OR "not eligible"[tiab] OR "not candidate*"[tiab] OR non-candidate*[tiab])
+AND transplant*[tiab] 322
+
+#19
+Search (destination[tiab] AND therapy[tiab]) OR permanent[tiab] OR non-transplant*[tiab] OR
+nontransplant*[tiab] OR non transplant*[tiab] OR longterm[tiab] OR long-term[tiab] OR long
+term[tiab] 562481
+#18 Search #11 OR #12 OR #13 OR #14 OR #16 OR #17 13338
+#17 Search VAD[tiab] OR LVAD[tiab] OR LVAS[tiab] 6877
+#16 Search ventricle* assist device*[tiab] OR ventricul* assist device*[tiab] 5736
+#14 Search left ventric* assist system*[tiab] 415
+#13 Search left ventric* assist device*[tiab] 3769
+#12 Search heart-assist device*[tiab] 106
+#11 Search "Heart-Assist Devices"[Mesh] 7669
+#9 Search #2 OR #4 OR #5 OR #8 151926
+#8 Search left[tiab] AND ventric*[tiab] AND dysfunction*[tiab] 25459
+#5 Search heart failure[tiab] 97970
+#4 Search "Ventricular Dysfunction, Left"[Mesh] 19681
+#2 Search "Heart Failure"[Mesh] 79697
+Database: EMBASE 1974 to 2013 February 25 (OVID SP)
+Date: 2013-02-26
+No of results: 860
+# Searches Results
+1 exp heart failure/ 264726
+2 exp heart left ventricle function/ 30457
+3 heart failure.ti,ab,kw. 143477
+4 (left adj3 ventric$4 adj3 dysfunction$1).ti,ab,kw. 19064
+5 1 or 2 or 3 or 4 317750
+6 exp heart assist device/ 8672
+7 heart-assist device$1.ti,ab,kw. 488
+8 left ventric$4 assist device$1.ti,ab,kw. 4638
+9 left ventric$4 assist system$1.ti,ab,kw. 418
+10 ventric$4 assist device$1.ti,ab,kw. 7786
+11 (VAD or LVAD or LVAS).ti,ab,kw. 9971
+12 6 or 7 or 8 or 9 or 10 or 11 17588
+13
+((destination adj3 therapy) or permanent or non-transplant$ or nontransplant$ or non transplant$ or longterm
+or long-term or long term).ti,ab,kw. 723616
+14 ((ineligible or "not eligible" or "not candidate$1" or non-candidate$1) adj4 transplant$).ti,ab,kw. 510
+15 13 or 14 723984
+16 5 and 12 and 15 1805
+17 (animal not (animal and human)).sh. 1361790
+18 16 not 17 1796
+19
+limit 18 to (embase and (danish or english or norwegian or swedish) and yr="2000 -Current"
+and (article or conference paper or "review")) 860
+
+Database: The Cochrane Library
+Date: 2013-02-26
+No of results: 84
+Cochrane reviews 0
+Other reviews 6
+Trials 53
+Technology assessments 20
+Economic evaluations 5
+ID Search Hits
+#1 MeSH descriptor: [Heart Failure] explode all trees 4914
+#2 MeSH descriptor: [Ventricular Dysfunction, Left] explode all trees 1479
+#3 heart next failure:ti,ab,kw (Word variations have been searched) 8961
+#4 left near/3 ventric* near/3 dysfunction*:ti,ab,kw (Word variations have been searched) 2043
+#5 #1 or #2 or #3 or #4 10047
+#6 MeSH descriptor: [Heart-Assist Devices] explode all trees 146
+#7 heart-assist next device*:ti,ab,kw (Word variations have been searched) 150
+#8 left next ventric* next assist next device*:ti,ab,kw (Word variations have been searched) 61
+#9 left next ventric* next assist next system*:ti,ab,kw (Word variations have been searched) 3
+#10 ventric* next assist next device*:ti,ab,kw (Word variations have been searched) 84
+#11 VAD or LVAD or LVAS:ti,ab,kw (Word variations have been searched) 213
+#12 #6 or #7 or #8 or #9 or #10 or #11 344
+#13 #5 and #12 84
+Database: CRD
+Date: 2013-02-26
+No of results: 39
+Line Search Hits
+1 ("heart failure") 1239
+2 (left ventric* dysfunction*) 89
+3 MeSH DESCRIPTOR Heart Failure EXPLODE ALL TREES 511
+4 MeSH DESCRIPTOR Ventricular Dysfunction, Left EXPLODE ALL TREES 91
+5 #1 OR #2 OR #3 OR #4 1282
+6 MeSH DESCRIPTOR Heart-Assist Devices EXPLODE ALL TREES 48
+7
+(heart-assist device*) OR (left ventric* assist device*) OR (left ventric* assist system*) OR (ventric* assist
+device*) OR (VAD OR LVAD OR LVAS) 73
+8 #6 OR #7 73
+9 #5 AND #8 39
+The web-sites of SBU, Kunnskapssenteret and Sundhedsstyrelsen were visited 2013-02-27
+2 results
+Reference lists
+A comprehensive review of reference lists brought 76 new records 
+
+Reference lists
+Included studies:
+Aggarwal A, Pant R, Kumar S, Sharma P, Gallagher C, Tatooles AJ, et al. Incidence and management
+of gastrointestinal bleeding with continuous flow assist devices.
+Annals of Thoracic Surgery. 2012;93(5):1534-40.
+Daneshmand MA, Rajagopal K, Lima B, Khorram N, Blue LJ, Lodge AJ, et al. Left ventricular assist
+device destination therapy versus extended criteria cardiac transplant.
+Annals of Thoracic Surgery. 2010;89(4):1205-9; discussion 10.
+Dembitsky WP, Tector AJ, Park S, Moskowitz AJ, Gelijns AC, Ronan NS, et al. Left ventricular assist
+device performance with long-term circulatory support: Lessons from the REMATCH trial.
+Annals of Thoracic Surgery. 2004;78(6):2123-30.
+Drews T, Stepanenko A, Dandel M, Buz S, Lehmkuhl HB, Hetzer R. Mechanical circulatory support
+in patients of advanced age. European Journal of Heart Failure. 2010;12(9):990-4.
+Goldstein DJ, Naftel D, Holman W, Bellumkonda L, Pamboukian SV, Pagani FD, et al. Continuousflow
+heart transplant
+heart transplant 
+devices and percutaneous site infections: clinical outcomes.
+J Heart Lung Transplant. 2012;31(11):1151-7.
+Holman WL, Park SJ, Long JW, Weinberg A, Gupta L, Tierney AR, et al. Infection in permanent
+circulatory support: heart transplant Experience from the REMATCH trial.
+Journal of Heart and Lung Transplantation. 2004;23(12):1359-65.
+Hutchinson J, Scott DA, Clegg AJ, Loveman E, Royle P, Bryant J, et al. Cost-effectiveness of left
+ventricular-assist devices in end-stage heart failure.
+Expert Review of Cardiovascular Therapy. 2008;6(2):175-85.
+Kirklin JK, Naftel DC, Kormos RL, Stevenson LW, Pagani FD, Miller MA, et al. Fifth INTERMACS
+annual report: Risk factor analysis from more than 6,000 mechanical circulatory support patients.
+Journal of Heart and Lung Transplantation. 2013;32(2):141-56.
+Kirklin JK, Naftel DC, Pagani FD, Kormos RL, Stevenson L, Miller M, et al. Long-term mechanical
+circulatory support (destination therapy): On track to compete with heart transplantation?
+Journal of Thoracic and Cardiovascular Surgery. 2012;144(3):584-603.
+Lazar RM, Shapiro PA, Jaski BE, Parides MK, Bourge RC, Watson JT, et al. Neurological events
+during long-term mechanical circulatory support for heart failure: the Randomized Evaluation of
+Mechanical Assistance for the Treatment of Congestive Heart Failure (REMATCH) experience.
+Circulation. 2004;109(20):2423-7.
+Long JW, Kfoury AG, Slaughter MS, Silver M, Milano C, Rogers J, et al. Long-term destination
+therapy with the HeartMate XVE left ventricular assist device: improved outcomes since the
+REMATCH study. Congestive Heart Failure. 2005;11(3):133-8.
+Morgan JA, Paone G, Nemeh HW, Henry SE, Patel R, Vavra J, et al. Gastrointestinal bleeding with
+the HeartMate II left ventricular assist device. J Heart Lung Transplant. 2012;31(7):715-8.
+Park SJ, Milano CA, Tatooles AJ, Rogers JG, Adamson RM, Steidley DE, et al. Outcomes in
+advanced heart failure patients with left ventricular assist devices for destination therapy.
+Circulation: Heart Failure. 2012;5(2):241-8.
+Park SJ, Tector A, Piccioni W, Raines E, Gelijns A, Moskowitz A, et al. Left ventricular assist devices
+as destination therapy: a new look at survival.[Erratum appears in J Thorac Cardiovasc Surg. 2005
+Jun;129(6):1464]. J Thorac Cardiovasc Surg. 2005;129(1):9-17. 
+
+Richenbacher WE, Naka Y, Raines EP, Frazier OH, Couper GS, Pagani FD, et al. Surgical
+management of patients in the REMATCH trial.
+The Annals of thoracic surgery. 2003(6 Suppl):S86-92.
+Rogers JG, Bostic RR, Tong KB, Adamson R, Russo M, Slaughter MS. Cost-effectiveness analysis of
+continuous-flow left ventricular assist devices as destination therapy.
+Circulation: Heart Failure. 2012;5(1):10-6.
+Rogers JG, Butler J, Lansman SL, Gass A, Portner PM, Pasque MK, et al. Chronic Mechanical
+Circulatory Support for Inotrope-Dependent Heart Failure Patients Who Are Not Transplant
+Candidates. Results of the INTrEPID Trial.
+Journal of the American College of Cardiology. 2007;50(8):741-7.
+Rose EA, Gelijns AC, Moskowitz AJ, Heitjan DF, Stevenson LW, Dembitsky W, et al. Long-term use
+of a left ventricular assist device for end-stage heart failure.
+New England Journal of Medicine. 2001;345(20):1435-43.
+Sharma V, Deo SV, Stulak JM, Durham LA, 3rd, Daly RC, Park SJ, et al. Driveline infections in left
+ventricular assist devices: implications for destination therapy.
+Annals of Thoracic Surgery. 2012;94(5):1381-6.
+Slaughter MS, Rogers JG, Milano CA, Russell SD, Conte JV, Feldman D, et al. Advanced heart
+failure treated with continuous-flow left ventricular assist device. New England Journal of Medicine.
+2009;361(23):2241-51.
+Topilsky Y, Pereira NL, Shah DK, Boilson B, Schirger JA, Kushwaha SS, et al. Left ventricular assist
+device therapy in patients with restrictive and hypertrophic cardiomyopathy.
+Circulation: Heart Failure. 2011b;4(3):266-75.
+Systematic reviews and other publications, no appraisal done, only commented on:
+Angermayr L, Velasco Garrido M, Busse R. Ventricular assist devices for heart failure.
+GMS Health Technol Assess. 2007;3:Doc10.
+Clegg AJ, Scott DA, Loveman E, Colquitt J, Hutchinson J, Royle P, et al. The clinical and costeffectiveness
+of left ventricular assist devices for end-stage heart failure: a systematic review and
+economic evaluation. Health Technol Assess. 2005;9(45):1-132, iii-iv.
+Rector TS, Taylor BC, Greer N, Rutks I, and Wilt TJ. Use of Left
+Ventricular Assist Devices as Destination Therapy in End-Stage Congestive Heart Failure: A
+Systematic Review. Washington DC2012 May. VA-ESP Project #09-009; 2012.
+Rogers JG, Bostic RR, Tong KB, Adamson R, Russo M, Slaughter MS. Cost-effectivenss analysis of
+continous-flow left ventricular assist devices as destination therapy. Circ:Heart Fail 2012;5:10-16.
+Sas G, Boothroyd LJ, Guertin JR, Lambert LJ, Morin JE, Chakor H, et al. Evaluation of the evidence
+on the HeartMate II and HeartWare ventricular assist devices for the treatment of chronic end-stage
+heart failure (Structured abstract). Health Technology Assessment Database. 2012(1).
+Excluded studies:
+Adamson RM, Dembitsky WP, Baradarian S, Chammas J, May-Newman K, Chillcott S, et al. Aortic
+valve closure associated with HeartMate left ventricular device support: Technical considerations and
+long-term results. Journal of Heart and Lung Transplantation. 2011;30(5):576-82.
+Adzic A, Patel SR, Maybaum S. Impact of adverse events on ventricular assist device outcomes.
+Current Heart Failure Reports. 2013;10(1):89-100. 
+
+Aggarwal A, Raghuvir R, Eryazici P, MacAluso G, Sharma P, Blair C, et al. The development of
+aortic insufficiency in continuous-flow left ventricular assist device-supported patients.
+Annals of Thoracic Surgery. 2013;95(2):493-8.
+Backes D, Van den Bergh WM, Van Duijn AL, Lahpor JR, van Dijk D, Slooter AJC. Cerebrovascular
+complications of left ventricular assist devices.
+European Journal of Cardio-Thoracic Surgery. 2012;42(4):612-20.
+Barbone A, Pini D, Grossi P, Bandera A, Manasse E, Citterio E, et al. Aspergillus left ventricular
+assist device endocarditis. Ital Heart J. 2004;5(11):876-80.
+Brush S, Budge D, Alharethi R, McCormick AJ, MacPherson JE, Reid BB, et al. End-of-life decision
+making and implementation in recipients of a destination left ventricular assist device.
+J Heart Lung Transplant. 2010;29(12):1337-41.
+Cowger J, Sundareswaran K, Rogers JG, Park SJ, Pagani FD, Bhat G, et al. Predicting Survival in
+Patients Receiving Continuous Flow Left Ventricular Assist Devices: The HeartMate II Risk Score.
+Journal of the American College of Cardiology. 2013;61(3):313-21. Epub 2012/12/26.
+Coyle LA, Ising MS, Gallagher C, Bhat G, Kurien S, Sobieski MA, et al. Destination therapy: oneyear
+outcomes in patients with a body mass index greater than 30. Artificial Organs. 2010;34(2):93-7.
+Drakos SG, Janicki L, Horne BD, Kfoury AG, Reid BB, Clayson S, et al. Risk Factors Predictive of
+Right Ventricular Failure After Left Ventricular Assist Device Implantation.
+American Journal of Cardiology. 2010;105(7):1030-5.
+Drews T, Dandel M, Krabatsch T, Potapov E, Stepanenko A, Hennig E, et al. Long-term mechanical
+circulatory support in 198 patients: largest single-center experience worldwide.
+ASAIO Journal. 2011;57(1):9-16.
+Girling AJ, Freeman G, Gordon JP, Poole-Wilson P, Scott DA, Lilford RJ. Modeling payback from
+research into the efficacy of left-ventricular assist devices as destination therapy.
+International Journal of Technology Assessment in Health Care. 2007;23(2):269-77.
+Hasin T, Topilsky Y, Schirger JA, Li Z, Zhao Y, Boilson BA, et al. Changes in renal function after
+implantation of continuous-flow left ventricular assist devices.
+J Am Coll Cardiol. 2012;59(1):26-36. Epub 2011/12/24.
+Holman WL, Kormos RL, Naftel DC, Miller MA, Pagani FD, Blume E, et al. Predictors of death and
+transplant in patients with a mechanical circulatory support device: a multi-institutional study.
+J Heart Lung Transplant. 2009a;28(1):44-50.
+Holman WL, Pae WE, Teutenberg JJ, Acker MA, Naftel DC, Sun BC, et al. INTERMACS: interval
+analysis of registry data.
+Journal of the American College of Surgeons. 2009b;208(5):755-61; discussion 61-2.
+Kushnir VM, Sharma S, Ewald GA, Seccombe J, Novak E, Wang IW, et al. Evaluation of GI bleeding
+after implantation of left ventricular assist device. Gastrointestinal Endoscopy. 2012;75(5):973-9.
+Lietz K, Long JW, Kfoury AG, Slaughter MS, Silver MA, Milano CA, et al. Impact of center volume
+on outcomes of left ventricular assist device implantation as destination therapy: analysis of the
+Thoratec HeartMate Registry, 1998 to 2005. Circulation: Heart Failure. 2009;2(1):3-10.
+Lietz K, Long JW, Kfoury AG, Slaughter MS, Silver MA, Milano CA, et al. Outcomes of left
+ventricular assist device implantation as destination therapy in the post-REMATCH era: implications
+for patient selection. Circulation. 2007;116(5):497-505. 
+
+Long JW, Healy AH, Rasmusson BY, Cowley CG, Nelson KE, Kfoury AG, et al. Improving outcomes
+with long-term "destination" therapy using left ventricular assist devices.
+J Thorac Cardiovasc Surg. 2008;135(6):1353-60; discussion 60-1.
+Petrucci RJ, Rogers JG, Blue L, Gallagher C, Russell SD, Dordunoo D, et al. Neurocognitive function
+in destination therapy patients receiving continuous-flow vs pulsatile-flow left ventricular assist device
+support.
+J Heart Lung Transplant. 2012;31(1):27-36.
+Oz MC, Gelijns AC, Miller L, Wang C, Nickens P, Arons R, et al. Left ventricular assist devices as
+permanent heart failure therapy: the price of progress.
+Annals of Surgery. 2003;238(4):577-83; discussion 83-5.
+Raymond AL, Kfoury AG, Bishop CJ, Davis ES, Goebel KM, Stoker S, et al. Obesity and left
+ventricular assist device driveline exit site infection. Asaio J. 2010;56(1):57-60. Epub 2010/01/07.
+Rogers JG, Aaronson KD, Boyle AJ, Russell SD, Milano CA, Pagani FD, et al. Continuous Flow Left
+Ventricular Assist Device Improves Functional Capacity and Quality of Life of Advanced Heart
+Failure Patients. Journal of the American College of Cardiology. 2010;55(17):1826-34.
+Slaughter MS, Sobieski MA, 2nd, Graham JD, Pappas PS, Tatooles AJ, Koenig SC. Platelet activation
+in heart failure patients supported by the HeartMate II ventricular assist device.
+International Journal of Artificial Organs. 2011b;34(6):461-8.
+Slaughter MS, Bostic R, Tong K, Russo M, Rogers JG. Temporal changes in hospital costs for left
+ventricular assist device implantation. Journal of Cardiac Surgery. 2011a;26(5):535-41.
+Stevenson LW, Miller LW, Desvigne-Nickens P, Ascheim DD, Parides MK, Renlund DG, et al. Left
+ventricular assist device as destination for patients undergoing intravenous inotropic therapy: a subset
+analysis from REMATCH (Randomized Evaluation of Mechanical Assistance in Treatment of
+Chronic Heart Failure). Circulation. 2004(8):975-81.
+Struber M, Sander K, Lahpor J, Ahn H, Litzler PY, Drakos SG, et al. HeartMate II left ventricular
+assist device; early European experience.
+European Journal of Cardio-Thoracic Surgery. 2008;34(2):289-94.
+Teuteberg JJ, Ewald GA, Adamson RM, Lietz K, Miller LW, Tatooles AJ, et al. Risk assessment for
+continuous flow left ventricular assist devices: does the destination therapy risk score work? An
+analysis of over 1,000 patients. Journal of the American College of Cardiology. 2012;60(1):44-51.
+Topilsky Y, Oh JK, Shah DK, Boilson BA, Schirger JA, Kushwaha SS, et al. Echocardiographic
+predictors of adverse outcomes after continuous left ventricular assist device implantation.
+Jacc: Cardiovascular Imaging. 2011a;4(3):211-22.
+Vrtovec B, Radovancevic R, Delgado RM, Radovancevic B, Bracey AW, Gregoric ID, et al.
+Significance of anaemia in patients with advanced heart failure receiving long-term mechanical
+circulatory support. European Journal of Heart Failure. 2009;11(10):1000-4.
+Westaby S, Siegenthaler M, Beyersdorf F, Massetti M, Pepper J, Khayat A, et al. Destination therapy
+with a rotary blood pump and novel power delivery.
+European Journal of Cardio-Thoracic Surgery. 2010;37(2):350-6.
+Other references:
+Braunwald E. Heart Disease: A Textbook of Cardiovascular Medicine. Fifth. Philadelphia, PA: WB
+Saunders Company; 1997. pp. 783–801.
+[Checklist from SBU regarding cohort studies. Version 2010:1]. [Internet]. [cited 2012 Mar 8] 
+
+Available from:
+http://www.sahlgrenska.se/upload/SU/HTAcentrum/Hj%c3%a4lpmedel%20under%20projektet/B03_Granskningsmall%20f%c3%b6r%20kohorts
+tudier%20med%20kontrollgrupper.doc
+[Checklists from SBU regarding randomized controlled trials. [Internet]. [cited 2012 Mar 8] Available
+from:
+http://www.sahlgrenska.se/upload/SU/HTAcentrum/Hj%c3%a4lpmedel%20under%20projektet/B02_Granskningsmall%20f%c3%b6r%20random
+iserad%20kontrollerad%20pr%c3%b6vning.doc
+ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure 2012: The Task
+Force for the Diagnosis and Treatment of Acute and Chronic Heart Failure 2012 of the European
+Society of Cardiology. Developed in collaboration with the Heart Failure Association (HFA) of
+the ESC. McMurray JJ, Adamopoulos S, Anker SD, Auricchio A, Böhm M, Dickstein K, Falk V,
+Filippatos G, Fonseca C, Gomez-Sanchez MA, Jaarsma T, Køber L, Lip GY, Maggioni AP,
+Parkhomenko A, Pieske BM, Popescu BA, Rønnevik PK, Rutten FH, Schwitter J, Seferovic P,
+Stepinska J, Trindade PT, Voors AA, Zannad F, Zeiher A; ESC Committee for Practice Guidelines.
+Eur Heart J. 2012 Jul;33(14):1787-847.
+GRADE Working Group. Grading quality of evidence and strength of recommendations. BMJ. 2004
+Jun 19;328(7454):1490-4.
+GRADE Working Group. List of GRADE working group publications and grants [Internet]. [Place
+unknown]: GRADE Working Group, c2005-2009 [cited 2012 Mar 8]. Available from:
+http://www.gradeworkinggroup.org/publications/index.htm
+Moher D, Liberati A, Tetzlaff J, Altman DG; PRISMA Group. Preferred reporting
+items for systematic reviews and meta-analyses: the PRISMA statement. PLoS Med.
+2009 Jul 21;6(7):e1000097.
+Packer M, The neurohormonal hypothesis: a theory to explain the mechanism of disease progression
+in heart failure. J Am Coll Cardiol. 1992 Jul;20(1):248-54
+Socialstyrelsen (2008). Hjärtsvikt. Vetenskapligt underlag för Nationella riktlinjer för hjärtsjukvård
+2008. [Elektronisk]. Stockholm:
+Socialstyrelsen. Tillgänglig:< http://www.socialstyrelsen.se/nationellariktlinjerforhjartsjukvard/>
+Zarrinkoub R, Wettermark B, Wändell P, Mejhert M, Szulkin R, Ljunggren G, Kahan T. The
+epidemiology of heart failure, based on data for 2.1 million inhabitants in Sweden. Eur J Heart Fail.
+2013 Sep;15(9):995-1002.
+2013 ACCF/AHA guideline for the management of heart failure: a report of the American College of
+Cardiology Foundation/American Heart Association Task Force on practice guidelines. Yancy CW,
+Jessup M, Bozkurt B, Butler J, Casey DE Jr, Drazner MH, Fonarow GC, Geraci SA, Horwich T,
+Januzzi JL, Johnson MR, Kasper EK, Levy WC, Masoudi FA, McBride PE, McMurray JJ, Mitchell
+JE, Peterson PN, Riegel B, Sam F, Stevenson LW, Tang WH, Tsai EJ, Wilkoff BL; American College
+of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines.
+Circulation. 2013 Oct 15;128(16):e240-327.
+Appendix 2 – Included studies with control groups– design and patient characteristics.
+PF-LVAD = Pulsatile flow left ventricular device, CF-LVAD = Continuous flow left ventricular device, OMT =Optimal medical therapy.
+
+Author,
+Year,
+Country
+Study Design Study
+Duration
+(years)
+Study
+Groups;
+Intervention
+vs control
+Patients
+(n)
+Mean Age
+(years (sd))
+Men (%) Outcome variables
+Rose,
+2001
+USA
+RCT 0 – 2.5 PF-LVAD
+OMT
+68
+61
+66 (9)
+68 (8)
+78
+82
+1) Mortality
+2) Functional capacity
+3) Quality of life
+Rogers,
+2007
+USA
+Non-randomised
+controlled study
+0 – 3.5 PF-LVAD
+OMT
+37
+18
+60 (11)
+58 (10)
+92
+78
+1) Mortality
+2) Functional capacity
+3) Quality of life
+Slaughter,
+2010
+USA
+RCT 2 PF-LVAD
+CF-LVAD
+66
+134
+63 (12)
+62 (12)
+92
+81
+1) Mortality
+2) Functional capacity
+3) Quality of life
+Drews,
+2010
+Germany
+Non-randomised
+controlled study
+2 PF-LVAD
+CF-LVAD
+64
+110
+64 (3)
+range 60 -73
+67 (4)
+range 60 – 80
+95
+89
+1) Mortality
+Kirklin,
+2012
+USA
+Non-randomised
+controlled study
+0 – 5.5 PF-LVAD
+CF-LVAD
+127
+1 160
+54.7
+63.6
+Not
+reported
+1) Mortality
+Appendix 3. Excluded articles - Left venticular assist device as destination therapy
+Study
+(author, publication year)
+Reason for exclusion
+Adamson 2011 To few cases
+Adzic 2013 No new information
+Aggarwal 2013 Not included in PICO
+Backes 2012 Mixed population
+Barbone 2004 To few cases
+Brush 2010 Not included in PICO
+Cowger 2013 Wrong question
+Coyle 2010 Not included in PICO, mixed population
+Drakos 2010 Mixed population
+Drews 2011 Mixed population
+Girling 2007 Theoretic model of cost-effectiveness in LVAD patients
+Hasin 2012 Unclear data
+Holman 2009a Not included in PICO, predictors
+Holman 2009b Substudy of another study
+Kushnir 2012 Mixed population
+Lietz 2009 Not included in PICO, analysis of risk factors
+Lietz 2007 Not included in PICO, risk score
+Long 2008 To few patients
+Oz 2003
+Presentation only of absolute costs of PF-LVADs. No
+health economy analysis.
+Petrucci 2012 Not included in PICO
+Raymond 2010 Question not included in PICO
+Rogers 2010 Not included in PICO
+Slaughter 2011a Substudy of Slaughter 2009 (included)
+Slaughter 2011b Effect not included in PICO
+Stevenson 2004 Not included in PICO, risk factor analysis
+Struber 2008 Mixed population
+Teuteberg 2012 Not included in PICO, risk score analysis
+Topilsky 2011b Not included in PICO, echocardiographic predictors
+Westaby 2010 Unclear data
+Vrotec 2009 Mixed population
+Appendix 4. LVAD pulsative flow in comparison with optimal medical management
+Outcome variables: a) Mortality b) Functional capacity c) Quality of life
+Author, year Country Study
+design
+Number
+of
+patients
+n=
+Followup
+With
+drawals
+-
+dropouts
+Result Comments
+Directness*
+Study limitations
+*
+Precision *
+Intervention Control
+* + No problem
+ ? Some problems
+ - Major problems
+a) Mortality
+Rose, 2001 USA RCT I: 68
+C: 61
+FU: Not
+reported
+I: 0
+C: 2
+1-year survival
+52%
+p=0.002
+2-year survival
+23%
+NS
+1-year survival
+25%
+2-year survival
+8%
+? + +
+Rogers, 2007 USA Nonrandomised
+controlled
+study
+I: 37
+C: 18
+FU: 12
+months
+Not
+reported
+1-year survival
+27%
+p=0.02
+1-year survival
+11%
+Patients in the control group
+chose not to undergo LVAD
+implantation, which resulted in
+socio-economical imbalance.
+- - -
+Appendix 4. LVAD pulsative flow in comparison with optimal medical management
+Outcome variables: a) Mortality b) Functional capacity c) Quality of life
+Author, year Country Study
+design
+Number
+of
+patients
+n=
+Followup
+With
+drawals
+-
+dropouts
+Result Comments
+Directness*
+Study limitations
+*
+Precision *
+Intervention Control
+* + No problem
+ ? Some problems
+ - Major problems
+b) Functional
+capacity
+Rose, 2001 USA RCT I: 68
+C: 61
+I: 0
+C: 2
+Walking one block
+(not limited at all)
+16/23
+p=0.04
+SF-36 (physical)
+46 (sd 19)
+p=0.01
+Walking one block
+(not limited at all)
+1/11
+SF-36 (physical)
+21 (sd 21)
+? + +
+Rogers, 2007 USA Nonrandomised
+controlled
+study
+I: 37
+C: 18
+Not
+reported
+NYHA
+85% Class I-II
+NYHA
+0% Class I-II
+No statistical inference test - - -
+c) Quality of life
+Rose, 2001 USA RCT I: 68
+C: 61
+I: 0
+C: 2
+MLHF-score
+41 (sd 22)
+p=0.11
+MLHF-score
+58 (sd 21)
+MLHF=Minnesota Living with
+Heart Failure questionnaire
+? + +
+Rogers, 2007 USA Nonrandomised
+controlled
+study
+I: 37
+C:18
+Not
+reported
+MLHF-score and
+SF-36 “improved”
+Too few OMT patients for
+meaningful comparison.
+- - -
+Appendix 5. LVAD continuous flow in comparison with pulsatile flow LVAD
+Outcome variables: a) Mortality b) Functional capacity c) Quality of life
+Author, year Country Study
+design
+Number
+of
+patients
+n=
+Followup
+With
+drawals
+-
+dropouts
+Result Comments
+Directness*
+Study limitations
+*
+Precision *
+Intervention Control
+
+* + No problem
+ ? Some problems
+ - Major problems
+a) Mortality
+Slaughter, 2009 USA RCT I: 134
+C: 66
+FU:
+2 years
+I: 19
+C: 32
+1-year survival
+68%
+2-year survival
+58%
+p=0.008*
+1-year survival
+55%
+2-year survival
+24%
+? +
+(?)
+?
+Drews, 2010 Germany Nonrandomised
+
+controlled
+study
+I: 110
+C: 64
+FU:
+2 years
+Not
+reported
+1-year survival:
+36%
+2-year survival:
+26%
+p=0.0017*
+1-year survival:
+15%
+2-year survival:
+12%
+- - ?
+Kirklin, 2012 USA Nonrandomised
+
+controlled
+study
+I: 1,160
+C: 127
+Not
+reported
+:
+1-year survival
+76%
+2-year survival
+67%
+p<0.0001*
+1-year survival
+68%
+2-year survival
+45%
+Historical controls - ? +
+Appendix 5. LVAD continuous flow in comparison with pulsatile flow LVAD
+Outcome variables: a) Mortality b) Functional capacity c) Quality of life
+Author, year Country Study
+design
+Number
+of
+patients
+n=
+Followup
+With
+drawals
+-
+dropouts
+Result Comments
+Directness*
+Study limitations
+*
+Precision *
+Intervention Control
+* + No problem
+ ? Some problems
+ - Major problems
+c) Functional
+ capacity
+Slaughter, 2009 USA RCT I: 134
+C: 66
+FU:
+1 year
+I: 19
+C: 32
+6 minutes walk test
+n=61
+318 meters (sd 164),
+NS
+NYHA
+76% Class I-II
+NS
+6 minutes walk test
+n=12
+306 meters (sd 145)
+NYHA
+:61% Class I-II
+ ? +
+(?)
+?
+d) Quality of life
+Slaughter, 2009 USA RCT I: 134
+C: 66
+FU:
+1 year
+I: 19
+C: 32
+MLHF-score
+34(sd 22)
+p=0.03
+MLHF-score
+44 (sd 23)
+MLHF=Minnesota Living with
+Heart Failure questionnaire
+? +
+?)
+?
+Appendix 6 Complications
+Author. year Country Number
+of patients
+n=
+Length of
+follow-up
+Type of
+device
+Infections Bleeding Neurological
+complications
+Comments
+
+Dembitsky. 2004 USA n=68
+unclear
+PF-LVAD Sepsis 0.51
+Local 0.35
+0.6 0.44 Events/patient/Year
+Data from REMATCH
+Drews. 2010 Germany
+n=64
+mean 157
+days
+PF-VAD 27 % 3 % Stroke: 20% Cause of mortality
+Holman. 2004 USA n=68
+median
+408 days
+PF-LVAD 42 % Sepsis
+Data from REMATCH
+Lazar. 2004 USA n=68
+unclear
+PF-LVAD Neurological event: 44
+%
+Stroke: 16 %
+Data from REMATCH
+Long. 2005 USA n=42
+mean 232
+days
+PF-LVAD Sepsis: 0.19
+Local: 0.45
+Percutaneous: 0.04
+Perioperative: 0.15
+Later: 0.38
+0.15 Events/Patient/Year
+Park. 2005 USA n=68
+3 year
+PF-LVAD Sepsis: 30 % Perioperative
+bleeding: 1.5 %
+10 % REMATCH 3-year data
+Cause of mortality
+Richenbacher. 2003 USA n=68
+unclear
+PF-LVAD Sepsis 0.53
+Local: 0.33
+Percutaneous or pocket
+site: 0.36
+Late bleeding: 0.53 Data from REMATCH
+Events/Patient/Year
+Rogers. 2007 USA n=37
+6 months
+PF-LVAD 0.25 Cerebrovascular
+dysfunction: 0.11
+Stroke: 0.08
+Events/patient-month
+Rose. 2001 USA n=68
+median
+408 days
+PF-LVAD Sepsis: 0.6
+Local: 0.39
+Driveline: 0.41
+0.56 0.39 The REMATCH trial
+Events/patient/Year 
+Appendix 6 Complications
+Author. year Country Number
+of patients
+n=
+Length of
+follow-up
+Type of
+device
+Infections Bleeding Neurological
+complications
+Comments
+
+Aggarwal. 2012 USA n=101
+unclear
+CF-LVAD 23% Gastrointestinal bleeding
+Drews. 2010 Germany
+n=110
+mean 281
+days
+CF-LVAD 22 % 6 % Stroke: 25% Cause of mortality
+Goldstein. 2012 USA n=2006
+8 months
+CF-LVAD 9.8 % Driveline infections. Data from
+INTERMACS
+Kirklin. 2012 USA n=1160
+1 year
+CF-LVAD 8.1 11.9 1.86 Events/100 patient-months
+Kirklin. 2013 USA n=6561 Mostly
+CF-LVAD
+Device related
+infections
+15 %. 1 year
+30 % 2 years
+11 %. 1 year
+17 %. 2 years
+Data from INTERMACS
+Daneshmand. 2010 USA 60
+unclear
+CF-LVAD 35 % Driveline infection
+Morgan. 2012 USA n=86
+median
+176 days
+CF-LVAD 22 % Gastrointestinal bleeding
+Park. 2012 USA n=281
+median 1.7
+years
+CF-LVAD Sepsis: 0.27
+Local: 0.49
+Device related: 0.27
+Requiring surgery:
+0.14
+Neurological event:
+0.2
+Stroke 0.08
+Events/Patient/Year
+Sharma. 2012 USA n=143
+unclear
+CF-LVAD Driveline: 12 % Events/Patient/Year
+Slaughter. 2009 USA n=134 CF-LVAD Sepsis: 0.39
+Device related: 0.48
+Requiring surgery:
+0.23
+Stroke: 0.13
+Other neurological
+event: 0.17
+RCT
+Events/Patient/Year
+Total 211 patient-years
+Topilsky 2011a USA n=83
+30 days
+CF-LVAD 59 % 82% 14 %
+Appendix 7 - Summary of Findings.
+RRR = Relative Risk Reduction; ARR = Absolute Risk Reduction. MLHF=Minnesota Living with Heart Failure. 6MWT=6-minute walk test.
+Outcome
+variable
+Number of
+studies
+Design Study
+limitations
+Consistency Directness Precision Publication
+bias
+Magnitude
+of
+effect
+Relative
+effect
+(95%CI)
+Absolute
+effect
+(95%CI)
+Quality of
+evidence
+GRADE
+PF-LVAD versus optimal medical therapy
+Mortality
+2
+1 RCT
+1 nonrandomised
+
+study
+No serious
+limitations
+No
+inconsistency
+Some
+uncertainty
+(?)1
+Uncertain
+precision
+(?)2
+Unlikely Not
+relevant
+1-year:
+RRR:
+33 %
+18%
+1-year:
+ARR:
+27%
+16 %
+
+Quality of life
+2
+1 RCT
+1 nonrandomised
+
+study
+Very serious
+limitations
+(-2)3
+No
+inconsistency
+Some
+uncertainty
+(?)
+Serious
+imprecision
+(-1)4
+Unlikely Not
+relevant
+MLHF
+score
+(0-105):
+- 29 %
+MLHF
+score
+(0-105):
+-17 points
+ 
+Functional
+capacity
+2
+1 RCT
+1 nonrandomised
+
+study
+Very serious
+limitations
+(-2)3
+No
+inconsistency
+Some
+uncertainty
+(?)
+Serious
+imprecision
+(-1)4
+Unlikely Very large SF-36
+physical
+score
+(0-100):
++ 52 %
+SF-36
+physical
+score
+(0-100):
++ 24
+ 
+Appendix 7 - Summary of Findings.
+RRR = Relative Risk Reduction; ARR = Absolute Risk Reduction. MLHF=Minnesota Living with Heart Failure. 6MWT=6-minute walk test.
+Outcome
+variable
+Number of
+studies
+Design Study
+limitations
+Consistency Directness Precision Publication
+bias
+Magnitude
+of
+effect
+Relative
+effect
+(95%CI)
+Absolute
+effect
+(95%CI)
+Quality of
+evidence
+GRADE
+CF-LVAD versus PF-LVAD
+Mortality 1 RCT
+2 nonrandomised
+
+studies
+Some
+limitations
+(?)5
+No
+inconsistency
+Some
+uncertainty
+(?)
+Uncertain
+precision
+(?)2
+Unlikely Not
+relevant
+1-year:
+RRR:
+27%
+24 % - 52%
+1-year:
+ARR:
+13%
+20% - 31 %
+
+Quality of life 1 RCT Some
+limitations
+(?)5
+No
+inconsistency
+Some
+uncertainty
+(?)
+Serious
+imprecision
+(-1)4
+Unlikely Not
+relevant
+MLHF
+score
+(0-105):
+- 23 %
+MLHF
+score
+(0-105):
+-10 points
+ 
+Functional
+capacity
+1 RCT Some
+limitations
+(-2)5
+No
+inconsistency
+Some
+uncertainty
+(?)
+Very serious
+imprecision
+(-1)4,6
+Unlikely Not
+relevant
+6MWT:
++12
+meters
+ 
+High quality of evidence =  Low quality of evidence = 
+Moderate quality of evidence =  Very low quality of evidence = 
+Footnotes:
+1. Unclear recruitment and randomization of eligible individuals
+2. Wide 95 % confidence interval
+3. Selected group of survivors analysed.
+4. Few patients
+5. Per protocol analysis
+6. 95 % confidence interval not stated 
+Appendix 8 Ethical analysis
+1. From the patient's perspective, how does destination therapy (DT) affect the patient's
+quality of life and life expectancy?
+The patient will have a longer life expectancy, probably with better quality of life and
+functional capacity. In addition, DT may resolve the contraindication to heart transplantation
+and thereby restore transplant eligibility, with further expected improvement in quality of life
+and life expectancy.
+2. How severe is the patient's need that the DT must meet?
+The mortality of end stage heart failure is very high, and it is associated with severely reduced
+functional capacity, poor quality of life and frequent hospitalisations. The 1-year survival for
+patients diagnosed with severe heart failure (NYHA IV) on optimal medical treatment is
+below 50 %.
+3. Does DT influence the view on humanity or human dignity?
+No, probably not from the view of other individuals. However, to have a mechanical device
+implanted in your own body may affect the subject’s self-esteem and self-image.
+4. Can DT affect the patient’s ability and possibility to be independent?
+DT is likely to improve the functional capacity and, thereby, the independency of the patient.
+However, continuous need for electric power either from a power base unit or from batteries
+may in other ways limit independency. The patient will also need assistance to change the
+bandages around the driveline. Thus, total independence will not be achieved.
+5. If implemented, does DT require any special steps to not compromise the patient's
+autonomy?
+DT is likely to introduce a specific challenge to the patient with respect to autonomy. In this
+respect it is important to inform the patient extensively about the treatment, including
+potential benefits and risks. Also, of importance for the patient’s autonomy is that the DT
+program should include the following:
+1. Participation of a multidisciplinary care team, including palliative care specialists
+2. Adopting a concise plan of care for anticipated device-related complications
+3. Planning for anticipated end-of-life care and timing of device deactivation
+6. How does DT affect the patient’s physical, moral and personal integrity?
+The moral and personal integrity will most probably not be negatively affected by DT.
+However the physical integrity is interrupted by the highly invasive nature of the implantation
+procedure.
+7. Is DT cost-effective?
+Attempts to estimate the cost-effectiveness of DT have reported that incremental costs per
+quality-adjusted life years (QALYs) are very high. Thus, the cost-effectiveness of DT is
+questionable.
+8. How does DT affect resources?
+DT is a costly treatment. Except for the costs of the device and accessories, DT requires the
+use of operation rooms, beds in the intensive care units (sometimes for long periods of time),
+many days in the hospital wards, and frequent outpatient follow-up visits. DT complications
+will also use resources for clinical work-up and treatment. All of this will compete with the
+needs of other patient categories. Thus, unless additional resources can be provided there is a
+substantial risk that DT will reallocate current resources from other medical needs. 
+Appendix 8 Ethical analysis
+9. Is DT in conflict with professional values?
+In our opinion, the benefits of DT in highly selected patients will outweigh its risks and,
+therefore, are not in conflict with professional values.
+10. Does DT change the role of the professional in relation to the patient?
+DT is demanding for patients and their families. The patient must be able to comply with the
+system, e.g. exchange batteries, and interpret and react to signals from the system monitor.
+The bandages around the driveline exit site must be changed regularly with an aseptic
+technique.
+11. Does DT affect, or does it put any new demands on, a third party?
+DT is likely to be challenging for the patient’s family, already from the postoperative phase
+and during rehabilitation when the patient is getting accustomed to a new life situation. The
+treatment also demands frequent follow-up visits. Bandage exchanges around the driveline
+exit site requires assistance. This is often performed by family members or by professional
+health care providers.
+12. Is there any legislation of relevance with regard to DT?
+No.
+13. Is there any risk of conflict between DT and values of the society, or values of
+different groups?
+To prolong life with a mechanical device may be in conflict with the beliefs and norms of
+some groups in our society.
+14. Is there a risk that an introduction of DT will cause a conflict with particular
+interests?
+No, probably not.
+15. Can an introduction of DT influence the trust of the health care system?
+DT is a high-risk treatment for severely debilitated patients and may generate several
+complications. Thus, in order to maintain the credibility of the health care system it is of
+utmost importance to inform patients and their families about both the benefits and the risks
+of the treatment. Also, prerequisite algorithms for clinical work-up, treatment of possible
+complications, and other difficult situations that may arise should be established before a DT
+program is adopted.
+CONCLUSIONS
+Introduction of a DT program raises several ethical issues. The self-esteem and self-image of
+the individual patient probably varies between subjects, but may be affected in both positive
+and negative ways. The patient will still be dependent on assistance from family members
+and/or health care providers, and the physical integrity is affected. Without additional
+economic resources there is a substantial risk that DT will reallocate current resources from
+the needs of other patient categories. 
+HTA-centrum
+Sahlgrenska Universitetssjukhuset
+HTA
+Health technology assessment (HTA) is the systematic
+evaluation of properties, effects, and/or impacts of health
+care technologies, i.e. interventions that may be used to
+promote health, to prevent, diagnose or treat disease or for
+rehabilitation or long-term care. It may address the direct,
+intended consequences of technologies as well as their
+indirect, unintended consequences. Its main purpose is to
+inform technology-related policymaking in health care.
+To evaluate the quality of evidence the Centre of Health Technology Assessment in Region Västra Götaland is
+currently using the GRADE system, which has been developed by a widely representative group of international
+guideline developers. According to GRADE the level of evidence is graded in four categories:
+High quality of evidence = (GRADE )
+Moderate quality of evidence = (GRADE O)
+Low quality of evidence = (GRADE OO)
+Very low quality of evidence = (GRADE OOO)
+In GRADE there is also a system to rate the strength of recommendation of a technology as either “strong” or
+“weak”. This is presently not used by the Centre of Health Technology Assessment in Region Västra Götaland.
+However, the assessments still offer some guidance to decision makers in the health care system. If the level of
+evidence of a positive effect of a technology is of high or moderate quality it most probably qualifies to be used in
+routine medical care. If the level of evidence is of low quality the use of the technology may be motivated
+provided there is an acceptable balance between benefits and risks, cost-effectiveness and ethical considerations.
+Promising technologies, but a very low quality of evidence, motivate further research but should not be used in
+everyday routine clinical work.
+Christina Bergh, Professor, MD.
+Head of HTA-centrum
+Region Västra Götaland, HTA-centrum
+Health Technology Assessment
+Regional activity-based HTA
+
+From operations or activity/management:
+Question
+Clinic-based
+HTA
+• Training
+• Search, sort, and
+select process
+• Advice, help,
+assistance
+• Feedback
+Quality assurance Support process
+process
+Main process
+External
+review
+Summarized
+assessment
+Quality assured decision rationale
+Formally
+designated
+group for
+quality assurance
+Sahlgrenska Universitetssjukhuset, HTA-centrum
+Röda Stråket 8, 413 45 Göteborg
+www.sahlgrenska.se/hta-centrum
