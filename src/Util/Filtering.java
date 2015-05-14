@@ -40,7 +40,7 @@ public class Filtering {
 	public String cluster(Clusterer cluster) throws Exception {
 		delete();
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
-		Instances dataset = tdta.createDataset("verifiedCorpus");
+		Instances dataset = tdta.createDataset("AbstractVerifiedcorpus");
 	//	String content = dataset.toString();
 	//	FileWriter wr = new FileWriter(new File("Clustermed.arff"));wr.write(content);wr.close();
 		
@@ -102,7 +102,6 @@ public class Filtering {
 		String output = "";
 		for (int i = 0; i < dataFiltered.numInstances(); i++) {
 			int predictionClass = fc.clusterInstance(dataFiltered.instance(i));
-		
 			String work = "dataMed.txt";  //test.substring(0, test.indexOf(","));
 			if (predictionClass == 0) {
 				System.out.println("CLUSTER:  " + predictionClass + "  "
@@ -160,7 +159,7 @@ public void delete() {
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("unlabeledTestSet/verifiedTestSet"); 
+		Instances testSet = source.createDataset("AbstractTestCorpus"); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);

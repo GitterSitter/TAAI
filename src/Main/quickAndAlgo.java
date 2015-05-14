@@ -42,8 +42,8 @@ public class quickAndAlgo {
 		}
 	}
 	
-	public static void main(String[] args) throws FileNotFoundException {
-		readAndDecide();
-	}
+//	public static void main(String[] args) throws FileNotFoundException {
+//		readAndDecide();
+//	}
 }
 
