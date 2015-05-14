@@ -32,8 +32,9 @@ public class Filtering {
 	
 
 	public String cluster(Clusterer cluster) throws Exception {
+		delete();
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
-		Instances dataset = tdta.createDataset("corpus");
+		Instances dataset = tdta.createDataset("verifiedCorpus");
 		//String content = dataset.toString();
 	//	FileWriter wr = new FileWriter(new File("outputCluster.arff"));wr.write(content);wr.close();
 		
@@ -45,7 +46,7 @@ public class Filtering {
 		filter.setAttributeIndices("first-last");
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(1000);
+		filter.setWordsToKeep(50);
 		filter.setNormalizeDocLength(new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL,StringToWordVector.TAGS_FILTER));
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
@@ -136,14 +137,23 @@ public class Filtering {
 
 		return output;
 	}
-
-
+	
+public void delete() {
+	// TODO Auto-generated method stub
+	File fil = new File("labeled");
+	for(File x: fil.listFiles()){
+		for(File y : x.listFiles())
+		System.out.println(y.delete());
+	}
+}
+	
 	public String classify(Classifier classifier) throws Exception {
+		
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("unlabeled"); 
+		Instances testSet = source.createDataset("unlabeledTestSet/verifiedTestSet"); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
@@ -178,7 +188,7 @@ public class Filtering {
 				StringToWordVector.TAGS_FILTER));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(10);
+		filter.setWordsToKeep(100);
 		filter.setInputFormat(trainingSet);
 		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
 	

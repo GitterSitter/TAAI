@@ -95,11 +95,13 @@ private JFileChooser chooser;
   * Create the frame.
   */
  public Gui() {
+	 
   super("Test");
   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   setBounds(100, 100, 755, 693);
    
   filter = new Filtering();
+  
   
   menuBar = new JMenuBar();
   setJMenuBar(menuBar);
