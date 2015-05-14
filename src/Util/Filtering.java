@@ -2,6 +2,7 @@ package Util;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 
 import weka.classifiers.Classifier;
@@ -29,14 +30,19 @@ public class Filtering {
 	public Instances inst;
 	public ClusterEvaluation evaluation;
 
-	
+	public void createArff() throws Exception{
+		TextDirectoryToArff tdta = new TextDirectoryToArff();
+		Instances dataset = tdta.createDataset("verifiedCorpus");
+		String content = dataset.toString();
+		FileWriter wr = new FileWriter(new File("Clustoutput.arff"));wr.write(content);wr.close();
+	}
 
 	public String cluster(Clusterer cluster) throws Exception {
 		delete();
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
 		Instances dataset = tdta.createDataset("verifiedCorpus");
-		//String content = dataset.toString();
-	//	FileWriter wr = new FileWriter(new File("outputCluster.arff"));wr.write(content);wr.close();
+	//	String content = dataset.toString();
+	//	FileWriter wr = new FileWriter(new File("Clustermed.arff"));wr.write(content);wr.close();
 		
 		dataset.deleteAttributeAt(0);
 		StringToWordVector filter = new StringToWordVector();
@@ -44,9 +50,10 @@ public class Filtering {
 		filter.setIDFTransform(true);
 		filter.setTFTransform(true);
 		filter.setAttributeIndices("first-last");
+		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(50);
+		filter.setWordsToKeep(20);//50 er best!!
 		filter.setNormalizeDocLength(new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL,StringToWordVector.TAGS_FILTER));
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
@@ -103,7 +110,7 @@ public class Filtering {
 				output = output + predictionClass + "  "
 						+ dataFiltered.instance(i) + "\n" ;
 				 PrintWriter pr = new PrintWriter(new
-				 File("labeled/medicine/" + i+work));
+				 File("labeled/medicalResearch/" + i+work));
 				
 				 pr.write(dataset.instance(i).toString().replace("'", ""));
 				 pr.close();
@@ -143,7 +150,7 @@ public void delete() {
 	File fil = new File("labeled");
 	for(File x: fil.listFiles()){
 		for(File y : x.listFiles())
-		System.out.println(y.delete());
+		y.delete();
 	}
 }
 	
@@ -153,12 +160,12 @@ public void delete() {
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("unlabeled"); 
+		Instances testSet = source.createDataset("unlabeledTestSet/verifiedTestSet"); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
 		fil.setAttributeIndex("2");
-		fil.setNominalLabels("medicine,surgery");
+		fil.setNominalLabels("medicalResearch,surgery");
 		fil.setAttributeName("@@class@@");
 		fil.setInputFormat(testSet);
 		testSet.setClassIndex(0);
@@ -186,9 +193,10 @@ public void delete() {
 		filter.setNormalizeDocLength(new SelectedTag(
 				StringToWordVector.FILTER_NORMALIZE_ALL,
 				StringToWordVector.TAGS_FILTER));
+		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(100);
+		filter.setWordsToKeep(50);//100 er bra!
 		filter.setInputFormat(trainingSet);
 		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
 	

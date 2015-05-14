@@ -21,7 +21,7 @@ public class parser{
 		for (String string : docList) {
 			
 			//System.out.println(string);
-			pr	= new PrintWriter(new File("unlabeledTestSet/medicalData"+i+".txt"));
+			pr	= new PrintWriter(new File("AbstractPubMedDocs/abstractmedData"+i+".txt"));
 			pr.write(string);
 			pr.flush();
 			pr.close();
@@ -35,7 +35,7 @@ public class parser{
 	}
 //	public static void main(String[] args) throws FileNotFoundException {
 //		System.out.println("RUN");
-//		parsefile(new File("testSetPubMed.txt"));
+//		parsefile(new File("abstract_pubmed_result.txt"));
 //	}
 
 }

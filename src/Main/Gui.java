@@ -93,8 +93,9 @@ private JFileChooser chooser;
 
  /**
   * Create the frame.
+ * @throws Exception 
   */
- public Gui() {
+ public Gui() throws Exception {
 	 
   super("Test");
   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -102,6 +103,7 @@ private JFileChooser chooser;
    
   filter = new Filtering();
   
+//  filter.createArff();
   
   menuBar = new JMenuBar();
   setJMenuBar(menuBar);

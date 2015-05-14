@@ -1,0 +1,6 @@
+@relation text_files_in_labeled/surgery
+
+@attribute filename string
+@attribute text string
+
+@data
