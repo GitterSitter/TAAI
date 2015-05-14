@@ -110,7 +110,7 @@ private JFileChooser chooser;
   mntmSelectFolder = new JMenuItem("Select Folder");
   mntmSelectFolder.addActionListener(new ActionListener() {
    public void actionPerformed(ActionEvent e) {
-     
+	 
     chooser = new JFileChooser();
      String choosertitle ="";
        
@@ -122,6 +122,7 @@ private JFileChooser chooser;
          System.out.println("Dir: " +  chooser.getCurrentDirectory());    
          }
        else {
+    	  
          System.out.println("No Selection ");
          }
         }
