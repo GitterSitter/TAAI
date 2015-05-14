@@ -153,7 +153,7 @@ public void delete() {
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("unlabeledTestSet/verifiedTestSet"); 
+		Instances testSet = source.createDataset("unlabeled"); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
