@@ -103,7 +103,7 @@ private JFileChooser chooser;
    
   filter = new Filtering();
   
-//  filter.createArff();
+// filter.createArff();
   
   menuBar = new JMenuBar();
   setJMenuBar(menuBar);

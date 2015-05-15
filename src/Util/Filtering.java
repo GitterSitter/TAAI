@@ -32,9 +32,9 @@ public class Filtering {
 
 	public void createArff() throws Exception{
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
-		Instances dataset = tdta.createDataset("verifiedCorpus");
+		Instances dataset = tdta.createDataset("labeled/surgery");
 		String content = dataset.toString();
-		FileWriter wr = new FileWriter(new File("Clustoutput.arff"));wr.write(content);wr.close();
+		FileWriter wr = new FileWriter(new File("ClustoutputSURG.arff"));wr.write(content);wr.close();
 	}
 
 	public String cluster(Clusterer cluster) throws Exception {
@@ -53,11 +53,14 @@ public class Filtering {
 		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(20);//50 er best!!
+		filter.setWordsToKeep(35);//50 er best!!
 		filter.setNormalizeDocLength(new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL,StringToWordVector.TAGS_FILTER));
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
+		
+	
+				
 		/*
 		int[] atts = new int[2];
 		int tell=0;
@@ -98,6 +101,7 @@ public class Filtering {
 		fc.setClusterer(cluster);
 		fc.buildClusterer(dataFiltered);
 		
+//		int predictionClasss = fc.clusterInstance(dataFiltered.instance(0));
 
 		String output = "";
 		for (int i = 0; i < dataFiltered.numInstances(); i++) {
@@ -109,7 +113,7 @@ public class Filtering {
 				output = output + predictionClass + "  "
 						+ dataFiltered.instance(i) + "\n" ;
 				 PrintWriter pr = new PrintWriter(new
-				 File("labeled/medicalResearch/" + i+work));
+				 File("labeled/heartDevices/" + i+work));
 				
 				 pr.write(dataset.instance(i).toString().replace("'", ""));
 				 pr.close();
@@ -118,7 +122,7 @@ public class Filtering {
 						+ dataFiltered.instance(i));
 						output = output + predictionClass + "  "
 						+ dataFiltered.instance(i) + "\n";
-				 PrintWriter pr = new PrintWriter(new File("labeled/surgery/"+
+				 PrintWriter pr = new PrintWriter(new File("labeled/heartSurgery/"+
 				 i+work));
 				 pr.write(dataset.instance(i).toString().replace("'", ""));
 				 pr.close();
@@ -159,12 +163,12 @@ public void delete() {
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("AbstractTestCorpus"); 
+		Instances testSet = source.createDataset("newtestfolder"); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
 		fil.setAttributeIndex("2");
-		fil.setNominalLabels("medicalResearch,surgery");
+		fil.setNominalLabels("heartDevices,heartSurgery");
 		fil.setAttributeName("@@class@@");
 		fil.setInputFormat(testSet);
 		testSet.setClassIndex(0);
@@ -195,7 +199,7 @@ public void delete() {
 		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(50);//100 er bra!
+		filter.setWordsToKeep(35);//100 er bra!
 		filter.setInputFormat(trainingSet);
 		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
 	
@@ -244,6 +248,27 @@ public void delete() {
 		eval.evaluateModel(fc, testSet);
 		
 	
+		
+		
+	/*	
+		
+		cluster0 = heart devices: patient,ventricular,assist,cardiac,circulatory,devices,mechanical
+		
+	cardiac surgery	cluster1: children,department,implantations,medical,ivad,methods,
+		results,surgery,survival
+		therapy,university
+		
+		
+	*/	
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	//	System.out.println(eval.toSummaryString());
 		output += fc.toString() + "\n" + eval.toSummaryString();
 		for (int i = 0; i < testSet.numInstances(); i++) {
