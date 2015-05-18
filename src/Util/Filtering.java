@@ -6,13 +6,12 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
-import weka.attributeSelection.AttributeSelection;
-import weka.attributeSelection.InfoGainAttributeEval;
-import weka.attributeSelection.Ranker;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
+import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.clusterers.ClusterEvaluation;
 import weka.clusterers.Clusterer;
@@ -22,7 +21,6 @@ import weka.clusterers.SimpleKMeans;
 import weka.clusterers.XMeans;
 import weka.core.Instances;
 import weka.core.SelectedTag;
-import weka.core.Utils;
 import weka.core.converters.TextDirectoryLoader;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Add;
@@ -350,7 +348,6 @@ public void delete() {
 		dataFiltered  =dataFiltered1;
 		*/
 	
-		
 		fc.setFilter(filter);
 		fc.setClassifier(classifier);
 		fc.buildClassifier(trainingSet);
@@ -359,33 +356,32 @@ public void delete() {
 		Evaluation eval = new Evaluation(trainingSet);
 		eval.evaluateModel(fc, testSet);
 		
-	
+		 Random rand = new Random(1);  // using seed = 1
+		 int folds = 10;
+		 eval.crossValidateModel(fc, dataFiltered, folds, rand);
+		
+		 
+//		System.out.println(eval.toSummaryString());
+
 		
 		
-	/*	
-		
-		cluster0 = heart devices: patient,ventricular,assist,cardiac,circulatory,devices,mechanical
-		
-	cardiac surgery	cluster1: children,department,implantations,medical,ivad,methods,
-		results,surgery,survival
-		therapy,university
-		
-		
-	*/	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	//	System.out.println(eval.toSummaryString());
 		output += fc.toString() + "\n" + eval.toSummaryString();
+		output+= "\n"+eval.toClassDetailsString()+"\n";
+		output += "\n  0      1   <-- classified as ";
+		int teller = 0;
+				double[][] matrix = eval.confusionMatrix();
+				for (double[] ds : matrix) {
+					if(teller == 0){
+						
+						output +="\n"+Arrays.toString(ds)+ " "+ teller+" "+ "heartDevices \n";
+					}
+					else {
+						output+=Arrays.toString(ds)+ " "+ teller+" "+ "heartSurgery"+"\n \n";
+					}
+					teller++;
+				}
 		for (int i = 0; i < testSet.numInstances(); i++) {
 			double pred = fc.classifyInstance(testSet.instance(i));
-			System.out.println(pred);
 			System.out.print("ID: " + testSet.instance(i).value(0));
 		//	System.out.println(testSet.instance(i).toString());
 			// System.out.print(", actual: " +
@@ -398,6 +394,8 @@ public void delete() {
 			output += "ID: " + testSet.instance(i).value(0) + ", predicted: "
 					+ testSet.classAttribute().value((int) pred) + "\n";
 		}
+		
+		
 
 		setClassy(classifier);
 

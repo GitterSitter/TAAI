@@ -329,6 +329,7 @@ private JFileChooser chooser;
   contentPane.add(scrollPane);
   
   textArea = new JTextArea();
+  textArea.setEditable(false);
   scrollPane.setViewportView(textArea);
  
   
