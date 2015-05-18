@@ -37,6 +37,9 @@ public class quickAndAlgo {
 			pr.write(e.getValue());
 			pr.close();
 		}
+
+
+
 	}
 
 

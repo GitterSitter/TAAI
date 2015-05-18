@@ -28,8 +28,10 @@ public class quickAndAlgo {
 			
 			if((doc.contains("heart transplant.") || doc.contains("heart transplant ") || doc.contains("heart transplant,"))
 					&& (doc.contains("heart failure.")||doc.contains("heart failure ") || doc.contains("heart failure,"))  
-					&& doc.contains("assist") && doc.contains("support")
-					&& ( doc.contains("devices") || doc.contains("device"))){
+					&& (doc.contains("assist ") || doc.contains("assist.") || doc.contains("assist,"))
+					&& (doc.contains("support ") || doc.contains("support.") || doc.contains("support,"))
+					&& (doc.contains("devices ") || doc.contains("devices.") ||doc.contains("devices,")
+					|| doc.contains("device ") || doc.contains("device.") || doc.contains("device,"))){
 				verifiedDoc.put(x.getName(),doc);
 			}
 		}
@@ -41,7 +43,7 @@ public class quickAndAlgo {
 			pr.close();
 		}
 	}
-	
+//	
 //	public static void main(String[] args) throws FileNotFoundException {
 //		readAndDecide();
 //	}

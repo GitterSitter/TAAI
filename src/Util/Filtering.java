@@ -1,10 +1,16 @@
 package Util;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
 
+import weka.attributeSelection.AttributeSelection;
+import weka.attributeSelection.InfoGainAttributeEval;
+import weka.attributeSelection.Ranker;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.meta.FilteredClassifier;
@@ -16,10 +22,10 @@ import weka.clusterers.SimpleKMeans;
 import weka.clusterers.XMeans;
 import weka.core.Instances;
 import weka.core.SelectedTag;
+import weka.core.Utils;
 import weka.core.converters.TextDirectoryLoader;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Add;
-import weka.filters.unsupervised.attribute.ClusterMembership;
 import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 
@@ -30,21 +36,70 @@ public class Filtering {
 	public Instances inst;
 	public ClusterEvaluation evaluation;
 
+	
+	public Instances prepareAttributes(Instances dataFiltered) throws Exception{
+
+		File fil =	new File("att.txt");
+			Scanner sc = new Scanner(new FileReader(fil));
+			int[] atts = new int[15];
+			String x = "";
+		ArrayList<String> input = new ArrayList<String>();
+
+			while(sc.hasNextLine()){
+				input.add(sc.nextLine());
+			}
+		int telll =0;
+		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
+			for(int j =0;j < atts.length; j++){
+				if(input.get(j).equals(dataFiltered.attribute(i).name())){
+					atts[telll++] = i;
+					System.out.println(dataFiltered.attribute(i).name() + " " + dataFiltered.attribute(i).index() );
+					
+			}
+			
+			}
+			
+			
+			
+		}
+		
+		
+			Remove remove = new Remove();
+			remove.setAttributeIndicesArray(atts);
+			remove.setInvertSelection(true);
+			remove.setInputFormat(dataFiltered);
+			Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
+			dataFiltered  =dataFiltered1;
+			for (int i = 0; i < dataFiltered.numAttributes(); i++) {
+			//	System.out.println(dataFiltered.attribute(i).name());
+			}
+		
+			return dataFiltered;
+	}
+	//begynnelse
 	public void createArff() throws Exception{
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
 		Instances dataset = tdta.createDataset("labeled/surgery");
 		String content = dataset.toString();
 		FileWriter wr = new FileWriter(new File("ClustoutputSURG.arff"));wr.write(content);wr.close();
 	}
+	//slutt på metode
 
 	public String cluster(Clusterer cluster) throws Exception {
 		delete();
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
 		Instances dataset = tdta.createDataset("AbstractVerifiedcorpus");
-	//	String content = dataset.toString();
-	//	FileWriter wr = new FileWriter(new File("Clustermed.arff"));wr.write(content);wr.close();
 		
-		dataset.deleteAttributeAt(0);
+		
+	
+		
+		String content = dataset.toString();
+		FileWriter wr = new FileWriter(new File("Clustermed.arff"));wr.write(content);wr.close();
+		
+		
+		
+	
+	dataset.deleteAttributeAt(0);
 		StringToWordVector filter = new StringToWordVector();
 	
 		filter.setIDFTransform(true);
@@ -53,42 +108,51 @@ public class Filtering {
 		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(35);//50 er best!!
+		filter.setWordsToKeep(1000);//50 er best!!
 		filter.setNormalizeDocLength(new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL,StringToWordVector.TAGS_FILTER));
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
 		
-	
-				
-		/*
-		int[] atts = new int[2];
-		int tell=0;
-		for(int i =0;i < dataFiltered.numAttributes();i++){
-			if("medicine".equals(dataFiltered.attribute(i).name()) || "surgery".equals(dataFiltered.attribute(i).name()) ){
-				atts[tell++] = dataFiltered.attribute(i).index();
-			}
-		}
+		
 
+		File fil =	new File("att.txt");
+		Scanner sc = new Scanner(new FileReader(fil));
+		int[] atts = new int[15];
+		String x = "";
+	ArrayList<String> input = new ArrayList<String>();
+
+		while(sc.hasNextLine()){
+			input.add(sc.nextLine());
+		}
+	int telll =0;
+	for (int i = 0; i < dataFiltered.numAttributes(); i++) {
+		for(int j =0;j < atts.length; j++){
+			if(input.get(j).equals(dataFiltered.attribute(i).name())){
+				atts[telll++] = i;
+				System.out.println(dataFiltered.attribute(i).name() + " " + dataFiltered.attribute(i).index() );
+				
+		}
+		
+		}
+		
+		
+		
+	}
+	
+	
 		Remove remove = new Remove();
 		remove.setAttributeIndicesArray(atts);
 		remove.setInvertSelection(true);
 		remove.setInputFormat(dataFiltered);
 		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
 		dataFiltered  =dataFiltered1;
+		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
+		//	System.out.println(dataFiltered.attribute(i).name());
+		}
 		
-	
 
-		
-		
-		String[] options = new String[2];
-		options[0] = "-R";
-		options[1] = "1";
-		Remove remove = new Remove();
-		remove.setOptions(options);
-		remove.setInputFormat(dataFiltered);
-		fc.setFilter(remove);
-		*/
+
 		
 		if (cluster.getClass() == weka.clusterers.EM.class) {
 			((EM) cluster).setNumClusters(2);
@@ -100,8 +164,7 @@ public class Filtering {
 		}
 		fc.setClusterer(cluster);
 		fc.buildClusterer(dataFiltered);
-		
-//		int predictionClasss = fc.clusterInstance(dataFiltered.instance(0));
+
 
 		String output = "";
 		for (int i = 0; i < dataFiltered.numInstances(); i++) {
@@ -133,7 +196,7 @@ public class Filtering {
 				
 			}
 		}
-	
+
 		
 		ClusterEvaluation eval = new ClusterEvaluation();
 		eval.setClusterer(cluster);
@@ -157,13 +220,17 @@ public void delete() {
 	}
 }
 	
+
+
+
+
 	public String classify(Classifier classifier) throws Exception {
 		
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("newtestfolder"); 
+		Instances testSet = source.createDataset("AbstractTestCorpus"); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
@@ -199,11 +266,56 @@ public void delete() {
 		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(35);//100 er bra!
+		filter.setWordsToKeep(1000);//100 er bra!
 		filter.setInputFormat(trainingSet);
 		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
 	
 		
+		
+		/*
+		  AttributeSelection attsel = new AttributeSelection();  // package weka.attributeSelection!
+		  InfoGainAttributeEval gain = new InfoGainAttributeEval();
+		  attsel.setRanking(true);
+		  attsel.setEvaluator(gain);
+//		  CfsSubsetEval eval = new CfsSubsetEval();
+
+//		  GreedyStepwise search = new GreedyStepwise();
+		  
+		  Ranker rank = new Ranker();
+		  rank.setThreshold(0.15);
+		  rank.setGenerateRanking(true);
+		  rank.setNumToSelect(-1);
+		  
+		  attsel.setSearch(rank);
+		  attsel.SelectAttributes(dataFiltered);
+		  // obtain the attribute indices that were selected
+		  int[] indices = attsel.selectedAttributes();
+		  System.out.println(Utils.arrayToString(indices)+ "***********");
+	
+		  String att ="";
+		  for (int i : indices) {
+			  System.out.println(i);
+			 att+= dataFiltered.attribute(i).name()+"\n";
+		}
+		  
+		  
+		  /*
+		  PrintWriter write = new PrintWriter(new File("att.txt"));
+			  write.write(att);
+		
+		  write.flush();
+		  write.close();
+		  
+
+		  
+		
+			Remove remove = new Remove();
+			remove.setAttributeIndicesArray(indices);
+			remove.setInvertSelection(true);
+			remove.setInputFormat(dataFiltered);
+			Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
+			dataFiltered  =dataFiltered1;
+			System.out.println(dataFiltered.toString());
 		/*
 	
 		

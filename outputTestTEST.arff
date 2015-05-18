@@ -1,0 +1,47 @@
+@relation 'text_files_in_newtestfolder-weka.filters.unsupervised.attribute.Add-TNOM-N@@class@@-LheartDevices,heartSurgery-C2-weka.filters.unsupervised.attribute.StringToWordVector-R1-W35-prune-rate-1.0-T-I-N1-L-S-stemmerweka.core.stemmers.NullStemmer-M1-O-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute @@class@@ {heartDevices,heartSurgery}
+@attribute 10 numeric
+@attribute 2009 numeric
+@attribute 3 numeric
+@attribute ^ numeric
+@attribute artificial numeric
+@attribute assist numeric
+@attribute blood numeric
+@attribute cardiac numeric
+@attribute clinical numeric
+@attribute device numeric
+@attribute devices numeric
+@attribute doi numeric
+@attribute dr numeric
+@attribute failure numeric
+@attribute fda numeric
+@attribute flow numeric
+@attribute frazier numeric
+@attribute heart numeric
+@attribute heartmate numeric
+@attribute ii numeric
+@attribute institute numeric
+@attribute jump numeric
+@attribute left numeric
+@attribute lvad numeric
+@attribute patient numeric
+@attribute patients numeric
+@attribute pmid numeric
+@attribute procedure numeric
+@attribute pump numeric
+@attribute pumps numeric
+@attribute retrieved numeric
+@attribute september numeric
+@attribute study numeric
+@attribute surgery numeric
+@attribute transplant numeric
+@attribute trial numeric
+@attribute vad numeric
+@attribute ventricular numeric
+
+@data
+{0 ?,1 0.230223,6 0.230223,10 0.230223,11 0.230223,13 0.230223,14 0.230223,15 0.554703,17 0.554703,19 0.554703,20 0.230223,21 0.230223,24 0.230223,29 0.230223,30 0.230223,32 0.230223,37 0.554703}
+{0 ?,1 0.137264,2 0.330728,3 0.330728,4 0.330728,6 0.137264,9 0.330728,10 0.137264,11 0.137264,12 0.330728,13 0.137264,14 0.137264,15 0.330728,17 0.330728,19 0.330728,20 0.137264,21 0.137264,22 0.330728,24 0.137264,27 0.330728,28 0.330728,29 0.137264,30 0.137264,31 0.330728,32 0.137264,33 0.330728,36 0.330728,37 0.330728}
+{0 ?,6 0.381817,9 0.919958,10 0.381817,11 0.381817,14 0.381817,24 0.381817,29 0.381817,30 0.381817}
+{0 ?,1 0.172067,2 0.414581,3 0.414581,4 0.414581,12 0.414581,13 0.172067,20 0.172067,21 0.172067,22 0.414581,27 0.414581,28 0.414581,31 0.414581,32 0.172067,33 0.414581,36 0.414581}
