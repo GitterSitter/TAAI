@@ -230,7 +230,7 @@ public void delete() {
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("AbstractTestCorpus"); 
+		Instances testSet = source.createDataset("newtestfolder"); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
