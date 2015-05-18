@@ -112,6 +112,9 @@ public class Filtering {
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
 		
+	//	cluster0=device,heart,information,patients,
+	//	cluster 1 = conclusions,methods,results,study,
+		
 		for(int i = 0;i < dataFiltered.numAttributes();i++){
 			System.out.println(dataFiltered.attribute(i).name());
 		}
@@ -230,7 +233,7 @@ public void delete() {
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("newtestfolder"); 
+		Instances testSet = source.createDataset("testtest"); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);

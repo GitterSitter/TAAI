@@ -1,8 +1,4 @@
-author
-information
-results
 device
-methods
 medical
 patients
 support
@@ -10,14 +6,8 @@ heart
 assist
 survival
 transplantation
-indexed
 ventricular
-conclusions
-department
 surgery
-university
-end-stage
-therapy
-study
-treatment
-children
+failure
+transplant
+cardiac
