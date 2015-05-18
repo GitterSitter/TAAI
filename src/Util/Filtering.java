@@ -112,17 +112,19 @@ public class Filtering {
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
 		
-		
+		for(int i = 0;i < dataFiltered.numAttributes();i++){
+			System.out.println(dataFiltered.attribute(i).name());
+		}
 
 		File fil =	new File("att.txt");
 		Scanner sc = new Scanner(new FileReader(fil));
-		int[] atts = new int[15];
 		String x = "";
 	ArrayList<String> input = new ArrayList<String>();
 
 		while(sc.hasNextLine()){
 			input.add(sc.nextLine());
 		}
+		int[] atts = new int[input.size()];
 	int telll =0;
 	for (int i = 0; i < dataFiltered.numAttributes(); i++) {
 		for(int j =0;j < atts.length; j++){

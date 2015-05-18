@@ -15,7 +15,6 @@ ventricular
 conclusions
 department
 surgery
-results
 university
 end-stage
 therapy
