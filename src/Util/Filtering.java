@@ -9,6 +9,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+import Main.Gui;
 import weka.attributeSelection.AttributeSelection;
 import weka.attributeSelection.InfoGainAttributeEval;
 import weka.attributeSelection.Ranker;
@@ -37,129 +38,96 @@ public class Filtering {
 	public Instances inst;
 	public ClusterEvaluation evaluation;
 
-	
-	public Instances prepareAttributes(Instances dataFiltered) throws Exception{
+	public Instances prepareAttributes(Instances dataFiltered) throws Exception {
 
-		File fil =	new File("att.txt");
-			Scanner sc = new Scanner(new FileReader(fil));
-			int[] atts = new int[15];
-			String x = "";
+		File fil = new File("att.txt");
+		Scanner sc = new Scanner(new FileReader(fil));
+		int[] atts = new int[15];
 		ArrayList<String> input = new ArrayList<String>();
 
-			while(sc.hasNextLine()){
-				input.add(sc.nextLine());
-			}
-		int telll =0;
-		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
-			for(int j =0;j < atts.length; j++){
-				if(input.get(j).equals(dataFiltered.attribute(i).name())){
-					atts[telll++] = i;
-					System.out.println(dataFiltered.attribute(i).name() + " " + dataFiltered.attribute(i).index() );
-					
-			}
-			
-			}
-			
-			
-			
+		while (sc.hasNextLine()) {
+			input.add(sc.nextLine());
 		}
-		
-		
-			Remove remove = new Remove();
-			remove.setAttributeIndicesArray(atts);
-			remove.setInvertSelection(true);
-			remove.setInputFormat(dataFiltered);
-			Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
-			dataFiltered  =dataFiltered1;
-			for (int i = 0; i < dataFiltered.numAttributes(); i++) {
-			//	System.out.println(dataFiltered.attribute(i).name());
+		int telll = 0;
+		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
+			for (int j = 0; j < atts.length; j++) {
+				if (input.get(j).equals(dataFiltered.attribute(i).name())) {
+					atts[telll++] = i;
+					System.out.println(dataFiltered.attribute(i).name() + " "
+							+ dataFiltered.attribute(i).index());
+
+				}
+
 			}
-		
-			return dataFiltered;
+
+		}
+
+		Remove remove = new Remove();
+		remove.setAttributeIndicesArray(atts);
+		remove.setInvertSelection(true);
+		remove.setInputFormat(dataFiltered);
+		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
+		dataFiltered = dataFiltered1;
+
+		return dataFiltered;
 	}
-	//begynnelse
-	public void createArff() throws Exception{
-		TextDirectoryToArff tdta = new TextDirectoryToArff();
-		Instances dataset = tdta.createDataset("labeled/surgery");
-		String content = dataset.toString();
-		FileWriter wr = new FileWriter(new File("ClustoutputSURG.arff"));wr.write(content);wr.close();
-	}
-	//slutt på metode
 
 	public String cluster(Clusterer cluster) throws Exception {
 		delete();
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
 		Instances dataset = tdta.createDataset("AbstractVerifiedcorpus");
-		
-		
 	
-		
-		String content = dataset.toString();
-		FileWriter wr = new FileWriter(new File("Clustermed.arff"));wr.write(content);wr.close();
-		
-		
-		
-	
-	dataset.deleteAttributeAt(0);
+
+		dataset.deleteAttributeAt(0);
 		StringToWordVector filter = new StringToWordVector();
-	
+
 		filter.setIDFTransform(true);
 		filter.setTFTransform(true);
 		filter.setAttributeIndices("first-last");
 		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(1000);//50 er best!!
-		filter.setNormalizeDocLength(new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL,StringToWordVector.TAGS_FILTER));
+		filter.setWordsToKeep(1000);
+		filter.setNormalizeDocLength(new SelectedTag(
+				StringToWordVector.FILTER_NORMALIZE_ALL,
+				StringToWordVector.TAGS_FILTER));
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
-		
-	//	cluster0=device,heart,information,patients,
-	//	cluster 1 = conclusions,methods,results,study,
-		
-		for(int i = 0;i < dataFiltered.numAttributes();i++){
+
+		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
 			System.out.println(dataFiltered.attribute(i).name());
 		}
 
-		File fil =	new File("att.txt");
+		File fil = new File("att.txt");
 		Scanner sc = new Scanner(new FileReader(fil));
-		String x = "";
-	ArrayList<String> input = new ArrayList<String>();
 
-		while(sc.hasNextLine()){
+		ArrayList<String> input = new ArrayList<String>();
+		while (sc.hasNextLine()) {
 			input.add(sc.nextLine());
 		}
+
 		int[] atts = new int[input.size()];
-	int telll =0;
-	for (int i = 0; i < dataFiltered.numAttributes(); i++) {
-		for(int j =0;j < atts.length; j++){
-			if(input.get(j).equals(dataFiltered.attribute(i).name())){
-				atts[telll++] = i;
-				System.out.println(dataFiltered.attribute(i).name() + " " + dataFiltered.attribute(i).index() );
-				
+		int telll = 0;
+		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
+			for (int j = 0; j < atts.length; j++) {
+				if (input.get(j).equals(dataFiltered.attribute(i).name())) {
+					atts[telll++] = i;
+			
+
+				}
+
+			}
+
 		}
-		
-		}
-		
-		
-		
-	}
-	
-	
+
 		Remove remove = new Remove();
 		remove.setAttributeIndicesArray(atts);
 		remove.setInvertSelection(true);
 		remove.setInputFormat(dataFiltered);
 		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
-		dataFiltered  =dataFiltered1;
-		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
-		//	System.out.println(dataFiltered.attribute(i).name());
-		}
-		
+		dataFiltered = dataFiltered1;
 
-
-		
 		if (cluster.getClass() == weka.clusterers.EM.class) {
 			((EM) cluster).setNumClusters(2);
 		} else if (cluster.getClass() == weka.clusterers.SimpleKMeans.class) {
@@ -171,73 +139,63 @@ public class Filtering {
 		fc.setClusterer(cluster);
 		fc.buildClusterer(dataFiltered);
 
-
 		String output = "";
+		PrintWriter pr=null;
 		for (int i = 0; i < dataFiltered.numInstances(); i++) {
 			int predictionClass = fc.clusterInstance(dataFiltered.instance(i));
-			String work = "dataMed.txt";  //test.substring(0, test.indexOf(","));
+			String work = "dataMed.txt"; 
 			if (predictionClass == 0) {
 				System.out.println("CLUSTER:  " + predictionClass + "  "
 						+ dataFiltered.instance(i));
 				output = output + predictionClass + "  "
-						+ dataFiltered.instance(i) + "\n" ;
-				 PrintWriter pr = new PrintWriter(new
-				 File("labeled/heartDevices/" + i+work));
-				
-				 pr.write(dataset.instance(i).toString().replace("'", ""));
-				 pr.close();
+						+ dataFiltered.instance(i) + "\n";
+				 pr = new PrintWriter(new File("labeled/heartDevices/" + i + work));
+
+				pr.write(dataset.instance(i).toString().replace("'", ""));
+				pr.flush();
+				pr.close();
 			} else if (predictionClass == 1) {
 				System.out.println("CLUSTER1:  " + predictionClass + "  "
 						+ dataFiltered.instance(i));
-						output = output + predictionClass + "  "
-						+ dataFiltered.instance(i) + "\n";
-				 PrintWriter pr = new PrintWriter(new File("labeled/heartSurgery/"+
-				 i+work));
-				 pr.write(dataset.instance(i).toString().replace("'", ""));
-				 pr.close();
-			} else if (predictionClass == 2) {
-				System.out.println("CLUSTER2:  " + predictionClass + "  "
-						+ dataFiltered.instance(i));
-				output = output + predictionClass + "  ";
-				
-			}
+				output = output + predictionClass + "  "+ dataFiltered.instance(i) + "\n";
+				 pr = new PrintWriter(new File("labeled/heartSurgery/"  + i + work));
+				pr.write(dataset.instance(i).toString().replace("'", ""));
+				pr.flush();
+				pr.close();
+			} 
 		}
 
-		
 		ClusterEvaluation eval = new ClusterEvaluation();
 		eval.setClusterer(cluster);
 		eval.evaluateClusterer(dataFiltered);
 
+		
 		output += "\n" + eval.clusterResultsToString();
 		setEvaluation(eval);
 		setInst(dataFiltered);
 		setClus(cluster);
-		
 
 		return output;
 	}
-	
-public void delete() {
-	// TODO Auto-generated method stub
-	File fil = new File("labeled");
-	for(File x: fil.listFiles()){
-		for(File y : x.listFiles())
-		y.delete();
+
+	public void delete() {
+		File fil = new File("labeled");
+		for (File x : fil.listFiles()) {
+			for (File y : x.listFiles())
+				y.delete();
+		}
 	}
-}
+
+	public String classify(Classifier classifier, String filePath, boolean att)
+			throws Exception {
+		
 	
-
-
-
-
-	public String classify(Classifier classifier, String filePath, boolean att) throws Exception {
-		System.out.println(filePath);
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset(filePath); 
-		
+		Instances testSet = source.createDataset(filePath);
+
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
 		fil.setAttributeIndex("2");
@@ -247,9 +205,7 @@ public void delete() {
 		testSet.setClassIndex(0);
 		testSet = Filter.useFilter(testSet, fil);
 		testSet.setClassIndex(1);
-		
 
-		
 		PrintWriter pr = new PrintWriter(new File("outputTest.arff"));
 		pr.write(testSet.toString());
 		pr.flush();
@@ -258,9 +214,7 @@ public void delete() {
 		pr.write(trainingSet.toString());
 		pr.flush();
 		pr.close();
-	
-		
-	
+
 		FilteredClassifier fc = new FilteredClassifier();
 		StringToWordVector filter = new StringToWordVector();
 		filter.setIDFTransform(true);
@@ -272,99 +226,95 @@ public void delete() {
 		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		if(att){
-		filter.setWordsToKeep(1000);//100 er bra!
-		}else{
+
+		if (att) {
+			filter.setWordsToKeep(1000);
+		} else {
 			filter.setWordsToKeep(10);
 		}
 		filter.setInputFormat(trainingSet);
 		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
-	
-		
-	
-		  
-		  /*
-		  PrintWriter write = new PrintWriter(new File("att.txt"));
-			  write.write(att);
-		
-		  write.flush();
-		  write.close();
-		  
 
-		  
 		
-		/*
-	
-		Remove remove = new Remove();
-		remove.setAttributeIndicesArray(atts);
-		remove.setInvertSelection(true);
-		remove.setInputFormat(dataFiltered);
-		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
-		dataFiltered  =dataFiltered1;
-		*/
-	
+		
 		fc.setFilter(filter);
 		fc.setClassifier(classifier);
-		fc.buildClassifier(trainingSet);
-	
-		String output = "";
-		Evaluation eval = new Evaluation(trainingSet);
+		fc.buildClassifier(trainingSet); 
+		setClassy(classifier);
+		
+		String output ="";
+		Evaluation eval = new Evaluation(dataFiltered);
 		eval.evaluateModel(fc, testSet);
+	
 		
-		 Random rand = new Random(1);  // using seed = 1
-		 int folds = 10;
-		 eval.crossValidateModel(fc, dataFiltered, folds, rand);
+		System.out.println(eval.toClassDetailsString());
+		System.out.println(eval.toSummaryString());
 		
-		 
-//		System.out.println(eval.toSummaryString());
+		if(Gui.isValidating){
+		output += evaluationStatistics(dataFiltered,fc,eval);
+		}else
+			output += evaluationPredictions(eval,testSet, fc);
+	
+			
 
-		
-		
-		output += fc.toString() + "\n" + eval.toSummaryString();
-		output+= "\n"+eval.toClassDetailsString()+"\n";
-		output += "\n  0      1   <-- classified as ";
+		return output;
+	}
+
+	public String evaluationStatistics(Instances dataFiltered, FilteredClassifier fc, Evaluation eval) throws Exception{
+	String output ="";
+		Random rand = new Random(1);
+		int folds = 10;
+		eval.crossValidateModel(fc, dataFiltered, folds, rand);
+		output += eval.toSummaryString();
+		output += "\n" + eval.toClassDetailsString() + "\n";
+		output += "\n  0    1  Classes";
 		int teller = 0;
-				double[][] matrix = eval.confusionMatrix();
-				for (double[] ds : matrix) {
-					if(teller == 0){
-						
-						output +="\n"+Arrays.toString(ds)+ " "+ teller+" "+ "heartDevices \n";
-					}
-					else {
-						output+=Arrays.toString(ds)+ " "+ teller+" "+ "heartSurgery"+"\n \n\n\n\n";
-					}
-					teller++;
-				}
+		double[][] matrix = eval.confusionMatrix();
+		for (double[] ds : matrix) {
+			if (teller == 0) {
+				output += "\n" + Arrays.toString(ds).replace(".0", "")+ " " + teller + " "
+						+ "heartDevices \n";
+			} else {
+				output += Arrays.toString(ds).replace(".0", "") + " " + teller + " "
+						+ "heartSurgery" + "\n\n";
+			}
+			teller++;
+		}
+		
+		
+		return output;
+	}
+	public String evaluationPredictions(Evaluation eval,Instances testSet,FilteredClassifier fc) throws Exception{
+		
+		String output ="";
 		for (int i = 0; i < testSet.numInstances(); i++) {
 			double pred = fc.classifyInstance(testSet.instance(i));
 			System.out.print("ID: " + testSet.instance(i).value(0));
-		//	System.out.println(testSet.instance(i).toString());
+			// System.out.println(testSet.instance(i).toString());
 			// System.out.print(", actual: " +
 			// testSet.classAttribute().value((int)
 			// testSet.instance(i).classValue()) +
 			// testSet.instance(i).toString());
 			System.out.println(", predicted: "
 					+ testSet.classAttribute().value((int) pred));
-
 			output += "ID: " + testSet.instance(i).value(0) + ", predicted: "
 					+ testSet.classAttribute().value((int) pred) + "\n";
 		}
 		
-		
-
-		setClassy(classifier);
-
 		return output;
 	}
 	
-	public String findBestAtt() throws Exception{
-		
+	
+	
+	
+	public String findBestAtt() throws Exception {
+
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("AbstractVerifiedcorpus"); 
-		
+		Instances testSet = source.createDataset("AbstractVerifiedcorpus");
+
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
 		fil.setAttributeIndex("2");
@@ -374,12 +324,7 @@ public void delete() {
 		testSet.setClassIndex(0);
 		testSet = Filter.useFilter(testSet, fil);
 		testSet.setClassIndex(1);
-		
 
-
-		
-	
-		FilteredClassifier fc = new FilteredClassifier();
 		StringToWordVector filter = new StringToWordVector();
 		filter.setIDFTransform(true);
 		filter.setTFTransform(true);
@@ -390,52 +335,42 @@ public void delete() {
 		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(1000);//100 er bra!
+		filter.setWordsToKeep(1000);
 		filter.setInputFormat(trainingSet);
 		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
-	
 
 		AttributeSelection attsel = new AttributeSelection();
 		InfoGainAttributeEval gain = new InfoGainAttributeEval();
-		  attsel.setRanking(true);
-		  attsel.setEvaluator(gain);
-		  Ranker rank = new Ranker();
-		  rank.setThreshold(0.20);
-		  rank.setGenerateRanking(true);
-		  rank.setNumToSelect(-1);
-		  
-		  attsel.setSearch(rank);
-		  attsel.SelectAttributes(dataFiltered);
-		  
-		  int[] indices = attsel.selectedAttributes();
-		  System.out.println(Utils.arrayToString(indices));
-	
-		  String att ="";
-		  for (int i : indices) {
-			  System.out.println(i);
-			 att+= dataFiltered.attribute(i).name()+"\n";
+		attsel.setRanking(true);
+		attsel.setEvaluator(gain);
+		Ranker rank = new Ranker();
+		rank.setThreshold(0.20);
+		rank.setGenerateRanking(true);
+		rank.setNumToSelect(-1);
+
+		attsel.setSearch(rank);
+		attsel.SelectAttributes(dataFiltered);
+
+		int[] indices = attsel.selectedAttributes();
+		System.out.println(Utils.arrayToString(indices));
+
+		String att = "";
+		for (int i : indices) {
+			System.out.println(i);
+			att += dataFiltered.attribute(i).name() + "\n";
 		}
-		
+
 		Remove remove = new Remove();
 		remove.setAttributeIndicesArray(indices);
 		remove.setInvertSelection(true);
 		remove.setInputFormat(dataFiltered);
 		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
-		dataFiltered  =dataFiltered1;
+		dataFiltered = dataFiltered1;
 		System.out.println(dataFiltered.toString());
-		
-		
-		  // package weka.attributeSelection!
-		  
-		
-		 
-		  return att;
+
+		return att;
 	}
-	
-	
-	
-	
-	
+
 	public Classifier getClassy() {
 		return classy;
 	}
@@ -451,6 +386,7 @@ public void delete() {
 	public void setClus(Clusterer clus) {
 		this.clus = clus;
 	}
+
 	public Instances getInst() {
 		return inst;
 	}
