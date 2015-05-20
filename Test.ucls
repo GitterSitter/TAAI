@@ -3,16 +3,16 @@
   associations="true" dependencies="false" nesting-relationships="true">  
   <class id="1" language="java" name="Main.Gui" project="TAAI" file="/TAAI/src/Main/Gui.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="513" width="223" x="78" y="-185"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    <position height="55" width="179" x="113" y="-160"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="Main.quickAndAlgo" project="TAAI" file="/TAAI/src/Main/quickAndAlgo.java" 
+  <class id="2" language="java" name="Util.quickAndAlgo" project="TAAI" file="/TAAI/src/Util/quickAndAlgo.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="117" width="138" x="584" y="-172"/>    
+    <position height="117" width="138" x="-50" y="-159"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="Util.Filtering" project="TAAI" file="/TAAI/src/Util/Filtering.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="369" width="204" x="348" y="-285"/>    
+    <position height="-1" width="-1" x="447" y="-148"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,21 +30,55 @@
   </class>  
   <class id="4" language="java" name="Util.parser" project="TAAI" file="/TAAI/src/Util/parser.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="99" width="115" x="716" y="4"/>    
+    <position height="-1" width="-1" x="240" y="-299"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="5">    
+  <class id="5" language="java" name="Util.TextDirectoryToArff" project="TAAI" 
+    file="/TAAI/src/Util/TextDirectoryToArff.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="39" y="-287"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Visuals.ClusterVisual" project="TAAI" file="/TAAI/src/Visuals/ClusterVisual.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="85" y="25"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="7">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="6" name="filter"/>      
-      <multiplicity id="7" minimum="0" maximum="1"/>    
+      <attribute id="8" name="filter">        
+        <position height="0" width="0" x="-3" y="-47"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-3" y="-47"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

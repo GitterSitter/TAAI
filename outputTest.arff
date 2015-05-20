@@ -1,4 +1,4 @@
-@relation 'text_files_in_testtest-weka.filters.unsupervised.attribute.Add-TNOM-N@@class@@-LheartDevices,heartSurgery-C2'
+@relation 'text_files_in_C:\\Users\\Eier\\Desktop\\TAAI\\TAAI\\testtest-weka.filters.unsupervised.attribute.Add-TNOM-N@@class@@-LheartDevices,heartSurgery-C2'
 
 @attribute text string
 @attribute @@class@@ {heartDevices,heartSurgery}

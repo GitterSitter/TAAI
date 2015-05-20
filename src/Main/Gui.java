@@ -1,8 +1,10 @@
 package Main;
 
 import java.awt.Color;
+import java.awt.Image;
 import java.awt.TextArea;
 
+import javax.swing.ButtonGroup;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JFileChooser;
@@ -18,6 +20,7 @@ import weka.clusterers.EM;
 import weka.clusterers.SimpleKMeans;
 import weka.clusterers.XMeans;
 import Util.Filtering;
+import Util.quickAndAlgo;
 import Visuals.ClusterVisual;
 
 import javax.swing.JTextArea;
@@ -53,6 +56,10 @@ import java.io.ObjectOutputStream;
 import javax.swing.JMenuItem;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
+import javax.swing.JRadioButton;
+
+import java.awt.Font;
+import java.awt.SystemColor;
 
 public class Gui extends JFrame {
 private JFileChooser chooser; 
@@ -79,6 +86,9 @@ private JFileChooser chooser;
  /**
   * Launch the application.
   */
+ boolean buttonChoice = true;
+ String dir = "";
+ 
  public static void main(String[] args) {
 
   try {
@@ -98,6 +108,8 @@ private JFileChooser chooser;
  public Gui() throws Exception {
 	 
   super("Test");
+  setTitle("TAAI");
+  setResizable(false);
   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   setBounds(100, 100, 755, 693);
    
@@ -117,13 +129,16 @@ private JFileChooser chooser;
 	 
     chooser = new JFileChooser();
      String choosertitle ="";
-       
+      
        chooser.setCurrentDirectory(new java.io.File("."));
        chooser.setDialogTitle(choosertitle);
        chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-       chooser.setAcceptAllFileFilterUsed(false); 
-       if ( chooser.showOpenDialog(contentPane) == JFileChooser.APPROVE_OPTION) { 
+      chooser.setAcceptAllFileFilterUsed(false); 
+       
+       if ( chooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) { 
          System.out.println("Dir: " +  chooser.getCurrentDirectory());    
+         dir = chooser.getSelectedFile().getPath();
+         System.out.println("getSelectedFile() : " + chooser.getSelectedFile());
          }
        else {
     	  
@@ -214,7 +229,7 @@ private JFileChooser chooser;
     
     MultilayerPerceptron neural = new MultilayerPerceptron();
     try {
-     setText(filter.classify(neural));
+     setText(filter.classify(neural,dir, buttonChoice));
     } catch (Exception e1) {
      // TODO Auto-generated catch block
      e1.printStackTrace();
@@ -228,7 +243,7 @@ private JFileChooser chooser;
    public void actionPerformed(ActionEvent e) {
     SMO smo = new SMO();
     try {
-     setText(filter.classify(smo));
+     setText(filter.classify(smo,dir,buttonChoice));
     } catch (Exception e1) {
      // TODO Auto-generated catch block
      e1.printStackTrace();
@@ -242,7 +257,7 @@ private JFileChooser chooser;
    public void actionPerformed(ActionEvent e) {
     NaiveBayes naive = new NaiveBayes();
     try {
-     setText(filter.classify(naive));
+     setText(filter.classify(naive,dir,buttonChoice));
     } catch (Exception e1) {
      // TODO Auto-generated catch block
      e1.printStackTrace();
@@ -318,8 +333,39 @@ private JFileChooser chooser;
    }
   });
   mnVisualize.add(mntmClusterPlot);
+  
+  JMenu mnFilter = new JMenu("Filter");
+  menuBar.add(mnFilter);
+  
+  JMenuItem mntmAndorithm = new JMenuItem("AndO-rithm");
+  mntmAndorithm.addActionListener(new ActionListener() {
+  	public void actionPerformed(ActionEvent e) {
+  		try {
+			setText(quickAndAlgo.readAndDecide());
+			
+		} catch (FileNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+  	}
+  });
+  mnFilter.add(mntmAndorithm);
+  
+  JMenuItem mntmInfogain = new JMenuItem("Infogain");
+  mntmInfogain.addActionListener(new ActionListener() {
+  	public void actionPerformed(ActionEvent arg0) {
+  		
+  		try {
+			setText(filter.findBestAtt());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+  	}
+  });
+  mnFilter.add(mntmInfogain);
   contentPane = new JPanel();
-  contentPane.setBackground(Color.WHITE);
+  contentPane.setBackground(SystemColor.text);
   contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
   setContentPane(contentPane);
   contentPane.setLayout(null);
@@ -329,8 +375,38 @@ private JFileChooser chooser;
   contentPane.add(scrollPane);
   
   textArea = new JTextArea();
+  textArea.setFont(new Font("Monospaced", Font.PLAIN, 18));
   textArea.setEditable(false);
   scrollPane.setViewportView(textArea);
+  ButtonGroup buttonGroup1 = new ButtonGroup();
+
+  JRadioButton rdbtnNewRadioButton = new JRadioButton("10 Attributes");
+  rdbtnNewRadioButton.addActionListener(new ActionListener() {
+  	public void actionPerformed(ActionEvent e) {
+  		buttonChoice = false;
+  	}
+  });
+  rdbtnNewRadioButton.setBackground(Color.WHITE);
+  rdbtnNewRadioButton.setBounds(10, 104, 109, 23);
+  buttonGroup1.add(rdbtnNewRadioButton);
+  contentPane.add(rdbtnNewRadioButton);
+  
+  JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("1000 Attributes");
+  rdbtnNewRadioButton_1.setSelected(true);
+  rdbtnNewRadioButton_1.addActionListener(new ActionListener() {
+  	public void actionPerformed(ActionEvent e) {
+  		buttonChoice = true;
+  	}
+  });
+  rdbtnNewRadioButton_1.setBackground(Color.WHITE);
+  rdbtnNewRadioButton_1.setBounds(10, 130, 122, 23);
+  buttonGroup1.add(rdbtnNewRadioButton_1);
+  contentPane.add(rdbtnNewRadioButton_1);
+  
+  JLabel lblAttributeSelection = new JLabel("Attribute selection");
+  lblAttributeSelection.setFont(new Font("Sylfaen", Font.PLAIN, 20));
+  lblAttributeSelection.setBounds(10, 50, 169, 47);
+  contentPane.add(lblAttributeSelection);
  
   
  
@@ -339,21 +415,6 @@ private JFileChooser chooser;
  public void setText(String text){
   textArea.setText(text);
  }
- private static void addPopup(Component component, final JPopupMenu popup) {
-  component.addMouseListener(new MouseAdapter() {
-   public void mousePressed(MouseEvent e) {
-    if (e.isPopupTrigger()) {
-     showMenu(e);
-    }
-   }
-   public void mouseReleased(MouseEvent e) {
-    if (e.isPopupTrigger()) {
-     showMenu(e);
-    }
-   }
-   private void showMenu(MouseEvent e) {
-    popup.show(e.getComponent(), e.getX(), e.getY());
-   }
-  });
- }
+
+ 
 }

@@ -9,9 +9,11 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+import weka.attributeSelection.AttributeSelection;
+import weka.attributeSelection.InfoGainAttributeEval;
+import weka.attributeSelection.Ranker;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
-import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.meta.FilteredClassifier;
 import weka.clusterers.ClusterEvaluation;
 import weka.clusterers.Clusterer;
@@ -21,6 +23,7 @@ import weka.clusterers.SimpleKMeans;
 import weka.clusterers.XMeans;
 import weka.core.Instances;
 import weka.core.SelectedTag;
+import weka.core.Utils;
 import weka.core.converters.TextDirectoryLoader;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Add;
@@ -227,13 +230,13 @@ public void delete() {
 
 
 
-	public String classify(Classifier classifier) throws Exception {
-		
+	public String classify(Classifier classifier, String filePath, boolean att) throws Exception {
+		System.out.println(filePath);
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
 		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset("testtest"); 
+		Instances testSet = source.createDataset(filePath); 
 		
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
@@ -269,38 +272,16 @@ public void delete() {
 		filter.setStopwords(new File("stopwordlist.txt"));
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
+		if(att){
 		filter.setWordsToKeep(1000);//100 er bra!
+		}else{
+			filter.setWordsToKeep(10);
+		}
 		filter.setInputFormat(trainingSet);
 		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
 	
 		
-		
-		/*
-		  AttributeSelection attsel = new AttributeSelection();  // package weka.attributeSelection!
-		  InfoGainAttributeEval gain = new InfoGainAttributeEval();
-		  attsel.setRanking(true);
-		  attsel.setEvaluator(gain);
-//		  CfsSubsetEval eval = new CfsSubsetEval();
-
-//		  GreedyStepwise search = new GreedyStepwise();
-		  
-		  Ranker rank = new Ranker();
-		  rank.setThreshold(0.15);
-		  rank.setGenerateRanking(true);
-		  rank.setNumToSelect(-1);
-		  
-		  attsel.setSearch(rank);
-		  attsel.SelectAttributes(dataFiltered);
-		  // obtain the attribute indices that were selected
-		  int[] indices = attsel.selectedAttributes();
-		  System.out.println(Utils.arrayToString(indices)+ "***********");
 	
-		  String att ="";
-		  for (int i : indices) {
-			  System.out.println(i);
-			 att+= dataFiltered.attribute(i).name()+"\n";
-		}
-		  
 		  
 		  /*
 		  PrintWriter write = new PrintWriter(new File("att.txt"));
@@ -312,39 +293,8 @@ public void delete() {
 
 		  
 		
-			Remove remove = new Remove();
-			remove.setAttributeIndicesArray(indices);
-			remove.setInvertSelection(true);
-			remove.setInputFormat(dataFiltered);
-			Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
-			dataFiltered  =dataFiltered1;
-			System.out.println(dataFiltered.toString());
 		/*
 	
-		
-
-		FilteredClassifier fc = new FilteredClassifier();
-		StringToWordVector filter = new StringToWordVector();
-		filter.setIDFTransform(true);
-		filter.setTFTransform(true);
-		filter.setAttributeIndices("first");
-		filter.setUseStoplist(true);
-		filter.setLowerCaseTokens(true);
-		filter.setWordsToKeep(30);
-		filter.setNormalizeDocLength(new SelectedTag(StringToWordVector.FILTER_NORMALIZE_ALL,StringToWordVector.TAGS_FILTER));
-		filter.setInputFormat(trainingSet);
-		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
-	*/
-		
-		/*
-		int[] atts = new int[2];
-		int tell=0;
-		for(int i =0;i < dataFiltered.numAttributes();i++){
-			if("medicine".equals(dataFiltered.attribute(i).name()) || "surgery".equals(dataFiltered.attribute(i).name()) ){
-				atts[tell++] = dataFiltered.attribute(i).index();
-			}
-		}
-
 		Remove remove = new Remove();
 		remove.setAttributeIndicesArray(atts);
 		remove.setInvertSelection(true);
@@ -356,7 +306,7 @@ public void delete() {
 		fc.setFilter(filter);
 		fc.setClassifier(classifier);
 		fc.buildClassifier(trainingSet);
-
+	
 		String output = "";
 		Evaluation eval = new Evaluation(trainingSet);
 		eval.evaluateModel(fc, testSet);
@@ -381,7 +331,7 @@ public void delete() {
 						output +="\n"+Arrays.toString(ds)+ " "+ teller+" "+ "heartDevices \n";
 					}
 					else {
-						output+=Arrays.toString(ds)+ " "+ teller+" "+ "heartSurgery"+"\n \n";
+						output+=Arrays.toString(ds)+ " "+ teller+" "+ "heartSurgery"+"\n \n\n\n\n";
 					}
 					teller++;
 				}
@@ -406,6 +356,85 @@ public void delete() {
 
 		return output;
 	}
+	
+	public String findBestAtt() throws Exception{
+		
+		TextDirectoryLoader loader = new TextDirectoryLoader();
+		loader.setDirectory(new File("labeled"));
+		Instances trainingSet = loader.getDataSet();
+		TextDirectoryToArff source = new TextDirectoryToArff();
+		Instances testSet = source.createDataset("AbstractVerifiedcorpus"); 
+		
+		Add fil = new Add();
+		testSet.deleteAttributeAt(0);
+		fil.setAttributeIndex("2");
+		fil.setNominalLabels("heartDevices,heartSurgery");
+		fil.setAttributeName("@@class@@");
+		fil.setInputFormat(testSet);
+		testSet.setClassIndex(0);
+		testSet = Filter.useFilter(testSet, fil);
+		testSet.setClassIndex(1);
+		
+
+
+		
+	
+		FilteredClassifier fc = new FilteredClassifier();
+		StringToWordVector filter = new StringToWordVector();
+		filter.setIDFTransform(true);
+		filter.setTFTransform(true);
+		filter.setAttributeIndices("first");
+		filter.setNormalizeDocLength(new SelectedTag(
+				StringToWordVector.FILTER_NORMALIZE_ALL,
+				StringToWordVector.TAGS_FILTER));
+		filter.setStopwords(new File("stopwordlist.txt"));
+		filter.setUseStoplist(true);
+		filter.setLowerCaseTokens(true);
+		filter.setWordsToKeep(1000);//100 er bra!
+		filter.setInputFormat(trainingSet);
+		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
+	
+
+		AttributeSelection attsel = new AttributeSelection();
+		InfoGainAttributeEval gain = new InfoGainAttributeEval();
+		  attsel.setRanking(true);
+		  attsel.setEvaluator(gain);
+		  Ranker rank = new Ranker();
+		  rank.setThreshold(0.20);
+		  rank.setGenerateRanking(true);
+		  rank.setNumToSelect(-1);
+		  
+		  attsel.setSearch(rank);
+		  attsel.SelectAttributes(dataFiltered);
+		  
+		  int[] indices = attsel.selectedAttributes();
+		  System.out.println(Utils.arrayToString(indices));
+	
+		  String att ="";
+		  for (int i : indices) {
+			  System.out.println(i);
+			 att+= dataFiltered.attribute(i).name()+"\n";
+		}
+		
+		Remove remove = new Remove();
+		remove.setAttributeIndicesArray(indices);
+		remove.setInvertSelection(true);
+		remove.setInputFormat(dataFiltered);
+		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
+		dataFiltered  =dataFiltered1;
+		System.out.println(dataFiltered.toString());
+		
+		
+		  // package weka.attributeSelection!
+		  
+		
+		 
+		  return att;
+	}
+	
+	
+	
+	
 	
 	public Classifier getClassy() {
 		return classy;

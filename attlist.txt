@@ -1,0 +1,14 @@
+device
+medical
+patient
+support
+heart
+assist
+survival
+translantation
+ventricular
+surgery
+failure
+transplant
+cardiac
+		

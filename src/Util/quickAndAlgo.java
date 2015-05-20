@@ -10,12 +10,12 @@ import java.util.Scanner;
 
 public class quickAndAlgo {
 
-	public static void readAndDecide() throws FileNotFoundException {
+	public static String readAndDecide() throws FileNotFoundException {
 		HashMap<String,String> verifiedDoc = new HashMap<String,String>();
-
-		File fil = new File("unlabeledTestSet");
+		File fil = new File("AbstractPubmedDocs");
+		int abPubMedSize = fil.listFiles().length; 
 		for(File x: fil.listFiles()){
-			if(x.getAbsolutePath().contains("verified")){
+			if(x.getAbsolutePath().contains("unlabeledTestSet")){
 				continue;
 			}
 			
@@ -25,26 +25,32 @@ public class quickAndAlgo {
 				doc += read.nextLine();
 			}
 			doc += doc.toLowerCase();
-			if(doc.contains("heart transplant") && doc.contains("heart failure")  && doc.contains("assist") && doc.contains("support")
-					&& ( doc.contains("devices") || doc.contains("device"))){
+			
+			if((doc.contains("heart transplant.") || doc.contains("heart transplant ") || doc.contains("heart transplant,"))
+					&& (doc.contains("heart failure.")||doc.contains("heart failure ") || doc.contains("heart failure,"))  
+					&& (doc.contains("assist ") || doc.contains("assist.") || doc.contains("assist,"))
+					&& (doc.contains("support ") || doc.contains("support.") || doc.contains("support,"))
+					&& (doc.contains("devices ") || doc.contains("devices.") ||doc.contains("devices,")
+					|| doc.contains("device ") || doc.contains("device.") || doc.contains("device,"))){
 				verifiedDoc.put(x.getName(),doc);
 			}
 		}
 		PrintWriter pr = null;
+		String output = "";
+		int teller = verifiedDoc.size();
 		for(Entry<String,String> e: verifiedDoc.entrySet()){
-			System.out.println(e.getKey());
-			pr = new PrintWriter(new File("unlabeledTestSet/verifiedTestSet/"+e.getKey()));
+			pr = new PrintWriter(new File("testfolder123/"+e.getKey()));
 			pr.write(e.getValue());
+			output += e.getKey() + "\n";
+			
 			pr.close();
+			
 		}
-
-
-
+		System.out.println("done");
+		output += "\n\nSize before filtering: " + abPubMedSize 
+				+ "\nSize after filtering: " + teller;
+		return output;
 	}
-
-
-//	public static void main(String[] args) throws FileNotFoundException {
-//		readAndDecide();
-//	}
+	
 }
 
