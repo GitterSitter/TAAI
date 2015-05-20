@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class parser{
+public class PubMedDocParser{
 	public static void parsefile(File file) throws FileNotFoundException{
 		Scanner read = new Scanner(new FileReader(file));
 		System.out.println(file.getAbsolutePath());
@@ -14,13 +14,11 @@ public class parser{
 		while(read.hasNext()){
 			doc += read.nextLine();
 		}
-		//System.out.println(doc);
+		read.close();
 		String[] docList = doc.split("PMID");
 		int i = 0;
 		PrintWriter pr;
 		for (String string : docList) {
-			
-			//System.out.println(string);
 			pr	= new PrintWriter(new File("AbstractPubMedDocs/abstractmedData"+i+".txt"));
 			pr.write(string);
 			pr.flush();

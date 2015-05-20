@@ -14,7 +14,6 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 import javax.swing.ButtonGroup;
-import javax.swing.JCheckBox;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -35,10 +34,11 @@ import weka.clusterers.EM;
 import weka.clusterers.SimpleKMeans;
 import weka.clusterers.XMeans;
 import Util.Filtering;
-import Util.quickAndAlgo;
+import Util.AndAlgoFilter;
 import Visuals.ClusterVisual;
 
 public class Gui extends JFrame {
+	private static final long serialVersionUID = 1L;
 	private JFileChooser chooser;
 	public static JPanel contentPane;
 	private JTextArea textArea;
@@ -61,11 +61,12 @@ public class Gui extends JFrame {
 	private JMenuItem mntmClusterPlot;
 	private Filtering filter;
 	public static boolean isValidating;
-	/**
-	 * Launch the application.
-	 */
+
+	
 	boolean buttonChoice = false;
 	String dir = "";
+	private JLabel lblClassifierControllPanel;
+	private JPanel panel;
 
 	public static void main(String[] args) {
 
@@ -93,8 +94,8 @@ public class Gui extends JFrame {
 		setBounds(100, 100, 755, 693);
 
 		filter = new Filtering();
-		dir = "testtest";
-
+		//dir = "testtest";
+		isValidating = true;
 		menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
 
@@ -205,13 +206,6 @@ public class Gui extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 
 				try {
-
-					if (dir == "") {
-
-						javax.swing.JOptionPane.showMessageDialog(contentPane,
-								"Please select folder with test data!");
-					}
-
 					MultilayerPerceptron neural = new MultilayerPerceptron();
 					setText(filter.classify(neural, dir, buttonChoice));
 				} catch (Exception e1) {
@@ -227,10 +221,6 @@ public class Gui extends JFrame {
 
 				try {
 					SMO smo = new SMO();
-					if (dir == "") {
-						javax.swing.JOptionPane.showMessageDialog(contentPane,
-								"Please select folder with test data!");
-					}
 
 					setText(filter.classify(smo, dir, buttonChoice));
 				} catch (Exception e1) {
@@ -245,12 +235,8 @@ public class Gui extends JFrame {
 		mntmNaivebayes.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
+					
 					NaiveBayes naive = new NaiveBayes();
-					if (dir == "") {
-						javax.swing.JOptionPane.showMessageDialog(contentPane,
-								"Please select folder with test data!");
-					}
-
 					setText(filter.classify(naive, dir, buttonChoice));
 				} catch (Exception e1) {
 
@@ -335,7 +321,7 @@ public class Gui extends JFrame {
 		mntmAndorithm.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
-					setText(quickAndAlgo.readAndDecide());
+					setText(AndAlgoFilter.readAndDecide());
 
 				} catch (FileNotFoundException e1) {
 
@@ -369,7 +355,7 @@ public class Gui extends JFrame {
 		contentPane.add(scrollPane);
 
 		textArea = new JTextArea();
-		textArea.setFont(new Font("Monospaced", Font.PLAIN, 18));
+		textArea.setFont(new Font("Monospaced", Font.PLAIN, 15));
 		textArea.setEditable(false);
 		scrollPane.setViewportView(textArea);
 		ButtonGroup buttonGroup1 = new ButtonGroup();
@@ -383,7 +369,7 @@ public class Gui extends JFrame {
 			}
 		});
 		rdbtnNewRadioButton.setBackground(Color.WHITE);
-		rdbtnNewRadioButton.setBounds(135, 79, 109, 23);
+		rdbtnNewRadioButton.setBounds(130, 137, 109, 23);
 		buttonGroup1.add(rdbtnNewRadioButton);
 		contentPane.add(rdbtnNewRadioButton);
 
@@ -395,18 +381,18 @@ public class Gui extends JFrame {
 			}
 		});
 		rdbtnNewRadioButton_1.setBackground(Color.WHITE);
-		rdbtnNewRadioButton_1.setBounds(135, 105, 122, 23);
+		rdbtnNewRadioButton_1.setBounds(130, 163, 122, 23);
 		buttonGroup1.add(rdbtnNewRadioButton_1);
 		contentPane.add(rdbtnNewRadioButton_1);
 
 		JLabel lblAttributeSelection = new JLabel("Attribute selection");
-		lblAttributeSelection.setFont(new Font("Sylfaen", Font.PLAIN, 20));
-		lblAttributeSelection.setBounds(125, 25, 169, 47);
+		lblAttributeSelection.setFont(new Font("Sylfaen", Font.PLAIN, 18));
+		lblAttributeSelection.setBounds(130, 83, 169, 47);
 		contentPane.add(lblAttributeSelection);
 		
 		JLabel lblEvaluateTrainingModel = new JLabel("Evaluate classifier model");
-		lblEvaluateTrainingModel.setFont(new Font("Sylfaen", Font.PLAIN, 20));
-		lblEvaluateTrainingModel.setBounds(344, 25, 260, 47);
+		lblEvaluateTrainingModel.setFont(new Font("Sylfaen", Font.PLAIN, 18));
+		lblEvaluateTrainingModel.setBounds(353, 83, 260, 47);
 		contentPane.add(lblEvaluateTrainingModel);
 		
 		final JRadioButton rdbtnCrossValidateModel = new JRadioButton("Cross validate model (10 folds)");
@@ -418,15 +404,14 @@ public class Gui extends JFrame {
 					isValidating = true;
 				}else 
 					isValidating = false;
-				
-				System.out.println(isValidating);
+		
 			}
 		});
 		rdbtnCrossValidateModel.setBackground(Color.WHITE);
-		rdbtnCrossValidateModel.setBounds(364, 79, 208, 23);
+		rdbtnCrossValidateModel.setBounds(353, 137, 208, 23);
 		contentPane.add(rdbtnCrossValidateModel);
 		
-		final JRadioButton rdbtnUseOf = new JRadioButton("Use 1/3 of traning data as test");
+		final JRadioButton rdbtnUseOf = new JRadioButton("Use 1/3 of data as test");
 		rdbtnUseOf.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(rdbtnUseOf.isSelected()){
@@ -440,13 +425,25 @@ public class Gui extends JFrame {
 			}
 		});
 		rdbtnUseOf.setBackground(Color.WHITE);
-		rdbtnUseOf.setBounds(364, 105, 240, 23);
+		rdbtnUseOf.setBounds(353, 163, 240, 23);
 		contentPane.add(rdbtnUseOf);
 
 		
 
 		buttonGroup2.add(rdbtnUseOf);
 		buttonGroup2.add(rdbtnCrossValidateModel);
+		
+		panel = new JPanel();
+		panel.setBackground(SystemColor.activeCaption);
+		panel.setBounds(0, 0, 749, 72);
+		contentPane.add(panel);
+		panel.setLayout(null);
+		
+		lblClassifierControllPanel = new JLabel("Classifier control panel");
+		lblClassifierControllPanel.setBounds(181, 11, 294, 50);
+		panel.add(lblClassifierControllPanel);
+		lblClassifierControllPanel.setBackground(Color.WHITE);
+		lblClassifierControllPanel.setFont(new Font("Tahoma", Font.BOLD, 20));
 		
 	}
 

@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Scanner;
 
-public class quickAndAlgo {
+public class AndAlgoFilter {
 
 	public static String readAndDecide() throws FileNotFoundException {
 		HashMap<String,String> verifiedDoc = new HashMap<String,String>();
@@ -18,12 +18,12 @@ public class quickAndAlgo {
 			if(x.getAbsolutePath().contains("unlabeledTestSet")){
 				continue;
 			}
-			
 			Scanner read = new Scanner(new FileReader(x));
 			String doc = "";
 			while(read.hasNext()){
 				doc += read.nextLine();
 			}
+			read.close();
 			doc += doc.toLowerCase();
 			
 			if((doc.contains("heart transplant.") || doc.contains("heart transplant ") || doc.contains("heart transplant,"))

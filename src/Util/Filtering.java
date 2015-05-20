@@ -2,14 +2,12 @@ package Util;
 
 import java.io.File;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-import Main.Gui;
 import weka.attributeSelection.AttributeSelection;
 import weka.attributeSelection.InfoGainAttributeEval;
 import weka.attributeSelection.Ranker;
@@ -24,12 +22,12 @@ import weka.clusterers.SimpleKMeans;
 import weka.clusterers.XMeans;
 import weka.core.Instances;
 import weka.core.SelectedTag;
-import weka.core.Utils;
 import weka.core.converters.TextDirectoryLoader;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Add;
 import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.StringToWordVector;
+import Main.Gui;
 
 public class Filtering {
 
@@ -48,13 +46,13 @@ public class Filtering {
 		while (sc.hasNextLine()) {
 			input.add(sc.nextLine());
 		}
+		sc.close();
 		int telll = 0;
 		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
 			for (int j = 0; j < atts.length; j++) {
 				if (input.get(j).equals(dataFiltered.attribute(i).name())) {
 					atts[telll++] = i;
-					System.out.println(dataFiltered.attribute(i).name() + " "
-							+ dataFiltered.attribute(i).index());
+				
 
 				}
 
@@ -73,14 +71,11 @@ public class Filtering {
 	}
 
 	public String cluster(Clusterer cluster) throws Exception {
-		delete();
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
+		delete();
 		Instances dataset = tdta.createDataset("AbstractVerifiedcorpus");
-	
-
 		dataset.deleteAttributeAt(0);
 		StringToWordVector filter = new StringToWordVector();
-
 		filter.setIDFTransform(true);
 		filter.setTFTransform(true);
 		filter.setAttributeIndices("first-last");
@@ -106,15 +101,13 @@ public class Filtering {
 		while (sc.hasNextLine()) {
 			input.add(sc.nextLine());
 		}
-
+		sc.close();
 		int[] atts = new int[input.size()];
 		int telll = 0;
 		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
 			for (int j = 0; j < atts.length; j++) {
 				if (input.get(j).equals(dataFiltered.attribute(i).name())) {
 					atts[telll++] = i;
-			
-
 				}
 
 			}
@@ -140,9 +133,10 @@ public class Filtering {
 		fc.buildClusterer(dataFiltered);
 
 		String output = "";
-		PrintWriter pr=null;
+		PrintWriter pr = null;
+		int predictionClass=0;
 		for (int i = 0; i < dataFiltered.numInstances(); i++) {
-			int predictionClass = fc.clusterInstance(dataFiltered.instance(i));
+			 predictionClass = fc.clusterInstance(dataFiltered.instance(i));
 			String work = "dataMed.txt"; 
 			if (predictionClass == 0) {
 				System.out.println("CLUSTER:  " + predictionClass + "  "
@@ -188,46 +182,28 @@ public class Filtering {
 
 	public String classify(Classifier classifier, String filePath, boolean att)
 			throws Exception {
-		
 	
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
-		//Instances trainingSet = loader.getDataSet();
-	//	TextDirectoryToArff source = new TextDirectoryToArff();
-	//	Instances testSet = source.createDataset(filePath);
-
+		boolean predictNewDocs = false;
 		
 		double percent = 66.0; 
 		Instances inst = loader.getDataSet();
-		
 		int trainSize = (int) Math.round(inst.numInstances() * percent / 100); 
 		int testSize = inst.numInstances() - trainSize; 
-		Instances train = new Instances(inst, 0, trainSize); 
-		Instances test = new Instances(inst, trainSize, testSize); 
+		Instances train = inst; // new Instances(inst, 0, trainSize); 
+		Instances test = new Instances(inst, 0, 0); 
 		
+		Random rd = new Random();
+		int rand =0;
+		for (int i = 0; i < testSize; i++) {
+			rand = rd.nextInt(inst.numInstances()-1);
+			test.add(inst.instance(rand));
+			train.delete(rand);
+			
+		}
 		
-		/*
-		Add fil = new Add();
-		testSet.deleteAttributeAt(0);
-		fil.setAttributeIndex("2");
-		fil.setNominalLabels("heartDevices,heartSurgery");
-		fil.setAttributeName("@@class@@");
-		fil.setInputFormat(testSet);
-		testSet.setClassIndex(0);
-		testSet = Filter.useFilter(testSet, fil);
-		testSet.setClassIndex(1);
-
-		PrintWriter pr = new PrintWriter(new File("outputTest.arff"));
-		pr.write(testSet.toString());
-		pr.flush();
-		pr.close();
-		pr = new PrintWriter(new File("outputTraining.arff"));
-		pr.write(trainingSet.toString());
-		pr.flush();
-		pr.close();
-
-
-*/
+	
 		FilteredClassifier fc = new FilteredClassifier();
 		StringToWordVector filter = new StringToWordVector();
 		filter.setIDFTransform(true);
@@ -240,7 +216,7 @@ public class Filtering {
 		filter.setUseStoplist(true);
 		filter.setLowerCaseTokens(true);
 
-		if (att) {
+		if(att) {
 			filter.setWordsToKeep(1000);
 		} else {
 			filter.setWordsToKeep(10);
@@ -249,42 +225,75 @@ public class Filtering {
 		Instances dataFiltered = Filter.useFilter(train, filter);
 
 		
-		
 		fc.setFilter(filter);
 		fc.setClassifier(classifier);
 		fc.buildClassifier(train); 
 		setClassy(classifier);
 		
+		
+		
+		if(filePath != ""){
+			TextDirectoryToArff source = new TextDirectoryToArff();
+			Instances docsToClassify = source.createDataset(filePath);
+			train = docsToClassify;
+		
+			Add fil = new Add();
+			train.deleteAttributeAt(0);
+			fil.setAttributeIndex("2");
+			fil.setNominalLabels("heartDevices,heartSurgery");
+			fil.setAttributeName("@@class@@");
+			fil.setInputFormat(train);
+			train.setClassIndex(0);
+			train = Filter.useFilter(train, fil);
+			train.setClassIndex(1);
+			
+			PrintWriter pr = new PrintWriter(new File("docsToClassify.arff"));
+			pr.write(train.toString());
+			pr.flush();
+			pr.close();
+			predictNewDocs = true;
+	
+	}
+		
+	
 		String output ="";
 		Evaluation eval = new Evaluation(train);
-		
+		if(predictNewDocs){
+			for (int i = 0; i < train.numInstances(); i++) {
+				double pred = fc.classifyInstance(train.instance(i));
+				output += "ID: "
+						+(int) train.instance(i).value(0)
+						+ ". Predicted: "
+						+ train.classAttribute().value((int) pred) + "\n";
+			}
+			
+		}else{
 		output += evaluationPredictions(eval,test, fc) + "\n\n";
-	
 		if(Gui.isValidating){
 		output += crossValidate(dataFiltered,fc,eval);
 		}else{
-		eval.evaluateModel(fc, test);
-		output+=eval.toSummaryString()+"\n";
-		output+= eval.toClassDetailsString();
-		
-	
+			output +=	evalModel( fc,  test, eval);
 		}
-			
-	
+		
+		}
+		output = output.replace("=","");
 	
 		return output;
 	}
 
 	
-	
-	public String crossValidate(Instances dataFiltered, FilteredClassifier fc, Evaluation eval) throws Exception{
-	    
+	public String evalModel(FilteredClassifier fc, Instances test,Evaluation eval) throws Exception{
 		String output ="";
-		Random rand = new Random(1);
-		int folds = 10;
-		eval.crossValidateModel(fc, dataFiltered, folds, rand);
-		output += eval.toSummaryString();
-		output += "\n" + eval.toClassDetailsString() + "\n";
+		eval.evaluateModel(fc, test);
+		output+=eval.toSummaryString()+"\n";
+		output+= eval.toClassDetailsString()+"\n\n";
+		output += confusionMatrix(eval);
+		return output;
+	}
+	
+	
+	public String confusionMatrix(Evaluation eval){
+		String output ="";
 		output +=  "Confusion Matrix: \n";
 		output += "\n  0    1  Classes";
 		int teller = 0;
@@ -300,29 +309,38 @@ public class Filtering {
 			teller++;
 		}
 		
+		return output;
+	}
+	public String crossValidate(Instances dataFiltered, FilteredClassifier fc, Evaluation eval) throws Exception{
+	    
+		String output ="";
+		Random rand = new Random(1);
+		int folds = 10;
+		eval.crossValidateModel(fc, dataFiltered, folds, rand);
+		output += eval.toSummaryString();
+		output += "\n" + eval.toClassDetailsString() + "\n";
+		output += confusionMatrix(eval);
 		
 		return output;
 	}
 	
 	
 	
-	public String evaluationPredictions(Evaluation eval,Instances testSet,FilteredClassifier fc) throws Exception{
-		
-		String output ="";
+	public String evaluationPredictions(Evaluation eval, Instances testSet, FilteredClassifier fc) throws Exception {
+		String output = "";
 		for (int i = 0; i < testSet.numInstances(); i++) {
 			double pred = fc.classifyInstance(testSet.instance(i));
-			System.out.print("ID: " + testSet.instance(i).value(0));
-			// System.out.println(testSet.instance(i).toString());
-			// System.out.print(", actual: " +
-			// testSet.classAttribute().value((int)
-			// testSet.instance(i).classValue()) +
-			// testSet.instance(i).toString());
-			System.out.println(", predicted: "
-					+ testSet.classAttribute().value((int) pred));
-			output += "ID: " + testSet.instance(i).value(0) + ", predicted: "
-					+ testSet.classAttribute().value((int) pred) + "\n";
+			output += "ID: "
+					+(int) testSet.instance(i).value(0)
+					+ ". Predicted: "
+					+ testSet.classAttribute().value((int) pred)
+					+ ". Actual: "
+					+ testSet.classAttribute().value(
+							(int) testSet.instance(i).classValue()) + "\n";
 		}
 		
+		
+
 		return output;
 	}
 	
@@ -374,11 +392,9 @@ public class Filtering {
 		attsel.SelectAttributes(dataFiltered);
 
 		int[] indices = attsel.selectedAttributes();
-		System.out.println(Utils.arrayToString(indices));
 
 		String att = "";
 		for (int i : indices) {
-			System.out.println(i);
 			att += dataFiltered.attribute(i).name() + "\n";
 		}
 
@@ -388,7 +404,6 @@ public class Filtering {
 		remove.setInputFormat(dataFiltered);
 		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
 		dataFiltered = dataFiltered1;
-		System.out.println(dataFiltered.toString());
 
 		return att;
 	}
