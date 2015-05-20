@@ -64,7 +64,7 @@ public class Gui extends JFrame {
 	/**
 	 * Launch the application.
 	 */
-	boolean buttonChoice = true;
+	boolean buttonChoice = false;
 	String dir = "";
 
 	public static void main(String[] args) {
@@ -373,15 +373,17 @@ public class Gui extends JFrame {
 		textArea.setEditable(false);
 		scrollPane.setViewportView(textArea);
 		ButtonGroup buttonGroup1 = new ButtonGroup();
+		ButtonGroup buttonGroup2 = new ButtonGroup();
 
 		JRadioButton rdbtnNewRadioButton = new JRadioButton("10 Attributes");
+		rdbtnNewRadioButton.setSelected(true);
 		rdbtnNewRadioButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				buttonChoice = false;
 			}
 		});
 		rdbtnNewRadioButton.setBackground(Color.WHITE);
-		rdbtnNewRadioButton.setBounds(299, 88, 109, 23);
+		rdbtnNewRadioButton.setBounds(135, 79, 109, 23);
 		buttonGroup1.add(rdbtnNewRadioButton);
 		contentPane.add(rdbtnNewRadioButton);
 
@@ -393,34 +395,59 @@ public class Gui extends JFrame {
 			}
 		});
 		rdbtnNewRadioButton_1.setBackground(Color.WHITE);
-		rdbtnNewRadioButton_1.setBounds(299, 114, 122, 23);
+		rdbtnNewRadioButton_1.setBounds(135, 105, 122, 23);
 		buttonGroup1.add(rdbtnNewRadioButton_1);
 		contentPane.add(rdbtnNewRadioButton_1);
 
 		JLabel lblAttributeSelection = new JLabel("Attribute selection");
 		lblAttributeSelection.setFont(new Font("Sylfaen", Font.PLAIN, 20));
-		lblAttributeSelection.setBounds(277, 34, 169, 47);
+		lblAttributeSelection.setBounds(125, 25, 169, 47);
 		contentPane.add(lblAttributeSelection);
-
-		final JCheckBox chckbxCrossValidateModel = new JCheckBox(
-				"Cross Validate Model (10 folds)");
-		chckbxCrossValidateModel.addActionListener(new ActionListener() {
+		
+		JLabel lblEvaluateTrainingModel = new JLabel("Evaluate classifier model");
+		lblEvaluateTrainingModel.setFont(new Font("Sylfaen", Font.PLAIN, 20));
+		lblEvaluateTrainingModel.setBounds(344, 25, 260, 47);
+		contentPane.add(lblEvaluateTrainingModel);
+		
+		final JRadioButton rdbtnCrossValidateModel = new JRadioButton("Cross validate model (10 folds)");
+		rdbtnCrossValidateModel.setSelected(true);
+		rdbtnCrossValidateModel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if(chckbxCrossValidateModel.isSelected()){
-					chckbxCrossValidateModel.setSelected(true);
+				if(rdbtnCrossValidateModel.isSelected()){
+					rdbtnCrossValidateModel.setSelected(true);
 					isValidating = true;
-				}else{
-				chckbxCrossValidateModel.setSelected(false);
-				isValidating = false;
+				}else 
+					isValidating = false;
 				
-				}
-			
+				System.out.println(isValidating);
 			}
 		});
-		chckbxCrossValidateModel.setBackground(Color.WHITE);
-		chckbxCrossValidateModel.setBounds(299, 151, 243, 23);
-		contentPane.add(chckbxCrossValidateModel);
+		rdbtnCrossValidateModel.setBackground(Color.WHITE);
+		rdbtnCrossValidateModel.setBounds(364, 79, 208, 23);
+		contentPane.add(rdbtnCrossValidateModel);
+		
+		final JRadioButton rdbtnUseOf = new JRadioButton("Use 1/3 of traning data as test");
+		rdbtnUseOf.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(rdbtnUseOf.isSelected()){
+					rdbtnUseOf.setSelected(true);
+					isValidating = false;
+				}else
+					isValidating = true;
+				
+				System.out.println(isValidating);
+				
+			}
+		});
+		rdbtnUseOf.setBackground(Color.WHITE);
+		rdbtnUseOf.setBounds(364, 105, 240, 23);
+		contentPane.add(rdbtnUseOf);
 
+		
+
+		buttonGroup2.add(rdbtnUseOf);
+		buttonGroup2.add(rdbtnCrossValidateModel);
+		
 	}
 
 	public void setText(String text) {

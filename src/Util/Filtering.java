@@ -192,10 +192,21 @@ public class Filtering {
 	
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
-		Instances trainingSet = loader.getDataSet();
-		TextDirectoryToArff source = new TextDirectoryToArff();
-		Instances testSet = source.createDataset(filePath);
+		//Instances trainingSet = loader.getDataSet();
+	//	TextDirectoryToArff source = new TextDirectoryToArff();
+	//	Instances testSet = source.createDataset(filePath);
 
+		
+		double percent = 66.0; 
+		Instances inst = loader.getDataSet();
+		
+		int trainSize = (int) Math.round(inst.numInstances() * percent / 100); 
+		int testSize = inst.numInstances() - trainSize; 
+		Instances train = new Instances(inst, 0, trainSize); 
+		Instances test = new Instances(inst, trainSize, testSize); 
+		
+		
+		/*
 		Add fil = new Add();
 		testSet.deleteAttributeAt(0);
 		fil.setAttributeIndex("2");
@@ -215,6 +226,8 @@ public class Filtering {
 		pr.flush();
 		pr.close();
 
+
+*/
 		FilteredClassifier fc = new FilteredClassifier();
 		StringToWordVector filter = new StringToWordVector();
 		filter.setIDFTransform(true);
@@ -232,41 +245,47 @@ public class Filtering {
 		} else {
 			filter.setWordsToKeep(10);
 		}
-		filter.setInputFormat(trainingSet);
-		Instances dataFiltered = Filter.useFilter(trainingSet, filter);
+		filter.setInputFormat(train);
+		Instances dataFiltered = Filter.useFilter(train, filter);
 
 		
 		
 		fc.setFilter(filter);
 		fc.setClassifier(classifier);
-		fc.buildClassifier(trainingSet); 
+		fc.buildClassifier(train); 
 		setClassy(classifier);
 		
 		String output ="";
-		Evaluation eval = new Evaluation(dataFiltered);
-		eval.evaluateModel(fc, testSet);
+		Evaluation eval = new Evaluation(train);
+		
+		output += evaluationPredictions(eval,test, fc) + "\n\n";
 	
-		
-		System.out.println(eval.toClassDetailsString());
-		System.out.println(eval.toSummaryString());
-		
 		if(Gui.isValidating){
-		output += evaluationStatistics(dataFiltered,fc,eval);
-		}else
-			output += evaluationPredictions(eval,testSet, fc);
+		output += crossValidate(dataFiltered,fc,eval);
+		}else{
+		eval.evaluateModel(fc, test);
+		output+=eval.toSummaryString()+"\n";
+		output+= eval.toClassDetailsString();
+		
 	
+		}
 			
-
+	
+	
 		return output;
 	}
 
-	public String evaluationStatistics(Instances dataFiltered, FilteredClassifier fc, Evaluation eval) throws Exception{
-	String output ="";
+	
+	
+	public String crossValidate(Instances dataFiltered, FilteredClassifier fc, Evaluation eval) throws Exception{
+	    
+		String output ="";
 		Random rand = new Random(1);
 		int folds = 10;
 		eval.crossValidateModel(fc, dataFiltered, folds, rand);
 		output += eval.toSummaryString();
 		output += "\n" + eval.toClassDetailsString() + "\n";
+		output +=  "Confusion Matrix: \n";
 		output += "\n  0    1  Classes";
 		int teller = 0;
 		double[][] matrix = eval.confusionMatrix();
@@ -284,6 +303,9 @@ public class Filtering {
 		
 		return output;
 	}
+	
+	
+	
 	public String evaluationPredictions(Evaluation eval,Instances testSet,FilteredClassifier fc) throws Exception{
 		
 		String output ="";

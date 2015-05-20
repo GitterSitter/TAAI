@@ -1,0 +1,141 @@
+
+Surgery (from the Greek: χειρουργική cheirourgikē (composed of χείρ, "hand", and ἔργον, "work"), via Latin: chirurgiae, meaning "hand work") is an ancient medical specialty that uses operative manual and instrumental techniques on a patient to investigate and/or treat a pathological condition such as disease or injury, to help improve bodily function or appearance or to repair unwanted ruptured areas (for example, a perforated ear drum).
+
+An act of performing surgery may be called a surgical procedure, operation, or simply surgery. In this context, the verb operate means to perform surgery. The adjective surgical means pertaining to surgery; e.g. surgical instruments or surgical nurse. The patient or subject on which the surgery is performed can be a person or an animal. A surgeon is a person who practises surgery and a surgeon's assistant is a person who practices surgical assistance. A surgical team is made up of surgeon, surgeon's assistant, anesthesia provider, circulating nurse and surgical technologist. Surgery usually spans minutes to hours, but it is typically not an ongoing or periodic type of treatment. The term surgery can also refer to the place where surgery is performed, or simply the office of a physician, dentist, or veterinarian.
+
+Elective surgery generally refers to a surgical procedure that can be scheduled in advance because it does not involve a medical emergency. Plastic, or cosmetic surgeries are common elective procedures.
+
+Contents  [hide] 
+1 Definitions
+1.1 Types of surgery
+1.2 Terminology
+2 Description of surgical procedure
+2.1 Location
+2.2 Patient Safety
+2.3 Preoperative care
+2.4 Staging for surgery
+2.5 Surgery
+2.6 Post-operative care
+3 Epidemiology
+4 In special populations
+4.1 Elderly people
+4.2 Other populations
+5 In Low and Middle Income Countries
+6 History
+6.1 Early modern Europe
+6.2 Modern surgery
+6.2.1 Infection and antisepsis
+7 Surgical specialties
+8 See also
+8.1 National Societies
+8.2 Qualifications in the UK and Ireland
+9 Notes and references
+10 External links
+Definitions[edit]
+Surgery is a technology consisting of a physical intervention on tissues, and muscle.
+
+As a general rule, a procedure is considered surgical when it involves cutting of a patient's tissues or closure of a previously sustained wound. Other procedures that do not necessarily fall under this rubric, such as angioplasty or endoscopy, may be considered surgery if they involve "common" surgical procedure or settings, such as use of a sterile environment, anesthesia, antiseptic conditions, typical surgical instruments, and suturing or stapling. All forms of surgery are considered invasive procedures; so-called "noninvasive surgery" usually refers to an excision that does not penetrate the structure being excised (e.g. laser ablation of the cornea) or to a radiosurgical procedure (e.g. irradiation of a tumor).
+
+Types of surgery[edit]
+Surgical procedures are commonly categorized by urgency, type of procedure, body system involved, degree of invasiveness, and special instrumentation.
+
+Based on timing: Elective surgery is done to correct a non-life-threatening condition, and is carried out at the patient's request, subject to the surgeon's and the surgical facility's availability. Emergency surgery is surgery which must be done promptly to save life, limb, or functional capacity. A semi-elective surgery is one that must be done to avoid permanent disability or death, but can be postponed for a short time.
+Based on purpose: Exploratory surgery is performed to aid or confirm a diagnosis. Therapeutic surgery treats a previously diagnosed condition.
+By type of procedure: Amputation involves cutting off a body part, usually a limb or digit; castration is also an example. Resection is the removal of all or part of an internal organ or part of the body. Replantation involves reattaching a severed body part. Reconstructive surgery involves reconstruction of an injured, mutilated, or deformed part of the body. Cosmetic surgery is done to improve the appearance of an otherwise normal structure. Excision is the cutting out or removal of an organ, tissue, or other body part from the patient. Transplant surgery is the replacement of an organ or body part by insertion of another from different human (or animal) into the patient. Removing an organ or body part from a live human or animal for use in transplant is also a type of surgery.
+By body part: When surgery is performed on one organ system or structure, it may be classed by the organ, organ system or tissue involved. Examples include cardiac surgery (performed on the heart), gastrointestinal surgery (performed within the digestive tract and its accessory organs), and orthopedic surgery (performed on bones and/or muscles).
+By degree of invasiveness: Minimally invasive surgery involves smaller outer incision(s) to insert miniaturized instruments within a body cavity or structure, as in laparoscopic surgery or angioplasty. By contrast, an open surgical procedure or laparotomy requires a large incision to access the area of interest.
+By equipment used: Laser surgery involves use of a laser for cutting tissue instead of a scalpel or similar surgical instruments. Microsurgery involves the use of an operating microscope for the surgeon to see small structures. Robotic surgery makes use of a surgical robot, such as the Da Vinci or the Zeus surgical systems, to control the instrumentation under the direction of the surgeon.
+Terminology[edit]
+Excision surgery names often start with a name for the organ to be excised (cut out) and end in -ectomy.
+Procedures involving cutting into an organ or tissue end in -otomy. A surgical procedure cutting through the abdominal wall to gain access to the abdominal cavity is a laparotomy.
+Minimally invasive procedures involving small incisions through which an endoscope is inserted end in -oscopy. For example, such surgery in the abdominal cavity is called laparoscopy.
+Procedures for formation of a permanent or semi-permanent opening called a stoma in the body end in -ostomy.
+Reconstruction, plastic or cosmetic surgery of a body part starts with a name for the body part to be reconstructed and ends in -oplasty. Rhino is used as a prefix for "nose", therefore a rhinoplasty is reconstructive or cosmetic surgery for the nose.
+Repair of damaged or congenital abnormal structure ends in -rraphy. Herniorraphy is the reparation of a hernia, while perineorraphy is the reparation of perineum.
+Reoperation (return to the operating room) refers to a return to the operating theater after an initial surgery is performed to re-address an aspect of patient care best treated surgically. Reasons for reoperation include persistent bleeding after surgery, development of or persistence of infection or, more insidiously, retained foreign objects.
+Description of surgical procedure[edit]
+Location[edit]
+At a hospital, modern surgery is often done in an operating theater using surgical instruments, an operating table for the patient, and other equipment. Among United States hospitalizations for nonmaternal and nonneonatal conditions in 2012, more than one-fourth of stays and half of hospital costs involved stays that included operating room (OR) procedures.[1] The environment and procedures used in surgery are governed by the principles of aseptic technique: the strict separation of "sterile" (free of microorganisms) things from "unsterile" or "contaminated" things. All surgical instruments must be sterilized, and an instrument must be replaced or re-sterilized if it becomes contaminated (i.e. handled in an unsterile manner, or allowed to touch an unsterile surface). Operating room staff must wear sterile attire (scrubs, a scrub cap, a sterile surgical gown, sterile latex or non-latex polymer gloves and a surgical mask), and they must scrub hands and arms with an approved disinfectant agent before each procedure. There is moderate-quality evidence that usage of two layers of gloves compared to single gloving during surgery reduces perforations and blood stains on the skin, indicating a decrease in percutaneous exposure incidents.[2]
+
+Patient Safety[edit]
+The Agency for Healthcare and Research Quality suggests that patients should ask your doctor questions.
+
+Preoperative care[edit]
+Main article: Preoperative care
+Prior to surgery, the patient is given a medical examination, certain pre-operative tests, and their physical status is rated according to the ASA physical status classification system. If these results are satisfactory, the patient signs a consent form and is given a surgical clearance. If the procedure is expected to result in significant blood loss, an autologous blood donation may be made some weeks prior to surgery. If the surgery involves the digestive system, the patient may be instructed to perform a bowel prep by drinking a solution of polyethylene glycol the night before the procedure. Patients are also instructed to abstain from food or drink (an NPO order after midnight on the night before the procedure), to minimize the effect of stomach contents on pre-operative medications and reduce the risk of aspiration if the patient vomits during or after the procedure.
+
+Some medical systems have a practice of routinely performing chest x-rays before surgery. The premise behind this practice is that the physician might discover some unknown medical condition which would complicate the surgery, and that upon discovering this with the chest x-ray, the physician would adapt the surgery practice accordingly.[3] In fact, medical specialty professional organizations recommend against routine pre-operative chest x-rays for patients who have an unremarkable medical history and presented with a physical exam which did not indicate a chest x-ray.[3] Routine x-ray examination is more likely to result in problems like misdiagnosis, overtreatment, or other negative outcomes than it is to result in a benefit to the patient.[3] Likewise, other tests including complete blood count, prothrombin time, partial thromboplastin time, basic metabolic panel, and urinalysis should not be done unless the results of these tests can help evaluate surgical risk.[4]
+
+Staging for surgery[edit]
+In the pre-operative holding area, the patient changes out of his or her street clothes and is asked to confirm the details of his or her surgery. A set of vital signs are recorded, a peripheral IV line is placed, and pre-operative medications (antibiotics, sedatives, etc.) are given. When the patient enters the operating room, the skin surface to be operated on, called the operating field, is cleaned and prepared by applying an antiseptic such as chlorhexidine gluconate or povidone-iodine to reduce the possibility of infection. If hair is present at the surgical site, it is clipped off prior to prep application. The patient is assisted by an anesthesiologist or resident to make a specific surgical position, then sterile drapes are used to cover all of the patient's body except for the head[citation needed] and the surgical site or at least a wide area surrounding the operating field; the drapes are clipped to a pair of poles near the head of the bed to form an "ether screen", which separates the anesthetist/anesthesiologist's working area (unsterile) from the surgical site (sterile).
+
+Anesthesia is administered to prevent pain from incision, tissue manipulation and suturing. Based on the procedure, anesthesia may be provided locally or as general anesthesia. Spinal anesthesia may be used when the surgical site is too large or deep for a local block, but general anesthesia may not be desirable. With local and spinal anesthesia, the surgical site is anesthetized, but the patient can remain conscious or minimally sedated. In contrast, general anesthesia renders the patient unconscious and paralyzed during surgery. The patient is intubated and is placed on a mechanical ventilator, and anesthesia is produced by a combination of injected and inhaled agents. Choice of surgical method and anaesthetic technique aims to reduce risk of complications, shorten time needed for recovery and minimise the surgical stress response.
+
+Surgery[edit]
+An incision is made to access the surgical site. Blood vessels may be clamped or cauterized to prevent bleeding, and retractors may be used to expose the site or keep the incision open. The approach to the surgical site may involve several layers of incision and dissection, as in abdominal surgery, where the incision must traverse skin, subcutaneous tissue, three layers of muscle and then peritoneum. In certain cases, bone may be cut to further access the interior of the body; for example, cutting the skull for brain surgery or cutting the sternum for thoracic (chest) surgery to open up the rib cage. Whilst in surgery health and safety is used to prevent infection or further spreading of the disease. The surgeon will remove hair from the face and eyes, using a head hat. Hands, wrists and forearms are washed thoroughly to prevent germs getting into the operated body, then gloves are placed onto the hands. A PVC apron will be worn at all times, to stop any contamination. A yellow substance – typically an antiseptic iodine solution – is lighly coated onto the located area of the patient's body that will be performed on, this stops germs and disease infecting areas of the body, whilst the patient is being cut into.
+
+Work to correct the problem in body then proceeds. This work may involve:
+
+excision – cutting out an organ, tumor,[5] or other tissue.
+resection – partial removal of an organ or other bodily structure.
+reconnection of organs, tissues, etc., particularly if severed. Resection of organs such as intestines involves reconnection. Internal suturing or stapling may be used. Surgical connection between blood vessels or other tubular or hollow structures such as loops of intestine is called anastomosis.
+Reduction – the movement or realignment of a body part to its normal position. e.g. Reduction of a broken nose involves the physical manipulation of the bone and/or cartilage from their displaced state back to their original position to restore normal airflow and aesthetics.
+ligation – tying off blood vessels, ducts, or "tubes".
+grafts – may be severed pieces of tissue cut from the same (or different) body or flaps of tissue still partly connected to the body but resewn for rearranging or restructuring of the area of the body in question. Although grafting is often used in cosmetic surgery, it is also used in other surgery. Grafts may be taken from one area of the patient's body and inserted to another area of the body. An example is bypass surgery, where clogged blood vessels are bypassed with a graft from another part of the body. Alternatively, grafts may be from other persons, cadavers, or animals.
+insertion of prosthetic parts when needed. Pins or screws to set and hold bones may be used. Sections of bone may be replaced with prosthetic rods or other parts. Sometime a plate is inserted to replace a damaged area of skull. Artificial hip replacement has become more common. Heart pacemakers or valves may be inserted. Many other types of prostheses are used.
+creation of a stoma, a permanent or semi-permanent opening in the body
+in transplant surgery, the donor organ (taken out of the donor's body) is inserted into the recipient's body and reconnected to the recipient in all necessary ways (blood vessels, ducts, etc.).
+arthrodesis – surgical connection of adjacent bones so the bones can grow together into one. Spinal fusion is an example of adjacent vertebrae connected allowing them to grow together into one piece.
+modifying the digestive tract in bariatric surgery for weight loss.
+repair of a fistula, hernia, or prolapse
+other procedures, including:
+clearing clogged ducts, blood or other vessels
+removal of calculi (stones)
+draining of accumulated fluids
+debridement- removal of dead, damaged, or diseased tissue
+Surgery has also been conducted to separate conjoined twins.
+Sex change operations
+Blood or blood expanders may be administered to compensate for blood lost during surgery. Once the procedure is complete, sutures or staples are used to close the incision. Once the incision is closed, the anesthetic agents are stopped and/or reversed, and the patient is taken off ventilation and extubated (if general anesthesia was administered).[6]
+
+Post-operative care[edit]
+After completion of surgery, the patient is transferred to the post anesthesia care unit and closely monitored. When the patient is judged to have recovered from the anesthesia, he/she is either transferred to a surgical ward elsewhere in the hospital or discharged home. During the post-operative period, the patient's general function is assessed, the outcome of the procedure is assessed, and the surgical site is checked for signs of infection. There are several risk factors associated with postoperative complications, such as immune deficienty and obesity. Obesity has long been considered a risk factor for adverse post-surgical outcomes. It has been linked to many disorders such as obesity hypoventilation syndrome, atelectasis and pulmonary embolism, adverse cardiovascular effects, and wound healing complications.[7] If removable skin closures are used, they are removed after 7 to 10 days post-operatively, or after healing of the incision is well under way.
+
+It is not uncommon for surgical drains (see Drain (surgery)) to be required to remove blood or fluid from the surgical wound during recovery. Mostly these drains stay in until the volume tapers off, then they are removed. These drains can become clogged, leading to retained blood complications or abscess.
+
+Postoperative therapy may include adjuvant treatment such as chemotherapy, radiation therapy, or administration of medication such as anti-rejection medication for transplants. Other follow-up studies or rehabilitation may be prescribed during and after the recovery period.
+
+The use of topical antibiotics on surgical wounds does not reduce infection rates in comparison with non-antibiotic ointment or no ointment at all.[8] Antibiotic ointments will irritate the skin, slow healing, and greatly increase risk of developing contact dermatitis and antibiotic resistance.[8] Because of this, they should only be used when a person shows signs of infection and not as a preventative.[8]
+
+Through a retrospective analysis of national administrative data, the association between mortality and day of elective surgical procedure suggests a higher risk in procedures carried out later in the working week and on weekends. The odds of death were 44% and 82% higher respectively when comparing procedures on a Friday to a weekend procedure. This “weekday effect” has been postulated to be from several factors including poorer availability of services on a weekend, and also, decrease number and level of experience over a weekend.[9]
+
+Epidemiology[edit]
+Of the 38.6 million hospital stays that occurred in U.S. hospitals in 2011, 29% included at least one operating room procedure. These stays accounted for 48% of the total $387 billion in hospital costs.[10]
+
+In total, there were over 15 million operating room procedures performed in U.S. hospitals in 2011. The overall number of procedures remained stable from 2001-2011.[11]
+
+A study of data from 2003-2011 showed that U.S. hospital costs were highest for the surgical service line; the surgical service line costs were $17,600 in 2003 and projected to be $22,500 in 2013.[12] For hospital stays in 2012 in the United States, private insurance had the highest percentage of surgical expenditure.[13] Mean hospital costs in the United States in 2012 were highest for surgical stays.[13]
+
+In special populations[edit]
+Elderly people[edit]
+Older adults have widely varying physical health. Frail elderly people are at significant risk of post-surgical complications and the need for extended care. Assessment of older patients before elective surgeries can accurately predict the patients' recovery trajectories.[14] One frailty scale uses five items: unintentional weight loss, muscle weakness, exhaustion, low physical activity, and slowed walking speed. A healthy person scores 0; a very frail person scores 5. Compared to non-frail elderly people, people with intermediate frailty scores (2 or 3) are twice as likely to have post-surgical complications, spend 50% more time in the hospital, and are three times as likely to be discharged to a skilled nursing facility instead of to their own homes.[14] Frail elderly patients (score of 4 or 5) have even worse outcomes, with the risk of being discharged to a nursing home rising to twenty times the rate for non-frail elderly people.
+
+Other populations[edit]
+[icon]	This section requires expansion. (November 2012)
+Children
+Surgery on children requires considerations which are not common in adult surgery. Children and adolescents are still developing physically and mentally making it difficult for them to make informed decisions and give consent for surgical treatments. Bariatric surgery in youth is among the controversial topics related to surgery in children.
+
+See also: Pediatric surgery and Pediatric plastic surgery
+Persons with health conditions
+A person with a debilitating medical condition may have special needs during a surgery which a typical patient would not.
+
+Vulnerable populations
+Doctors perform surgery with the consent of the patient. Some patients are able to give better informed consent than others. Populations such as incarcerated persons, the mentally incompetent, persons subject to coercion, and other people who are not able to make decisions with the same authority as a typical patient have special needs when making decisions about their personal healthcare, including surgery.
+
+In Low and Middle Income Countries[edit]
+In 2014 the Lancet Commission on Global Surgery was launched to examine the case for surgery as an integral component of global health care and to provide recommendations regarding the delivery of surgical and anesthesia services in low and middle income countries.[15] The primary conclusions of the study were as follows:
+
+Five billion people worldwide lack access to safe, affordable surgical and anesthesia care. Areas in which especially large proportions of the population lack access include Africa, the Indian Subcontinent, Central Asia, and to a lesser extent, Russia and China. Of the estimated 312.9 million surgical procedures undertaken worldwide in 2012, only 6.3% were done in countries comprising the poorest 37.3% of the world's population.
+An additional 143 million surgeries are needed each year to prevent unnecessary death and disability.
+33 million people face catastrophic payments for surgical and anesthesia care each year.
+Investment in surgical and anesthesia services is cost-effective, saves lives, and promotes economic growth
+Surgery is an indispensible part of health care.
