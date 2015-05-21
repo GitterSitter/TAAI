@@ -43,7 +43,6 @@ public class Filtering {
 	int nrOfClusters=2;
 	int test =	JOptionPane.showConfirmDialog(Gui.contentPane, "Devide into 2 clusters as default?");
 	boolean  multiCluster = false;
-	
 	if(test == 1){
 		String nrClusters = "2";
 		nrClusters =JOptionPane.showInputDialog("Choose number of clusters", nrClusters);
@@ -104,13 +103,17 @@ public class Filtering {
 		} else if (cluster.getClass() == weka.clusterers.SimpleKMeans.class) {
 			((SimpleKMeans) cluster).setNumClusters(nrOfClusters);
 		} else if (cluster.getClass() == weka.clusterers.XMeans.class) {
-			((XMeans) cluster).setMinNumClusters(nrOfClusters);
+			((XMeans) cluster).setMinNumClusters(2);
 			((XMeans) cluster).setMaxNumClusters(nrOfClusters);
 		}
 		
-		fc.setClusterer(cluster);
-		fc.buildClusterer(dataFiltered);
 
+		fc.setClusterer(cluster);
+		double startTime = System.currentTimeMillis();
+		fc.buildClusterer(dataFiltered);
+		double endTime = System.currentTimeMillis();
+		double timeUsed = endTime - startTime;
+		
 		String output = "";
 		PrintWriter pr = null;
 		int predictionClass=0;
@@ -146,12 +149,11 @@ public class Filtering {
 		eval.setClusterer(cluster);
 		eval.evaluateClusterer(dataFiltered);
 
-		
 		output += "\n" + eval.clusterResultsToString();
 		setEvaluation(eval);
 		setInst(dataFiltered);
 		
-
+		output += "\n Time used by the algorithm: " + timeUsed +" ms";
 		return output;
 	}
 
@@ -165,7 +167,6 @@ public class Filtering {
 
 	public String classify(Classifier classifier, String filePath, boolean att)
 			throws Exception {
-	
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
 		boolean predictNewDocs = false;
@@ -210,7 +211,10 @@ public class Filtering {
 		
 		fc.setFilter(filter);
 		fc.setClassifier(classifier);
+		double startTime = System.currentTimeMillis();
 		fc.buildClassifier(train); 
+		double endTime = System.currentTimeMillis();
+		double timeUsed = endTime - startTime;
 		setClassy(classifier);
 		
 		
@@ -260,7 +264,7 @@ public class Filtering {
 		
 		}
 		output = output.replace("=","");
-	
+		output += "\n Time used by the algorithm: " + timeUsed +" ms";
 		return output;
 	}
 
@@ -328,10 +332,7 @@ public class Filtering {
 	}
 	
 	
-	
-	
 	public String findBestAtt() throws Exception {
-
 		TextDirectoryLoader loader = new TextDirectoryLoader();
 		loader.setDirectory(new File("labeled"));
 		Instances trainingSet = loader.getDataSet();
