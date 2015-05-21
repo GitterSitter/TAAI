@@ -242,6 +242,10 @@ public class Filtering {
 	
 	}
 		
+		if(train.numInstances() <= 0){
+			JOptionPane.showMessageDialog(Gui.contentPane, "Please run with 2 clusters for this to work!");
+			return null;
+		}
 	
 		String output ="";
 		Evaluation eval = new Evaluation(train);
