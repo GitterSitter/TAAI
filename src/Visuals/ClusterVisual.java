@@ -19,7 +19,7 @@ public class ClusterVisual {
 
 	public void visuals(Clusterer clusterer, Instances train,
 			ClusterEvaluation eval) {
-
+		
 		if (train == null) {
 			JOptionPane.showMessageDialog(Gui.contentPane,
 					"You have to use cluster!");

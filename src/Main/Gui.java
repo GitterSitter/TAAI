@@ -30,12 +30,14 @@ import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.functions.MultilayerPerceptron;
 import weka.classifiers.functions.SMO;
+import weka.classifiers.trees.J48;
 import weka.clusterers.EM;
 import weka.clusterers.SimpleKMeans;
 import weka.clusterers.XMeans;
 import Util.Filtering;
 import Util.AndAlgoFilter;
 import Visuals.ClusterVisual;
+import Visuals.DecisionTree;
 
 public class Gui extends JFrame {
 	private static final long serialVersionUID = 1L;
@@ -67,6 +69,7 @@ public class Gui extends JFrame {
 	String dir = "";
 	private JLabel lblClassifierControllPanel;
 	private JPanel panel;
+	private JMenuItem mntmDecisionTree;
 
 	public static void main(String[] args) {
 
@@ -212,6 +215,21 @@ public class Gui extends JFrame {
 				}
 			}
 		});
+		
+		mntmDecisionTree = new JMenuItem("Decision Tree");
+		mntmDecisionTree.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+				J48 decisionTree = new J48();
+
+				setText(filter.classify(decisionTree, dir, buttonChoice));
+				} catch (Exception e1) {
+
+					// e1.printStackTrace();
+				}
+			}
+		});
+		mnSupervised.add(mntmDecisionTree);
 		mnSupervised.add(mntmNeuralNetwork);
 
 		mntmSvm = new JMenuItem("SVM");
@@ -301,6 +319,7 @@ public class Gui extends JFrame {
 		mntmClusterPlot.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				ClusterVisual visual = new ClusterVisual();
+				
 				try {
 
 					visual.visuals(filter.getClus(), filter.getInst(),
@@ -311,12 +330,26 @@ public class Gui extends JFrame {
 				}
 			}
 		});
+		
+		JMenuItem mntmDecisionTree_1 = new JMenuItem("Decision tree");
+		mntmDecisionTree_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				DecisionTree visual = new DecisionTree();
+				try {
+					visual.DTree(filter.getClassy());
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
+		mnVisualize.add(mntmDecisionTree_1);
 		mnVisualize.add(mntmClusterPlot);
 
 		JMenu mnFilter = new JMenu("Filter");
 		menuBar.add(mnFilter);
 
-		JMenuItem mntmAndorithm = new JMenuItem("AndO-rithm");
+		JMenuItem mntmAndorithm = new JMenuItem("And-o-rithm");
 		mntmAndorithm.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
@@ -330,7 +363,7 @@ public class Gui extends JFrame {
 		});
 		mnFilter.add(mntmAndorithm);
 
-		JMenuItem mntmInfogain = new JMenuItem("Infogain");
+		JMenuItem mntmInfogain = new JMenuItem("InfoGain");
 		mntmInfogain.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 

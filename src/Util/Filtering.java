@@ -56,6 +56,7 @@ public class Filtering {
 		delete();
 		Instances dataset = tdta.createDataset("AbstractVerifiedcorpus");
 		dataset.deleteAttributeAt(0);
+		
 		StringToWordVector filter = new StringToWordVector();
 		filter.setIDFTransform(true);
 		filter.setTFTransform(true);
@@ -246,6 +247,9 @@ public class Filtering {
 			JOptionPane.showMessageDialog(Gui.contentPane, "Please run with 2 clusters for this to work!");
 			return null;
 		}
+		PrintWriter prr = new PrintWriter(new File("test.arff"));
+		prr.write(train.toString());
+		prr.close();
 	
 		String output ="";
 		Evaluation eval = new Evaluation(train);
