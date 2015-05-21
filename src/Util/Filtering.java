@@ -8,6 +8,8 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 import weka.attributeSelection.AttributeSelection;
 import weka.attributeSelection.InfoGainAttributeEval;
 import weka.attributeSelection.Ranker;
@@ -36,41 +38,21 @@ public class Filtering {
 	public Instances inst;
 	public ClusterEvaluation evaluation;
 
-	public Instances prepareAttributes(Instances dataFiltered) throws Exception {
-
-		File fil = new File("att.txt");
-		Scanner sc = new Scanner(new FileReader(fil));
-		int[] atts = new int[15];
-		ArrayList<String> input = new ArrayList<String>();
-
-		while (sc.hasNextLine()) {
-			input.add(sc.nextLine());
-		}
-		sc.close();
-		int telll = 0;
-		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
-			for (int j = 0; j < atts.length; j++) {
-				if (input.get(j).equals(dataFiltered.attribute(i).name())) {
-					atts[telll++] = i;
-				
-
-				}
-
-			}
-
-		}
-
-		Remove remove = new Remove();
-		remove.setAttributeIndicesArray(atts);
-		remove.setInvertSelection(true);
-		remove.setInputFormat(dataFiltered);
-		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
-		dataFiltered = dataFiltered1;
-
-		return dataFiltered;
-	}
 
 	public String cluster(Clusterer cluster) throws Exception {
+	int nrOfClusters=2;
+	int test =	JOptionPane.showConfirmDialog(Gui.contentPane, "Devide into 2 clusters as default?");
+	boolean  multiCluster = false;
+	
+	if(test == 1){
+		String nrClusters = "2";
+		nrClusters =JOptionPane.showInputDialog("Choose number of clusters", nrClusters);
+		nrOfClusters = Integer.parseInt(nrClusters);
+		multiCluster = true;
+	}else if(test == 2){
+		return null;
+	}
+	
 		TextDirectoryToArff tdta = new TextDirectoryToArff();
 		delete();
 		Instances dataset = tdta.createDataset("AbstractVerifiedcorpus");
@@ -89,10 +71,6 @@ public class Filtering {
 		filter.setInputFormat(dataset);
 		Instances dataFiltered = Filter.useFilter(dataset, filter);
 		FilteredClusterer fc = new FilteredClusterer();
-
-		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
-			System.out.println(dataFiltered.attribute(i).name());
-		}
 
 		File fil = new File("att.txt");
 		Scanner sc = new Scanner(new FileReader(fil));
@@ -122,25 +100,29 @@ public class Filtering {
 		dataFiltered = dataFiltered1;
 
 		if (cluster.getClass() == weka.clusterers.EM.class) {
-			((EM) cluster).setNumClusters(2);
+			((EM) cluster).setNumClusters(nrOfClusters);
 		} else if (cluster.getClass() == weka.clusterers.SimpleKMeans.class) {
-			((SimpleKMeans) cluster).setNumClusters(2);
+			((SimpleKMeans) cluster).setNumClusters(nrOfClusters);
 		} else if (cluster.getClass() == weka.clusterers.XMeans.class) {
-			((XMeans) cluster).setMinNumClusters(2);
-			((XMeans) cluster).setMaxNumClusters(2);
+			((XMeans) cluster).setMinNumClusters(nrOfClusters);
+			((XMeans) cluster).setMaxNumClusters(nrOfClusters);
 		}
+		
 		fc.setClusterer(cluster);
 		fc.buildClusterer(dataFiltered);
 
 		String output = "";
 		PrintWriter pr = null;
 		int predictionClass=0;
+		if(multiCluster){
+			
+		}else {
+		setClus(cluster);
 		for (int i = 0; i < dataFiltered.numInstances(); i++) {
 			 predictionClass = fc.clusterInstance(dataFiltered.instance(i));
 			String work = "dataMed.txt"; 
 			if (predictionClass == 0) {
-				System.out.println("CLUSTER:  " + predictionClass + "  "
-						+ dataFiltered.instance(i));
+				//System.out.println("CLUSTER:  " + predictionClass + "  "+ dataFiltered.instance(i));
 				output = output + predictionClass + "  "
 						+ dataFiltered.instance(i) + "\n";
 				 pr = new PrintWriter(new File("labeled/heartDevices/" + i + work));
@@ -149,8 +131,7 @@ public class Filtering {
 				pr.flush();
 				pr.close();
 			} else if (predictionClass == 1) {
-				System.out.println("CLUSTER1:  " + predictionClass + "  "
-						+ dataFiltered.instance(i));
+			//	System.out.println("CLUSTER1:  " + predictionClass + "  "+ dataFiltered.instance(i));
 				output = output + predictionClass + "  "+ dataFiltered.instance(i) + "\n";
 				 pr = new PrintWriter(new File("labeled/heartSurgery/"  + i + work));
 				pr.write(dataset.instance(i).toString().replace("'", ""));
@@ -159,6 +140,8 @@ public class Filtering {
 			} 
 		}
 
+		}
+		
 		ClusterEvaluation eval = new ClusterEvaluation();
 		eval.setClusterer(cluster);
 		eval.evaluateClusterer(dataFiltered);
@@ -167,7 +150,7 @@ public class Filtering {
 		output += "\n" + eval.clusterResultsToString();
 		setEvaluation(eval);
 		setInst(dataFiltered);
-		setClus(cluster);
+		
 
 		return output;
 	}
@@ -295,7 +278,7 @@ public class Filtering {
 	public String confusionMatrix(Evaluation eval){
 		String output ="";
 		output +=  "Confusion Matrix: \n";
-		output += "\n  0    1  Classes";
+		output += "\n0    1  Classes";
 		int teller = 0;
 		double[][] matrix = eval.confusionMatrix();
 		for (double[] ds : matrix) {
@@ -406,6 +389,40 @@ public class Filtering {
 		dataFiltered = dataFiltered1;
 
 		return att;
+	}
+	
+	public Instances prepareAttributes(Instances dataFiltered) throws Exception {
+
+		File fil = new File("att.txt");
+		Scanner sc = new Scanner(new FileReader(fil));
+		int[] atts = new int[15];
+		ArrayList<String> input = new ArrayList<String>();
+
+		while (sc.hasNextLine()) {
+			input.add(sc.nextLine());
+		}
+		sc.close();
+		int telll = 0;
+		for (int i = 0; i < dataFiltered.numAttributes(); i++) {
+			for (int j = 0; j < atts.length; j++) {
+				if (input.get(j).equals(dataFiltered.attribute(i).name())) {
+					atts[telll++] = i;
+				
+
+				}
+
+			}
+
+		}
+
+		Remove remove = new Remove();
+		remove.setAttributeIndicesArray(atts);
+		remove.setInvertSelection(true);
+		remove.setInputFormat(dataFiltered);
+		Instances dataFiltered1 = Filter.useFilter(dataFiltered, remove);
+		dataFiltered = dataFiltered1;
+
+		return dataFiltered;
 	}
 
 	public Classifier getClassy() {

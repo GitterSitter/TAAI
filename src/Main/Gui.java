@@ -87,8 +87,7 @@ public class Gui extends JFrame {
 	 */
 	public Gui() throws Exception {
 
-		super("Test");
-		setTitle("TAAI");
+		super("TAIR");
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 755, 693);
@@ -102,7 +101,7 @@ public class Gui extends JFrame {
 		mnFile = new JMenu("File");
 		menuBar.add(mnFile);
 
-		mntmSelectFolder = new JMenuItem("Select Folder");
+		mntmSelectFolder = new JMenuItem("Document Folder");
 		mntmSelectFolder.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
@@ -362,6 +361,7 @@ public class Gui extends JFrame {
 		ButtonGroup buttonGroup2 = new ButtonGroup();
 
 		JRadioButton rdbtnNewRadioButton = new JRadioButton("10 Attributes");
+		rdbtnNewRadioButton.setToolTipText("Number of features to use");
 		rdbtnNewRadioButton.setSelected(true);
 		rdbtnNewRadioButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -374,6 +374,7 @@ public class Gui extends JFrame {
 		contentPane.add(rdbtnNewRadioButton);
 
 		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("1000 Attributes");
+		rdbtnNewRadioButton_1.setToolTipText("Number of features to use");
 		rdbtnNewRadioButton_1.setSelected(true);
 		rdbtnNewRadioButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -396,6 +397,7 @@ public class Gui extends JFrame {
 		contentPane.add(lblEvaluateTrainingModel);
 		
 		final JRadioButton rdbtnCrossValidateModel = new JRadioButton("Cross validate model (10 folds)");
+		rdbtnCrossValidateModel.setToolTipText("How the classifier model is evaluated");
 		rdbtnCrossValidateModel.setSelected(true);
 		rdbtnCrossValidateModel.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -412,6 +414,7 @@ public class Gui extends JFrame {
 		contentPane.add(rdbtnCrossValidateModel);
 		
 		final JRadioButton rdbtnUseOf = new JRadioButton("Use 1/3 of data as test");
+		rdbtnUseOf.setToolTipText("How the classifier model is evaluated");
 		rdbtnUseOf.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(rdbtnUseOf.isSelected()){
