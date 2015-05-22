@@ -180,7 +180,13 @@ public class Filtering {
 		Instances train = inst; // new Instances(inst, 0, trainSize); 
 		Instances test = new Instances(inst, 30, 63); 
 	
-	
+		for (int i = 30; i < 64; i++) {
+		train.delete(i);
+		
+		}
+		
+		
+		//JOptionPane.showConfirmDialog(Gui.contentPane, "Randomize test instances?");
 		/*
 		Random rd = new Random();
 		int rand =0;
