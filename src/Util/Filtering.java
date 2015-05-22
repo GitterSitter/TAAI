@@ -116,6 +116,7 @@ public class Filtering {
 		double timeUsed = endTime - startTime;
 		
 		String output = "";
+		output += "The Vector Model: \n\n";
 		PrintWriter pr = null;
 		int predictionClass=0;
 		if(multiCluster){
@@ -177,8 +178,10 @@ public class Filtering {
 		int trainSize = (int) Math.round(inst.numInstances() * percent / 100); 
 		int testSize = inst.numInstances() - trainSize; 
 		Instances train = inst; // new Instances(inst, 0, trainSize); 
-		Instances test = new Instances(inst, 0, 0); 
-		
+		Instances test = new Instances(inst, 30, 63); 
+	
+	
+		/*
 		Random rd = new Random();
 		int rand =0;
 		for (int i = 0; i < testSize; i++) {
@@ -187,7 +190,7 @@ public class Filtering {
 			train.delete(rand);
 			
 		}
-		
+		*/
 	
 		FilteredClassifier fc = new FilteredClassifier();
 		StringToWordVector filter = new StringToWordVector();

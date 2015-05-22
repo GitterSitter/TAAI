@@ -89,18 +89,15 @@ public class Gui extends JFrame {
 	 * @throws Exception
 	 */
 	public Gui() throws Exception {
-
 		super("TAIR");
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 755, 693);
 
 		filter = new Filtering();
-		//dir = "testtest";
 		isValidating = true;
 		menuBar = new JMenuBar();
 		setJMenuBar(menuBar);
-
 		mnFile = new JMenu("File");
 		menuBar.add(mnFile);
 
@@ -338,7 +335,6 @@ public class Gui extends JFrame {
 				try {
 					visual.DTree(filter.getClassy());
 				} catch (Exception e1) {
-					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
 			}
